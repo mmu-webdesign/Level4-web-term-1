@@ -18,3 +18,7 @@ HyperText Markup Language (HTML), Cascading Style Sheets (CSS), and JavaScript a
 Web development has become increasingly complex which has led to the use of a variety of frameworks such as Bootstap and component libraries like React. We are not using these systems - we want you to learn to code.
 
 >We are teaching you the fundamentals of HTML and CSS. 
+
+HTML is error tolerant. One of the major successes of HTML is that it is error tolerant. This means if the browser reads something it doesn't understand, it ignores it. This means we can introduce new tags, without tripping up old browsers. It means HTML can evolve without excluding users of older technologies.
+
+It also means you can make mistakes and your pages will still work (usually)!
