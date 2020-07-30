@@ -36,7 +36,7 @@ At this stage the web browser is apply all the styles that you see (illustrated 
 - The size of each of the headings.
 - The margins, and line space.
 
-When working with the headings  `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` don't get wrapped up in the sizes. **Never choose to use a heading to because of its default size**, for example wrapping some text in a `<h6>` to produce <smaller>small text</smaller>. When you start to learn CSS to style your pages, you will find that you can change the styles (font, size, colour etc) of any of the headings. 
+When working with the headings  `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` don't get wrapped up in the sizes. **Never choose to use a heading to because of its default size**, for example wrapping some text in a `<h6>` to produce <small>small text</small>. When you start to learn CSS to style your pages, you will find that you can change the styles (font, size, colour etc) of any of the headings. 
 
 
 ## Deeper Learning
