@@ -100,7 +100,7 @@ Excerpts from Gerry McGovern's book World Wide Waste.
 
 Select the Run button in repl.it so the text is displayed in the browser window on the right. The page displays but there is no structure to the page.
 
-<img src="media/01-no-structure.png" alt="Illustration of the page in the browser with no structure" width="10" style="border: 1px solid orange">
+<img src="media/01-no-structure.png" alt="Illustration of the page in the browser with no structure" width="">
 
 As you can see, the browser ignores the space between the headings and paragraphs that we see in the editor. There is simply a single space between each page element.
 
