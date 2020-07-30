@@ -188,5 +188,5 @@ Your html file is simply a plain text file (usually a `.txt` file), with a `.htm
 
 > MDN - `<p>`: [The Paragraph element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 
-## &copy; Credit given
+### &copy; Credit given
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
