@@ -186,7 +186,7 @@ Your html file is simply a plain text file (usually a `.txt` file), with a `.htm
 
 > LinkedIn Learning Video: [Jen Simmons -  [Paragraphs](https://www.linkedin.com/learning/html-essential-training-4/paragraphs?u=36102708) 1m 39s
 
-> MDN - `<p>`: [The Paragraph element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+> MDN: `<p>` - [The Paragraph element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 
 ### &copy; Credit given
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
