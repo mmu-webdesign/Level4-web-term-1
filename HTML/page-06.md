@@ -255,3 +255,14 @@ Here are a few other sample mailto URLs:
  <li><a href="mailto:nowhere@mozilla.org?cc=nobody@mozilla.org&amp;subject=This%20is%20the%20subject">mailto:nowhere@mozilla.org?cc=nobody@mozilla.org&amp;subject=This%20is%20the%20subject</a></li>
 </ul>
 
+## Deeper Learning
+
+> LinkedIn Learning Video: [Jen Simmons - Links](https://www.linkedin.com/learning/html-essential-training-4/links?u=36102708) 4m 49s
+
+> LinkedIn Learning Video: [Jen Simmons - URL paths](https://www.linkedin.com/learning/html-essential-training-4/url-paths?u=36102708) 4m 45s
+
+> MDN: `<a>` - [The Anchor element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+
+
+### &copy; Credit given
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

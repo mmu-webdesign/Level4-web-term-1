@@ -184,9 +184,11 @@ Your html file is simply a plain text file (usually a `.txt` file), with a `.htm
 
 ## Deeper Learning
 
-> LinkedIn Learning Video: [Jen Simmons -  [Paragraphs](https://www.linkedin.com/learning/html-essential-training-4/paragraphs?u=36102708) 1m 39s
+> LinkedIn Learning Video: [Jen Simmons -  Paragraphs](https://www.linkedin.com/learning/html-essential-training-4/paragraphs?u=36102708) 1m 39s
 
 > MDN: `<p>` - [The Paragraph element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+
+> LinkedIn Learning Video: [Jen Simmons -  Formatting html](https://www.linkedin.com/learning/html-essential-training-4/formatting-html?u=36102708) 4m 30s
 
 ### &copy; Credit given
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

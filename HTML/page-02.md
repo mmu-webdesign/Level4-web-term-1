@@ -40,7 +40,7 @@ When working with the headings  `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6
 
 ## Deeper Learning
 
-> LinkedIn Learning Video: [Jen Simmons - [Headlines](https://www.linkedin.com/learning/html-essential-training-4/headlines?u=36102708) 4m 18s
+> LinkedIn Learning Video: [Jen Simmons - Headlines](https://www.linkedin.com/learning/html-essential-training-4/headlines?u=36102708) 4m 18s
 
 > MDN: `<h1>` to `<h6>` - [The HTML Section Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
 
