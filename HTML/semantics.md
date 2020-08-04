@@ -43,7 +43,8 @@ To get a better understanding of this topic use the following resources.
 
 > MDN: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
-## Advanced
+## Advanced Learning
+For students wanting more, we recommend the following topics and resources. 
 
 Students who already have a knowledge of html may want to complete the full course on crafting meaningful html. In our experience the area of semantics is something that many self taught coders, and even current professionals ignore.
 

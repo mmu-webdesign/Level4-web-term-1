@@ -227,9 +227,9 @@ To get a better understanding of this topic use the following resources.
 ## Advanced Learning
 For students wanting more, we recommend the following topics and resources. 
 
-> LinkedIn Learning Video: [Jen Simmons - Audio](https://www.linkedin.com/learning/html-essential-training-4/audio?u=36102708) 4m 11s
+> LinkedIn Learning Video: [Jen Simmons - Audio](https://www.linkedin.com/learning/html-essential-training-4/audio?u=36102708) 4m 11s - Adding audio to your web page.
 
-> LinkedIn Learning Video: [Jen Simmons - Video](https://www.linkedin.com/learning/html-essential-training-4/video?u=36102708) 5m 38s
+> LinkedIn Learning Video: [Jen Simmons - Video](https://www.linkedin.com/learning/html-essential-training-4/video?u=36102708) 5m 38s - Adding video to your web page.
 
 > MDN: [Video and audio content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
 
