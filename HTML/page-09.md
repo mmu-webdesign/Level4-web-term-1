@@ -32,6 +32,7 @@ You could embed the image using its absolute URL, for example:
 But this is pointless, as it just makes the browser do more work, looking up the IP address from the DNS server all over again, etc. You'll almost always keep the images for your website on the same server as your HTML.
 
 <div class="warning">
+
 ### Copyright
 
 > Warning: Most images are copyrighted. Do not display an image on your webpage unless:
@@ -43,6 +44,7 @@ But this is pointless, as it just makes the browser do more work, looking up the
 - You have ample proof that the image is, in fact, in the public domain.
 
 Copyright violations are illegal and unethical. In addition, never point your src attribute at an image hosted on someone else's website that you don't have permission to link to. This is called "hotlinking". Again, stealing someone's bandwidth is illegal. It also slows down your page, leaving you with no control over whether the image is removed or replaced with something embarrassing.
+
 </div>
 
 Our above code would give us the following result:
@@ -117,6 +119,7 @@ This doesn't result in much difference to the display, under normal circumstance
 This is a good thing to do, resulting in the page loading quicker and more smoothly.
 
 <div class="warning">
+
 **However, you shouldn't alter the size of your images using HTML attributes**. 
 
 If you set the image size too big, you'll end up with images that look grainy, fuzzy, or too small, and wasting bandwidth downloading an image that is not fitting the user's needs. The image may also end up looking distorted, if you don't maintain the correct aspect ratio. 
