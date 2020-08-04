@@ -99,6 +99,7 @@ Here's the best rule of thumb: it's likely appropriate to use `<b>`, `<i>`, or `
 ```
 
 ## Deeper Learning
+To get a better understanding of this topic use the following resources.
 
 > MDN: `<em>` - [The Emphasis element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 

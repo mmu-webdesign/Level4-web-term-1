@@ -115,9 +115,14 @@ Instead, you need to do this:
 <a href='http://www.example.com' title='Isn&apos;t this fun?'>A link to my example.</a>
 ```
 
-> **Please note** - For all of your coursework we want you to use double quotes.
+<div class="warning">
+
+**Please note** - For all of your coursework we want you to use double quotes.
+
+</div>
 
 ## Deeper Learning
+To get a better understanding of this topic use the following resources.
 
 > LinkedIn Learning Video: [Jen Simmons - html attributes](https://www.linkedin.com/learning/html-essential-training-4/html-attributes?u=36102708) 3m 54s
 

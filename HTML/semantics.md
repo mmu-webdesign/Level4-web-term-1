@@ -37,6 +37,7 @@ Some of the benefits from writing semantic markup are as follows:
 When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; is it an article with sections and an aside of related information?; does it list out definitions?; is it a figure or image that needs a caption?; should it have a header and a footer in addition to the global site-wide header and footer?; etc.
 
 ## Deeper Learning
+To get a better understanding of this topic use the following resources.
 
 > Article: Paul Boag - [Semantic code: What? Why? How?](https://boagworld.com/dev/semantic-code-what-why-how/)
 

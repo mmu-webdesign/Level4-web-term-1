@@ -256,6 +256,7 @@ Here are a few other sample mailto URLs:
 </ul>
 
 ## Deeper Learning
+To get a better understanding of this topic use the following resources.
 
 > LinkedIn Learning Video: [Jen Simmons - Links](https://www.linkedin.com/learning/html-essential-training-4/links?u=36102708) 4m 49s
 
