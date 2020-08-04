@@ -134,7 +134,7 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 <img src="media/01-heading.png" alt="Illustration of the heading" width="">
 
-# Task 3
+## Task 3
 
 Surround the next two paragraphs with the opening and closing `<p>` tag.
 
