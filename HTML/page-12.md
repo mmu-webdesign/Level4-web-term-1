@@ -135,8 +135,8 @@ To get a better understanding of this topic use the following resources.
 
 > MDN: `<pre>` - [The Preformatted Text element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
 
-> MDN: `<code>` - [The Inline Code element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+> MDN: `<sub>` - [The Subscript element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
 
-> MDN: `<code>` - [The Inline Code element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+> MDN: `<sup>` - [The Superscript element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
 
 > MDN: `<code>` - [The Inline Code element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)

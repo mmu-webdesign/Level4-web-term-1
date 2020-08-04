@@ -1,6 +1,6 @@
 # HTML Introduction
 
-Before starting watch the following videos:
+Before starting please watch the following videos:
 
 > LinkedIn Learning Video: [Jen Simmons -  [What is HTML](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36102708) 1m 34s
 
@@ -8,17 +8,17 @@ Before starting watch the following videos:
 
 ## Structure
 
-Whether you are reading a book or a web page or creating your own documents in MSWord, the document is going to have structure. The structure and the space it creates enhances readability, helps us navigate the document and to identify elements of the documents. 
+Whether you are reading a book, a web page or creating your own documents in MSWord, the document is going to have structure. The structure and the space it creates enhances the readability, helps us navigate a document and to identify various elements of a document. 
 
-This may include headings and sub-headings which help break up the documents, helping us to identify themes and relevant sections. Simple paragraph breaks breathe space into the documents, helping us to read the text.
+This may include headings and sub-headings which help break up the document, helping us to identify themes and relevant sections. Simple paragraph breaks breathe space into the document, helping us to read the text.
 
-We may create sections, lists and tables to divide and illustrate elements. Without noticing it, the care and attention paid to creating a good structure makes any document much easier to deal with as the reader.
+We may create sections, lists and tables to divide and illustrate the content. Without noticing it, the care and attention paid in creating a good structure makes any document much easier for us to deal with as the reader.
 
-If we have a visual impairment, we may use a computer to read out the documents to us. Again, having the correct structure will help us use and navigate the relevant parts of the document or book.
+Someone with a visual impairment may use a computer to read out a document aloud. Again, having the correct structure will help the user navigate to the relevant parts of the page, document or book. Like we might do visually, a screen reader can navigate from heading to sub-heading to jump around a page.
 
-If we have a cognitive impairment, a clear and obvious structure will again help us deal with what might otherwise look like a complex document to us.
+Anyone with a cognitive impairment will be aided by a clear and obvious structure for what might otherwise look like a complex document. This of course helps us all.
 
-At this stage we are not talking about design, the use of space, typography and colour. We are simply talking about describing the documents. This is a heading, this is a paragraph, this is the heading, this is the main body of the documents and this is the footer of the document or page.
+At this stage we are not talking about design, the use of space, typography and colour. We are simply talking about describing documents. This is a heading, this is a paragraph, this is the sub-heading, this is the main body of the documents and this is the footer of the document or page.
 
 This is what HTML does. It is a mark-up language that gives us a method to describe to the browser (the computer) the structure of the page. And if the browser doesn’t understand that markup, it ignores it. This has been essential to the development of the World Wide Web.
 
