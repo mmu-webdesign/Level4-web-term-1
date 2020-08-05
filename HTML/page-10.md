@@ -162,10 +162,14 @@ The basic example above just provides a simple machine readable date, but there 
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
-> LinkedIn Learning Video: [Jen Simmons - images](https://www.linkedin.com/learning/html-essential-training-4/images?u=36102708) 4m 12s
+- LinkedIn Learning Video: [Jen Simmons - Quotes](https://www.linkedin.com/learning/html-essential-training-4/quotes?u=36102708) (3m 53s)
 
-> LinkedIn Learning Video: [Jen Simmons - Figure and figcaption](https://www.linkedin.com/learning/html-essential-training-4/figure-and-figcaption?u=36102708) 1m 15s
+- MDN: `<blockquote>` - [The Blockquote element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
 
-> LinkedIn Learning Video: [Jen Simmons - image formats](https://www.linkedin.com/learning/html-essential-training-4/image-formats?u=36102708) 4m 48s - we will be looking at image formats in greater detail later, but this provides a good introduction.
+- MDN: `<q>` - [The Inline Quotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
 
-> MDN: `<img>` - [The Image Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+- MDN: `<cite>` - [The Citation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite)
+
+- LinkedIn Learning Video: [Jen Simmons - Dates and times](https://www.linkedin.com/learning/html-essential-training-4/dates-and-times?u=36102708) (4m 27s)
+
+- MDN: `<time>` - [The Time element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)

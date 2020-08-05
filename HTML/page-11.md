@@ -1,3 +1,25 @@
+# Lang attribute, Div, Span, br and hr
+
+## Lang attribute
+
+The `lang` attribute is a global attribute. These are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements.
+
+`Lang` is used to define the language used within a particular element. You will see that we can set the global language of a document, but using the `lang` attribute lets us target a specific sentence, block or phrase.
+
+As an example:
+
+```
+<p>This paragraph is English, but the language is not specifically defined.</p>
+
+<p lang="en-GB">This paragraph is defined as British English.</p>
+
+<p lang="fr">Ce paragraphe est défini en français.</p>
+
+```
+The `en-GB` attribute defines the language used as British as opposed to the default `lang="en"` which is USA.
+
+The `lang="fr"` ensures that a screen reader or AI voice will read that particular sentence in French, as opposed to continuing reading it as English.
+
 
 ## Non-semantic wrappers
 
@@ -91,10 +113,17 @@ Would render like this:
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
-> LinkedIn Learning Video: [Jen Simmons - images](https://www.linkedin.com/learning/html-essential-training-4/images?u=36102708) 4m 12s
+- LinkedIn Learning Video: [Jen Simmons - Supporting langauges](https://www.linkedin.com/learning/html-essential-training-4/supporting-languages?u=36102708) (4m 6s)
 
-> LinkedIn Learning Video: [Jen Simmons - Figure and figcaption](https://www.linkedin.com/learning/html-essential-training-4/figure-and-figcaption?u=36102708) 1m 15s
+- MDN: `lang` - [The Lang attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang)
 
-> LinkedIn Learning Video: [Jen Simmons - image formats](https://www.linkedin.com/learning/html-essential-training-4/image-formats?u=36102708) 4m 48s - we will be looking at image formats in greater detail later, but this provides a good introduction.
+- LinkedIn Learning Video: [Jen Simmons - Div and span](https://www.linkedin.com/learning/html-essential-training-4/generic-elements-div-and-span?u=36102708) (4m 12s)
 
-> MDN: `<img>` - [The Image Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+- MDN: `<div>` - [The Content Division element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
+
+- MDN: `<span>` - [The Span element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
+
+- MDN: `<br>` - [The Line Break element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+
+- MDN: `<hr>` - [The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+
