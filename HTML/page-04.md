@@ -56,6 +56,15 @@ Some of the more seasoned coders (like Derren) will remember the self closing ve
 
 We will shortly be introducing the image element, `<img>` which is also self closing and one element you will be using frequently.
 
+<div class="deep">
+
+## Deeper Learning
+To get a better understanding of this topic use the following resources.
+
+- MDN: `<hr>` - [The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+
+</div>
+
 
 ### &copy; Credit given
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

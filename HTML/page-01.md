@@ -2,9 +2,9 @@
 
 Before starting please watch the following videos:
 
-> LinkedIn Learning Video: [Jen Simmons -  [What is HTML](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36102708) 1m 34s
+- LinkedIn Learning Video: [Jen Simmons -  [What is HTML](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36102708) 1m 34s
 
-> LinkedIn Learning Video: [Jen Simmons - [The role of HTML](https://www.linkedin.com/learning/html-essential-training-4/the-role-of-html?u=36102708) 4m 29s
+- LinkedIn Learning Video: [Jen Simmons - [The role of HTML](https://www.linkedin.com/learning/html-essential-training-4/the-role-of-html?u=36102708) 4m 29s
 
 ## Structure
 
@@ -75,7 +75,7 @@ Let's further explore our paragraph element from the previous section:
 
 - The **element** is the opening tag, followed by content, followed by the closing tag.
 
-> LinkedIn Learning Video: [Jen Simmons - The syntax of the HTML elements](https://www.linkedin.com/learning/html-essential-training-4/the-syntax-of-html-elements?u=36102708) -  4m 56s
+- LinkedIn Learning Video: [Jen Simmons - The syntax of the HTML elements](https://www.linkedin.com/learning/html-essential-training-4/the-syntax-of-html-elements?u=36102708) -  4m 56s
 
 ## Task One
 
@@ -182,15 +182,18 @@ Your html file is simply a plain text file (usually a `.txt` file), with a `.htm
 
 *Small and portable - plain text files are the perfect format for the WWW*.
 
+<div class="deep">
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
-- LinkedIn Learning Video: [Jen Simmons -  Paragraphs](https://www.linkedin.com/learning/html-essential-training-4/paragraphs?u=36102708) 1m 39s
+- LinkedIn Learning Video: [Jen Simmons -  Paragraphs](https://www.linkedin.com/learning/html-essential-training-4/paragraphs?u=36102708) (1m 39s)
 
 - MDN: `<p>` - [The Paragraph element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 
-- LinkedIn Learning Video: [Jen Simmons -  Formatting html](https://www.linkedin.com/learning/html-essential-training-4/formatting-html?u=36102708) 4m 30s
+- LinkedIn Learning Video: [Jen Simmons -  Formatting html](https://www.linkedin.com/learning/html-essential-training-4/formatting-html?u=36102708) (4m 30s)
+</div>
 
+<div class="advanced">
 ## Books
 
 - [Learning Web Design](https://www.learningwebdesign.com/) by Jennifer Niederst Robbins is currently our core text. This book covers all we cover with greater depth. 
@@ -198,6 +201,7 @@ To get a better understanding of this topic use the following resources.
 - [Learn to Code HTML & CSS](https://learn.shayhowe.com/) by Shay Howe is available online and in print. Covers all of the basic HTML and CSS elements and attributes. 
 
 - [HTML & CSS by John Duckett](http://www.htmlandcssbook.com/) is a beautifully illustrated and easy to understand book but it is sadly dated. That said, the illustrations of many of the core elements and attributes are valid and easy to understand.
+</div>
 
 ### &copy; Credit given
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

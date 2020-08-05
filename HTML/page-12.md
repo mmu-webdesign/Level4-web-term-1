@@ -122,21 +122,31 @@ The output of this code looks like so:
 <p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
 </div>
 
+<div class="deep">
+
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
-> LinkedIn Learning Video: [Jen Simmons - Code, pre and br](https://www.linkedin.com/learning/html-essential-training-4/code-pre-and-br?u=36102708) 4m 42s
+- LinkedIn Learning Video: [Jen Simmons - Code, pre and br](https://www.linkedin.com/learning/html-essential-training-4/code-pre-and-br?u=36102708) (4m 42s)
 
-> LinkedIn Learning Video: [Jen Simmons - Special Characters](https://www.linkedin.com/learning/html-essential-training-4/weird-characters?u=36102708) 3m 21s
+- LinkedIn Learning Video: [Jen Simmons - Special Characters](https://www.linkedin.com/learning/html-essential-training-4/weird-characters?u=36102708) (3m 21s)
 
-> LinkedIn Learning Video: [Jen Simmons - Superscript and subscript](https://www.linkedin.com/learning/html-essential-training-4/superscripts-subscripts-and-small-text?u=36102708) 4m 48s - we will be looking at image formats in greater detail later, but this provides a good introduction.
+- LinkedIn Learning Video: [Jen Simmons - Superscript and subscript](https://www.linkedin.com/learning/html-essential-training-4/superscripts-subscripts-and-small-text?u=36102708) (4m 48s) - we will be looking at image formats in greater detail later, but this provides a good introduction.
 
-> MDN: `<code>` - [The Inline Code element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+- MDN: `<code>` - [The Inline Code element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
 
-> MDN: `<pre>` - [The Preformatted Text element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
+- MDN: `<pre>` - [The Preformatted Text element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
 
-> MDN: `<sub>` - [The Subscript element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
+- MDN: `<sub>` - [The Subscript element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
 
-> MDN: `<sup>` - [The Superscript element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
+- MDN: `<sup>` - [The Superscript element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
 
-> MDN: `<code>` - [The Inline Code element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+- MDN: `<code>` - [The Inline Code element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+
+</div>
+
+### &copy; Credit given
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
+
+
+

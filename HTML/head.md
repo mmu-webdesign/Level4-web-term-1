@@ -40,6 +40,68 @@ The `<title>` element contents are also used in other ways. For example, if you 
 
 The `<title>` contents are also used in search results, as you'll see below.
 
+### SEO 
+
+The contents of a page title can have significant implications for search engine optimization (SEO). In general, a longer, descriptive title performs better than short or generic titles. The content of the title is one of the components used by search engine algorithms to decide the order in which to list pages in search results. Also, the title is the initial "hook" by which you grab the attention of readers glancing at the search results page.
+
+### Writing a good page title
+
+A few guidelines and tips for composing good titles:
+
+- Avoid one or two-word titles. Use a descriptive phrase, or a term-definition pairing for glossary or reference-style pages.
+- **Search engines typically display about the first 55–60 characters of a page title**. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+- Don't use "keyword blobs." If your title is just a list of words, algorithms often reduce your page's position in the search results.
+- Try to make sure your titles are as unique as possible within your own site. Duplicate—or near-duplicate—titles can contribute to inaccurate search results.
+
+### Homepage - `<title>`
+
+The title on your homepage will usually reflect who whole site, company or brand. For example, if you are well known, you can get away with:
+
+```
+<title>BBC - Home</title>
+```
+
+If you are a little smaller, you may require some context. For example:
+
+```
+<title>Harry's Fish & Chips, Altincham UK</title>
+```
+Just `Harry's Fish & Chips` might be too vague. Where? Chicago? 
+
+If it's not as clear as `fish and chips`, you may need more. `car parts` alone may not be enough.
+
+```
+<title>Gregg's Car Parts, VW, Ford and Renault. Altincham UK</title>
+```
+Avoid the words `Welcome` or `Home Page` as they are often wasted words (unless again, you are the BBC). These are so `1995`! If it's your site, don't just use your name unless it's `Madonna` or `Banksy`.
+
+### Sub-page(s) - `<title>`
+The title on your sub-pages need to reflect the content of the particular page, plus some context.
+
+An example, a sub-page of the Halifax bank.
+
+```
+<title>Halifax UK | Contact us</title>
+```
+Current SEO practices (they change all of the time) may dictate that `Halifax UK` comes before the actual function of the page - `Contact us`. 
+
+For someone with a number of tabs open in their browser is it more important for them to see `Halifax` or `Contact us`?
+
+#### Function first?
+
+For accessibility we follow the practice of `function first`. This would mean putting the `Contact us` foirst in the title. Why? Consider MMU's titles. For example:
+
+```
+<title>About us | Manchester Metropolitan University</title>
+```
+Consider if this was reversed:
+
+```
+<title>Manchester Metropolitan University | About us</title>
+```
+A visually impaired person using a screen reader has the page title read out to them, for every page the land on. If whilst navigating the MMU website, they had to hear Manchester Metropolitan University announced each time *before* discovering the function of the page it would be very annoying.
+
+The correct way around means they can hear `About us`, press `SPACE bar` (if they already know they are on the MMU website) and the screen reader will skip to the top of the page.
 
 ## Metadata: the `<meta>` element
 
@@ -186,6 +248,7 @@ You can also set subsections of your document to be recognised as different lang
 
 These codes are defined by the [ISO 639-1 standard](https://en.wikipedia.org/wiki/ISO_639-1). You can find more about them in [Language tags in HTML and XML](https://www.w3.org/International/articles/language-tags/) if this is important to your work.
 
+<div class="deep">
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
@@ -197,7 +260,9 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<title>` - [The Document Title element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
+</div>
 
+<div class="advanced">
 ## Advanced Learning
 For students wanting more, we recommend the following topics and resources. 
 
@@ -209,3 +274,7 @@ Some of you may be interested to know more about the use of metadata and improve
 
 - LinkedIn Learning Video: [SEO Foundations](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fseo-foundations-2%3Ftrk%3Dshare_ent_url&account=36102708) (3h 36m) Explore the basics of SEO, including how to read a results page and see how rankings affect businesses large and small. 
 
+</div>
+
+### &copy; Credit given
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

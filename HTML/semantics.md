@@ -2,7 +2,7 @@
 
 Before starting watch the following short video introduction:
 
-> LinkedIn Learning Video: Jen Kramer [Craft meaningful html](https://www.linkedin.com/learning/crafting-meaningful-html/craft-meaningful-html?u=36102708) 1m 49s
+- LinkedIn Learning Video: Jen Kramer [Craft meaningful html](https://www.linkedin.com/learning/crafting-meaningful-html/craft-meaningful-html?u=36102708) 1m 49s
 
 Our teaching philosophy is pretty much the same as Jen's as you will hear us talking about semantic mark-up a lot. As she says, '*the hypertext markup language is about identifying the types of content on a webpage*'.
 
@@ -36,20 +36,26 @@ Some of the benefits from writing semantic markup are as follows:
 
 When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; is it an article with sections and an aside of related information?; does it list out definitions?; is it a figure or image that needs a caption?; should it have a header and a footer in addition to the global site-wide header and footer?; etc.
 
+<div class="deep">
+
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
 > Article: Paul Boag - [Semantic code: What? Why? How?](https://boagworld.com/dev/semantic-code-what-why-how/)
 
-> MDN: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+- MDN: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+
+</div>
+
+<div class="advanced">
 
 ## Advanced Learning
 For students wanting more, we recommend the following topics and resources. 
 
 Students who already have a knowledge of html may want to complete the full course on crafting meaningful html. In our experience the area of semantics is something that many self taught coders, and even current professionals ignore.
 
-> LinkedIn Learning Video: Jen Kramer - [Craft meaningful html](https://www.linkedin.com/learning/crafting-meaningful-html/craft-meaningful-html?u=36102708) 1hr 22m
-
+- LinkedIn Learning Video: Jen Kramer - [Craft meaningful html](https://www.linkedin.com/learning/crafting-meaningful-html/craft-meaningful-html?u=36102708) (1hr 22m)
+</div>
 
 ### &copy; Credit given
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

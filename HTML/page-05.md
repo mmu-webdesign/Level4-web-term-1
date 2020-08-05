@@ -136,20 +136,24 @@ The browser default styles will display description lists with the descriptions 
   <dd>In writing, a section of content that is related to the current topic, but doesn't fit directly into the main flow of content so is presented nearby (often in a box off to the side.)</dd>
 </dl>
 
+<div class="deep">
+
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
-> LinkedIn Learning Video: [Jen Simmons - Lists](https://www.linkedin.com/learning/html-essential-training-4/lists?autoplay=true&resume=false&u=36102708) 5m 6s
+- LinkedIn Learning Video: [Jen Simmons - Lists](https://www.linkedin.com/learning/html-essential-training-4/lists?autoplay=true&resume=false&u=36102708) (5m 6s)
 
-> MDN: `<ul>` - [The Unordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
+- MDN: `<ul>` - [The Unordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 
-> MDN: `<li>` - [The List Item element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+- MDN: `<li>` - [The List Item element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
 
-> MDN: `<ol>` - [The Ordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
+- MDN: `<ol>` - [The Ordered List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 
-> MDN: `<dl>` - [The Bring To Attention element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
+- MDN: `<dl>` - [The Bring To Attention element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
 
-> MDN: `<dt>` - [The Description Term element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt)
+- MDN: `<dt>` - [The Description Term element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt)
+
+</div>
 
 ### &copy; Credit given
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

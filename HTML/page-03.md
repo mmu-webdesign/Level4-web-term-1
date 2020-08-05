@@ -3,7 +3,7 @@
 
 This topic gets very confusing, very quickly. Watch Jen's video for a clear explanation before you start. 
 
-> LinkedIn Learning Video: [Jen Simmons - Bold and Italics](https://www.linkedin.com/learning/html-essential-training-4/bold-and-italics?u=36102708) 4m 55s
+- LinkedIn Learning Video: [Jen Simmons - Bold and Italics](https://www.linkedin.com/learning/html-essential-training-4/bold-and-italics?u=36102708) 4m 55s
 
 In human language, we often *emphasise* certain words to alter the meaning of a sentence, and we often want to mark certain words as important or different in some way. HTML provides various semantic elements to allow us to mark up textual content with such effects, and in this section, we'll look at a few of the most common ones.
 
@@ -97,19 +97,22 @@ Here's the best rule of thumb: it's likely appropriate to use `<b>`, `<i>`, or `
   </li>
 </ol>
 ```
+<div class="deep">
 
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
-> MDN: `<em>` - [The Emphasis element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+- MDN: `<em>` - [The Emphasis element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 
-> MDN: `<strong>` - [The Strong element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong)
+- MDN: `<strong>` - [The Strong element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong)
 
-> MDN: `<i>` - [The Idiomatic Text element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i)
+- MDN: `<i>` - [The Idiomatic Text element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i)
 
-> MDN: `<b>` - [The Bring To Attention element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b)
+- MDN: `<b>` - [The Bring To Attention element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b)
 
-> MDN: `<u>` - [The Unarticulated Annotation (Underline) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u)
+- MDN: `<u>` - [The Unarticulated Annotation (Underline) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u)
+
+</div>
 
 ### &copy; Credit given
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

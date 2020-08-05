@@ -33,6 +33,7 @@ More recently, the doctype is a historical artifact that needs to be included fo
 1. `<title></title>`: The `<title>` element. This sets the title of the page, which is the title that appears in the browser tab the page is loaded in. The page title is also used to describe the page when it is bookmarked.
 1. `<body></body>`: The `<body>` element. This contains all the content that displays on the page, including text, images, videos, games, playable audio tracks, or whatever else.
 
+<div class="deep">
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
@@ -43,3 +44,8 @@ To get a better understanding of this topic use the following resources.
 - MDN: `<html>` - [The HTML Document / Root element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
 
 - MDN: `<body>` - [The Document Body element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
+
+</div>
+
+### &copy; Credit given
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

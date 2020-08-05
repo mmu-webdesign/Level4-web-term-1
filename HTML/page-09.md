@@ -214,33 +214,39 @@ Using CSS is arguably easier to position and control than HTML images. So why bo
 
 **Summing up**: if an image has meaning, in terms of your content, you should use an HTML image. If an image is purely decoration, you should use CSS background images.
 
+<div class="deep">
 
 ## Deeper Learning
 To get a better understanding of this topic use the following resources.
 
-> LinkedIn Learning Video: [Jen Simmons - images](https://www.linkedin.com/learning/html-essential-training-4/images?u=36102708) 4m 12s
+- LinkedIn Learning Video: [Jen Simmons - images](https://www.linkedin.com/learning/html-essential-training-4/images?u=36102708) (4m 12s)
 
-> LinkedIn Learning Video: [Jen Simmons - Figure and figcaption](https://www.linkedin.com/learning/html-essential-training-4/figure-and-figcaption?u=36102708) 1m 15s
+- LinkedIn Learning Video: [Jen Simmons - Figure and figcaption](https://www.linkedin.com/learning/html-essential-training-4/figure-and-figcaption?u=36102708) (1m 15s)
 
-> LinkedIn Learning Video: [Jen Simmons - image formats](https://www.linkedin.com/learning/html-essential-training-4/image-formats?u=36102708) 4m 48s - we will be looking at image formats in greater detail later, but this provides a good introduction.
+- LinkedIn Learning Video: [Jen Simmons - image formats](https://www.linkedin.com/learning/html-essential-training-4/image-formats?u=36102708) (4m 48s) - we will be looking at image formats in greater detail later, but this provides a good introduction.
 
-> MDN: `<img>` - [The Image Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+- MDN: `<img>` - [The Image Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 
+</div>
+
+<div class="advanced">
 
 ## Advanced Learning
 For students wanting more, we recommend the following topics and resources. 
 
-> LinkedIn Learning Video: [Jen Simmons - Audio](https://www.linkedin.com/learning/html-essential-training-4/audio?u=36102708) 4m 11s - Adding audio to your web page.
+- LinkedIn Learning Video: [Jen Simmons - Audio](https://www.linkedin.com/learning/html-essential-training-4/audio?u=36102708) (4m 11s) - Adding audio to your web page.
 
-> LinkedIn Learning Video: [Jen Simmons - Video](https://www.linkedin.com/learning/html-essential-training-4/video?u=36102708) 5m 38s - Adding video to your web page.
+- LinkedIn Learning Video: [Jen Simmons - Video](https://www.linkedin.com/learning/html-essential-training-4/video?u=36102708) (5m 38s) - Adding video to your web page.
 
-> MDN: [Video and audio content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
+- MDN: [Video and audio content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
 
-> LinkedIn Learning Video: [Jen Simmons - Captions and subtitles](https://www.linkedin.com/learning/html-essential-training-4/captions-and-subtitles?u=36102708) 3m 59s - Accessibility of your media is an ethical and legal requirement.
+- LinkedIn Learning Video: [Jen Simmons - Captions and subtitles](https://www.linkedin.com/learning/html-essential-training-4/captions-and-subtitles?u=36102708) (3m 59s) - Accessibility of your media is an ethical and legal requirement.
 
-> LinkedIn Learning Video: [Jen Simmons - Embedding other media through iframes](https://www.linkedin.com/learning/html-essential-training-4/embedding-other-media-through-iframes?u=36102708) 3m 10s - You will often embed videos from services like YouTube rather than hosting the media yourself.
+- LinkedIn Learning Video: [Jen Simmons - Embedding other media through iframes](https://www.linkedin.com/learning/html-essential-training-4/embedding-other-media-through-iframes?u=36102708) (3m 10s) - You will often embed videos from services like YouTube rather than hosting the media yourself.
 
-> MDN: [From object to iframe — other embedding technologies](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies)
+- MDN: [From object to iframe — other embedding technologies](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies)
+
+</div>
 
 ### &copy; Credit given
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
