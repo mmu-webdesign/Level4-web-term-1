@@ -32,3 +32,14 @@ More recently, the doctype is a historical artifact that needs to be included fo
 1. `<meta charset="utf-8">`: This element specifies the character set for your document to UTF-8, which includes most characters from the vast majority of human written languages. With this setting, the page can now handle any textual content it might contain. There is no reason not to set this, and it can help avoid some problems later.
 1. `<title></title>`: The `<title>` element. This sets the title of the page, which is the title that appears in the browser tab the page is loaded in. The page title is also used to describe the page when it is bookmarked.
 1. `<body></body>`: The `<body>` element. This contains all the content that displays on the page, including text, images, videos, games, playable audio tracks, or whatever else.
+
+## Deeper Learning
+To get a better understanding of this topic use the following resources.
+
+- LinkedIn Learning Video: [Jen Simmons -  The html page](https://www.linkedin.com/learning/html-essential-training-4/the-html-page?u=36102708) (5m 1s)
+
+- MDN: `<!DOCTYPE html>` - [Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
+
+- MDN: `<html>` - [The HTML Document / Root element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html)
+
+- MDN: `<body>` - [The Document Body element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)

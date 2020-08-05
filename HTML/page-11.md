@@ -20,6 +20,8 @@ The `en-GB` attribute defines the language used as British as opposed to the def
 
 The `lang="fr"` ensures that a screen reader or AI voice will read that particular sentence in French, as opposed to continuing reading it as English.
 
+These language codes are defined by the [ISO 639-1 standard](https://en.wikipedia.org/wiki/ISO_639-1). 
+
 
 ## Non-semantic wrappers
 

@@ -1,6 +1,6 @@
 # What is the HTML head?
 
-Let's revisit the simple HTML document we covered in the previous article:
+Let's revisit the simple HTML document we covered in the Anatomy of an HTML document:
 
 ```
 <!DOCTYPE html>
@@ -185,3 +185,27 @@ You can also set subsections of your document to be recognised as different lang
 ```
 
 These codes are defined by the [ISO 639-1 standard](https://en.wikipedia.org/wiki/ISO_639-1). You can find more about them in [Language tags in HTML and XML](https://www.w3.org/International/articles/language-tags/) if this is important to your work.
+
+## Deeper Learning
+To get a better understanding of this topic use the following resources.
+
+- LinkedIn Learning Video: [Jen Simmons -  Document head](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-essential-training-4%3Ftrk%3Dshare_ent_url&account=36102708) (3m 56s)
+
+- MDN: `<head>` - [The Document Metadata (Header) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
+
+- MDN: `<meta>` - [The Document-level Metadata element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+
+- MDN: `<title>` - [The Document Title element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+
+
+## Advanced Learning
+For students wanting more, we recommend the following topics and resources. 
+
+- LinkedIn Learning Video: [Metadata in the head](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-metadata-in-the-head%3Ftrk%3Dshare_ent_url&account=36102708) (1h 25m) - This is a detailed course that covers all elements of metadata that can appear in the head of a html document. More advanced students may wish to learn more about these elements that as a coder they may have skipped.
+
+Some of you may be interested to know more about the use of metadata and improved search results. Both of these courses go into the practice of Search Engine Optimisation (SEO).
+
+- LinkedIn Learning Video: [Improve SEO for your website](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fimprove-seo-for-your-website%3Ftrk%3Dshare_ent_url&account=36102708) (1h 10m) - discover how to build an authority site that ranks highly in Google—or simply boost traffic to your current website—by leveraging key SEO tools and techniques
+
+- LinkedIn Learning Video: [SEO Foundations](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fseo-foundations-2%3Ftrk%3Dshare_ent_url&account=36102708) (3h 36m) Explore the basics of SEO, including how to read a results page and see how rankings affect businesses large and small. 
+
