@@ -31,9 +31,8 @@ You could embed the image using its absolute URL, for example:
 
 But this is pointless, as it just makes the browser do more work, looking up the IP address from the DNS server all over again, etc. You'll almost always keep the images for your website on the same server as your HTML.
 
-<div class="warning">
 
-### Copyright
+<h3 class="warning">Copyright</h3>
 
 > Warning: Most images are copyrighted. Do not display an image on your webpage unless:
 
@@ -45,7 +44,6 @@ But this is pointless, as it just makes the browser do more work, looking up the
 
 Copyright violations are illegal and unethical. In addition, never point your src attribute at an image hosted on someone else's website that you don't have permission to link to. This is called "hotlinking". Again, stealing someone's bandwidth is illegal. It also slows down your page, leaving you with no control over whether the image is removed or replaced with something embarrassing.
 
-</div>
 
 Our above code would give us the following result:
 
@@ -118,14 +116,14 @@ This doesn't result in much difference to the display, under normal circumstance
 
 This is a good thing to do, resulting in the page loading quicker and more smoothly.
 
-<div class="warning">
+<h3 class="warning">Don't use html to re-sze images</h3>
 
 **However, you shouldn't alter the size of your images using HTML attributes**. 
 
 If you set the image size too big, you'll end up with images that look grainy, fuzzy, or too small, and wasting bandwidth downloading an image that is not fitting the user's needs. The image may also end up looking distorted, if you don't maintain the correct aspect ratio. 
 
 For all assignments you must use an image editor to put your image at the correct size before putting it on your webpage.
-</div>
+
 
 >Note: If you do need to alter an image's size, you should use CSS instead.
 
@@ -151,13 +149,9 @@ This gives us a tooltip on mouse hover, just like link titles:
 
 It is better to include such supporting information in the main article text or via a caption, rather than attached to the image. never repeat the alt text in a title or caption.
 
-<div class="warning">
-
-### The title attribute
+<h3 class="warning">The title attribute</h3>
 
 The `title` attribute can be used with links and images. As illustrated, it has limited use in both cases. However, note that the 'alt' attribute is only used for images. Students often confuse the two, adding 'alt' text to their links instead of the 'title' attribute. Don't do this!
-
-</div>
 
 
 ## Annotating images with figures and figure captions

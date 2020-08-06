@@ -59,10 +59,10 @@ In this case, the editor's note is supposed to merely provide extra direction fo
 
 This isn't really an `<aside>`, as it doesn't necessarily relate to the main content of the page (you want it viewable from anywhere). It doesn't even particularly warrant using a  `<section>`, as it isn't part of the main content of the page. So a `<div>` is fine in this case. We've included a heading as a signpost to aid screenreader users in finding it.
 
-<div class="warning">
+<h3 class="warning">Divitus - the over use of divs</h2>
 
-Warning: Divs are so convenient to use that it's easy to use them too much. As they carry no semantic value, they just clutter your HTML code. Take care to use them only when there is no better semantic solution and try to reduce their usage to the minimum otherwise you'll have a hard time updating and maintaining your documents.
-</div>
+**Warning**: Divs are so convenient to use that it's easy to use them too much. As they carry no semantic value, they just clutter your HTML code. Take care to use them only when there is no better semantic solution and try to reduce their usage to the minimum otherwise you'll have a hard time updating and maintaining your documents.
+
 
 ## Line breaks
 
@@ -75,22 +75,21 @@ But his structure was bad, his semantics were sad<br>
 and his markup didn't read very well.
 ```
 
-Without the `<br>` elements, the paragraph would just be rendered in one long line (as we said earlier in the course, HTML ignores most whitespace); with `<br> `elements in the code, the markup renders like this:
+Without the `<br>` elements, the paragraph would just be rendered in one long line (as we said earlier in the course, HTML ignores most whitespace); with `<br> `elements in the code, **the markup renders like this**:
 
-<div class="output">
 
 There once was a man named O'Dell<br>
 Who loved to write HTML<br>
 But his structure was bad, his semantics were sad<br>
 and his markup didn't read very well.
 
-</div>
 
-<div class="warning">
+
+<h3 class="warning">Over use of the br element</h3>
 
 DO NOT use the `<br>` element to either create the illusion of paragraph breaks or to create space on the page. For the former always the `<p>` element, for the latter, use CSS to add space with padding and margins.
 
-</div>
+
 
 ## Horizontal rule
 
@@ -104,13 +103,11 @@ DO NOT use the `<br>` element to either create the illusion of paragraph breaks 
 
 Would render like this:
 
-<div class="output">
 
 <p>Ron was backed into a corner by the marauding netherbeasts. Scared, but determined to protect his friends, he raised his wand and prepared to do battle, hoping that his distress call had made it through.</p>
 <hr>
 <p>Meanwhile, Harry was sitting at home, staring at his royalty statement and pondering when the next spin off series would come out, when an enchanted distress letter flew through his window and landed in his lap. He read it hazily and sighed; "better get back to work then", he mused.</p>
 
-</div>
 
 <h2 class="deep">Deeper Learning</h2>
 

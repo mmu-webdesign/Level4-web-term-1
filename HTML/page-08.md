@@ -32,7 +32,8 @@ And the link with attributes and values:
 ```
 On the page this will simply look lik this. The attributes are not shown. Only the title appears as a Tool Tip.
 
-<a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank" class="output">Mozilla, home of Firefox</a>
+<a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">Mozilla, home of Firefox</a>
+
 
 > Tip - Note that the `target="_blank"` attribute and value are not the best for both usability and accessibility. This essentially **takes over the users computer**, opening up a new window or tab. Not cool. The user should be left to decide this for themselves. A visually impaired user may struggle to notice a new tab or window has been created.
 
@@ -71,11 +72,7 @@ However, as soon as we add the title attribute in this way, there are problems:
 
 As written above, the browser misinterprets the markup, mistaking the title attribute for three attributes:  a title attribute with the value The, and two Boolean attributes, Mozilla and homepage. Obviously, this is not intended! It will cause errors or unexpected behavior, as you can see in the live example below. Try hovering over the link to view the title text!
 
-<div class="output">
-
 <a href=https://www.mozilla.org/ title=The Mozilla homepage>favorite website</a>
-
-</div>
 
 Always include the attribute quotes. It avoids such problems, and results in more readable code.
 
@@ -119,11 +116,9 @@ Instead, you need to do this:
 <a href='http://www.example.com' title='Isn&apos;t this fun?'>A link to my example.</a>
 ```
 
-<div class="warning">
+<h3 class="warning">Use double quotes</h3>
 
 **Please note** - For all of your coursework we want you to use double quotes.
-
-</div>
 
 <h2 class="deep">Deeper Learning</h2>
 

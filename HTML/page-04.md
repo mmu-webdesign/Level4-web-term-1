@@ -62,7 +62,7 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<hr>` - [The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 
-</div>
+
 
 
 ### &copy; Credit given

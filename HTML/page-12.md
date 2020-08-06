@@ -19,15 +19,15 @@ These all have limited use. Perhaps the most common is the use of `<code>`, for 
 ```
 The above code will look like so:
 
-<div class="output">
+
 <code>var para = document.querySelector('p');</code>
-</div>
+
 
 It's handy to know that if you want to put code on a page you can also use special characters to create the angled brackets. See the next section.
 
 And `<pre>` can be handy for showing text indented as intended:
 
-<div class="output">
+
 
 <pre>
 To       be
@@ -38,7 +38,7 @@ To       be
                                    is the question.
 </pre>
 
-</div>
+
 
 
 ## Entity references: Including special characters in HTML
@@ -90,13 +90,11 @@ In the example below, there are two paragraphs:
 ```
 In the live output below, you can see that the first paragraph has gone wrong. The browser interprets the second instance of `<p>` as starting a new paragraph. The second paragraph looks fine because it has angle brackets with character references.
 
-<div class="output">
 
 <p>In HTML, you define a paragraph using the <p> element.</p>
 
 <p>In HTML, you define a paragraph using the &lt;p&gt; element.</p>
 
-</div>
 
 > Note: You don't need to use entity references for any other symbols, as modern browsers will handle the actual symbols just fine as long, as your HTML's character encoding is set to UTF-8.
 
@@ -114,13 +112,13 @@ You will occasionally need to use superscript and subscript when marking up item
 
 The output of this code looks like so:
 
-<div class="output">
+
 <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
 
 <p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
 
 <p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
-</div>
+
 
 <h2 class="deep">Deeper Learning</h2>
 

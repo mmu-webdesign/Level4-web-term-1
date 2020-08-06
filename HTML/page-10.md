@@ -25,13 +25,12 @@ To turn this into a block quote, we would just do this:
 
 Browser default styling will render this as an indented paragraph, as an indicator that it is a quote; the paragraph above the quotation is there to demostrate that.
 
-<div class="output">
 <p>Here below is a blockquote...</p>
 <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
   <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
   Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
 </blockquote>
-</div>
+
 
 ### Inline quotations
 
@@ -44,10 +43,8 @@ for short quotations that don't require paragraph breaks.</q></p>
 
 Browser default styling will render this as normal text put in quotes to indicate a quotation, like so:
 
-<div class="output">
 <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
 for short quotations that don't require paragraph breaks.</q></p>
-</div>
 
 ### Citations
 
@@ -72,7 +69,6 @@ for short quotations that don't require paragraph breaks.</q> -- <a href="https:
 
 Citations are styled in italic font by default.
 
-<div class="output">
 <p>According to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
 <cite>MDN blockquote page</cite></a>:
 </p>
@@ -85,7 +81,7 @@ Citations are styled in italic font by default.
 <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
 for short quotations that don't require paragraph breaks.</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
 <cite>MDN q page</cite></a>.</p>
-</div>
+
 
 ## Abbreviations
 
@@ -100,11 +96,10 @@ Another fairly common element you'll meet when looking around the Web is `<abbr>
 
 These will come out looking something like this (the expansion will appear in a tooltip when the term is hovered over):
 
-<div class="output">
 <p>We use <abbr title="Hypertext Markup Language">HTML</abbr> to structure our web documents.</p>
 
 <p>I think <abbr title="Reverend">Rev.</abbr> Green did it in the kitchen with the chainsaw.</p>
-</div>
+
 
 ## Marking up times and dates
 
