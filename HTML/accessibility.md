@@ -16,5 +16,7 @@
 
 - MDN: [Assessment: Accessibility troubleshooting](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Accessibility_troubleshooting) - test yourself.
 
+
 ### &copy; Credit given
+
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

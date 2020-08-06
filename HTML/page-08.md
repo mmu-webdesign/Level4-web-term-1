@@ -132,6 +132,7 @@ Instead, you need to do this:
 <div class="deep">
 
 ## Deeper Learning
+
 To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Jen Simmons - html attributes](https://www.linkedin.com/learning/html-essential-training-4/html-attributes?u=36102708) (3m 54s)
@@ -141,4 +142,5 @@ To get a better understanding of this topic use the following resources.
 </div>
 
 ### &copy; Credit given
+
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

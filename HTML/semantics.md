@@ -39,6 +39,7 @@ When approaching which markup to use, ask yourself, "What element(s) best descri
 <div class="deep">
 
 ## Deeper Learning
+
 To get a better understanding of this topic use the following resources.
 
 > Article: Paul Boag - [Semantic code: What? Why? How?](https://boagworld.com/dev/semantic-code-what-why-how/)
@@ -50,12 +51,15 @@ To get a better understanding of this topic use the following resources.
 <div class="advanced">
 
 ## Advanced Learning
+
 For students wanting more, we recommend the following topics and resources. 
 
 Students who already have a knowledge of html may want to complete the full course on crafting meaningful html. In our experience the area of semantics is something that many self taught coders, and even current professionals ignore.
 
 - LinkedIn Learning Video: Jen Kramer - [Craft meaningful html](https://www.linkedin.com/learning/crafting-meaningful-html/craft-meaningful-html?u=36102708) (1hr 22m)
+
 </div>
 
 ### &copy; Credit given
+
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

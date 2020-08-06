@@ -249,7 +249,9 @@ You can also set subsections of your document to be recognised as different lang
 These codes are defined by the [ISO 639-1 standard](https://en.wikipedia.org/wiki/ISO_639-1). You can find more about them in [Language tags in HTML and XML](https://www.w3.org/International/articles/language-tags/) if this is important to your work.
 
 <div class="deep">
+
 ## Deeper Learning
+
 To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Jen Simmons -  Document head](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-essential-training-4%3Ftrk%3Dshare_ent_url&account=36102708) (3m 56s)
@@ -263,7 +265,9 @@ To get a better understanding of this topic use the following resources.
 </div>
 
 <div class="advanced">
+
 ## Advanced Learning
+
 For students wanting more, we recommend the following topics and resources. 
 
 - LinkedIn Learning Video: [Metadata in the head](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-metadata-in-the-head%3Ftrk%3Dshare_ent_url&account=36102708) (1h 25m) - This is a detailed course that covers all elements of metadata that can appear in the head of a html document. More advanced students may wish to learn more about these elements that as a coder they may have skipped.
@@ -277,4 +281,5 @@ Some of you may be interested to know more about the use of metadata and improve
 </div>
 
 ### &copy; Credit given
+
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

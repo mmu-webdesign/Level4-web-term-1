@@ -96,10 +96,73 @@ The link with the missing double quote has been deleted altogether. The last lis
 
 ## HTML validation
 
-So you can see from the above example that you really want to make sure your HTML is well-formed! But how? In a small example like the one seen above, it is easy to search through the lines and find the errors, but what about a huge, complex HTML document?
+So you can see from the above example that you really want to make sure your HTML is well-formed! But how? In a small example like the one seen above, it is easy to search through the lines and find the errors, but what about a more complex HTML document?
 
-The best strategy is to start by running your HTML page through the Markup Validation Service — created and maintained by the W3C, the organization that looks after the specifications that define HTML, CSS, and other web technologies. This webpage takes an HTML document as an input, goes through it, and gives you a report to tell you what is wrong with your HTML.
+The best strategy is to start by running your HTML page through the [Markup Validation Service](https://validator.w3.org/) — created and maintained by the W3C, the organization that looks after the specifications that define HTML, CSS, and other web technologies. This webpage takes an HTML document as an input, goes through it, and gives you a report to tell you what is wrong with your HTML.
 
-The HTML validator homepage
+<img src="https://mdn.mozillademos.org/files/12441/validator.png" alt="The HTML validator homepage">
 
 To specify the HTML to validate, you can give it a web address, upload an HTML file, or directly input some HTML code.
+
+## Exercise
+
+Let's try this with the [MDN sample document](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/debugging-html/debug-example.html).
+
+1. First, load up the [Markup Validation Service](https://validator.w3.org/) in one browser tab, if it isn't already.
+
+1. Switch to the Validate by Direct Input tab.
+
+1. Copy all the sample document's code (not just the body) and paste it into the large text area shown in the Markup Validation Service.
+
+1. Press the Check button.
+
+This should give you a list of errors and other information.
+
+<img src="media/validation-results.png" alt="A list of of HTML validation results from the W3C markup validation service">
+
+### Interpreting the error messages
+
+The error messages are usually helpful, but sometimes they are not so helpful; with a bit of practice you can work out how to interpret these to fix your code. Let's go through the error messages and what they mean. You'll see that each message comes with a line and column number to help you to locate the error easily.
+
+- **"Consider adding a `lang` attribute to the html start tag to declare the language of this document."**: This is not an error but a warning. The recommendation is to always define a language and the warning explains how to do it.
+
+- **"End tag `li` implied, but there were open elements"** (2 instances): These messages indicate that an element is open that should be closed. The ending tag is implied, but not actually there. The line/column information points to the first line after the line where the closing tag should really be, but this is a good enough clue to see what is wrong.
+
+- **"Unclosed element `strong`"**: This is really easy to understand — a `<strong>` element is unclosed, and the line/column information points right to where it is.
+
+- **"End tag `strong` violates nesting rules"**: This points out the incorrectly nested elements, and the line/column information points out where it is.
+
+- **"End of file reached when inside an attribute value. Ignoring tag"**: This one is rather cryptic; it refers to the fact that there is an attribute value not properly formed somewhere, possibly near the end of the file because the end of the file appears inside the attribute value. The fact that the browser doesn't render the link should give us a good clue as to what element is at fault.
+
+- **"End of file seen and there were open elements"**: This is a bit ambiguous, but basically refers to the fact there are open elements that need to be properly closed. The lines numbers point to the last few lines of the file, and this error message comes with a line of code that points out an example of an open element:
+example: `<a href="https://www.mozilla.org/>link to Mozilla homepage</a> ↩ </ul>↩ </body>↩</html>`
+
+> Note: An attribute missing a closing quote can result in an open element because the rest of the document is interpreted as the attribute's content.
+
+- **"Unclosed element `ul`"**: This is not very helpful, as the `<ul>` element is closed correctly. This error comes up because the `<a>` element is not closed, due to the missing closing quote mark.
+
+If you can't work out what every error message means, don't worry about it — a good idea is to try fixing a few errors at a time. Then try revalidating your HTML to show what errors are left. Sometimes fixing an earlier error will also get rid of other error messages — several errors can often be caused by a single problem, in a domino effect.
+
+You will know when all your errors are fixed when you see the following banner in your output:
+
+<img src="https://mdn.mozillademos.org/files/12445/valid-html-banner.png" alt="Banner that reads - The document validates according to the specified schema(s) and to additional constraints checked by the validator.">
+
+<div class="deep">
+
+## Deeper Learning
+
+To get a better understanding of this topic use the following resources.
+
+- LinkedIn Learning Video: [Jen Simmons -  Debugging html](https://www.linkedin.com/learning/html-essential-training-4/debugging-html?u=36102708) (4m 37s)
+
+- Article: W3C (World Wide Web Consortium) - [Why Validate?](https://validator.w3.org/docs/why.html)
+
+- [W3C HTML Validation service](https://validator.w3.org/)
+
+- [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/)
+
+</div>
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

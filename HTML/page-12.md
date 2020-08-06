@@ -125,6 +125,7 @@ The output of this code looks like so:
 <div class="deep">
 
 ## Deeper Learning
+
 To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Jen Simmons - Code, pre and br](https://www.linkedin.com/learning/html-essential-training-4/code-pre-and-br?u=36102708) (4m 42s)
@@ -146,6 +147,7 @@ To get a better understanding of this topic use the following resources.
 </div>
 
 ### &copy; Credit given
+
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
 

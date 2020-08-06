@@ -217,6 +217,7 @@ Using CSS is arguably easier to position and control than HTML images. So why bo
 <div class="deep">
 
 ## Deeper Learning
+
 To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Jen Simmons - images](https://www.linkedin.com/learning/html-essential-training-4/images?u=36102708) (4m 12s)
@@ -232,6 +233,7 @@ To get a better understanding of this topic use the following resources.
 <div class="advanced">
 
 ## Advanced Learning
+
 For students wanting more, we recommend the following topics and resources. 
 
 - LinkedIn Learning Video: [Jen Simmons - Audio](https://www.linkedin.com/learning/html-essential-training-4/audio?u=36102708) (4m 11s) - Adding audio to your web page.
@@ -249,4 +251,5 @@ For students wanting more, we recommend the following topics and resources.
 </div>
 
 ### &copy; Credit given
+
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
