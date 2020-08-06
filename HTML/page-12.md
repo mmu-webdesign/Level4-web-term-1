@@ -122,9 +122,7 @@ The output of this code looks like so:
 <p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
 </div>
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -144,7 +142,6 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<code>` - [The Inline Code element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
 
-</div>
 
 ### &copy; Credit given
 

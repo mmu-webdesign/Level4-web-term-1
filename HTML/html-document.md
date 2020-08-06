@@ -45,7 +45,6 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<body>` - [The Document Body element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
 
-</div>
 
 ### &copy; Credit given
 

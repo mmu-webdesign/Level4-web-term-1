@@ -36,9 +36,7 @@ Some of the benefits from writing semantic markup are as follows:
 
 When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; is it an article with sections and an aside of related information?; does it list out definitions?; is it a figure or image that needs a caption?; should it have a header and a footer in addition to the global site-wide header and footer?; etc.
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -46,11 +44,7 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
-</div>
-
-<div class="advanced">
-
-## Advanced Learning
+<h2 class="deep">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. 
 
@@ -58,7 +52,6 @@ Students who already have a knowledge of html may want to complete the full cour
 
 - LinkedIn Learning Video: Jen Kramer - [Craft meaningful html](https://www.linkedin.com/learning/crafting-meaningful-html/craft-meaningful-html?u=36102708) (1hr 22m)
 
-</div>
 
 ### &copy; Credit given
 

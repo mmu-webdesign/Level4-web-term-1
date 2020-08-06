@@ -38,9 +38,7 @@ At this stage the web browser is apply all the styles that you see (illustrated 
 
 When working with the headings  `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` don't get wrapped up in the sizes. **Never choose to use a heading to because of its default size**, for example wrapping some text in a `<h6>` to produce <small>small text</small>. When you start to learn CSS to style your pages, you will find that you can change the styles (font, size, colour etc) of any of the headings. 
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -48,7 +46,6 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<h1>` to `<h6>` - [The HTML Section Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
 
-</div>
 
 ### &copy; Credit given
 

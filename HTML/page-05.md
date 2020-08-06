@@ -136,9 +136,7 @@ The browser default styles will display description lists with the descriptions 
   <dd>In writing, a section of content that is related to the current topic, but doesn't fit directly into the main flow of content so is presented nearby (often in a box off to the side.)</dd>
 </dl>
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -154,7 +152,6 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<dt>` - [The Description Term element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt)
 
-</div>
 
 ### &copy; Credit given
 

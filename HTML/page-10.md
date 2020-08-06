@@ -159,9 +159,7 @@ The basic example above just provides a simple machine readable date, but there 
 <time datetime="2016-W04">The fourth week of 2016</time>
 ```
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -177,7 +175,6 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<time>` - [The Time element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
 
-</div>
 
 ### &copy; Credit given
 

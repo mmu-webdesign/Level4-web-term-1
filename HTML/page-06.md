@@ -255,9 +255,7 @@ Here are a few other sample mailto URLs:
  <li><a href="mailto:nowhere@mozilla.org?cc=nobody@mozilla.org&amp;subject=This%20is%20the%20subject">mailto:nowhere@mozilla.org?cc=nobody@mozilla.org&amp;subject=This%20is%20the%20subject</a></li>
 </ul>
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -267,7 +265,6 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<a>` - [The Anchor element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 
-</div>
 
 ### &copy; Credit given
 

@@ -147,9 +147,7 @@ You will know when all your errors are fixed when you see the following banner i
 
 <img src="https://mdn.mozillademos.org/files/12445/valid-html-banner.png" alt="Banner that reads - The document validates according to the specified schema(s) and to additional constraints checked by the validator.">
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -161,7 +159,6 @@ To get a better understanding of this topic use the following resources.
 
 - [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/)
 
-</div>
 
 ### &copy; Credit given
 

@@ -97,9 +97,7 @@ Here's the best rule of thumb: it's likely appropriate to use `<b>`, `<i>`, or `
   </li>
 </ol>
 ```
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -113,7 +111,6 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<u>` - [The Unarticulated Annotation (Underline) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u)
 
-</div>
 
 ### &copy; Credit given
 

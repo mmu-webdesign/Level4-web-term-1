@@ -214,9 +214,7 @@ Using CSS is arguably easier to position and control than HTML images. So why bo
 
 **Summing up**: if an image has meaning, in terms of your content, you should use an HTML image. If an image is purely decoration, you should use CSS background images.
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -228,11 +226,7 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<img>` - [The Image Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 
-</div>
-
-<div class="advanced">
-
-## Advanced Learning
+<h2 class="deep">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. 
 
@@ -248,7 +242,6 @@ For students wanting more, we recommend the following topics and resources.
 
 - MDN: [From object to iframe — other embedding technologies](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies)
 
-</div>
 
 ### &copy; Credit given
 

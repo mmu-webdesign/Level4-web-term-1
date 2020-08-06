@@ -32,11 +32,7 @@ And the link with attributes and values:
 ```
 On the page this will simply look lik this. The attributes are not shown. Only the title appears as a Tool Tip.
 
-<div class="output">
-
-<a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">Mozilla, home of Firefox</a>
-
-</div>
+<a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank" class="output">Mozilla, home of Firefox</a>
 
 > Tip - Note that the `target="_blank"` attribute and value are not the best for both usability and accessibility. This essentially **takes over the users computer**, opening up a new window or tab. Not cool. The user should be left to decide this for themselves. A visually impaired user may struggle to notice a new tab or window has been created.
 
@@ -129,9 +125,7 @@ Instead, you need to do this:
 
 </div>
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -139,7 +133,6 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: Attributes - [HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
-</div>
 
 ### &copy; Credit given
 

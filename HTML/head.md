@@ -248,9 +248,7 @@ You can also set subsections of your document to be recognised as different lang
 
 These codes are defined by the [ISO 639-1 standard](https://en.wikipedia.org/wiki/ISO_639-1). You can find more about them in [Language tags in HTML and XML](https://www.w3.org/International/articles/language-tags/) if this is important to your work.
 
-<div class="deep">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -262,11 +260,7 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<title>` - [The Document Title element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
-</div>
-
-<div class="advanced">
-
-## Advanced Learning
+<h2 class="deep">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. 
 
@@ -278,7 +272,6 @@ Some of you may be interested to know more about the use of metadata and improve
 
 - LinkedIn Learning Video: [SEO Foundations](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fseo-foundations-2%3Ftrk%3Dshare_ent_url&account=36102708) (3h 36m) Explore the basics of SEO, including how to read a results page and see how rankings affect businesses large and small. 
 
-</div>
 
 ### &copy; Credit given
 
