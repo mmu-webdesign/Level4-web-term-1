@@ -196,7 +196,8 @@ To get a better understanding of this topic use the following resources.
 
 </div>
 
-<div class="advanced">
+<span class="advanced">
+
 ## Books
 
 - [Learning Web Design](https://www.learningwebdesign.com/) by Jennifer Niederst Robbins is currently our core text. This book covers all we cover with greater depth. 
@@ -204,7 +205,8 @@ To get a better understanding of this topic use the following resources.
 - [Learn to Code HTML & CSS](https://learn.shayhowe.com/) by Shay Howe is available online and in print. Covers all of the basic HTML and CSS elements and attributes. 
 
 - [HTML & CSS by John Duckett](http://www.htmlandcssbook.com/) is a beautifully illustrated and easy to understand book but it is sadly dated. That said, the illustrations of many of the core elements and attributes are valid and easy to understand.
-</div>
+
+</span>
 
 ### &copy; Credit given
 
