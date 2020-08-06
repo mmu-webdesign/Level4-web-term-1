@@ -59,7 +59,7 @@ In this case, the editor's note is supposed to merely provide extra direction fo
 
 This isn't really an `<aside>`, as it doesn't necessarily relate to the main content of the page (you want it viewable from anywhere). It doesn't even particularly warrant using a  `<section>`, as it isn't part of the main content of the page. So a `<div>` is fine in this case. We've included a heading as a signpost to aid screenreader users in finding it.
 
-<h3 class="warning">Divitus - the over use of divs</h2>
+<h3 class="warning">Divitus - the over use of divs</h3>
 
 **Warning**: Divs are so convenient to use that it's easy to use them too much. As they carry no semantic value, they just clutter your HTML code. Take care to use them only when there is no better semantic solution and try to reduce their usage to the minimum otherwise you'll have a hard time updating and maintaining your documents.
 
