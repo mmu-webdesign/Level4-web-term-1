@@ -265,12 +265,31 @@ Screenreaders will recognize markup structured like this, and allow their users 
 
 `scope` has two more possible values — `colgroup` and `rowgroup`. these are used for headings that sit over the top of multiple columns or rows. If you look back at the "**Items Sold August 2016**" table at the start of this section of the article, you'll see that the "Clothes" cell sits above the "Trousers", "Skirts", and "Dresses" cells. All of these cells should be marked up as headers (`<th>`), but "Clothes" is a heading that sits over the top and defines the other three subheadings. "Clothes" therefore should get an attribute of `scope="colgroup"`, whereas the others would get an attribute of `scope="col"`.
 
-<h2 class="deep">Deep Learning</h2>
 
- <thead>, <tfoot>, and <tbody>,  <col>/<colgroup> <caption>
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
+- MDN: `<thead>` - [The Table Head element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead)
+
+- MDN: `<tfoot>` - [The Table Foot element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot)
+
+- MDN: `<tbody>` - [The Table Body element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)
+
+- MDN: `<col>` - [The Column element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)
+
+- MDN: `<colgroup>` - [The Column Group element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup)
+
+- MDN: `<caption>` - [The Table Caption element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)
+
+
 
 <h2 class="advanced">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. 
 
 - LinkedIn Learning Video: [Jen Kramer -  HTML Tables](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-tables%3Ftrk%3Dshare_ent_url&account=36102708) (1h 25m) - This complete course covers the essential skills you need to learn to display and format tabular data on the web. Watch and learn how to build tables with HTML, style tables with CSS, and make your tables accessible to users with disabilities on all types of devices.
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

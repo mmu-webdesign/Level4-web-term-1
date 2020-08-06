@@ -432,6 +432,7 @@ Save and open your code in a browser to see the improvement.
 
 > Note: You can find our finished example at [animals-table-fixed.html](https://github.com/mdn/learning-area/blob/master/html/tables/basic/animals-table-fixed.html) on GitHub ([see it live also](http://mdn.github.io/learning-area/html/tables/basic/animals-table-fixed.html)).
 
+
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
@@ -444,3 +445,7 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<th>` - [The Table Header element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)
 
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
