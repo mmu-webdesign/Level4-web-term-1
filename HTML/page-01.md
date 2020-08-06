@@ -182,9 +182,7 @@ Your html file is simply a plain text file (usually a `.txt` file), with a `.htm
 
 *Small and portable - plain text files are the perfect format for the WWW*.
 
-<div class="deep" markdown="1">
-
-## Deeper Learning
+<h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
@@ -194,11 +192,8 @@ To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Jen Simmons -  Formatting html](https://www.linkedin.com/learning/html-essential-training-4/formatting-html?u=36102708) (4m 30s)
 
-</div>
 
-<span class="advanced">
-
-## Books
+<h2 class="books">Books</h2>
 
 - [Learning Web Design](https://www.learningwebdesign.com/) by Jennifer Niederst Robbins is currently our core text. This book covers all we cover with greater depth. 
 
@@ -206,7 +201,6 @@ To get a better understanding of this topic use the following resources.
 
 - [HTML & CSS by John Duckett](http://www.htmlandcssbook.com/) is a beautifully illustrated and easy to understand book but it is sadly dated. That said, the illustrations of many of the core elements and attributes are valid and easy to understand.
 
-</span>
 
 ### &copy; Credit given
 
