@@ -182,7 +182,7 @@ Your html file is simply a plain text file (usually a `.txt` file), with a `.htm
 
 *Small and portable - plain text files are the perfect format for the WWW*.
 
-<div class="deep">
+<div class="deep" markdown="1">
 
 ## Deeper Learning
 
