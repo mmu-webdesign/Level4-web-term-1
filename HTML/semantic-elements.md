@@ -133,3 +133,18 @@ It's good to understand the overall meaning of all the `HTML` sectioning element
  - `<footer>` represents a group of end content for a page.
 Non-semantic wrappers
 
+
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
+- LinkedIn Learning Video: [Jen Simmons - Structuring content](https://www.linkedin.com/learning/html-essential-training-4/structuring-content?u=36102708) (4m 14s)
+
+- LinkedIn Learning Video: [Jen Simmons - Structuring content examplse of putting it all together](https://www.linkedin.com/learning/html-essential-training-4/examples-of-putting-it-all-together?u=36102708) (1m 6s)
+
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
+
+
