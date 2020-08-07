@@ -1,4 +1,4 @@
-# Forms
+# `<html>` Forms
 
 ## What are web forms?
 
@@ -44,12 +44,12 @@ Our contact form is not complex: the data entry portion contains three text fiel
 
 1. The input field for the e-mail is an input of type email: a single-line text field that accepts only e-mail addresses.
 
-1. The input field for the message is a <textarea>; a multiline text field.
+1. The input field for the message is a `<textarea>`; a multiline text field.
 
 In terms of HTML code we need something like the following to implement these form widgets:
 
 ```
-<form action="/my-handling-form-page" method="post">
+<form action="" method="post">
  <ul>
   <li>
     <label for="name">Name:</label>
@@ -76,42 +76,89 @@ There is great benefit to doing this — it associates the label with the form c
 
 On the `<input>` element, the most important attribute is the type attribute. This attribute is extremely important because it defines the way the `<input>` element appears and behaves. You'll find more about this in the Basic native form controls article later on.
 
-- In our simple example, we use the value <input/text> for the first input — the default value for this attribute. It represents a basic single-line text field that accepts any kind of text input.
+- In our simple example, we use the value `<input/text>` for the first input — the default value for this attribute. It represents a basic single-line text field that accepts any kind of text input.
 
-- For the second input, we use the value <input/email>, which defines a single-line text field that only accepts a well-formed e-mail address. This turns a basic text field into a kind of "intelligent" field that will perform some validation checks on the data typed by the user. It also causes a more appropriate keyboard layout for entering email addresses (e.g. with an @ symbol by default) to appear on devices with dynamic keyboards, like smartphones. You'll find out more about form validation in the client-side form validation article later on.
+- For the second input, we use the value `<input/email>`, which defines a single-line text field that only accepts a well-formed e-mail address. This turns a basic text field into a kind of "**intelligent**" field that will perform some validation checks on the data typed by the user. It also causes a more appropriate keyboard layout for entering email addresses (e.g. with an @ symbol by default) to appear on devices with dynamic keyboards, like smartphones. 
 
-Last but not least, note the syntax of <input> vs. <textarea></textarea>. This is one of the oddities of HTML. The <input> tag is an empty element, meaning that it doesn't need a closing tag. <textarea> is not an empty element, meaning it should be closed with the proper ending tag. This has an impact on a specific feature of forms: the way you define the default value. To define the default value of an <input> element you have to use the value attribute like this:
+Last but not least, note the syntax of `<input>` vs. `<textarea></textarea>`. This is one of the oddities of HTML. The `<input>` tag is an empty element, meaning that it doesn't need a closing tag. `<textarea>` is not an empty element, meaning it should be closed with the proper ending tag. This has an impact on a specific feature of forms: the way you define the default value. To define the default value of an `<input>` element you have to use the value attribute like this:
 
+```
 <input type="text" value="by default this element is filled with this text">
+```
 
-On the other hand,  if you want to define a default value for a <textarea>, you put it between the opening and closing tags of the <textarea> element, like this:
+On the other hand,  if you want to define a default value for a `<textarea>`, you put it between the opening and closing tags of the `<textarea>` element, like this:
 
+```
 <textarea>
 by default this element is filled with this text
 </textarea>
+```
 
-The <button> element
+### The <button> element
 
-The markup for our form is almost complete; we just need to add a button to allow the user to send, or "submit", their data once they have filled out the form. This is done by using the <button> element; add the following just above the closing </ul> tag:
+The markup for our form is almost complete; we just need to add a button to allow the user to send, or "submit", their data once they have filled out the form. This is done by using the `<button>` element; add the following just above the closing `</ul>` tag:
 
+```
 <li class="button">
   <button type="submit">Send your message</button>
 </li>
+```
 
-The <button> element also accepts a type attribute — this accepts one of three values: submit, reset, or button.
+The `<button>` element also accepts a type attribute — this accepts one of three values: submit, reset, or button.
 
-    A click on a submit button (the default value) sends the form's data to the web page defined by the action attribute of the <form> element.
-    A click on a reset button resets all the form widgets to their default value immediately. From a UX point of view, this is considered bad practice, so you should avoid using this type of button unless you really have a good reason to include one.
-    A click on a button button does... nothing! That sounds silly, but it's amazingly useful for building custom buttons — you can define their chosen functionality with JavaScript.
+- A click on a submit button (the default value) sends the form's data to the web page defined by the action attribute of the `<form>` element.
 
-Note: You can also use the <input> element with the corresponding type to produce a button, for example <input type="submit">. The main advantage of the <button> element is that the <input> element only allows plain text in its label whereas the <button> element allows full HTML content, allowing more complex, creative button content.
+- A click on a reset button resets all the form widgets to their default value immediately. From a UX point of view, this is considered bad practice, so you should avoid using this type of button unless you really have a good reason to include one.
 
+- A click on a button button does... nothing! That sounds silly, but it's amazingly useful for building custom buttons — you can define their chosen functionality with JavaScript.
+
+> Note: You can also use the `<input>` element with the corresponding type to produce a button, for example `<input type="submit">`. The main advantage of the `<button>` element is that the `<input>` element only allows plain text in its label whereas the `<button>` element allows full HTML content, allowing more complex, creative button content.
+
+### Summary
+
+Congratulations, you've built your first web form. It looks like this live:
+
+<form action="" method="post">
+ <ul>
+  <li>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </li>
+  <li>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+  <li>
+    <button type="submit">Send your message</button>
+  </ul>
+ </ul>
+</form>
+
+The problem is that our form looks (by default) **pretty ugly**. Don't worry, as you progress with CSS you will learn how to turn your form into a much more engaging experience. For the present, this is about learning about the elements that make up a `html` form.
+
+<!-- end div -->
 
 <h2 class="deep">Deeper Learning</h2>
 
+To get a better understanding of this topic use the following resources.
 
-`<form>`, `<label>`, `<input>`, `<textarea>`, and `<button>`.
+- LinkedIn Learning Video: [Jen Simmons - html form basics](https://www.linkedin.com/learning/html-essential-training-4/html-form-basics?u=36102708) (5m 41s) 
 
+- LinkedIn Learning Video: [Jen Simmons - More on forms](https://www.linkedin.com/learning/html-essential-training-4/more-on-forms?u=36102708) (3m 37s) 
+
+- MDN: `<form>` - [The Form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
+- MDN: `<label>` - [The Label element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+
+- MDN: `<input>` - [The Input (Form Input) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+
+- MDN: `<textarea>` - [The Textarea element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+
+- MDN: `<form>` - [The Button element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
 
 <h2 class="advanced">Advanced Learning</h2>
 

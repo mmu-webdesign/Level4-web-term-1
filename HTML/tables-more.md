@@ -1,4 +1,4 @@
-# Futher tables
+# Further tables
 
 ## Adding a caption to your table with `<caption>`
 
