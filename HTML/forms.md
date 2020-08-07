@@ -34,17 +34,21 @@ This element formally defines a form. It's a container element like a `<section>
 
 > Note: The programming involved in sending a form is byond the scope of this unit. MDN's article on how those attributes work in the Sending form data article is linked in the Advanced Learning section below..
 
-For now, add the above <form> element into your HTML <body>.
-The <label>, <input>, and <textarea> elements
+For now, add the above `<form>` element into your HTML `<body>`.
 
-Our contact form is not complex: the data entry portion contains three text fields, each with a corresponding <label>:
+The `<label>`, `<input>`, and `<textarea>` elements
 
-    The input field for the name is a single-line text field.
-    The input field for the e-mail is an input of type email: a single-line text field that accepts only e-mail addresses.
-    The input field for the message is a <textarea>; a multiline text field.
+Our contact form is not complex: the data entry portion contains three text fields, each with a corresponding `<label>`:
+
+1.The input field for the name is a single-line text field.
+
+1. The input field for the e-mail is an input of type email: a single-line text field that accepts only e-mail addresses.
+
+1. The input field for the message is a <textarea>; a multiline text field.
 
 In terms of HTML code we need something like the following to implement these form widgets:
 
+```
 <form action="/my-handling-form-page" method="post">
  <ul>
   <li>
@@ -62,16 +66,19 @@ In terms of HTML code we need something like the following to implement these fo
  </ul>
 </form>
 
+```
+
 Update your form code to look like the above.
 
-The <li> elements are there to conveniently structure our code and make styling easier (see later in the article). For usability and accessibility, we include an explicit label for each form control. Note the use of the for attribute on all <label> elements, which takes as its value the id of the form control with which it is associated — this is how you associate a form control with its label.
+The `<li>` elements are there to conveniently structure our code and make styling easier (see later in the article). For usability and accessibility, we include an explicit label for each form control. Note the use of the for attribute on all `<label>` elements, which takes as its value the id of the form control with which it is associated — this is how you associate a form control with its label.
 
 There is great benefit to doing this — it associates the label with the form control, enabling mouse, trackpad, and touch device users to click on the label to activate the corresponding control, and it also provides an accessible name for screen readers to read out to their users. You'll find further details of form labels in How to structure a web form.
 
-On the <input> element, the most important attribute is the type attribute. This attribute is extremely important because it defines the way the <input> element appears and behaves. You'll find more about this in the Basic native form controls article later on.
+On the `<input>` element, the most important attribute is the type attribute. This attribute is extremely important because it defines the way the `<input>` element appears and behaves. You'll find more about this in the Basic native form controls article later on.
 
-    In our simple example, we use the value <input/text> for the first input — the default value for this attribute. It represents a basic single-line text field that accepts any kind of text input.
-    For the second input, we use the value <input/email>, which defines a single-line text field that only accepts a well-formed e-mail address. This turns a basic text field into a kind of "intelligent" field that will perform some validation checks on the data typed by the user. It also causes a more appropriate keyboard layout for entering email addresses (e.g. with an @ symbol by default) to appear on devices with dynamic keyboards, like smartphones. You'll find out more about form validation in the client-side form validation article later on.
+- In our simple example, we use the value <input/text> for the first input — the default value for this attribute. It represents a basic single-line text field that accepts any kind of text input.
+
+- For the second input, we use the value <input/email>, which defines a single-line text field that only accepts a well-formed e-mail address. This turns a basic text field into a kind of "intelligent" field that will perform some validation checks on the data typed by the user. It also causes a more appropriate keyboard layout for entering email addresses (e.g. with an @ symbol by default) to appear on devices with dynamic keyboards, like smartphones. You'll find out more about form validation in the client-side form validation article later on.
 
 Last but not least, note the syntax of <input> vs. <textarea></textarea>. This is one of the oddities of HTML. The <input> tag is an empty element, meaning that it doesn't need a closing tag. <textarea> is not an empty element, meaning it should be closed with the proper ending tag. This has an impact on a specific feature of forms: the way you define the default value. To define the default value of an <input> element you have to use the value attribute like this:
 

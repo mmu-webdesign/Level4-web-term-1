@@ -84,7 +84,6 @@ Let's further explore our paragraph element from the previous section:
 > To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
 
 
-
 ### FILES - [Open in Browser - Task One Files](https://repl.it/@eskins/html-01) 
 
 Task one contains excerpts from [Gerry McGovern’s book World Wide Waste](https://gerrymcgovern.com/worldwidewaste/). It consists of a main heading, two paragraphs, a sub-heading and another paragraph.
