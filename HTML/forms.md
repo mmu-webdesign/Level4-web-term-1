@@ -8,25 +8,31 @@ A web form's HTML is made up of one or more form controls (sometimes called widg
 
 Form controls can also be programmed to enforce specific formats or values to be entered (**form validation**), and paired with text labels that describe their purpose to both sighted and blind users.
 
+<!-- div class="exercise" -->
+
 ## Exercise: Implementing our form HTML
 
-Ok, let's have a go at creating the HTML for our form. We will use the following HTML elements: <form>, <label>, <input>, <textarea>, and <button>.
+Ok, let's have a go at creating the HTML for our form. We will use the following HTML elements: `<form>`, `<label>`, `<input>`, `<textarea>`, and `<button>`.
 
 Before you go any further, make a local copy of our simple HTML template — you'll enter your form HTML into here.
-The <form> element
 
-All forms start with a <form> element, like this:
+### The `<form>` element
 
+All forms start with a `<form>` element, like this:
+
+```
 <form action="/my-handling-form-page" method="post">
 
 </form>
+```
 
-This element formally defines a form. It's a container element like a <section> or <footer> element, but specifically for containing forms; it also supports some specific attributes to configure the way the form behaves. All of its attributes are optional, but it's standard practice to always set at least the action and method attributes:
+This element formally defines a form. It's a container element like a `<section>` or `<footer>` element, but specifically for containing forms; it also supports some specific attributes to configure the way the form behaves. All of its attributes are optional, but it's standard practice to always set at least the `action` and `method` attributes:
 
-    The action attribute defines the location (URL) where the form's collected data should be sent when it is submitted.
-    The method attribute defines which HTTP method to send the data with (usually get or post).
+1. The `action` attribute defines the location (URL) where the form's collected data should be sent when it is submitted.
 
-Note: We'll look at how those attributes work in our Sending form data article later on.
+1. The `method` attribute defines which HTTP method to send the data with (usually `get` or `post`).
+
+> Note: The programming involved in sending a form is byond the scope of this unit. MDN's article on how those attributes work in the Sending form data article is linked in the Advanced Learning section below..
 
 For now, add the above <form> element into your HTML <body>.
 The <label>, <input>, and <textarea> elements
@@ -94,11 +100,19 @@ The <button> element also accepts a type attribute — this accepts one of three
 Note: You can also use the <input> element with the corresponding type to produce a button, for example <input type="submit">. The main advantage of the <button> element is that the <input> element only allows plain text in its label whereas the <button> element allows full HTML content, allowing more complex, creative button content.
 
 
+<h2 class="deep">Deeper Learning</h2>
+
+
+`<form>`, `<label>`, `<input>`, `<textarea>`, and `<button>`.
+
+
 <h2 class="advanced">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. 
 
-## Designing your form
+- Article: MDN - [Sending form data](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data)
+
+### Designing your form
 
 Before starting to code, it's always better to step back and take the time to think about your form. Designing a quick mockup on paper will help you to define the right set of data you want to ask your user to enter. From a user experience (UX) point of view, it's important to remember that the bigger your form, the more you risk frustrating people and losing users. Keep it simple and stay focused: ask only for the data you absolutely need.
 
