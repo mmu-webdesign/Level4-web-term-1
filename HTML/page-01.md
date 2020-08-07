@@ -77,6 +77,8 @@ Let's further explore our paragraph element from the previous section:
 
 - LinkedIn Learning Video: [Jen Simmons - The syntax of the HTML elements](https://www.linkedin.com/learning/html-essential-training-4/the-syntax-of-html-elements?u=36102708) -  4m 56s
 
+<!-- div class="exercise" -->
+
 ## Task One
 
 > To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
@@ -106,6 +108,8 @@ As you can see, the browser ignores the space between the headings and paragraph
 
 This is because there are no elements to give the content structure, so the browser does not know what is a heading and what is a paragraph. 
 
+<!-- end div -->
+
 ### Why do we need structure?
 
 - Users looking at a web page tend to scan quickly to find relevant content, often just reading the headings to begin with (we usually spend a very short time on a web page). If they can't see anything useful within a few seconds, they'll likely get frustrated and go somewhere else.
@@ -121,6 +125,8 @@ We therefore need to give our content structural markup.
 > **Note:** We are using a html file called index.html. There is much more to the format of a html document, but that will come later.
 
 > **File format:** We are used to file formats such a `.ppt` and `.pdf` as two examples. Our file `index.html` is a plain text file with the file extension `.html`. It can be opened in any text editor such as Notepad on a PC or TextEdit on a Mac. It can be viewed in any web browser, on any internet enabled device. This means that the first html pages created by *Sir Tim* back in 1991 can still be viewed in any modern browser on any modern device, with any screen size. Take a look at the page [What is HyperText?](http://info.cern.ch/hypertext/WWW/WhatIs.html) archived on the CERN servers. The design is plain but the information is accessible and useable to everyone.
+
+<!-- div class="exercise" -->
 
 ## Task Two
 
@@ -160,11 +166,19 @@ Select run to refresh the browser. Your page should now look like this.
 <p>Excerpts from Gerry McGovern's book World Wide Waste.</p>
 ```
 
-**If it does, carry on**. If not check that the correct tag is in the correct place. The editor includes *syntax highlighting* which you can see adds colour to the html elements, allowing you to spot them , and errors easier.
+**If it does, carry on**. If not check that the correct tag is in the correct place. 
+
+<!-- end div -->
+
+### syntax highlighting
+
+The editor includes *syntax highlighting* which you can see adds colour to the html elements, allowing you to spot them , and errors easier.
 
 <img src="media/01-syntax-highlighting.png" alt="Illustration of syntax highlighting" width="">
 
 As things gets more complex you will see that further `highlighting` is added and will help you navigate your code.
+
+<!-- div class="exercise" -->
 
 ## Exercise - Plain text files
 
@@ -181,6 +195,8 @@ Plain text file can also be opened, viewed and edited in a variety applications,
 Your html file is simply a plain text file (usually a `.txt` file), with a `.html` file extension.
 
 *Small and portable - plain text files are the perfect format for the WWW*.
+
+<!-- end div -->
 
 <h2 class="deep">Deeper Learning</h2>
 
