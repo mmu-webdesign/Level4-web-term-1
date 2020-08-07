@@ -77,12 +77,13 @@ Let's further explore our paragraph element from the previous section:
 
 - LinkedIn Learning Video: [Jen Simmons - The syntax of the HTML elements](https://www.linkedin.com/learning/html-essential-training-4/the-syntax-of-html-elements?u=36102708) -  4m 56s
 
-<!-- div class="exercise" -->
+
 
 ## Task One
 
 > To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
 
+<!-- div class="exercise" -->
 
 ### FILES - [Open in Browser - Task One Files](https://repl.it/@eskins/html-01) 
 
