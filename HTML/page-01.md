@@ -1,48 +1,69 @@
 # HTML Introduction
 
-Before starting please watch the following videos:
+<!-- div class="video" -->
+
+## Task One 
+
+> Before starting please watch the following short videos. These will help you understand the rest of this chapter.
 
 - LinkedIn Learning Video: [Jen Simmons -  [What is HTML](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36102708) 1m 34s
 
 - LinkedIn Learning Video: [Jen Simmons - [The role of HTML](https://www.linkedin.com/learning/html-essential-training-4/the-role-of-html?u=36102708) 4m 29s
 
+<!-- end div -->
+
 ## Structure
 
-Whether you are reading a book, a web page or creating your own documents in MSWord, the document is going to have structure. The structure and the space it creates enhances the readability, helps us navigate a document and to identify various elements of a document. 
+Whether you are reading a book, a web page or creating your own documents in MSWord, the document is going to have structure. The structure and the space it creates enhances the readability, helps us navigate a document and helps us to identify various elements or sections of a document. 
 
-This may include headings and sub-headings which help break up the document, helping us to identify themes and relevant sections. Simple paragraph breaks breathe space into the document, helping us to read the text.
+This may include headings and sub-headings which help break up the document, helping us to identify themes and relevant sections. It can also be simple paragraph breaks that breathe space into the document, helping us to read the text.
 
 We may create sections, lists and tables to divide and illustrate the content. Without noticing it, the care and attention paid in creating a good structure makes any document much easier for us to deal with as the reader.
 
 Someone with a visual impairment may use a computer to read out a document aloud. Again, having the correct structure will help the user navigate to the relevant parts of the page, document or book. Like we might do visually, a screen reader can navigate from heading to sub-heading to jump around a page.
 
-Anyone with a cognitive impairment will be aided by a clear and obvious structure for what might otherwise look like a complex document. This of course helps us all.
+Anyone with a cognitive impairment will be aided by a clear and obvious structure for what might otherwise look like a complex document. Simplicity and clarity of course helps us all.
+
+### This is not about design
 
 At this stage we are not talking about design, the use of space, typography and colour. We are simply talking about describing documents. This is a heading, this is a paragraph, this is the sub-heading, this is the main body of the documents and this is the footer of the document or page.
 
 This is what HTML does. It is a mark-up language that gives us a method to describe to the browser (the computer) the structure of the page. And if the browser doesn’t understand that markup, it ignores it. This has been essential to the development of the World Wide Web.
 
-## Exercise 
-> Read the first Chapter of Jeremy Keith’s book, [Reslient web design. Chapter One: Foundations](https://resilientwebdesign.com/chapter1/). As you read this chapter look at the structure of the page. It has a main (Level 1) heading - *Chapter 1: Foundations* followed by five sub (Level 2) headings including *Let’s share what we know*; *Net value; Hyperspace*; *Mark me up, mark me down*; *References*. 
+<!-- div class="exercise" -->
+
+## Task Two 
+> Read the first Chapter of Jeremy Keith’s book, [Reslient web design. Chapter One: Foundations](https://resilientwebdesign.com/chapter1/). 
+
+As you read this chapter look at the structure of the page. It has a main (Level 1) heading - *Chapter 1: Foundations* followed by five sub (Level 2) headings including *Let’s share what we know*; *Net value; Hyperspace*; *Mark me up, mark me down*; *References*. 
 The text itself is set in paragraphs of various sizes, interspersed with a number of illustrations with captions.
 
-### Quiz
+### The structure of this chapter
+
+<img src="media/structure.png" alt="Illustration of the pages structure as described in the paragraph above">
+
+This illustration, created via the HTML Validation Service plots both the page structural outline and heading level outline. We cover headings in the next section.
+
+### Quiz - Did you read the chapter?
 - Q. Who wrote ‘As We May Think’?
 - A. Vannevar Bush
+- B. Vannevar Shrub
 - Q. Who created the Line Mode Browser?
 - A. Nicola Pellow
+- B. Marti Pellow
 - Q. Tim Berners-Lee was running which type of operating system?
 - A. NeXTSTEP operating system
+- B. STEPuP operating system
 - Q. What does http stand for?
 - A. HyperText Transfer Protocol
+- B. HyperText Transfixed Protocol
+
+<!-- end div -->
 
 
-## Formatting Text
-*Let’s add some structure*.
+> *Let’s add some structure to our first document for the web* - but before we start coding we need to understand the syntax of HTML.
 
-Before we start coding we need to understand the syntax of HTML.
-
-### What is HTML?
+## What is HTML?
 
 HTML (Hypertext Markup Language) is not a programming language. It is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on.  For example, consider the following line of text:
 
@@ -53,17 +74,19 @@ My cat is very grumpy.
 If we wanted the text to stand by itself, we could specify that it is a paragraph by enclosing it in a paragraph  (`<p>`) element:
 
 ```
+
 <p>My cat is very grumpy.</p>
+
 ``` 
 
->**Note:** Tags in HTML are case-insensitive. This means they can be written in uppercase or lowercase. For example, a `<title>` tag could be written as `<title>`, `<TITLE>`, `<Title>`, `<TiTlE>`, etc., and it will work. However, it is best practice to write all tags in lowercase for consistency, readability, and other reasons.
+> **Note:** Tags in HTML are case-insensitive. This means they can be written in uppercase or lowercase. For example, a `<title>` tag could be written as `<title>`, `<TITLE>`, `<Title>`, `<TiTlE>`, etc., and it will work. However, it is best practice to write all tags in lowercase for consistency, readability, and other reasons.
 
 
 ## Anatomy of an HTML element
 
 Let's further explore our paragraph element from the previous section:
 
-<img src="https://mdn.mozillademos.org/files/9347/grumpy-cat-small.png" alt="Illustrated anatomy of a HTML Element">
+<img src="media/grumpy-cat-small.png" alt="Illustrated anatomy of a HTML Element">
 
 ### The anatomy of our element is:
 
@@ -75,11 +98,20 @@ Let's further explore our paragraph element from the previous section:
 
 - The **element** is the opening tag, followed by content, followed by the closing tag.
 
+<!-- div class="video" -->
+
+## Task Three
+
+> Watch the following short video for a deeper understanding of the syntax.
+
 - LinkedIn Learning Video: [Jen Simmons - The syntax of the HTML elements](https://www.linkedin.com/learning/html-essential-training-4/the-syntax-of-html-elements?u=36102708) -  4m 56s
+
+<!-- end div -->
+
 
 <!-- div class="exercise" -->
 
-## Task One
+## Task Four - Space
 
 > To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
 
@@ -110,7 +142,7 @@ This is because there are no elements to give the content structure, so the brow
 
 <!-- end div -->
 
-### Why do we need structure?
+## Why do we need structure?
 
 - Users looking at a web page tend to scan quickly to find relevant content, often just reading the headings to begin with (we usually spend a very short time on a web page). If they can't see anything useful within a few seconds, they'll likely get frustrated and go somewhere else.
 
@@ -128,19 +160,28 @@ We therefore need to give our content structural markup.
 
 <!-- div class="exercise" -->
 
-## Task Two
+## Task Five
+
+> Creating a Level 1 heading
 
 Add the `<h1>` tag to the main heading. Putting the closing tag at the end.
 
 ```
 <h1>The Web is obese</h1>
 
-````
+```
+
 Select Play to reload the page in the browser window. You should now have a distinct heading. If not, check your code and reload the page.
 
 <img src="media/01-heading.png" alt="Illustration of the heading" width="">
 
+<!-- end div -->
+
+<!-- div class="exercise" -->
+
 ## Task 3
+
+> Adding paragraphs and Level Two heading
 
 Surround the next two paragraphs with the opening and closing `<p>` tag.
 
@@ -152,7 +193,7 @@ Select run to refresh the browser. Your page should now look like this.
 
 <img src="media/01-completed.png" alt="Illustration of the heading" width="">
 
-> Double check your code - does it look like this?
+> Double check your code - does it look like this? Is each starting and closing tag in place?
 
 ```
 <h1>The Web is obese</h1>
@@ -170,7 +211,7 @@ Select run to refresh the browser. Your page should now look like this.
 
 <!-- end div -->
 
-### syntax highlighting
+## Syntax highlighting
 
 The editor includes *syntax highlighting* which you can see adds colour to the html elements, allowing you to spot them , and errors easier.
 
@@ -180,21 +221,21 @@ As things gets more complex you will see that further `highlighting` is added an
 
 <!-- div class="exercise" -->
 
-## Exercise - Plain text files
+## Task Six - Plain text files
 
 > We are going to take a quick look at the file format used for html files - plain text.
 - Copy and paste the text (with or without the coding) from `index.html` into a blank MSWord document. Save it as a `.docx` file. 
 - Take a look - how big is the file size? How many `kilobytes` (kb)?
-- Open Notepad or TextEdit, paste the text into a new document and save it as a `.txt` file. 
+- Open Notepad (PC) or TextEdit (Mac), paste the text into a new document and save it as a `.txt` file. 
 - Look at the file size.
 
-Yes, the `plain text` file is much smaller. It doesn't carry all the extra information that an MSWord document contains. It doesn't hold information about fonts or styling like bold. The test is *plain*. This ensures the file size is always small.
+Yes, the `plain text` file is much smaller. It doesn't carry all the extra information that an MSWord document contains. It doesn't hold information about fonts or styling like bold. The text is *plain*. This ensures the file size is always small.
 
-Plain text file can also be opened, viewed and edited in a variety applications, on a variety of operating systems. 
+Plain text files can also be opened, viewed and edited in a variety applications, on a variety of operating systems. 
 
 Your html file is simply a plain text file (usually a `.txt` file), with a `.html` file extension.
 
-*Small and portable - plain text files are the perfect format for the WWW*.
+*Small and portable - plain text files are the perfect format for the WWW* and a big part of its success.
 
 <!-- end div -->
 
