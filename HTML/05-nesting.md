@@ -36,13 +36,15 @@ Consider the following example:
 <p>fourth</p><p>fifth</p><p>sixth</p>
 ```
 
-`<em>` is an inline element. As you see below, the first three elements sit on the same line, with no space in between. On the other hand, `<p>` is a block-level element. Each p element appears on a new line, with space above and below. (The spacing is due to default CSS styling that the browser applies to paragraphs.)
+> This example will look like this:
 
 <em>first</em><em>second</em><em>third</em>
 
 <p>fourth</p><p>fifth</p><p>sixth</p>
 
-> Note: Find useful [MDN reference pages](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) that include lists of block and inline elements. See [Block-level elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) and [Inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements).
+`<em>` is an inline element. As you see above, the first three elements sit on the same line, with no space in between. On the other hand, `<p>` is a block-level element. Each p element appears on a new line, with space above and below. (The spacing is due to default CSS styling that the browser applies to paragraphs.)
+
+> Note: Find useful [MDN reference pages](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) that include lists of block and inline elements. See [Block-level elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) and [Inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements). Don't worry, you don't need to memorise them all.
 
 ## Empty elements
 
@@ -61,9 +63,6 @@ We will shortly be introducing the image element, `<img>` which is also self clo
 To get a better understanding of this topic use the following resources.
 
 - MDN: `<hr>` - [The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
-
-
-
 
 ### &copy; Credit given
 

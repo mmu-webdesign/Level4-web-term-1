@@ -23,7 +23,7 @@ In HTML we use the `<em>` (emphasis) element to mark up such instances. As well 
 <p>I am <em>glad</em> you weren't <em>late</em>.</p>
 ```
 
-Gives you a really sarcastic:
+> Gives you a really sarcastic:
 
 <p>I am <em>glad</em> you weren't <em>late</em>.</p>
 
