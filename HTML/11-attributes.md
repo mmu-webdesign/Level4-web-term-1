@@ -2,7 +2,7 @@
 
 Elements can also have attributes. Attributes look like this:
 
-<img src="https://mdn.mozillademos.org/files/9345/grumpy-cat-attribute-small.png" alt="Illustration of the class attribute, added to a paragraph">
+<img src="media/grumpy-cat-attribute-small.png" alt="Illustration of the class attribute, added to a paragraph">
 
 Attributes contain extra information about the element that won't appear in the content. In this example, the `class attribute` is an identifying name used to target the element (the image) with style information.
 
@@ -14,11 +14,11 @@ Attributes contain extra information about the element that won't appear in the 
 
 Another example of an element is `<a>`. This stands for anchor. An anchor can make the text it encloses into a hyperlink. Anchors can take a number of attributes, but several are as follows:
 
-- href: This attribute's value specifies the web address for the link. For example: `href="https://www.mozilla.org/"`.
+- **href**: This attribute's value specifies the web address for the link. For example: `href="https://www.mozilla.org/"`.
 
-- title: The title attribute specifies extra information about the link, such as a description of the page that is being linked to. For example, `title="The Mozilla homepage"`. This appears as a tooltip when a cursor hovers over the element.
+- **title**: The title attribute specifies extra information about the link, such as a description of the page that is being linked to. For example, `title="The Mozilla homepage"`. This appears as a tooltip when a cursor hovers over the element.
 
-- target: The target attribute specifies the browsing context used to display the link. For example, `target="_blank"` will display the link in a new tab. If you want to display the linked content in the current tab, just omit this attribute.
+- **target**: The target attribute specifies the browsing context used to display the link. For example, `target="_blank"` will display the link in a new tab. If you want to display the linked content in the current tab, just omit this attribute.
 
 So the link with its attributes:
 
@@ -30,12 +30,32 @@ And the link with attributes and values:
 ```
 <a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">Mozilla, home of Firefox</a>
 ```
-On the page this will simply look lik this. The attributes are not shown. Only the title appears as a Tool Tip.
+> On the page this will simply look lik this. The attributes are not shown. Only the title appears as a Tool Tip.
 
 <a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">Mozilla, home of Firefox</a>
 
 
 > Tip - Note that the `target="_blank"` attribute and value are not the best for both usability and accessibility. This essentially **takes over the users computer**, opening up a new window or tab. Not cool. The user should be left to decide this for themselves. A visually impaired user may struggle to notice a new tab or window has been created.
+
+## Omitting quotes around attribute values
+
+If you look at code for a lot of other sites, you might come across a number of strange markup styles, including attribute values without quotes. This is permitted in certain circumstances, but it can also break your markup in other circumstances. The bottom line is don't. There is more in the **advanced section** below if you want the details.
+
+<h3 class="warning">Use double quotes</h3>
+
+**Please note** - For all of your coursework we want you to use double quotes for all attributes.
+
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
+- LinkedIn Learning Video: [Jen Simmons - html attributes](https://www.linkedin.com/learning/html-essential-training-4/html-attributes?u=36102708) (3m 54s)
+
+- MDN: Attributes - [HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+
+<h2 class="deep">Advanced Learning</h2>
+
+For students wanting more, we recommend the following topics and resources. 
 
 ## Boolean attributes
 
@@ -54,7 +74,6 @@ If you don't want it disabled, you just leave it out altogether.
 ```
 This is more than you need to know at this stage as but the essential take away is: 
 > If a boolean attribute is present, its value is true, and if it’s absent, its value is false.
-
 
 ## Omitting quotes around attribute values
 
@@ -116,18 +135,7 @@ Instead, you need to do this:
 <a href='http://www.example.com' title='Isn&apos;t this fun?'>A link to my example.</a>
 ```
 
-<h3 class="warning">Use double quotes</h3>
-
-**Please note** - For all of your coursework we want you to use double quotes.
-
-<h2 class="deep">Deeper Learning</h2>
-
-To get a better understanding of this topic use the following resources.
-
-- LinkedIn Learning Video: [Jen Simmons - html attributes](https://www.linkedin.com/learning/html-essential-training-4/html-attributes?u=36102708) (3m 54s)
-
-- MDN: Attributes - [HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
-
+**Use double quotes.**
 
 ### &copy; Credit given
 
