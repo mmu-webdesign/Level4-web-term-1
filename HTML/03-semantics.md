@@ -12,7 +12,7 @@ In HTML, for example, the `<h1>` element is a semantic element, which gives the 
 <h1>This is a top level heading</h1>
 ```
 
-By default, most browser's user agent stylesheet will style an `<h1>` with a large font size to make it look like a heading (although you could style it to look like anything you wanted - see above *Visuals*).
+By default, most browser's user agent stylesheet will style an `<h1>` with a large font size to make it look like a heading (although you could style it to look like anything you wanted - as we said previously under *Visuals*).
 
 On the other hand, you could make any element look like a top level heading. The following styles (CCS - to follow) adjusts a paragraph so it would display the same as the default (larger) heading styles.
 
@@ -20,7 +20,11 @@ On the other hand, you could make any element look like a top level heading. The
 <span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
 ```
 
-This will render it to look like a top level heading, but it has no semantic value, so it will not get any extra benefits as described above. It is therefore a good idea to use the right HTML element for the right job.
+Which would produce: 
+
+<span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
+
+This looks like a top level heading, but it has no semantic value, so it will not get any of the extra benefits described below. It is therefore a good idea to use the right HTML element for the right job.
 
 > This is actually semantic HTML in a nutshell - *use the right HTML element for the right job*.
 
@@ -32,7 +36,7 @@ Some of the benefits from writing semantic markup are as follows:
 - Screen readers can use it as a signpost to help visually impaired users navigate a page
 - Finding blocks of meaningful code is significantly easier than searching though endless divs with or without semantic or namespaced classes
 - Suggests to the developer the type of data that will be populated
-- Semantic naming mirrors proper custom element/component naming
+- Semantic naming mirrors proper custom element/component naming - you will se this later when you meet more semantic elements like `<nav>`.
 
 When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; is it an article with sections and an aside of related information?; does it list out definitions?; is it a figure or image that needs a caption?; should it have a header and a footer in addition to the global site-wide header and footer?; etc.
 

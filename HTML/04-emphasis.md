@@ -7,7 +7,7 @@ This topic gets very confusing, very quickly. Watch Jen's video for a clear expl
 
 In human language, we often *emphasise* certain words to alter the meaning of a sentence, and we often want to mark certain words as important or different in some way. HTML provides various semantic elements to allow us to mark up textual content with such effects, and in this section, we'll look at a few of the most common ones.
 
-## Emphasis
+## Emphasis `<em>`
 
 When we want to add emphasis in spoken language, we stress certain words, subtly altering the meaning of what we are saying. Similarly, in written language we tend to stress words by putting them in italics. For example, the following two sentences have different meanings.
 
@@ -23,7 +23,11 @@ In HTML we use the `<em>` (emphasis) element to mark up such instances. As well 
 <p>I am <em>glad</em> you weren't <em>late</em>.</p>
 ```
 
-## Strong importance
+Gives you a really sarcastic:
+
+<p>I am <em>glad</em> you weren't <em>late</em>.</p>
+
+## Strong importance `<strong>`
 
 To emphasize important words, we tend to stress them in spoken language and bold them in written language. For example:
 
@@ -59,7 +63,7 @@ Here's the best rule of thumb: it's likely appropriate to use `<b>`, `<i>`, or `
 - `<b>` is used to convey a meaning traditionally conveyed by bold: Key words, product names, lead sentence...
 - `<u>` is used to convey a meaning traditionally conveyed by underline: Proper name, misspelling...
 
->A kind warning about underline: People strongly associate underlining with hyperlinks. Therefore, on the Web, it's best to underline only links. Use the `<u>` element when it's semantically appropriate, but consider using CSS to change the default underline to something more appropriate on the Web. The example below illustrates how it can be done.
+>A kind warning about underline: People strongly associate underlining with hyperlinks. Therefore, on the Web, it's best to underline only links. Use the `<u>` element when it's semantically appropriate, but consider using CSS to change the default underline to something more appropriate on the Web. 
 
 
 ### Example - scientific names

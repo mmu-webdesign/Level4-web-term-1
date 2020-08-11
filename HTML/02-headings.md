@@ -14,6 +14,7 @@ It's really up to you what exactly the elements involved represent, as long as t
 - Make sure you use the headings in the correct order in the hierarchy. Don't use `<h3>` elements to represent subheadings, followed by `<h2>` elements to represent sub-subheadings — that doesn't make sense and will lead to weird results.
 - Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary. Documents with many levels (i.e., a deep heading hierarchy) become unwieldy and difficult to navigate. On such occasions, it is advisable to spread the content over multiple pages if possible.
 
+<!-- div class="exercise" -->
 ## Task One
 
 > Apply the six heading elements — `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` to the six headings on the page.
@@ -28,6 +29,8 @@ Your page should look like this:
 
 If your headings look different, look at the example on [The HTML Section Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#Examples) on MDN and attempt to fix the problem(s). 
 
+<!-- end div -->
+
 ## Visuals
 
 At this stage the web browser is apply all the styles that you see (illustrated above). This includes:
@@ -36,7 +39,9 @@ At this stage the web browser is apply all the styles that you see (illustrated 
 - The size of each of the headings.
 - The margins, and line space.
 
-When working with the headings  `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` don't get wrapped up in the sizes. **Never choose to use a heading to because of its default size**, for example wrapping some text in a `<h6>` to produce <small>small text</small>. When you start to learn CSS to style your pages, you will find that you can change the styles (font, size, colour etc) of any of the headings. 
+When working with the headings  `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` don't get wrapped up in the sizes. **Never choose to use a heading to because of its default size**, for example wrapping some text in a `<h6>` to produce <small>small text</small>. 
+
+When you start to learn CSS to style your pages, you will find that you can change the styles (font, size, colour etc) of any of the headings. 
 
 <h2 class="deep">Deeper Learning</h2>
 
