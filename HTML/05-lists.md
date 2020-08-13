@@ -147,7 +147,114 @@ We've just added the colour so you can better see the two different definitions.
 
 - Open the exercise files in another browser window - [Repl.it - List files](https://repl.it/@webdesignmmu/html5)
 
-<img src="media/nesting.png" alt="Screenshot of the exercise file with errors">
+### Task 2
+
+You have two lists to code. First an ordered list (Top 9).
+
+Use `<ol>` to define the list, then `<li>` for each list item. Check above if you need a reference.
+
+```
+Buzzcocks – Singles Going Steady
+The Smiths – The Queen Is Dead
+Joy Division – Unknown Pleasures
+Oasis – Definitely Maybe
+The Stone Roses – The Stone Roses
+Buzzcocks – Another Music In A Different Kitchen
+New Order – Power, Corruption And Lies
+10CC – I’m Not In Love: The Essential 10cc
+The Hollies - Midas Touch - The Very Best of the Hollies
+```
+
+### Task 3
+
+You have a second list of Australian bands and their albums (in no particular order).
+
+Use `<ul>` to define the list, then `<li>` for each list item. Again, check above if you need a reference.
+
+Powderfinger – Internationalist
+Nick Cave & The Bad Seeds – Let Love In
+The Living End – The Living End
+Regurgitator – Unit
+You Am I – Hi Fi Way
+Crowded House – Woodface
+
+
+### Solution
+
+If you've got it right you should see in the browser:
+
+- The first list, numbered
+- The second list bulleted
+
+But make sure that:
+
+- There are both opening and closing tags for `<ol>` and `<ul>`
+- There are both opening and closing tags for every `<li>` element.
+
+
+<!-- end div -->
+
+
+<!-- div class="exercise" -->
+## Exercise Two
+
+### Nesting lists 
+
+> It is perfectly ok to nest one list inside another one. You might want to have some sub-bullets sitting below a top-level bullet. 
+
+For example this:
+
+```
+<ol>
+  <li>Oranges</li>
+  <li>Apples
+    <ul>
+      <li>Granny Smiths</li>
+      <li>Pink Ladies</li>
+    </ul>
+  </li>
+    <li>Pears</li>
+</ol>
+``` 
+Note that there is a whole new (sub) list inside the list item Apples. A list within a list.
+
+The code above produces this:
+
+<ol>
+  <li>Oranges</li>
+  <li>Apples
+    <ul>
+      <li>Granny Smiths</li>
+      <li>Pink Ladies</li>
+    </ul>
+  </li>
+    <li>Pears</li>
+</ol>
+
+> Note: numbers and bullets can all be styled by CSS. For example changing the style of bullets to squares or circles, numbers to lower-roman or upper-roman. 
+
+### Task 1
+
+Using our list of Manchester Band Albums - Nest a list of two more Smiths albums like such: 
+
+<ol>
+  <li>Buzzcocks – Singles Going Steady</li>
+  <li>The Smiths – The Queen Is Dead
+    <ul>
+      <li>Meat is Murder</li>
+      <li>Strangeways, Here We Come</li>
+    </ul>
+  </li>
+    <li>Joy Division – Unknown Pleasures</li>
+</ol>
+etc...
+
+Save and view your completed page.
+
+<!-- end div -->
+
+
+
 
 <h2 class="deep">Deeper Learning</h2>
 
