@@ -63,44 +63,51 @@ Here's the best rule of thumb: it's likely appropriate to use `<b>`, `<i>`, or `
 - `<b>` is used to convey a meaning traditionally conveyed by bold: Key words, product names, lead sentence...
 - `<u>` is used to convey a meaning traditionally conveyed by underline: Proper name, misspelling...
 
->A kind warning about underline: People strongly associate underlining with hyperlinks. Therefore, on the Web, it's best to underline only links. Use the `<u>` element when it's semantically appropriate, but consider using CSS to change the default underline to something more appropriate on the Web. 
+<h3 class="warning">Underline means a link</h3>
 
+**Warning**: People strongly associate underlining with hyperlinks. Therefore, on the Web, it's best to underline only links. Use the `<u>` element when it's semantically appropriate, but consider using CSS to change the default underline to something more appropriate on the Web. 
 
-### Example - scientific names
-```
-<p>
-  The Ruby-throated Hummingbird (<i>Archilochus colubris</i>)
-  is the most common hummingbird in Eastern North America.
-</p>
-```
+<!-- div class="exercise" -->
+## Exercise One
 
-### Example - foreign words
-```
-<p>
-  The menu was a sea of exotic words like <i lang="uk-latn">vatrushka</i>,
-  <i lang="id">nasi goreng</i> and <i lang="fr">soupe à l'oignon</i>.
-</p>
-```
+> Adding emphasis and importance to your html document.
 
-### Example - a known misspelling
-```
-<p>
-  Someday I'll learn how to <u style="text-decoration-line: underline; text-decoration-style: wavy;">spel</u> better.
-</p>
-```
+### Task 1
 
-### Example - Highlight keywords in a set of instructions
-```
-<ol>
-  <li>
-    <b>Slice</b> two pieces of bread off the loaf.
-  </li>
-  <li>
-    <b>Insert</b> a tomato slice and a leaf of
-    lettuce between the slices of bread.
-  </li>
-</ol>
-```
+- Open the exercise files in another browser window - [Repl.it - Task 1 files](https://repl.it/@webdesignmmu/html3) 
+
+<img src="media/emphasis-text.png" alt="Screenshot of the plain text for this exercise">
+
+### Task 2
+
+- Create the page structure by adding a `<h1>` main heading, `<h2>` sub-headings, and `<p>` paragraphs.
+
+- Run the page and check it against the illustration below.
+
+### Task 3
+
+- Apply the `<strong>` element to the word **Stop** in the second paragraph.
+
+- Apply the `<em>` element to the words *need you* in the third paragraph.
+
+- Apply the `<b>` element to the words **Slice** and **Insert** in the two instructions.
+
+- Apply the `<i>` element to the journal and article details - (*Lancet 1882*) and (*Journal of Psychology, March, 1883*).
+
+When completed, select Run. Does your page look like this?
+
+<img src="media/emphasis.png" alt="Screenshot of the completed file including strong, em, b and i elements">
+
+Solution
+
+This is what your code should look like. For some of you it may be easier to learn by copying our code. 
+
+<img src="media/emphasis-complete.png" alt="Screenshot showing the code">
+
+### Task 4
+
+Fix any issues and run again to check before you move on.
+
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.

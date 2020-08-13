@@ -2,9 +2,9 @@
 
 <!-- div class="video" -->
 
-## Task One 
+## Before you start 
 
-> Before starting please watch the following short videos. These will help you understand the rest of this chapter.
+> Please watch the following short videos. These will help you better understand the rest of this chapter.
 
 - LinkedIn Learning Video: [Jen Simmons -  [What is HTML](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36102708) 1m 34s
 
@@ -26,16 +26,32 @@ Anyone with a cognitive impairment will be aided by a clear and obvious structur
 
 ### This is not about design
 
+<img src="media/trent-walton.png" alt="Illustration of the pages structure as described in the paragraph above">
+
 At this stage we are not talking about design, the use of space, typography and colour. We are simply talking about describing documents. This is a heading, this is a paragraph, this is the sub-heading, this is the main body of the documents and this is the footer of the document or page.
 
 This is what HTML does. It is a mark-up language that gives us a method to describe to the browser (the computer) the structure of the page. And if the browser doesn’t understand that markup, it ignores it. This has been essential to the development of the World Wide Web.
 
 <!-- div class="exercise" -->
 
-## Task Two 
+## Exercise One
+
+> Take a quick look through one of Trent Walton's articles, [Device Agnostic](https://trentwalton.com/2014/03/10/device-agnostic/). 
+
+- What you are seeing is a well structured document (headings, paragraphs, lists, blockquotes), with some high quality design applied on top. This is the top level to aspire to!
+- Take away that styling and you are left with a well formed, semantic html document. You are about to learn how to build such documents.
+
+
+<!-- end div -->
+
+In this next task we ask to you actually read the text as well as look at the structure.
+
+<!-- div class="exercise" -->
+
+## Exercise Two 
 > Read the first Chapter of Jeremy Keith’s book, [Reslient web design. Chapter One: Foundations](https://resilientwebdesign.com/chapter1/). 
 
-As you read this chapter look at the structure of the page. It has a main (Level 1) heading - *Chapter 1: Foundations* followed by five sub (Level 2) headings including *Let’s share what we know*; *Net value; Hyperspace*; *Mark me up, mark me down*; *References*. 
+As you read this chapter (*it's very relevant to what we are doing*), look at the structure of the page. It has a main (Level 1) heading - *Chapter 1: Foundations* followed by five sub (Level 2) headings including *Let’s share what we know*; *Net value; Hyperspace*; *Mark me up, mark me down*; *References*. 
 The text itself is set in paragraphs of various sizes, interspersed with a number of illustrations with captions.
 
 ### The structure of this chapter
@@ -53,17 +69,16 @@ This illustration, created via the HTML Validation Service plots both the page s
 - B. Marti Pellow
 - Q. Tim Berners-Lee was running which type of operating system?
 - A. NeXTSTEP operating system
-- B. STEPuP operating system
+- B. NeXTJOBS operating system
 - Q. What does http stand for?
 - A. HyperText Transfer Protocol
 - B. HyperText Transfixed Protocol
 
 <!-- end div -->
 
+## What is HTML?
 
 > *Let’s add some structure to our first document for the web* - but before we start coding we need to understand the syntax of HTML.
-
-## What is HTML?
 
 HTML (Hypertext Markup Language) is not a programming language. It is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on.  For example, consider the following line of text:
 
@@ -88,7 +103,7 @@ Let's further explore our paragraph element from the previous section:
 
 <img src="media/grumpy-cat-small.png" alt="Illustrated anatomy of a HTML Element">
 
-### The anatomy of our element is:
+### The anatomy of our element is as follows:
 
 - **The opening tag**: This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.
 
@@ -100,7 +115,7 @@ Let's further explore our paragraph element from the previous section:
 
 <!-- div class="video" -->
 
-## Task Three
+## Exercise Three
 
 > Watch the following short video for a deeper understanding of the syntax.
 
@@ -111,14 +126,23 @@ Let's further explore our paragraph element from the previous section:
 
 <!-- div class="exercise" -->
 
-## Task Four - Space
+## Exercise Four - Space
 
 > To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
 
 
-### FILES - [Open in Browser - Task One Files](https://repl.it/@eskins/html-01) 
+### Task 1
 
-Task one contains excerpts from [Gerry McGovern’s book World Wide Waste](https://gerrymcgovern.com/worldwidewaste/). It consists of a main heading, two paragraphs, a sub-heading and another paragraph.
+- Open the exercise files in another browser window - [Repl.it - Task 1 files](https://repl.it/@webdesignmmu/html1) 
+
+<figure>
+<img src="media/replit.png" alt="The replit interface">
+<figcaption>
+The editor window and the browser window, side by side in your browser.
+</figcaption>
+</figure>
+
+Our file (`index.html`) contains excerpts from [Gerry McGovern’s book World Wide Waste](https://gerrymcgovern.com/worldwidewaste/). It consists of a main heading, two paragraphs, a sub-heading and another paragraph.
 
 ```
 The Web is obese
@@ -132,11 +156,13 @@ Acknowledgement
 Excerpts from Gerry McGovern's book World Wide Waste.
 ```
 
-Select the Run button in repl.it so the text is displayed in the browser window on the right. The page displays but there is no structure to the page.
+### Task 2
+
+- Select the Run button in repl.it so the text is displayed in the browser window on the right. The page displays but there is no structure to the page.
 
 <img src="media/01-no-structure.png" alt="Illustration of the page in the browser with no structure" width="">
 
-As you can see, the browser ignores the space between the headings and paragraphs that we see in the editor. There is simply a single space between each page element.
+As you can see, the browser ignores the space between the headings and paragraphs that we see in the editor. There is simply a single space between each word.
 
 This is because there are no elements to give the content structure, so the browser does not know what is a heading and what is a paragraph. 
 
@@ -154,17 +180,17 @@ This is because there are no elements to give the content structure, so the brow
 
 We therefore need to give our content structural markup.
 
-> **Note:** We are using a html file called index.html. There is much more to the format of a html document, but that will come later.
-
-> **File format:** We are used to file formats such a `.ppt` and `.pdf` as two examples. Our file `index.html` is a plain text file with the file extension `.html`. It can be opened in any text editor such as Notepad on a PC or TextEdit on a Mac. It can be viewed in any web browser, on any internet enabled device. This means that the first html pages created by *Sir Tim* back in 1991 can still be viewed in any modern browser on any modern device, with any screen size. Take a look at the page [What is HyperText?](http://info.cern.ch/hypertext/WWW/WhatIs.html) archived on the CERN servers. The design is plain but the information is accessible and useable to everyone.
+> **File format:** We are used to file formats such a `.ppt` and `.pdf` as two examples. Our file `index.html` is a plain text file with the file extension `.html`. It can be opened in any text editor such as Notepad on a PC or TextEdit on a Mac. It can be viewed in any web browser, on any internet enabled device. This means that the first html pages created by *Sir Tim* back in 1991 can still be viewed in any modern browser on any modern device, with any screen size. Take a look at the page [What is HyperText?](http://info.cern.ch/hypertext/WWW/WhatIs.html) archived on the CERN servers. The design is plain but the information is still accessible and useable to everyone.
 
 <!-- div class="exercise" -->
 
-## Task Five
+## Exercise Five
 
 > Creating a Level 1 heading
 
-Add the `<h1>` tag to the main heading. Putting the closing tag at the end.
+### Task 1
+
+- In the `repl.it` editor window add the `<h1>` tag to the main heading. Putting the closing tag at the end.
 
 ```
 <h1>The Web is obese</h1>
@@ -179,17 +205,23 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 <!-- div class="exercise" -->
 
-## Task 3
+## Exercise Six
 
 > Adding paragraphs and Level Two heading
 
-Surround the next two paragraphs with the opening and closing `<p>` tag.
+### Task 1
 
-Wrap a `<h2>` tag around the sub-heading *Acknowledgement*.
+- In the editor, surround the next two paragraphs with the opening and closing `<p>` tag.
 
-And code up the final paragraph with the <p> element.
+### Task 2
 
-Select run to refresh the browser. Your page should now look like this.
+- Wrap a `<h2>` tag around the sub-heading *Acknowledgement*.
+
+- And code up the final paragraph with the `<p>` element.
+
+### Task 3
+
+- Select run to refresh the browser. Your page should now look like this.
 
 <img src="media/01-completed.png" alt="Illustration of the heading" width="">
 
@@ -221,13 +253,27 @@ As things gets more complex you will see that further `highlighting` is added an
 
 <!-- div class="exercise" -->
 
-## Task Six - Plain text files
+## Exercise Seven - Plain text files
 
 > We are going to take a quick look at the file format used for html files - plain text.
+
+### Task 1
+
 - Copy and paste the text (with or without the coding) from `index.html` into a blank MSWord document. Save it as a `.docx` file. 
+
+### Task 2
+
 - Take a look - how big is the file size? How many `kilobytes` (kb)?
-- Open Notepad (PC) or TextEdit (Mac), paste the text into a new document and save it as a `.txt` file. 
+
+### Task 3
+
+- Open Notepad (PC) or TextEdit (Mac), paste the same text into a new document and save it as a `.txt` file. 
+
+### Task 4
+
 - Look at the file size.
+
+### The result
 
 Yes, the `plain text` file is much smaller. It doesn't carry all the extra information that an MSWord document contains. It doesn't hold information about fonts or styling like bold. The text is *plain*. This ensures the file size is always small.
 

@@ -6,7 +6,7 @@ In the beginning, the Web was just text, and it was really quite boring. Fortuna
 
 In order to put a simple image on a webpage, we use the `<img>` element. This is an empty element (meaning that it has no text content or closing tag) that requires a minimum of one attribute to be useful — src (sometimes spoken as its full title, source). The src attribute contains a path pointing to the image you want to embed in the page, which can be a relative or absolute URL, in the same way as href attribute values in `<a>` elements.
 
-> Note: You should read MDN's [A quick primer on URLs and paths](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#A_quick_primer_on_URLs_and_paths) to refresh your memory on relative and absolute URLs before continuing.
+> Note: You could read MDN's [A quick primer on URLs and paths](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#A_quick_primer_on_URLs_and_paths) to refresh your memory on relative and absolute URLs before continuing.
 
 So for example, if your image is called `dinosaur.jpg`, and it sits in the same directory as your HTML page, you could embed the image like so:
 
@@ -14,14 +14,14 @@ So for example, if your image is called `dinosaur.jpg`, and it sits in the same 
 <img src="dinosaur.jpg">
 ```
 
-If the image was in an images subdirectory, which was inside the same directory as the HTML page (which Google recommends for SEO/indexing purposes), then you'd embed it like this:
+If the image was in an `images` subdirectory, which was inside the same directory as the HTML page (which Google recommends for SEO/indexing purposes), then you'd embed it like this:
 
 ```
 <img src="images/dinosaur.jpg">
 ```
 And so on.
 
-> Note: Search engines also read image filenames and count them towards SEO. Therefore, you should give your image a descriptive filename; dinosaur.jpg is better than img835.png.
+> Note: Search engines also read image filenames and count them towards SEO. Therefore, you should give your image a descriptive filename; `dinosaur.jpg` is better than `img835.png`.
 
 You could embed the image using its absolute URL, for example:
 
@@ -42,15 +42,13 @@ But this is pointless, as it just makes the browser do more work, looking up the
 
 - You have ample proof that the image is, in fact, in the public domain.
 
-Copyright violations are illegal and unethical. In addition, never point your src attribute at an image hosted on someone else's website that you don't have permission to link to. This is called "hotlinking". Again, stealing someone's bandwidth is illegal. It also slows down your page, leaving you with no control over whether the image is removed or replaced with something embarrassing.
+Copyright violations are illegal and unethical. In addition, never point your `src` attribute at an image hosted on someone else's website that you don't have permission to link to. This is called "hotlinking". Again, stealing someone's bandwidth is illegal. It also slows down your page, leaving you with no control over whether the image is removed or replaced with something embarrassing.
 
 
-Our above code would give us the following result:
+Our above code would give us the following result in a browser:
 
-<img src="https://mdn.mozillademos.org/files/12700/basic-image.png" alt="A basic image of a dinosaur, embedded in a browser, with &#34;Images in HTML&#34; written above it">
+<img src="media/basic-image.png" alt="A basic image of a dinosaur, embedded in a browser, with &#34;Images in HTML&#34; written above it">
 
-
-> Note: Elements like `<img>` and `<video>` are sometimes referred to as replaced elements. This is because the element's content and size are defined by an external resource (like an image or video file), not by the contents of the element itself.
 
 > Note: You can find the finished example from this section [running on Github](https://mdn.github.io/learning-area/html/multimedia-and-embedding/images-in-html/index.html) (see the [source code](https://github.com/mdn/learning-area/blob/master/html/multimedia-and-embedding/images-in-html/index.html) too.)
 
@@ -61,20 +59,21 @@ The next attribute we'll look at is `alt`. Its value is supposed to be a textual
 
 ```
 <img src="images/dinosaur.jpg"
-     alt="The head and torso of a dinosaur skeleton;
-          it has a large head with long sharp teeth">
+     alt="The head and torso of a dinosaur skeleton; it has a large head with long sharp teeth">
 ```
 
 The easiest way to test your alt text is to purposely misspell your filename. If for example our image name was spelled dinosooooor.jpg, the browser wouldn't display the image, and would display the alt text instead:
 
-<img src="https://mdn.mozillademos.org/files/12702/alt-text.png"
+<img src="media/alt-text.png"
      alt="The Images in HTML title, but this time the dinosaur image is not displayed, and alt text is in its place.">
+
+### Importance of `alt` text
 
 So, why would you ever see or need alt text? It can come in handy for a number of reasons:
 
 - The user is visually impaired, and is using a [screen reader](https://en.wikipedia.org/wiki/Screen_reader) to read the web out to them. In fact, having alt text available to describe images is useful to most users.
 
-- As described above, the spelling of the file or path name might be wrong.
+- As illustrated above, the spelling of the file or path name might be wrong and the image fails to load.
 
 - The browser doesn't support the image type. Some people still use text-only browsers, such as [Lynx](https://en.wikipedia.org/wiki/Lynx_%28web_browser%29), which displays the alt text of images.
 
@@ -82,50 +81,89 @@ So, why would you ever see or need alt text? It can come in handy for a number o
 
 - Users have turned off images to reduce data transfer volume and distractions. This is especially common on mobile phones, and in countries where bandwidth is limited or expensive.
 
+### Writing good `alt` text
+
 What exactly should you write inside your `alt` attribute? It depends on why the image is there in the first place. In other words, what you lose if your image doesn't show up:
 
-- **Decoration**. You should use CSS background images for decorative images, but if you must use HTML, add a blank or null `alt=""`. If the image isn't part of the content, a screen reader shouldn't waste time reading it.
+#### Images as Decoration
 
-- **Content**. If your image provides significant information, provide the same information in a brief alt text – or even better, in the main text which everybody can see. Don't write redundant alt text. How annoying would it be for a sighted user if all paragraphs were written twice in the main content? If the image is described adequately by the main text body, you can just use alt="".
+You should use CSS background images for decorative images, but if you must use HTML, add a blank or null `alt=""`. If the image isn't part of the content, a screen reader shouldn't waste time reading it.
+
+**As an example**, something like this is pointless (and annoying for a screenreader user):
+
+```
+<img src="media/icon.png"
+     alt="red-icon">
+
+```
+
+#### Images Providing Content
+
+If your image provides significant information, provide the same information in a brief alt text – or even better, in the main text which everybody can see. Don't write redundant alt text. How annoying would it be for a sighted user if all paragraphs were written twice in the main content? If the image is described adequately by the main text body, you can just use `alt=""`.
+
+**For example**, the MMU logo image contains the text Manchester Metropolitan University. We would use this as the `alt` tex, otherwise that text is lost.
+
+```
+<img src="media/logo.png"
+     alt="Manchester Metropolitan University">
+
+```
 
 
-- **Link**. If you put an image inside `<a>` tags, to turn an image into a link, you still must provide accessible link text. In such cases you may, either, write it inside the same `<a>` element, or inside the image's `alt` attribute – whichever works best in your case.
+#### Images as a Link
 
-- **Text**. You should not put your text into images. If your main heading needs a drop shadow, for example, use CSS for that rather than putting the text into an image. However, If you really can't avoid doing this, you should supply the text inside the alt attribute.
+If you put an image inside `<a>` tags, to turn an image into a link, you still must provide accessible link text. In such cases you may, either, write it inside the same `<a>` element, or inside the image's `alt` attribute – whichever works best in your case.
 
-Essentially, the key is to deliver a usable experience, even when the images can't be seen. This ensures all users are not missing any of the content. Try turning off images in your browser and see how things look. You'll soon realize how helpful alt text is if the image cannot be seen.
+
+**As an example**, the MMU logo here acts as a link to the MMU homepage (as logos often do). The `alt` text indicates the *link destination*.
+
+```
+<a href="index.html">
+<img src="media/logo.png"
+     alt="MMU Homepage">
+</a>
+
+```
+
+#### Text in images - Don't
+
+You **should not** put your text into images. If your main heading needs a drop shadow, for example, use CSS for that rather than putting the text into an image. However, If you really can't avoid doing this, you should supply the text inside the ``alt`` attribute.
+
+Essentially, the key is to deliver a usable experience, even when the images can't be seen. This ensures all users are not missing any of the content. Try turning off images in your browser and see how things look. You'll soon realize how helpful `alt` text is if the image cannot be seen.
 
 > Note: For more information on writing good `alt` text, see [MDN's guide to Text Alternatives](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML#Text_alternatives). For all assignments you will be required to write relevant, succinct 'alt' text.
 
 
 ## Width and height
 
-You can use the width and height attributes to specify the width and height of your image. You can find your image's width and height in a number of ways. For example on the Mac you can use `Cmd + I` to get the info display up for the image file. Returning to our example, we could do this:
+You can use the `width` and `height` attributes to specify the width and height of your image. You can find your image's width and height in a number of ways. For example on the Mac you can use `Cmd + I` to get the info display up for the image file. Returning to our example, we could do this:
 
 ```
 <img src="images/dinosaur.jpg"
-     alt="The head and torso of a dinosaur skeleton;
-          it has a large head with long sharp teeth"
+     alt="The head and torso of a dinosaur skeleton; it has a large head with long sharp teeth"
      width="400"
      height="341">
 ```
 
 This doesn't result in much difference to the display, under normal circumstances. But if the image isn't being displayed, for example, the user has just navigated to the page, and the image hasn't yet loaded, you'll notice the browser is leaving a space for the image to appear in:
 
-<img src="https://mdn.mozillademos.org/files/12706/alt-text-with-width-height.png" alt="The Images in HTML title, with dinosaur alt text, displayed inside a large box that results from width and height settings">
+<img src="media/alt-text-with-width-height.png" alt="The Images in HTML title, with dinosaur alt text, displayed inside a large box that results from width and height settings">
 
 This is a good thing to do, resulting in the page loading quicker and more smoothly.
 
+> Setting the height and width attributes did go out of fashion, but in 2020 'thanks to some recent changes in browsers, it’s now well worth setting `width` and `height` attributes on your images to prevent layout shifts and improve the experience of your site visitors'. Barry Pollard - [Setting Height And Width On Images Is Important Again](https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/).
+
 <h3 class="warning">Don't use html to re-sze images</h3>
 
-**However, you shouldn't alter the size of your images using HTML attributes**. 
+**You shouldn't alter the size of your images using HTML `height` and `width` attributes**. 
 
-If you set the image size too big, you'll end up with images that look grainy, fuzzy, or too small, and wasting bandwidth downloading an image that is not fitting the user's needs. The image may also end up looking distorted, if you don't maintain the correct aspect ratio. 
+- If you set the image size too big, you'll end up with images that look grainy, fuzzy, or too small.
 
-For all assignments you must use an image editor to put your image at the correct size before putting it on your webpage.
+- If you resize a large image with `height` and `width` attributes you are wasting bandwidth downloading an image that is not fitting the user's needs. 
 
+- The image may also end up looking distorted, if you don't maintain the correct aspect ratio. 
 
->Note: If you do need to alter an image's size, you should use CSS instead.
+- *For all assignments* you must use an image editor to put your image at the correct size before putting it on your webpage.
 
 
 ## Image titles
@@ -134,8 +172,7 @@ As with links, you can also add title attributes to images, to provide further s
 
 ```
 <img src="images/dinosaur.jpg"
-     alt="The head and torso of a dinosaur skeleton;
-          it has a large head with long sharp teeth"
+     alt="The head and torso of a dinosaur skeleton; it has a large head with long sharp teeth"
      width="400"
      height="341"
      title="A T-Rex on display in the Manchester University Museum">
@@ -143,15 +180,15 @@ As with links, you can also add title attributes to images, to provide further s
 
 This gives us a tooltip on mouse hover, just like link titles:
 
-<img scr="https://mdn.mozillademos.org/files/12708/image-with-title.png" alt="The dinosaur image, with a tooltip title on top of it that reads A T-Rex on display at the Manchester University Museum ">
+<img src="media/image-with-title.png" alt="The dinosaur image, with a tooltip title on top of it that reads A T-Rex on display at the Manchester University Museum ">
 
 **However, this is not recommended** — title has a number of accessibility problems, mainly based around the fact that screen reader support is very unpredictable and most browsers won't show it unless you are hovering with a mouse (so e.g. no access to keyboard or mobile users). If you are interested in more information about this, read [The Trials and Tribulations of the Title Attribute](https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/) by Scott O'Hara.
 
-It is better to include such supporting information in the main article text or via a caption, rather than attached to the image. never repeat the alt text in a title or caption.
+It is better to include such supporting information in the main article text or via a caption, rather than attached to the image. **Never repeat the alt text in a title or caption**.
 
 <h3 class="warning">The title attribute</h3>
 
-The `title` attribute can be used with links and images. As illustrated, it has limited use in both cases. However, note that the 'alt' attribute is only used for images. Students often confuse the two, adding 'alt' text to their links instead of the 'title' attribute. Don't do this!
+The `title` attribute can be used with links and images. As illustrated, it has limited use in both cases. However, note that **the 'alt' attribute is only used for images**. Students often confuse the two, adding 'alt' text to their links instead of the 'title' attribute. Don't do this!
 
 
 ## Annotating images with figures and figure captions
@@ -177,8 +214,7 @@ A better solution, is to use the HTML5 `<figure>` and `<figcaption>` elements. T
 ```
 <figure>
   <img src="images/dinosaur.jpg"
-       alt="The head and torso of a dinosaur skeleton;
-            it has a large head with long sharp teeth"
+       alt="The head and torso of a dinosaur skeleton; it has a large head with long sharp teeth"
        width="400"
        height="341">
 

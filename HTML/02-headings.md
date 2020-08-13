@@ -2,7 +2,7 @@
 
 There are six heading elements — `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. Each element represents a different level of content in the document; `<h1>` represents the main heading, `<h2>` represents subheadings, `<h3>` represents sub-subheadings, and so on.
 
-In Jeremy's book, Resilient Web Design we looked at Chapter 1: Foundations. On this page the `<h1>` element represented the Chapter title and the `<h2>` elements represented the chapter sub-headings.
+In Jeremy's book, *Resilient Web Design* we looked at Chapter 1: Foundations. On this page the `<h1>` element represented the Chapter title and the `<h2>` elements represented the chapter sub-headings.
 
 All of the sub-headings on that page were `<h2>` because they were of equal importance. You don't just go from `<h1>` to `<h2>` to `<h3>`to `<h4>` to `<h5>`, and `<h6>`.
 
@@ -15,15 +15,21 @@ It's really up to you what exactly the elements involved represent, as long as t
 - Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary. Documents with many levels (i.e., a deep heading hierarchy) become unwieldy and difficult to navigate. On such occasions, it is advisable to spread the content over multiple pages if possible.
 
 <!-- div class="exercise" -->
-## Task One
+## Exercise One
 
 > Apply the six heading elements — `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` to the six headings on the page.
 
-### FILES - [Open in Browser - Task One Files](https://repl.it/@eskins/html-02) 
+### Task 1
 
-Wrap each opening and closing tag around each heading, going from `<h1>` to `<h6>`. Select the *run* button to refresh the browser window. 
+- Open the exercise files in another browser window - [Repl.it - Headings files](https://repl.it/@webdesignmmu/html2) 
 
-Your page should look like this:
+<img src="media/heading-text.png" alt="Screenshot showing the six headings prior to being coded">
+
+### Task 2
+
+- Wrap each opening and closing tag around each of the six headings listed, going from `<h1>` to `<h6>`. Select the *run* button to refresh the browser window. 
+
+Your page should now look like this:
 
 <img src="media/02-six-headings.png" alt="Illustrated anatomy of a HTML Element">
 
@@ -41,7 +47,7 @@ At this stage the web browser is apply all the styles that you see (illustrated 
 
 When working with the headings  `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` don't get wrapped up in the sizes. **Never choose to use a heading to because of its default size**, for example wrapping some text in a `<h6>` to produce <small>small text</small>. 
 
-When you start to learn CSS to style your pages, you will find that you can change the styles (font, size, colour etc) of any of the headings. 
+When you start to learn CSS to style your pages, you will find that you can change the styles (font, size, colour etc) of any of these headings. 
 
 <h2 class="deep">Deeper Learning</h2>
 

@@ -2,7 +2,7 @@
 
 Before starting watch the following short video introduction:
 
-- LinkedIn Learning Video: Jen Kramer [Craft meaningful html](https://www.linkedin.com/learning/crafting-meaningful-html/craft-meaningful-html?u=36102708) 1m 49s
+- LinkedIn Learning Video: Jen Kramer [Craft meaningful html](https://www.linkedin.com/learning/crafting-meaningful-html/craft-meaningful-html?u=36102708) (1m 49s)
 
 Our teaching philosophy is pretty much the same as Jen's as you will hear us talking about semantic mark-up a lot. As she says, '*the hypertext markup language is about identifying the types of content on a webpage*'.
 
@@ -14,13 +14,21 @@ In HTML, for example, the `<h1>` element is a semantic element, which gives the 
 
 By default, most browser's user agent stylesheet will style an `<h1>` with a large font size to make it look like a heading (although you could style it to look like anything you wanted - as we said previously under *Visuals*).
 
-On the other hand, you could make any element look like a top level heading. The following styles (CCS - to follow) adjusts a paragraph so it would display the same as the default (larger) heading styles.
+
+<figure>
+<img src="media/styled-heading.png" alt="A stylish heading styled as a block, with curved corners">
+<figcaption>
+Note: This for example is a &lt;h1&gt; heading, styled. Taken from Trent Walton <a href="https://trentwalton.com/articles/2017/04/10/the-notification-machine.html">The Notification Machine</a>.
+</figcaption>
+</figure>
+
+On the other hand, you could make any element (such as `<p>`) look like a top level heading. The following styles (CCS - to follow) adjusts a paragraph so it would display the same as the default (larger) heading styles.
 
 ```
 <span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
 ```
 
-Which would produce: 
+> Which would produce: 
 
 <span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
 
@@ -30,15 +38,13 @@ This looks like a top level heading, but it has no semantic value, so it will no
 
 HTML should be coded to represent the data that will be populated and not based on its default presentation styling. Presentation (how it should look), is the sole responsibility of CSS.
 
-Some of the benefits from writing semantic markup are as follows:
+Some of the benefits from writing semantic markup include:
 
 - Search engines will consider its contents as important keywords to influence the page's search rankings (see SEO)
 - Screen readers can use it as a signpost to help visually impaired users navigate a page
-- Finding blocks of meaningful code is significantly easier than searching though endless divs with or without semantic or namespaced classes
-- Suggests to the developer the type of data that will be populated
-- Semantic naming mirrors proper custom element/component naming - you will se this later when you meet more semantic elements like `<nav>`.
 
-When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; is it an article with sections and an aside of related information?; does it list out definitions?; is it a figure or image that needs a caption?; should it have a header and a footer in addition to the global site-wide header and footer?; etc.
+
+When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; does it list out definitions?; is it a figure or image that needs a caption?; etc.
 
 <h2 class="deep">Deeper Learning</h2>
 
