@@ -58,6 +58,79 @@ Some of the more seasoned coders (like Derren) will remember the self closing ve
 
 We will shortly be introducing the image element, `<img>` which is also self closing and one element you will be using frequently.
 
+<!-- div class="exercise" -->
+## Exercise One
+
+> Adding emphasis and importance to your html document.
+
+### Task 1
+
+- Open the exercise files in another browser window - [Repl.it - Nested files](https://repl.it/@webdesignmmu/html4)
+
+<img src="media/nesting.png" alt="Screenshot of the exercise file with errors">
+
+### Task 2
+
+> We have introduced some common coding errors into our file including:
+
+- incorrect nesting of elements
+- missing tags
+- incorrect tags
+
+Some of these errors have caused the document to not display as we intended. Some of the errors atcually don't upset the look of the page (the nesting in this case) but still need be fixed for a valid html document.
+
+- Work through the code line by line to identify the errors
+- Fix each error, selecting Run to preview the page each time.
+- There are just 5 errors to find and correct.
+
+### Solution
+
+We've highlighted the location of the 5 errors. Once fixed, the page should display as we originally expected.
+
+<img src="media/nesting-errors.png" alt="Screenshot of the exercise file with errors highlighted">
+
+1. Nesting - the opening`<p>` needs to be before the opening `<strong>`
+1. Nesting - the opening`<p>` needs to be before the opening `<b>`
+1. same
+1. The closing `</i>` is missing - hence the rest of the text become italic
+1. The closing `</h2>` is actually another opening `<h2>` - the slash `/` has been missed, hence the rest of the text becoming `<h2>` sized.
+
+A missing or incorrect closing element is a very common error in student code. **Easy to spot, easy to correct**.
+
+### Task 3
+
+> The horizontal rule `<hr>`
+
+- Just for completeness we would like you to add a horizontal rule to the page, just about that final `<h2>` on the page.
+
+- It should look like this once your un the file in the browser:
+
+<img src="media/hr-added.png" alt="Screenshot of the exercise file with errors highlighted">
+
+When you add a bit of extra code like this always give it some space. For example:
+
+```
+for the parishes of Grimpen, Thorsley, and High Barrow.</p>
+
+<hr>
+
+<h2>And finally</h2>
+
+<p>Both 
+
+```
+
+
+The `spacing` makes it easier for you find `elements` and spot `errors`.
+
+<!-- end div -->
+
+<h3 class="warning">Caution - &lt;hr&gt;</h3>
+
+**Note**: the horizontal line is pretty ugly. It can by styled, but is still something to use **very** sparingly. 
+
+
+
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.

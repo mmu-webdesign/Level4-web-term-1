@@ -64,15 +64,15 @@ The markup structure is the same as for unordered lists, except that you have to
 The third type of list you'll occasionally come across — description lists. The purpose of these lists is to mark up a set of items and their associated descriptions, such as terms and definitions, or questions and answers. Let's look at an example of a set of terms and definitions:
 
 ```
-soliloquy
+Soliloquy
 
 In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters.)
 
-monologue
+Monologue
 
 In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.
 
-aside
+Aside
 
 In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought or piece of additional background information
 ```
@@ -83,15 +83,15 @@ Description lists use a different wrapper than the other list types — `<dl>`; 
 
 ```
 <dl>
-  <dt>soliloquy</dt>
+  <dt>Soliloquy</dt>
 
     <dd>In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters.)</dd>
   
-  <dt>monologue</dt>
+  <dt>Monologue</dt>
 
     <dd>In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.</dd>
 
-  <dt>aside</dt>
+  <dt>Aside</dt>
 
     <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
 </dl>
@@ -102,15 +102,15 @@ The browser default styles will display description lists with the descriptions 
 > It will look like this:
 
 <dl>
-  <dt>soliloquy</dt>
+  <dt>Soliloquy</dt>
 
   <dd>In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters.)</dd>
 
-  <dt>monologue</dt>
+  <dt>Monologue</dt>
 
   <dd>In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present.</dd>
 
-  <dt>aside</dt>
+  <dt>Aside</dt>
 
   <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
 
@@ -120,7 +120,7 @@ The browser default styles will display description lists with the descriptions 
 
 ```
 <dl>
-  <dt>aside</dt>
+  <dt>Aside</dt>
 
     <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
 
@@ -131,10 +131,23 @@ The browser default styles will display description lists with the descriptions 
 > Which will display in the browser like this:
 
 <dl>
-  <dt>aside</dt>
-  <dd>In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
-  <dd>In writing, a section of content that is related to the current topic, but doesn't fit directly into the main flow of content so is presented nearby (often in a box off to the side.)</dd>
+  <dt>Aside</dt>
+  <dd style="color: #264b87">In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought, or piece of additional background information.</dd>
+  <dd  style="color: #165416">In writing, a section of content that is related to the current topic, but doesn't fit directly into the main flow of content so is presented nearby (often in a box off to the side.)</dd>
 </dl>
+
+We've just added the colour so you can better see the two different definitions. Added styling could make this much more engaging.
+
+<!-- div class="exercise" -->
+## Exercise One
+
+> There is no getting around it. To get used to the syntax for lists, you've got to do them. We will leave out the Description Term element as this is less common.
+
+### Task 1
+
+- Open the exercise files in another browser window - [Repl.it - List files](https://repl.it/@webdesignmmu/html5)
+
+<img src="media/nesting.png" alt="Screenshot of the exercise file with errors">
 
 <h2 class="deep">Deeper Learning</h2>
 

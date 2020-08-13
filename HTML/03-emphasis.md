@@ -74,7 +74,7 @@ Here's the best rule of thumb: it's likely appropriate to use `<b>`, `<i>`, or `
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - Task 1 files](https://repl.it/@webdesignmmu/html3) 
+- Open the exercise files in another browser window - [Repl.it - Emphasis files](https://repl.it/@webdesignmmu/html3) 
 
 <img src="media/emphasis-text.png" alt="Screenshot of the plain text for this exercise">
 
@@ -98,7 +98,7 @@ When completed, select Run. Does your page look like this?
 
 <img src="media/emphasis.png" alt="Screenshot of the completed file including strong, em, b and i elements">
 
-Solution
+### Solution
 
 This is what your code should look like. For some of you it may be easier to learn by copying our code. 
 
@@ -107,6 +107,8 @@ This is what your code should look like. For some of you it may be easier to lea
 ### Task 4
 
 Fix any issues and run again to check before you move on.
+
+<!-- end div -->
 
 <h2 class="deep">Deeper Learning</h2>
 
