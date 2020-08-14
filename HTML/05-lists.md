@@ -141,7 +141,7 @@ We've just added the colour so you can better see the two different definitions.
 <!-- div class="exercise" -->
 ## Exercise One
 
-> There is no getting around it. To get used to the syntax for lists, you've got to do them. We will leave out the Description Term element as this is less common.
+> Creating an ordered and unordered list - There is no getting around it. To get used to the syntax for lists, you've got to do them. We will leave out the Description Term element as this is less common.
 
 ### Task 1
 
@@ -149,9 +149,9 @@ We've just added the colour so you can better see the two different definitions.
 
 ### Task 2
 
-You have two lists to code. First an ordered list (Top 9).
+- You have two lists to code. First an ordered list (Top 9).
 
-Use `<ol>` to define the list, then `<li>` for each list item. Check above if you need a reference.
+- Use `<ol>` to define the list, then `<li>` for each list item. Check above if you need a reference.
 
 ```
 Buzzcocks – Singles Going Steady
@@ -167,17 +167,18 @@ The Hollies - Midas Touch - The Very Best of the Hollies
 
 ### Task 3
 
-You have a second list of Australian bands and their albums (in no particular order).
+- You have a second list of Australian bands and their albums (in no particular order).
 
-Use `<ul>` to define the list, then `<li>` for each list item. Again, check above if you need a reference.
+- Use `<ul>` to define the list, then `<li>` for each list item. Again, check above if you need a reference.
 
+```
 Powderfinger – Internationalist
 Nick Cave & The Bad Seeds – Let Love In
 The Living End – The Living End
 Regurgitator – Unit
 You Am I – Hi Fi Way
 Crowded House – Woodface
-
+```
 
 ### Solution
 
@@ -253,6 +254,39 @@ Save and view your completed page.
 
 <!-- end div -->
 
+<!-- div class="exercise" -->
+## Exercise Three
+
+> Practice makes perfect. Add two more lists to the page. 
+
+### Task 1
+
+- Add a list of 5 of your favourite films (ordered)
+
+### Task 2
+
+- Add a list of 3 places you have visited (unordered)
+
+### Tips
+
+> `Cut & Paste` is your friend in web development
+
+- To create these lists it is a lot quick to copy & paste one of your previous lists
+- Edit the list - the 5 or 3 list items only
+- Swap out the previous list item text for your films or places
+- Check your code
+- View it in the browser 
+
+You completed lists page should include 4 `lists`:
+
+- `Ordered` list of Manchester Band Albums
+  * With indented sub-list of Smiths albums
+- `Unordered` list of Australian bands
+- `Ordered` list of your favourite films
+- `Unordered` list of places you've visited
+
+
+<!-- end div -->
 
 
 
