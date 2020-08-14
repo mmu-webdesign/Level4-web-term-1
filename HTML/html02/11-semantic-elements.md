@@ -18,7 +18,7 @@ Webpages can and will look pretty different from one another, but they all tend 
 
 A "typical website" could be structured something like this:
 
-<img src="https://mdn.mozillademos.org/files/12417/sample-website.png" alt="a simple website structure example featuring a main heading, navigation menu, main content, side bar, and footer">
+<img src="media/sample-website.png" alt="a simple website structure example featuring a main heading, navigation menu, main content, side bar, and footer">
 
 ## HTML for structuring content
 

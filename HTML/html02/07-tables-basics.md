@@ -14,13 +14,13 @@ If new to tables, it may help to watch Jen's videos **before** starting to follo
 
 A table is a structured set of data made up of rows and columns (**tabular data**). A table allows you to quickly and easily look up values that indicate some kind of connection between different types of data, for example a person and their age, or a day of the week, or the timetable for a local swimming pool.
 
-<img src="https://media.prod.mdn.mozit.cloud/attachments/2017/01/23/14583/5bad217718ecd469850752f2d97b1137/numbers-table.png" alt="A sample table showing names and ages of some people - Chris 38, Dennis 45, Sarah 29, Karen 47">
+<img src="media/numbers-table.png" alt="A sample table showing names and ages of some people - Chris 38, Dennis 45, Sarah 29, Karen 47">
 
-<img src="https://media.prod.mdn.mozit.cloud/attachments/2017/01/23/14587/3435faac399750fa4ad8877e5644ac6c/swimming-timetable.png" alt="A swimming timetable showing a sample data table">
+<img src="media/swimming-timetable.png" alt="A swimming timetable showing a sample data table">
 
 Tables are very commonly used in human society, and have been for a long time, as evidenced by this US Census document from 1800:
 
-<img src="https://media.prod.mdn.mozit.cloud/attachments/2017/01/23/14585/d2c23cf524bcde948301f7bbf44b1d2b/1800-census.jpg" alt="A very old parchment document; the data is not easily readable, but it clearly shows a data table being used">
+<img src="media/1800-census.jpg" alt="A very old parchment document; the data is not easily readable, but it clearly shows a data table being used">
 
 It is therefore no wonder that the creators of HTML provided a means by which to structure and present tabular data on the web.
 

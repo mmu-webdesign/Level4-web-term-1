@@ -36,7 +36,7 @@ The `<title>` element is metadata that represents the title of the overall HTML 
 
 The `<title>` element contents are also used in other ways. For example, if you try bookmarking the page (Bookmarks > Bookmark This Page or the star icon in the URL bar in Firefox), you will see the `<title>` contents filled in as the suggested bookmark name.
 
-<img src="https://mdn.mozillademos.org/files/12337/bookmark-example.png" alt="A webpage being bookmarked in firefox; the bookmark name has been automatically filled in with the contents of the <title> element"> 
+<img src="media/bookmark-example.png" alt="A webpage being bookmarked in firefox; the bookmark name has been automatically filled in with the contents of the <title> element"> 
 
 The `<title>` contents are also used in search results, as you'll see below.
 
@@ -116,11 +116,11 @@ In the example we saw above, this line was included:
 
 This element simply specifies the document's character encoding — the character set that the document is permitted to use. `utf-8` is a universal character set that includes pretty much any character from any human language. This means that your web page will be able to handle displaying any language; it's therefore a good idea to set this on every web page you create! For example, your page could handle English and Japanese just fine:
 
-<img src="https://mdn.mozillademos.org/files/12343/correct-encoding.png" alt="a web page containing English and Japanese characters, with the character encoding set to universal, or utf-8. Both languages display fine">
+<img src="media/correct-encoding.png" alt="a web page containing English and Japanese characters, with the character encoding set to universal, or utf-8. Both languages display fine">
 
 If you set your character encoding to ISO-8859-1, for example (the character set for the Latin alphabet), your page rendering may appear all messed up:
 
-<img src="https://mdn.mozillademos.org/files/12341/bad-encoding.png" alt="a web page containing English and Japanese characters, with the character encoding set to latin. The Japanese characters don't display correctly">
+<img src="media/bad-encoding.png" alt="a web page containing English and Japanese characters, with the character encoding set to latin. The Japanese characters don't display correctly">
 
 > Note: Some browsers (e.g. Chrome) automatically fix incorrect encodings, so depending on what browser you use, you may not see this problem anyway. You should still set an encoding of utf-8 on your page anyway, to avoid any potential problems in other browsers.
 
@@ -183,7 +183,7 @@ and HTML5 Apps. It also documents Mozilla products, like Firefox OS.">
 
 One effect of this is that when you link to MDN Web Docs on facebook, the link appears along with an image and description: a richer experience for users.
 
-<img src="https://mdn.mozillademos.org/files/12349/facebook-output.png" alt="Open graph protocol data from the MDN homepage as displayed on facebook, showing an image, title, and description">
+<img src="media/facebook-output.png" alt="Open graph protocol data from the MDN homepage as displayed on facebook, showing an image, title, and description">
 
 Twitter also has its own similar proprietary metadata called Twitter Cards, which has a similar effect when the site's URL is displayed on twitter.com. For example:
 
@@ -209,7 +209,7 @@ Adding the following line into your HTML's <head> block to reference it:
 
 Here is an example of a favicon in a bookmarks panel:
 
-<img src="https://mdn.mozillademos.org/files/12351/bookmark-favicon.png" alt="The Firefox bookmarks panel, showing a bookmarked example with a favicon displayed next to it">
+<img src="media/bookmark-favicon.png" alt="The Firefox bookmarks panel, showing a bookmarked example with a favicon displayed next to it">
 
 There are lots of other icon types to consider these days as well. For example, you'll find this in the source code of the MDN Web Docs homepage:
 

@@ -1,16 +1,18 @@
 # A quick primer on URLs and paths
 
-To fully understand link targets, you need to understand URLs and file paths. This section gives you the information you need to achieve this.
+To fully understand link targets, you need to understand URLs and file paths. This chapter gives you the information you need to achieve this.
 
-A URL, or Uniform Resource Locator is simply a string of text that defines where something is located on the Web. For example, Mozilla's English homepage is located at https://www.mozilla.org/en-US/.
+A URL, or Uniform Resource Locator is simply a string of text that defines where something is located on the Web. For example, MMUs homepage is located at https://www.mmu.ac.uk.
 
 URLs use paths to find files. Paths specify where in the filesystem the file you are interested in is located. Let's look at a simple example of a directory structure (see the live version - <a href="https://github.com/mdn/learning-area/tree/master/html/introduction-to-html/creating-hyperlinks">creating-hyperlinks directory</a>.)
 
 <img src="media/simple-directory.png" alt="File and folder illustration">
 
-## A simple directory structure. 
+## A simple directory structure.
 
-The parent directory is called `creating-hyperlinks` and contains two files called `index.html` and `contacts.html`, and two directories called `projects` and `pdfs`, which contain an `index.html` and a `project-brief.pdf` file, respectively
+> Note - The term `directory` refers to the way a structured list of document `files` and `folders` is stored on the computer. [Wikipedia](https://en.wikipedia.org/wiki/Directory_(computing))
+
+In the example above the parent directory is called `creating-hyperlinks` and contains two files called `index.html` and `contacts.html`, and two directories called `projects` and `pdfs`, which contain an `index.html` and a `project-brief.pdf` file, respectively
 
 The root of this directory (folder) structure is called `creating-hyperlinks`. When working locally with a web site, you will have one directory that the whole site goes inside. Inside the root, we have an `index.html` file and a `contacts.html`. In a real website, `index.html` would be our home page or landing page (a web page that serves as the entry point for a website or a particular section of a website.)
 

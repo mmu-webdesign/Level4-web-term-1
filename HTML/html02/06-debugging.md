@@ -6,7 +6,7 @@ Writing HTML is fine, but what if something goes wrong, and you can't work out w
 
 When writing code of some kind, everything is usually fine, until that dreaded moment when an error occurs — you've done something wrong, so your code doesn't work — either not at all, or not quite how you wanted it to. For example, the following shows an error reported when trying to [compile](https://developer.mozilla.org/en-US/docs/Glossary/compile) a simple program written in the [Rust language](https://www.rust-lang.org/).
 
-<img src="https://mdn.mozillademos.org/files/12435/error-message.png" alt="A console window showing the result of trying to compile a rust program with a missing quote around a string in a print statement. The error message reported is error: unterminated double quote string">
+<img src="media/error-message.png" alt="A console window showing the result of trying to compile a rust program with a missing quote around a string in a print statement. The error message reported is error: unterminated double quote string">
 
 Here, the error message is relatively easy to understand — "unterminated double quote string". If you look at the listing, you can probably see how `println!(Hello, world!");` might logically be missing a double quote. However, error messages can quickly get more complicated and less easy to interpret as programs get bigger, and even simple cases can look a little intimidating to someone who doesn't know anything about Rust.
 
@@ -36,7 +36,7 @@ HTML itself doesn't suffer from syntax errors because browsers parse it permissi
 
 1. Next, open it in a browser. You will see something like this:
 
-<img src="https://mdn.mozillademos.org/files/12437/badly-formed-html.png" alt="A simple HTML document with a title of HTML debugging examples, and some information about common HTML errors, such as unclosed elements, badly nested elements, and unclosed attributes">
+<img src="media/badly-formed-html.png" alt="A simple HTML document with a title of HTML debugging examples, and some information about common HTML errors, such as unclosed elements, badly nested elements, and unclosed attributes">
 
 3. This immediately doesn't look great; let's look at the source code to see if we can work out why (only the body contents are shown):
 
@@ -73,7 +73,7 @@ HTML itself doesn't suffer from syntax errors because browsers parse it permissi
 
 1. In the DOM inspector, you can see what the rendered markup looks like:
 
-<img src="https://mdn.mozillademos.org/files/12439/html-inspector.png" alt="The HTML inspector in Firefox, with our example's paragraph highlighted, showing the text - What causes errors in HTML? Here you can see that the paragraph element has been closed by the browser">
+<img src="media/html-inspector.png" alt="The HTML inspector in Firefox, with our example's paragraph highlighted, showing the text - What causes errors in HTML? Here you can see that the paragraph element has been closed by the browser">
 
 7. Using the DOM inspector, let's explore our code in detail to see how the browser has tried to fix our HTML errors (we did the review in Firefox; other modern browsers should give the same result):
 
@@ -100,7 +100,7 @@ So you can see from the above example that you really want to make sure your HTM
 
 The best strategy is to start by running your HTML page through the [Markup Validation Service](https://validator.w3.org/) — created and maintained by the W3C, the organization that looks after the specifications that define HTML, CSS, and other web technologies. This webpage takes an HTML document as an input, goes through it, and gives you a report to tell you what is wrong with your HTML.
 
-<img src="https://mdn.mozillademos.org/files/12441/validator.png" alt="The HTML validator homepage">
+<img src="media/validator.png" alt="The HTML validator homepage">
 
 To specify the HTML to validate, you can give it a web address, upload an HTML file, or directly input some HTML code.
 
@@ -145,7 +145,7 @@ If you can't work out what every error message means, don't worry about it — a
 
 You will know when all your errors are fixed when you see the following banner in your output:
 
-<img src="https://mdn.mozillademos.org/files/12445/valid-html-banner.png" alt="Banner that reads - The document validates according to the specified schema(s) and to additional constraints checked by the validator.">
+<img src="media/valid-html-banner.png" alt="Banner that reads - The document validates according to the specified schema(s) and to additional constraints checked by the validator.">
 
 <h2 class="deep">Deeper Learning</h2>
 

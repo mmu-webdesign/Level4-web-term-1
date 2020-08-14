@@ -126,17 +126,17 @@ This type of field is set using the value email for the type attribute:
 ```
 When this type is used, the user is required to type a valid email address into the field. Any other content causes the browser to display an error when the form is submitted. You can see this in action in the below screenshot.
 
-<img src="https://media.prod.mdn.mozit.cloud/attachments/2019/12/20/17027/b6699a82b24049532a5a6da3446c345a/email_address_invalid.png" alt="An invalid email input showing the message - Please enter an email address.">
+<img src="media/email_address_invalid.png" alt="An invalid email input showing the message - Please enter an email address.">
 
 On some devices — notably, touch devices with dynamic keyboards like smart phones — a different virtual keypad might be presented that is more suitable for entering email addresses, including the @ key. See the Firefox for Android keyboard screenshot below for an example:
 
-<img src="https://media.prod.mdn.mozit.cloud/attachments/2020/01/06/17054/120aa2eb39404c25a2afe2a2dc0683a2/fx-android-email-type-keyboard.jpg" alt="firefox for android email keyboard, with ampersand displayed by default">
+<img src="media/fx-android-email-type-keyboard.jpg" alt="firefox for android email keyboard, with ampersand displayed by default">
 
 ### Client-side validation
 
 As you can see above, `email`, along with other newer `input` types, provides built-in client-side error validation — performed by the browser before the data gets sent to the server. It is a helpful aid to guide users to fill out a form accurately, and it can save time — it is useful to know that your data is not correct immediately, rather than having to wait for a round trip to the server.
 
-But it should not be considered an exhaustive security measure! Your apps should always perform security checks on any form-submitted data on the server-side as well as the client-side, because client-side validation is too easy to turn off, so malicious users can still easily send bad data through to your server. Read [Website security](v) for an idea of what could happen; implementing server-side validation is somewhat beyond the scope of this unit, but you should bear it in mind.
+But it should not be considered an exhaustive security measure! Your apps should always perform security checks on any form-submitted data on the server-side as well as the client-side, because client-side validation is too easy to turn off, so malicious users can still easily send bad data through to your server. 
 
 ### Phone number field
 
@@ -150,7 +150,7 @@ When accessed via a touch device with a dynamic keyboard, most devices will disp
 
 The following Firefox for Android keyboard screenshot provides an example:
 
-<img src="https://media.prod.mdn.mozit.cloud/attachments/2020/01/06/17056/c7260ade7191de4faa07e5a2ed241115/fx-android-tel-type-keyboard.jpg" alt="firefox for android email keyboard, with ampersand displayed by default">
+<img src="media/fx-android-tel-type-keyboard.jpg" alt="firefox for android email keyboard, with ampersand displayed by default">
 
 Due to the wide variety of phone number formats around the world, this type of field does not enforce any constraints on the value entered by a user (this means it may include letters, etc.).
 
@@ -166,7 +166,7 @@ It adds special validation constraints to the field. The browser will report an 
 
 See below for an example (taken on Firefox for Android):
 
-<img src="https://media.prod.mdn.mozit.cloud/attachments/2020/01/06/17057/b56643304ae39e44d6c89b47fd7c5e30/fx-android-url-type-keyboard.jpg" alt="firefox for android email keyboard, with ampersand displayed by default">
+<img src="media/fx-android-url-type-keyboard.jpg" alt="firefox for android email keyboard, with ampersand displayed by default">
 
 > Note: Just because the URL is well-formed doesn't necessarily mean that it refers to a location that actually exists!
 
@@ -178,3 +178,7 @@ To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Jen Simmons - Additional form elements](https://www.linkedin.com/learning/html-essential-training-4/additional-form-element-types?u=36102708) (4m 47s) 
 
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
