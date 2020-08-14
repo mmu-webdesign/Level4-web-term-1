@@ -12,7 +12,7 @@ Attributes contain extra information about the element that won't appear in the 
 - The attribute name, followed by an equal sign.
 - An attribute value, wrapped with opening and closing quote marks.
 
-Another example of an element is `<a>`. This stands for anchor. An anchor can make the text it encloses into a hyperlink. Anchors can take a number of attributes, but several are as follows:
+Another example of an element is `<a>` element whcih you have just used. As you now know `<a>` can make the text it encloses into a hyperlink. Anchors can take a number of attributes, but several are as follows:
 
 - **href**: This attribute's value specifies the web address for the link. For example: `href="https://www.mozilla.org/"`.
 
@@ -39,17 +39,26 @@ And the link with attributes and values:
 
 ## Omitting quotes around attribute values
 
-If you look at code for a lot of other sites, you might come across a number of strange markup styles, including attribute values without quotes. This is permitted in certain circumstances, but it can also break your markup in other circumstances. The bottom line is don't. There is more in the **advanced section** below if you want the details.
+If you look at code for a lot of other sites, you might come across a number of strange markup styles, including attribute values without quotes. This is permitted in certain circumstances, but it can also break your markup in other circumstances. The bottom line is don't. There is more in the **Advanced section** below if you want the details.
 
 <h3 class="warning">Use double quotes</h3>
 
 **Please note** - For all of your coursework we want you to use double quotes for all attributes.
 
+
+<!-- div class="exercise" -->
+## Exercise One
+
+> A short video on html attributes.
+
+- Watch the LinkedIn Learning Video: [Jen Simmons - html attributes](https://www.linkedin.com/learning/html-essential-training-4/html-attributes?u=36102708) (3m 54s) to gain a better understanding
+
+<!-- end div -->
+
+
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
-
-- LinkedIn Learning Video: [Jen Simmons - html attributes](https://www.linkedin.com/learning/html-essential-training-4/html-attributes?u=36102708) (3m 54s)
 
 - MDN: Attributes - [HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
