@@ -18,19 +18,19 @@ By default, most browser's user agent stylesheet will style an `<h1>` with a lar
 <figure>
 <img src="media/styled-heading.png" alt="A stylish heading styled as a block, with curved corners">
 <figcaption>
-Note: This for example is a &lt;h1&gt; heading, styled. Taken from Trent Walton <a href="https://trentwalton.com/articles/2017/04/10/the-notification-machine.html">The Notification Machine</a>.
+This for example is a &lt;h1&gt; heading, styled. Taken from Trent Walton <a href="https://trentwalton.com/articles/2017/04/10/the-notification-machine.html">The Notification Machine</a>.
 </figcaption>
 </figure>
 
 On the other hand, you could make any element (such as `<p>`) look like a top level heading. The following styles (CCS - to follow) adjusts a paragraph so it would display the same as the default (larger) heading styles.
 
 ```
-<span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
+<p style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</p>
 ```
 
 > Which would produce: 
 
-<span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
+<p style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</p>
 
 This looks like a top level heading, but it has no semantic value, so it will not get any of the extra benefits described below. It is therefore a good idea to use the right HTML element for the right job.
 
@@ -40,17 +40,24 @@ HTML should be coded to represent the data that will be populated and not based 
 
 Some of the benefits from writing semantic markup include:
 
-- Search engines will consider its contents as important keywords to influence the page's search rankings (see SEO)
+- Search engines will consider its contents as important keywords to influence the page's search rankings
 - Screen readers can use it as a signpost to help visually impaired users navigate a page
 
 
 When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; does it list out definitions?; is it a figure or image that needs a caption?; etc.
 
+<!-- div class="exercise" -->
+## Exercise One
+
+> A quick 4 minute read.
+
+- Paul Boag's article - [Semantic code: What? Why? How?](https://boagworld.com/dev/semantic-code-what-why-how/) - dated 29 November 2005, this is ancient in terms of web development. It is however even more relevant in 2020 with the variety of platforms and devices now available.
+
+<!-- end div -->
+
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
-
-> Article: Paul Boag - [Semantic code: What? Why? How?](https://boagworld.com/dev/semantic-code-what-why-how/)
 
 - MDN: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
