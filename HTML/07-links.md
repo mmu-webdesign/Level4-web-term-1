@@ -4,6 +4,8 @@
 
 Hyperlinks are one of the most exciting innovations the Web has to offer. Well, they've been a feature of the Web since the very beginning, but they are what makes the Web a Web — they allow us to link our documents to any other document (or other resource) we want to, we can also link to specific parts of documents, and we can make apps available at a simple web address (contrast this to native apps, which have to be installed and all that business.) Just about any web content can be converted to a link, so that when clicked (or otherwise activated) it will make the web browser go to another web address (URL).
 
+Here for example is a link that takes you all the way to [the end of the internet](http://theendofinternet.com/).
+
 > Note: A URL can point to HTML files, text files, images, text documents, video and audio files, and anything else that can live on the Web. If the web browser doesn't know how to display or handle the file, it will ask you if you want to open the file (in which case the duty of opening or handling the file is passed to a suitable native app on the device) or download the file (in which case you can try to deal with it later on.) For eample, everyone using the web has at some point clicked on a link to `pdf` file and the computer has wanted to open it in *Adobe Acrobat Reader* (the native app).
 
 The BBC homepage, for example, contains a large number of links that point not only to multiple news stories, but also different areas of the site (navigation functionality), login/registration pages (user tools) and more.
@@ -13,7 +15,7 @@ The BBC homepage, for example, contains a large number of links that point not o
 
 ## Anatomy of a link
 
-A basic link is created by wrapping the text (or other content, see Block level links) you want to turn into a link inside an `<a>` element, and giving it an href attribute (also known as a Hypertext Reference , or target) that will contain the web address you want the link to point to.
+A basic link is created by wrapping the text (or other content, see Block level links) you want to turn into a link inside an `<a>` element, and giving it an `href` attribute (also known as a Hypertext Reference , or target) that will contain the web address you want the link to point to.
 
 ```
 <p>I'm creating a link to
@@ -59,9 +61,139 @@ As mentioned before, you can turn just about any content into a link, even block
 </a>
 ```
 
-> Note: You'll find out a lot more about using images on the Web in a future article.
+> Note: You'll find out a lot more about using images on the Web in a future chapter.
 
-## Task One - Basic links
+## Links and accessibility
+
+> Three key points.
+
+- Screen readers generally inform users that a piece of text (or a graphic) is a link 
+
+   * So don't add the work link to your link or alt text
+
+- Screen reader users often navigate from link to link, skipping the text in between
+
+   * Links must make sense out of context
+
+- Screen reader users sometimes obtain an alphabetically-organized list of links
+
+   * Each link must be distinguishable - multiple `click here` or `read more` links are no good in a list
+
+> Read more at WebAIM about [Screen Readers and Links](https://webaim.org/techniques/hypertext/#screen_readers). 
+
+<!-- div class="exercise" -->
+## Exercise One
+
+> Coding external links
+
+### Task 1
+
+- Open the exercise files in another browser window - [Repl.it - External Links files](https://repl.it/@webdesignmmu/html6)
+
+### Task 2
+
+- Before we start creating links, the page needs to be structured with a `<h1>` heading and `<p>` paragraphs.
+- Apply the code and Run in the browser window
+
+The page should now look like this:
+
+<img src="media/links-with-structure.png" alt="Links page coded with heading and paragraphs">
+
+
+### Task 3
+
+> Adding links to the page - each of these links lead off our webpage, to someone elses website.
+
+- BBC Sports - `https://www.bbc.co.uk/sport`
+- So for example this lik would include:
+
+```
+<a href="https://www.bbc.co.uk/sport">BBC Sports</a>
+```
+- To break this down:
+
+```
+<a href="https://www.bbc.co.uk/sport">
+BBC Sports
+</a>
+```
+This includes:
+
+- The opening `<a`
+- which includes the `href` attribute 
+- and the link location `"https://www.bbc.co.uk/sport"` in double quotes 
+- the closing of the `a` with `>`
+- Next is the link text - `BBC Sports`
+- And finally the closing `</a>`
+
+Read this through a few times so that you really understand the stucture of the `anchor` element. The `<a>` wraps around the link text.
+
+- Code your link, Run and test that it works.
+
+<h3 class="warning">How to test you links</h3>
+
+- The `Repl.it` browser can show your `links`, but they won't work
+
+- To test your links you will need to open the page in a new browser tab. To do this:
+
+<figure>
+<img src="media/view-in-browser.png" alt="Illustration of the button to select">
+<figcaption>
+Select the button highlighted in red. This will open your page in another browser tab. Your links will now work - if coded correctly.
+</figcaption>
+</figure>
+
+- Close that browser tab once you've checked your links.
+
+### Task 4 - Just read this
+
+> Our link could use the text in that first paragraph in a variety of ways
+
+```
+<a href="https://www.bbc.co.uk/sport">BBC Sports</a>
+```
+
+- Is short and sweet, works out of context (on its own)
+- Short but not too short - is it big enough `target` to click on, or press on a mobile?
+
+```
+<a href="https://www.bbc.co.uk/sport">BBC Sports website</a>
+```
+- A little longer, perhaps a bigger target?
+
+> It will be up to you as the coder, but remember:
+
+1. A good target size
+
+1. but not over large - don't link the whole sentence
+
+1. Works/makes sense out of context
+
+### Task 5
+
+> Add two more links to BBC Sports in the next two paragraphs
+
+- Formula One - `https://www.bbc.co.uk/sport/formula1`
+
+- Football Gossip - `https://www.bbc.co.uk/sport/football/gossip`
+
+### Task 6
+
+> Add the final link which is to a WebAIM article that provides more information on best practices for link text.
+
+- Link Text and Appearance - `https://webaim.org/techniques/hypertext/link_text`
+
+
+### Solution
+
+<figure>
+<img src="media/finished-links.png" alt="Links page in a browser window, completed">
+<figcaption>
+You completed page should like like this, with the links blue (mine are purple because I've already visited them to test). Click on each link to test it is working. If any fail, go back to your code.
+</figcaption>
+</figure>
+
+<!-- end div -->
 
 
 <h2 class="deep">Deeper Learning</h2>
