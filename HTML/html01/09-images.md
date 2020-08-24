@@ -62,7 +62,7 @@ There are sources of copyright free images, our favourite is [Unsplash.com](http
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - External Links files](https://repl.it/@webdesignmmu/html7)
+- Open the exercise files in another browser window - [Repl.it - Adding images files](https://repl.it/@webdesignmmu/html7)
 
 ### Task 2
 
