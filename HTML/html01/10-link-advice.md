@@ -46,7 +46,11 @@ to download Firefox</p>
 
 ## Use relative links wherever possible
 
-From the description above, you might think that it is a good idea to just use absolute links all the time; after all, they don't break when a page is moved like relative links. However, you should use relative links wherever possible when linking to other locations within the same website (when linking to another website, you will need to use an absolute link):
+- relative URL = `images/logo.png`
+
+- absolute URL = `http://www.mmu.ac.uk/images/logo.png`
+
+You should use relative links wherever possible when linking to other locations **within the same website** (when linking to another website, you will need to use an absolute link):
 
 - For a start, it is a lot easier to scan your code — relative URLs are generally a lot shorter than absolute URLs, which makes reading code much easier.
 - Second, it is more efficient to use relative URLs wherever possible. When you use an absolute URL, the browser starts by looking up the real location of the server on the Domain Name System (DNS; see How the web works for more information), then it goes to that server and finds the file that is being requested. With a relative URL on the other hand, the browser just looks up the file that is being requested, on the same server. So if you use absolute URLs where relative URLs would do, you are constantly making your browser do extra work, meaning that it will perform less efficiently.
@@ -85,7 +89,7 @@ When you are linking to a resource that is to be downloaded rather than opened i
 </a>
 ```
 
-# E-mail links
+## E-mail links
 
 It is possible to create links or buttons that, when clicked, open a new outgoing email message rather than linking to a resource or page. This is done using the `<a>` element and the mailto: URL scheme.
 
