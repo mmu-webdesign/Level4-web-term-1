@@ -110,7 +110,7 @@ filename: paintred-ladies.jpg
 
 ## Alternative text
 
-The next attribute we'll look at is `alt`. Its value is supposed to be a textual description of the image, for use in situations where the image cannot be seen/displayed or takes a long time to render because of a slow internet connection. For example, our above code could be modified like so:
+The next attribute we'll look at is `alt` - *alternative text*. Its value is supposed to be a textual description of the image, for use in situations where the image cannot be seen/displayed or takes a long time to render because of a slow internet connection. For example, our dinosaur image code could be modified like so:
 
 ```
 <img src="images/dinosaur.jpg"
@@ -182,7 +182,7 @@ You should use CSS background images for decorative images, but if you must use 
 **As an example**, something like this is pointless (and annoying for a screenreader user):
 
 ```
-<img src="media/icon.png"
+<img src="images/icon.png"
      alt="red-icon">
 
 ```
@@ -194,7 +194,7 @@ If your image provides significant information, provide the same information in 
 **For example**, the MMU logo image contains the text Manchester Metropolitan University. We would use this as the `alt` tex, otherwise that text is lost.
 
 ```
-<img src="media/logo.png"
+<img src="images/logo.png"
      alt="Manchester Metropolitan University">
 
 ```
