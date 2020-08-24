@@ -73,6 +73,7 @@ Use the `<img>` element.
 ```
 <img src="image-filename.jpg">
 ```
+Insert the code for all three images under the relevant title.
 
 <figure>
 <img src="media/golden-gate-bridge.jpg" alt="Golden Gate Bridge by Maarten van den Heuvel">
@@ -95,7 +96,6 @@ filename: paintred-ladies.jpg
 </figcaption>
 </figure>
 
-- Insert the code for all three images under the relevant title
 - Select Run to view in the browser
 - The three images should be loading. If not, check your code.
 
