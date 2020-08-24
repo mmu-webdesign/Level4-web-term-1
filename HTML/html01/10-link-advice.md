@@ -68,11 +68,15 @@ Let's look at some examples, to see what kind of text can be used here:
 <p><a href="http://www.example.com/large-report.pdf">
   Download the sales report (PDF, 10MB)
 </a></p>
+```
 
+```
 <p><a href="http://www.example.com/video-stream/" target="_blank">
   Watch the video (stream opens in separate tab, HD quality)
 </a></p>
+```
 
+```
 <p><a href="http://www.example.com/car-game">
   Play the car game (requires Flash)
 </a></p>
@@ -91,7 +95,7 @@ When you are linking to a resource that is to be downloaded rather than opened i
 
 ## E-mail links
 
-It is possible to create links or buttons that, when clicked, open a new outgoing email message rather than linking to a resource or page. This is done using the `<a>` element and the mailto: URL scheme.
+It is possible to create links or buttons that, when clicked, open a new outgoing email message rather than linking to a resource or page. This is done using the `<a>` element and the `mailto:` URL scheme.
 
 In its most basic and commonly used form, a `mailto:` link simply indicates the email address of the intended recipient. For example:
 
@@ -104,7 +108,13 @@ This results in a link that looks like this: <a href="mailto:nowhere@mozilla.org
 In fact, the email address is even optional. If you leave it out (that is, your href is simply "mailto:"), a new outgoing email window will be opened by the user's mail client that has no destination address specified yet. This is often useful as "Share" links that users can click to send an email to an address of their choosing.
 
 
+<h2 class="deep">Deeper Learning</h2>
 
+To get a better understanding of this topic use the following resources.
+
+- WebAIM: [Introduction to Links and Hypertext](https://webaim.org/techniques/hypertext/) - all about making hyperlinks accessible.
+
+- Nielsen Norman Group: [Writing Hyperlinks: Salient, Descriptive, Start with Keyword](https://www.nngroup.com/articles/writing-links/)- To help users quickly find what they need, anchor text should stand out from the body content and accurately describe the page that it refers to.
 
 ### &copy; Credit given
 

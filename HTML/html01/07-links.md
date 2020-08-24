@@ -69,15 +69,15 @@ As mentioned before, you can turn just about any content into a link, even block
 
 - Screen readers generally inform users that a piece of text (or a graphic) is a link 
 
-   * So don't add the work link to your link or alt text
+   - So don't add the work link to your link or alt text
 
 - Screen reader users often navigate from link to link, skipping the text in between
 
-   * Links must make sense out of context
+   - Links must make sense out of context
 
 - Screen reader users sometimes obtain an alphabetically-organized list of links
 
-   * Each link must be distinguishable - multiple `click here` or `read more` links are no good in a list
+   - Each link must be distinguishable - multiple `click here` or `read more` links are no good in a list
 
 > Read more at WebAIM about [Screen Readers and Links](https://webaim.org/techniques/hypertext/#screen_readers). 
 
