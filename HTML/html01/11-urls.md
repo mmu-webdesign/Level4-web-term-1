@@ -20,7 +20,99 @@ You can even use the document fragment reference on its own to link to another p
 <p>The <a href="#Mailing_address">company mailing address</a> can be found at the bottom of this page.</p>
 ```
 
+<!-- div class="exercise" -->
+## Exercise One
 
+> Internal links - creating links within (to a specific part of) a document.
+
+### Task 1
+
+- Open [Repl.it - Internal Links](https://repl.it/@webdesignmmu/html8)
+
+What you have is a document with a *table of contents* (menu) at the top, followed by three sections of text. In this exercise you are going to link each menu item to the relevant section. Allowing the reader to *jump* to the relevant section.
+
+### Task 2
+
+- The menu is well spaced out so you can identify the section names, e.g. Section One. 
+
+```
+<ul>
+  <li>
+    Section One
+  </li>
+  <li>
+    Section Two
+  </li>
+  <li>
+    Section Three
+  </li>
+</ul>
+```
+
+- Wrap each section title with a `<a>` element as below:
+
+```
+  <li>
+    <a>Section One</a>
+  </li>
+```
+- Do this for all three sections listed.
+
+### Task 3
+
+- Add the `href=""` attribute to each of the three opening `<a>` tags.
+
+```
+  <li>
+    <a href="">Section One</a>
+  </li>
+  
+  ```
+- If you Run the page in the browser you will now see the menu items look like links (blue/purple underlined text). 
+- Clicking on them does nothing - as we haven't defined the link location in the `href=""` attribute.
+
+### Task 4
+
+- Adding the link location - but this time it's not an URL or file path. We are going to link to a named element on the page using an `ID` or `#` attribute.
+
+- As we are linking to each section we are going to use the name of the section, for example `#one` for Section One.
+
+- Do this for each link starting with:
+
+```
+<a href="#one">Section One</a>
+```
+
+- Obviously `#two` and `#three` for the other two.
+
+Nothing changes on our page as the destinations have yet to be defined.
+
+### Task 5
+
+- For this to work we need to add `IDs` (names) to the link targets - where we want the menu to take us to.
+
+- We do this by adding the ID attribute `id="one"`, to our Section One heading. As follows.
+
+```
+<h2 id="one">Section One</h2>
+```
+- Run the page again.
+
+- If you've got it right, when you click to Section One link in the menu the page will *jump down* to Section One.
+
+- If that has worked, do the same for sections two and three, obviously using `id="two"` and `id="three"`.
+
+- Run your page and check all three links.
+
+<figure>
+  <img src="media/internal-links.gif"
+       alt="Animation of internal links in action"
+  >
+
+  <figcaption>For example on a Mac, if the default application is Mail, a new email window will open in Mail.</figcaption>
+</figure>
+
+<!-- end div -->
 
 ### &copy; Credit given
 
