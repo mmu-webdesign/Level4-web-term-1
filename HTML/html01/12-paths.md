@@ -142,11 +142,11 @@ Now you have some fixing to do:
 
 - The logo path needs to now be the same as it is on `page-two.html`
 
-Run the page and check everything out.
+- Run the page and check everything out.
 
-- Both links from the homepage
+    - Both links from the homepage
 
-- The logo (working) on each page
+    - The logo (working) on each page
 
 <!-- end div -->
 
