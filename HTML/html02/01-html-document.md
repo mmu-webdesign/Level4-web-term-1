@@ -91,14 +91,14 @@ Add more to the page - Let's make it more personal:
 - Add your name to the `<title>` - Something like:
 
 ```
-<tile>Derren Wilson, Senior lecturer. MMU</title>
+<title>Derren Wilson, Senior lecturer. MMU</title>
 ```
 
 #### The `<body>`
 
 - Delete the existing paragraph - `<p>This is my page</p>`
 
-- Insert the MMU logo at the top of the page. You'll find it in the `img` folder. *Think about the path*.
+- Insert the MMU logo at the top of the page using the `<img>` element. You'll find the logo in the `img` folder. *Think about the path*.
 
 - Next add a `<h1>` heading with your name.
 
@@ -111,6 +111,10 @@ Add more to the page - Let's make it more personal:
 
 - Run the page and view your first, complete personal webpage.
 
+<figure>
+<img src="media/first-webpage.png" alt="Finished web page in the browser">
+  <figcaption>Your page should look something like Derren's.</figcaption>
+</figure>
 
 <!-- end div -->
 
