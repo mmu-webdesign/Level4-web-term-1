@@ -170,7 +170,9 @@ Run the page and check everything out.
 
 - This time the path is just to `index.html`
 
-**Tip** - the path includes going down, out of the pages folder to the root.
+- **Tip 1** - the path includes going down, out of the pages folder to the root.
+
+- **Tip 2** - The code is the same on both pages - code one and copy and paste to the other.
 
 - Run the page - clicking the logo on `page-one.html` and `page-two.html` should take you back to the homepage. If it doesn't, check your code.
 
