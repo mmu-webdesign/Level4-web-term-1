@@ -124,11 +124,7 @@ In fact, the email address is even optional. If you leave it out (that is, your 
 
 <figure>
   <img src="media/mailto.png"
-       alt="Email window - new mail"
-       width="400"
-       height="341"
-      >
-
+       alt="Email window - new mail">
   <figcaption>For example on a Mac, if the default application is Mail, a new email window will open in Mail.</figcaption>
 </figure>
 

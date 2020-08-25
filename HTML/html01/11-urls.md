@@ -111,6 +111,53 @@ Nothing changes on our page as the destinations have yet to be defined.
 
 <!-- end div -->
 
+### Things to note
+
+- The name doesn't matter - just needs to match.
+
+- For example:
+
+```
+<a href="#fred">Link text</a>
+```
+and
+```
+<h2 id="fred">Target</a>
+```
+
+- They just need to match, including being case sensitive (and no spaces).
+
+- The `ID` can be added to any element, not just a heading.
+
+- We could link to one of these sections from another website by using the full URL. For example:
+
+```
+<a href="http://www.mywebsite.com#fred">Link text</a>
+```
+
+
+
+<!-- div class="exercise" -->
+## Exercise Two
+
+> **Return to top**. You've probably used these a million times, a quick link that jumps you back to the top of the page.
+
+### Task 1
+
+- Using the same `Repl.it - html8`
+
+- Using what you have learnt, create a link **Back to the Top** on this page. 
+
+- The text for the `<a>` link is already there at the bottom of the page.
+
+- Hint - add the `ID` to the `<h1>` at the top of the page.
+
+- What name to use for your `ID`? Up to you. Just follow the rules (above) and keep it simple.
+
+- When complete, Run the page. Scroll to the bottom, and click on your new `Return to the Top` link. If everything is correct you should jump back up to the top. If not, check your code.
+
+<!-- end div -->
+
 ### &copy; Credit given
 
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
