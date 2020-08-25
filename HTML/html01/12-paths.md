@@ -176,6 +176,13 @@ Run the page and check everything out.
 
 - Run the page - clicking the logo on `page-one.html` and `page-two.html` should take you back to the homepage. If it doesn't, check your code.
 
+<figure>
+<img src="media/paths-final.gif" alt="animation of the links working">
+
+  <figcaption>Working links to sub-pages in the `pages` folder, with clickable logo, returning to the homepage - `index.html`</figcaption>
+</figure>
+
+
 <!-- end div -->
 
 
@@ -183,7 +190,7 @@ Run the page and check everything out.
 
 To get a better understanding of this topic use the following resources.
 
-- LinkedIn Learning Video: [Jen Simmons - URL paths](https://www.linkedin.com/learning/html-essential-training-4/url-paths?u=36102708) (4m 45s)
+- If you didn't watch it - watch LinkedIn Learning Video: [Jen Simmons - URL paths](https://www.linkedin.com/learning/html-essential-training-4/url-paths?u=36102708) (4m 45s)
 
 
 ### &copy; Credit given
