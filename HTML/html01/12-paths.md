@@ -58,8 +58,7 @@ Find details on our <a href="contacts.html">contacts page</a>.</p>
 
 - Look at the file/ folder structure.
 
-<img src="media/paths-one.png"
-       alt="Folder structure - described below">
+<img src="media/paths-one.png" alt="Folder structure - described below">
 
 - We have our home page `index.html` on the root of our directory
 - There is an `img` folder for our images - currently empty
@@ -71,8 +70,7 @@ Find details on our <a href="contacts.html">contacts page</a>.</p>
 
 - Run `index.html` in the browser
 
-<img src="media/paths-two.png"
-       alt="index.html in the browser">
+<img src="media/paths-two.png" alt="index.html in the browser">
 
 - The logo loads because it is sat in the root folder with `index.html`. This makes the path simple - just the filename.
 
@@ -100,8 +98,7 @@ Find details on our <a href="contacts.html">contacts page</a>.</p>
 
 You will notice that the logo fails to load on `page-two.html`.
 
-<img src="media/paths-three.png"
-       alt="index.html in the browser">
+<img src="media/paths-three.png" alt="index.html in the browser">
 
 ### Task 4
 
