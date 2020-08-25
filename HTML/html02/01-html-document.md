@@ -1,6 +1,8 @@
 # Anatomy of an HTML document
 
-Individual HTML elements aren't very useful on their own. Next, let's examine how individual elements combine to form an entire HTML page:
+> Up until now we have focussed on individual elements and attributes, but individual HTML elements aren't very useful on their own. Next, let's examine how individual elements combine to form an entire HTML page.
+
+This is code/structure of every html document:
 
 ```
 <!DOCTYPE html>
@@ -10,14 +12,16 @@ Individual HTML elements aren't very useful on their own. Next, let's examine ho
     <title>My test page</title>
   </head>
   <body>
+
     <p>This is my page</p>
+
   </body>
 </html>
 ```
 
-Here we have:
+Breaking this down we have:
 
-1. `<!DOCTYPE html>`: The doctype. When HTML was young (1991-1992), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML. Doctypes used to look something like this:
+1. `<!DOCTYPE html>`: The doctype. When HTML was young (1991-1992), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML. Originally doctypes used to look something like this:
 
 ```
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
@@ -27,14 +31,101 @@ More recently, the doctype is a historical artifact that needs to be included fo
 
 2. `<html></html>`: The `<html>` element. This element wraps all the content on the page. It is sometimes known as the root element.
 
-1. `<head></head>`: The `<head>` element. This element acts as a container for everything you want to include on the HTML page, that isn't the content the page will show to viewers. This includes keywords and a page description that would appear in search results, CSS to style content, character set declarations, and more. 
+1. `<head></head>`: The `<head>` element. This element acts as a container for everything you want to include on the HTML page, **that isn't the content the page will show to viewers**. This includes keywords and a page description that would appear in search results, CSS to style content, character set declarations, and more. 
 
 1. `<meta charset="utf-8">`: This element specifies the character set for your document to UTF-8, which includes most characters from the vast majority of human written languages. With this setting, the page can now handle any textual content it might contain. There is no reason not to set this, and it can help avoid some problems later.
+
 1. `<title></title>`: The `<title>` element. This sets the title of the page, which is the title that appears in the browser tab the page is loaded in. The page title is also used to describe the page when it is bookmarked.
+
 1. `<body></body>`: The `<body>` element. This contains all the content that displays on the page, including text, images, videos, games, playable audio tracks, or whatever else.
 
-<div class="deep">
-## Deeper Learning
+<!-- div class="exercise" -->
+## Exercise One
+
+> Create your first complete HTML document and add some page content.
+
+### Task 1
+
+- Open [Repl.it - HTML Document](https://repl.it/@webdesignmmu/html10)
+
+- You have an empty file - `index.html`
+
+### Task 2
+
+You can do this two ways:
+
+1. Copy this code, line by line into `index.html`. If you are new to `html` this kind of practice will help your understanding of each element. 
+
+2. Copy this code and paste it into the document. This is quick and easy. You will never need to write out this code as all editors will provide yo with a template 'html' document. Do this is yo are confident that you understand each line of code.
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+
+    <p>This is my page</p>
+
+  </body>
+</html>
+```
+- Run the page in the browser. You will of course only see the paragraph of text as this is all that is in the body of the document.
+
+- <img src="media/view-in-tab.png" alt="Open in a new tab button" width="20"> Now open the page in a new tab by selecting the button on the top right. 
+
+
+<figure>
+<img src="media/first-page-tab.png" alt="animation of the internal links">
+  <figcaption>With a separate page you can now see the page title in the tab.</figcaption>
+</figure>
+
+### Task 3
+
+Add more to the page - Let's make it more personal:
+
+#### The `<head>`
+
+- Add your name to the `<title>` - Something like:
+
+```
+<tile>Derren Wilson, Senior lecturer. MMU</title>
+```
+
+#### The `<body>`
+
+- Delete the existing paragraph - `<p>This is my page</p>`
+
+- Insert the MMU logo at the top of the page. You'll find it in the `img` folder. *Think about the path*.
+
+- Next add a `<h1>` heading with your name.
+
+- Add a `<h2>` as follows:
+
+```
+<h2>Job Description</h2>
+```
+- Finish up by adding a paragraph that describes you current role.
+
+- Run the page and view your first, complete personal webpage.
+
+
+<!-- end div -->
+
+<h3 class="warning">Put the content in the &lt;body&gt;</h3>
+
+> All of that content needs to sit between the opening and closing `<body>` tags. A common mistake is to place the content in the `<head>` or between the closing `</head>` and the start `<body>`. Some times the `<body>` just gets deleted or shoved to the bottom.
+
+## Have you got it right?
+
+In the next chapter we discuss de-bugging. We are going to check the quality of your code through validation before continuing to look at the `<head>` in more detail.
+
+
+
+<h2 class="deep">Deeper Learning</h2>
+
 To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Jen Simmons -  The html page](https://www.linkedin.com/learning/html-essential-training-4/the-html-page?u=36102708) (5m 1s)
