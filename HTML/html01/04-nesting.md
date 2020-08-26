@@ -137,6 +137,7 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<hr>` - [The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 
+
 ### &copy; Credit given
 
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
