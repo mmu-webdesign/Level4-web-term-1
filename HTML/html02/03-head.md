@@ -4,7 +4,7 @@ Let's revisit the simple HTML document we covered in the Anatomy of an HTML docu
 
 ```
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
@@ -24,7 +24,7 @@ The HTML head is the contents of the `<head>` element — unlike the contents of
 </head>
 ```
 
-In larger pages however, the head can get quite full. Try going to some of your favorite websites and use the developer tools to check out their head contents. Our aim here is not to show you how to use everything that can possibly be put in the head, but rather to teach you how to use the major elements that you'll want to include in the head, and give you some familiarity. Let's get started.
+In larger pages however, the head can get quite full. Try going to some of your favorite websites and use *View Source* or the *developer tools* to check out their head contents. Our aim here is not to show you how to use everything that can possibly be put in the head, but rather to teach you how to use the major elements that you'll want to include in the head, and give you some familiarity. Let's get started.
 
 ## Adding a title
 
@@ -40,7 +40,17 @@ The `<title>` element contents are also used in other ways. For example, if you 
 
 The `<title>` contents are also used in search results, as you'll see below.
 
-### SEO 
+#### MMU's `<title>`
+
+```
+<title>Manchester Metropolitan University - Homepage</title>
+```
+#### MMU's search engine results pages (SERPs)
+
+<img src="media/mmu-serp.png" alt="MMU search results showing title is used used as the search page link">
+
+
+## SEO 
 
 The contents of a page title can have significant implications for search engine optimization (SEO). In general, a longer, descriptive title performs better than short or generic titles. The content of the title is one of the components used by search engine algorithms to decide the order in which to list pages in search results. Also, the title is the initial "hook" by which you grab the attention of readers glancing at the search results page.
 
@@ -73,7 +83,7 @@ If it's not as clear as `fish and chips`, you may need more. `car parts` alone m
 ```
 <title>Gregg's Car Parts, VW, Ford and Renault. Altincham UK</title>
 ```
-Avoid the words `Welcome` or `Home Page` as they are often wasted words (unless again, you are the BBC). These are so `1995`! If it's your site, don't just use your name unless it's `Madonna` or `Banksy`.
+Avoid the words `Welcome` or `Home Page` as they are often wasted words (unless again, you are the BBC or MMU). These are so `1995`! If it's your site, don't just use your name unless it's `Madonna` or `Banksy`.
 
 ### Sub-page(s) - `<title>`
 The title on your sub-pages need to reflect the content of the particular page, plus some context.
@@ -89,7 +99,7 @@ For someone with a number of tabs open in their browser is it more important for
 
 #### Function first?
 
-For accessibility we follow the practice of `function first`. This would mean putting the `Contact us` foirst in the title. Why? Consider MMU's titles. For example:
+For accessibility we follow the practice of `function first`. This would mean putting the `Contact us` first in the title. Why? Consider MMU's titles. For example:
 
 ```
 <title>About us | Manchester Metropolitan University</title>
@@ -118,10 +128,6 @@ This element simply specifies the document's character encoding — the characte
 
 <img src="media/correct-encoding.png" alt="a web page containing English and Japanese characters, with the character encoding set to universal, or utf-8. Both languages display fine">
 
-If you set your character encoding to ISO-8859-1, for example (the character set for the Latin alphabet), your page rendering may appear all messed up:
-
-<img src="media/bad-encoding.png" alt="a web page containing English and Japanese characters, with the character encoding set to latin. The Japanese characters don't display correctly">
-
 > Note: Some browsers (e.g. Chrome) automatically fix incorrect encodings, so depending on what browser you use, you may not see this problem anyway. You should still set an encoding of utf-8 on your page anyway, to avoid any potential problems in other browsers.
 
 
@@ -135,6 +141,7 @@ Two such meta elements that are useful to include on your page define the author
 
 ```
 <meta name="author" content="Chris Mills">
+
 <meta name="description" content="The MDN Web Docs Learning Area aims to provide complete beginners to the Web with all they need to know to get started with developing web sites and applications.">
 ```
 
@@ -142,103 +149,142 @@ Specifying an author is beneficial in many ways: it is useful to be able to unde
 
 Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines (such activities are termed Search Engine Optimization, or SEO.)
 
-## The description's use in search engines
+<h3 class="warning">Things to know</h3>
 
-The description is also used on search engine result pages. 
+- Writing a good meta description and title can be an art in itself. It is part of the skill set for good SEO (Search Engine Optimisation).
+- *Currently* Google's recommended `meta description` length is from 120 to 158 characters.
+- *Currently* Google's recommended `title` length is around 50 characters.
+- **Both of the above change regularly and Goolge don't like talking about it**.
+- See below for deeper and advanced learning in this area.
 
-> Let's go through an exercise to explore this
 
-Go to the [home page of MDN - https://developer.mozilla.org/](https://developer.mozilla.org/).
+<!-- div class="exercise" -->
 
-View the page's source (Right click on the page, choose View Page Source from the context menu.)
+## Exercise One
 
-Find the description meta tag. It will look something like this (although it may change over time):
+> The description is also used on search engine result pages. Let's go through an exercise to explore this:
 
-```
-<meta name="description" content="The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.">
-```
-Now search for "MDN" in your favorite search engine (We used Google.) You'll notice the description `<meta>` and `<title>` element content used in the search result — definitely worth having!
+- Go to the [home page of Gov UK https://www.gov.uk](https://www.gov.uk/).
 
-<img src="media/mdn-google-results.png" alt="A Google search result for MDN">
+- View the page's source (Right click on the page, choose View Page Source from the context menu.)
 
-> Note: In Google, you will see some relevant subpages of MDN Web Docs listed below the main homepage link — these are called sitelinks, and are configurable in Google's webmaster tools — a way to make your site's search results better in the Google search engine.
-
-> Note: Many `<meta>` features just aren't used any more. For example, the keyword `<meta>` element (<meta name="keywords" content="fill, in, your, keywords, here">) — which is supposed to provide keywords for search engines to determine relevance of that page for different search terms — is ignored by search engines, because spammers were just filling the keyword list with hundreds of keywords, biasing results. They may be useful on an intranet where you have better control of the keywords authors use.
-
-## Other types of metadata
-
-As you travel around the web, you'll find other types of metadata, too. A lot of the features you'll see on websites are proprietary creations, designed to provide certain sites (such as social networking sites) with specific pieces of information they can use.
-
-For example, Open Graph Data is a metadata protocol that Facebook invented to provide richer metadata for websites. 
-
-In the MDN Web Docs sourcecode, you'll find this:
+- Find the description meta tag. It will look something like this (although it may change over time):
 
 ```
-<meta property="og:image" content="https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png">
-<meta property="og:description" content="The Mozilla Developer Network (MDN) provides
-information about Open Web technologies including HTML, CSS, and APIs for both Web sites
-and HTML5 Apps. It also documents Mozilla products, like Firefox OS.">
-<meta property="og:title" content="Mozilla Developer Network">
+<meta name="description" content="GOV.UK - The place to find government services and information - Simpler, clearer, faster">
+```
+Now search for "Gov UK" in your favorite search engine (We used Google.) You'll notice the description `<meta name="description">` and `<title>` element content used in the search result — definitely worth having!
+
+<figure>
+<img src="media/gov-uk-google-results.png" alt="A Google search result for Gov UK">
+<figcaption>
+In Google, you will see some relevant subpages of Gov UK listed below the main homepage link — these are called sitelinks, and are configurable in Google's webmaster tools — a way to make your site's search results better in the Google search engine.
+</figcaption>
+</figure>
+
+<!-- end div -->
+
+### `<meta name="keywords">` 
+Some `<meta>` features just aren't used any more. For example, the keyword `<meta>` element:
+```
+<meta name="keywords" content="fill, in, your, keywords, here">
+```
+Is supposed to provide keywords for search engines to determine relevance of that page for different search terms. However, it is ignored by search engines, because spammers were just filling the keyword list with hundreds of keywords, biasing results. *Keywords may still be useful on an intranet where you have better control of the keywords authors use*.
+
+<!-- div class="exercise" -->
+
+## Exercise Two 
+
+> How does your company do?
+
+### Task 1
+
+- Search for your company homepage on Google.
+
+### Task 2
+
+- **Check** - Does Google <a href="#">display the page title as the blue link</a> in the results? 
+
+> Note: you will also need to open your employers homepage in another tab and View Source to see the code. `Ctl or Cmd + F` to search the code.
+
+- **Check** - Does Google display all of the text in the tile or is it truncated... (because it is too long)?
+
+### Task 3
+
+- **Check** - Does Google use the meta description as part of the search results (like Gov UK)?
+
+- **Check** - again is the description truncated?
+
+> If it doesn't, it may be displaying where your search terms appear on the page.
+
+### Summary
+
+- Does your company do a good job?
+- Are the title and description both well written?
+- Are either of them over-long?
+- Are either of them missing?
+- When displayed in the search results, do yo think they are helping the person searching?
+- Are they helping the search ranking of the company? - *You can't answer this, but do think about it*.
+
+<!-- end div -->
+
+<!-- div class="exercise" -->
+
+## Exercise Three 
+
+### Task 1
+
+- Go back to your personal page created with [Repl.it - HTML Document](https://repl.it/@webdesignmmu/html10)
+
+- You added a page title, something like:
+
+```
+<title>Derren Wilson, Senior lecturer. MMU</title>
 ```
 
-One effect of this is that when you link to MDN Web Docs on facebook, the link appears along with an image and description: a richer experience for users.
+### Task 2
 
-<img src="media/facebook-output.png" alt="Open graph protocol data from the MDN homepage as displayed on facebook, showing an image, title, and description">
-
-Twitter also has its own similar proprietary metadata called Twitter Cards, which has a similar effect when the site's URL is displayed on twitter.com. For example:
+- Insert under the title the code for a `meta description`.
 
 ```
-<meta name="twitter:title" content="Mozilla Developer Network">
+<meta name="description" content="Derren Wilson, profile including job description.">
 ```
+- Note that your text goes in here - `content="Your text"`
 
-## Adding custom icons to your site
+- Students often make the mistake of putiing their description over the word description - here - `name="description"` - DON'T, leave this alone.
 
-To further enrich your site design, you can add references to custom icons in your metadata, and these will be displayed in certain contexts. The most commonly used of these is the favicon (short for "favorites icon", referring to its use in the "favorites" or "bookmarks" lists in browsers).
+- At the moment your description is limited as the page doesn't actually have much content to describe. Image this page to be the homepage for a personal website for your work or hobbies. Now get more creative.
 
-The humble favicon has been around for many years. It is the first icon of this type: a 16-pixel square icon used in multiple places. You may see (depending on the browser) favicons displayed in the browser tab containing each open page, and next to bookmarked pages in the bookmarks panel.
+### Task 3
 
-A favicon can be added to your page by:
+- Once you have you `title` and `meta description` cut and paste them into this Google search results preview tool:
 
-Saving it in the same directory as the site's index page, saved in .ico format (most browsers will support favicons in more common formats like .gif or .png, but using the ICO format will ensure it works as far back as Internet Explorer 6.)
+> [Google search results preview tool](https://blog.spotibo.com/serp-preview-tool/)
 
-Adding the following line into your HTML's <head> block to reference it:
+- This  tool allows you to see your `title` and `meta description`, as they would look in Google.
 
-```
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-```
+- Too long? Too short? Adjust as required and paste back into your page.
 
-Here is an example of a favicon in a bookmarks panel:
+> Remember this tool when doing the rest of your coursework - Good metadata will get you good marks.
 
-<img src="media/bookmark-favicon.png" alt="The Firefox bookmarks panel, showing a bookmarked example with a favicon displayed next to it">
 
-There are lots of other icon types to consider these days as well. For example, you'll find this in the source code of the MDN Web Docs homepage:
-
-```
-<!-- third-generation iPad with high-resolution Retina display: -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://developer.cdn.mozilla.net/static/img/favicon144.a6e4162070f4.png">
-<!-- iPhone with high-resolution Retina display: -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://developer.cdn.mozilla.net/static/img/favicon114.0e9fabd44f85.png">
-<!-- first- and second-generation iPad: -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://developer.cdn.mozilla.net/static/img/favicon72.8ff9d87c82a0.png">
-<!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-<link rel="apple-touch-icon-precomposed" href="https://developer.cdn.mozilla.net/static/img/favicon57.a2490b9a2d76.png">
-<!-- basic favicon -->
-<link rel="shortcut icon" href="https://developer.cdn.mozilla.net/static/img/favicon32.e02854fdcf73.png">
-```
-
-The comments explain what each icon is used for — these elements cover things like providing a nice high resolution icon to use when the website is saved to an iPad's home screen.
-
-Don't worry too much about implementing all these types of icon right now — this is a fairly advanced feature, and you won't be expected to have knowledge of this to progress through the course. The main purpose here is to let you know what such things are, in case you come across them while browsing other websites' source code.
+<!-- end div -->
 
 ## Setting the primary language of the document
 
-Finally, it's worth mentioning that you can (and really should) set the language of your page. This can be done by adding the lang attribute to the opening HTML tag (as seen in the meta-example.html and shown below.)
+Finally, it's worth mentioning that you can (and really should) set the language of your page in the `<head>`. This can be done by adding the lang attribute to the opening HTML tag.
 
 ```
-<html lang="en-US">
+<html lang="en-GB">
 ```
 
 This is useful in many ways. Your HTML document will be indexed more effectively by search engines if its language is set (allowing it to appear correctly in language-specific results, for example), and it is useful to people with visual impairments using screen readers (for example, the word "six" exists in both French and English, but is pronounced differently.)
+
+- US english `<html lang="en">`
+
+- French `<html lang="fr">`
+
+- Spanish `<html lang="es">`
 
 You can also set subsections of your document to be recognised as different languages. For example, we could set our Japanese language section to be recognised as Japanese, like so:
 
