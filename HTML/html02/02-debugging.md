@@ -141,15 +141,15 @@ To specify the HTML to validate, you can give it a web address, upload an HTML f
 
 2. Switch to the Validate by Direct Input tab.
 
-<img src="media/validate-input.png" alt="A list of of HTML validation results from the W3C markup validation service">
+<img src="media/validate-input.png" alt="Validator, direct input tab selected">
 
 3. Copy all the sample document's code (not just the body) 
 
-<img src="media/selected.png" alt="A list of of HTML validation results from the W3C markup validation service">
+<img src="media/selected.png" alt="Complete html document, selected, in the editor window">
 
 4. Paste it into the large text area shown in the Markup Validation Service.
 
-<img src="media/pasted.png" alt="A list of of HTML validation results from the W3C markup validation service">
+<img src="media/pasted.png" alt="Code pasted into the validator">
 
 5. Press the Check button.
 
@@ -216,6 +216,12 @@ You will know when all your errors are fixed when you see the following banner i
 
 <!-- end div -->
 
+<h3 class="warning">Validation - Coursework</h3>
+
+- We use validation as one of our methods of assessing the quality of your work.
+
+- All of your coding submissions will be expected to validate (full HTML documents and later, CSS files)
+
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
@@ -228,8 +234,15 @@ To get a better understanding of this topic use the following resources.
 
 - [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/)
 
+<h2 class="deep">Advanced Learning</h2>
+
+For students wanting more, we recommend the following topics and resources. 
 
 - [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+
+- [Firefox Dev Tools](https://developer.mozilla.org/en-US/docs/Tools)
+
+- [MS Edge Dev (Chromium) Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium)
 
 
 ### &copy; Credit given
