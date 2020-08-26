@@ -6,7 +6,7 @@ This is code/structure of every html document:
 
 ```
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
@@ -29,7 +29,7 @@ Breaking this down we have:
 ```
 More recently, the doctype is a historical artifact that needs to be included for everything else to work right. `<!DOCTYPE html>` is the shortest string of characters that counts as a valid doctype. **That is all you need to know!**
 
-2. `<html></html>`: The `<html>` element. This element wraps all the content on the page. It is sometimes known as the root element.
+2. `<html></html>`: The `<html>` element. This element wraps all the content on the page. It is sometimes known as the root element. We have included the `lang="en-gb"` attribute, with the value of '"en-gb"' to define the page as British English.
 
 1. `<head></head>`: The `<head>` element. This element acts as a container for everything you want to include on the HTML page, **that isn't the content the page will show to viewers**. This includes keywords and a page description that would appear in search results, CSS to style content, character set declarations, and more. 
 
@@ -60,7 +60,7 @@ You can do this two ways:
 
 ```
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
   <head>
     <meta charset="utf-8">
     <title>My test page</title>

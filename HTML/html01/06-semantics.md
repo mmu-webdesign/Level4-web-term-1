@@ -61,7 +61,7 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
-<h2 class="deep">Advanced Learning</h2>
+<h2 class="advanced">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. 
 

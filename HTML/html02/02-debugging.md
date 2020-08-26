@@ -1,6 +1,6 @@
 # Debugging HTML
 
-Writing HTML is fine, but what if something goes wrong, and you can't work out where the error in the code is? This article will introduce you to some tools that can help you find and fix errors in HTML.
+Writing HTML is fine, but what if something goes wrong, and you can't work out where the error in the code is? This chapter will introduce you to some tools that can help you find and fix errors in HTML.
 
 ## Debugging isn't scary
 
@@ -28,17 +28,24 @@ HTML itself doesn't suffer from syntax errors because browsers parse it permissi
 
 > Note: HTML is parsed permissively because when the web was first created, it was decided that allowing people to get their content published was more important than making sure the syntax was absolutely correct. The web would probably not be as popular as it is today, if it had been more strict from the very beginning.
 
-## Exercise
+<!-- div class="exercise" -->
+## Exercise One
 
 > It's time to study the permissive nature of HTML code.
 
-1. First, download the [MDN debug-example demo](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/debugging-html/debug-example.html) and save it locally. This demo is deliberately written to have some errors in it for us to explore (the HTML markup is said to be badly-formed, as opposed to well-formed).
+### Task 1
 
-1. Next, open it in a browser. You will see something like this:
+- Open [Repl.it - Debugging](https://repl.it/@webdesignmmu/html11)
+
+- This demo is deliberately written to have some errors in it for us to explore (the HTML markup is said to be badly-formed, as opposed to well-formed).
+
+### Task 2
+
+In a browser you will see something like this:
 
 <img src="media/badly-formed-html.png" alt="A simple HTML document with a title of HTML debugging examples, and some information about common HTML errors, such as unclosed elements, badly nested elements, and unclosed attributes">
 
-3. This immediately doesn't look great; let's look at the source code to see if we can work out why (only the body contents are shown):
+- This immediately doesn't look great; let's look at the source code to see if we can work out why (only the body contents are shown):
 
 ```
 <h1>HTML debugging examples</h1>
@@ -59,7 +66,9 @@ HTML itself doesn't suffer from syntax errors because browsers parse it permissi
 </ul>
 ```
 
-4. Let's review the problems:
+### Task 3
+
+Let's review the problems:
 
 - The `paragraph` and `list item` elements have no closing tags. Looking at the image above, this doesn't seem to have affected the markup rendering too badly, as it is easy to infer where one element should end and another should begin.
 
@@ -69,7 +78,19 @@ HTML itself doesn't suffer from syntax errors because browsers parse it permissi
 
 - The `href` attribute value has a missing closing double quote. This seems to have caused the biggest problem — the link has not rendered at all.
 
-5. Now let's look at the markup the browser has rendered, as opposed to the markup in the source code. To do this, we can use the browser developer tools. If you are not familiar with how to use your browser's developer tools, take a few minutes to review [Discover browser developer tools](https://developer.mozilla.org/en-US/docs/Learn/Discover_browser_developer_tools).
+### Task 4
+
+Now let's look at the markup the browser has rendered, as opposed to the markup in the source code. To do this, we can use the browser developer tools. 
+
+> Note - if this is all new to you just read through Task 4 - it explains how the browser tries to fix the bad code. Dev Tools are very useful but may be a step too far at this early stage for some. 
+
+To open the Developer Tools:
+
+1. Open the page in a separate window/tab.
+
+1. Right click on the page, and select Inspect from the menu - this will open Dev Tools.
+
+If you are not familiar with how to use your browser's developer tools, take a few minutes to review [Discover Firefox developer tools](https://developer.mozilla.org/en-US/docs/Learn/Discover_browser_developer_tools).
 
 1. In the DOM inspector, you can see what the rendered markup looks like:
 
@@ -93,6 +114,7 @@ The link with the missing double quote has been deleted altogether. The last lis
   Let's look at an example: </strong>
 </li>
 ```
+<!-- end div -->
 
 ## HTML validation
 
@@ -104,17 +126,32 @@ The best strategy is to start by running your HTML page through the [Markup Vali
 
 To specify the HTML to validate, you can give it a web address, upload an HTML file, or directly input some HTML code.
 
-## Exercise
+<!-- div class="exercise" -->
+## Exercise Two
 
-Let's try this with the [MDN sample document](https://github.com/mdn/learning-area/blob/master/html/introduction-to-html/debugging-html/debug-example.html).
+> HTML Validation
+
+### Task 1
+
+- Return to [Repl.it - Debugging](https://repl.it/@webdesignmmu/html11)
+
+### Task 2
 
 1. First, load up the [Markup Validation Service](https://validator.w3.org/) in one browser tab, if it isn't already.
 
-1. Switch to the Validate by Direct Input tab.
+2. Switch to the Validate by Direct Input tab.
 
-1. Copy all the sample document's code (not just the body) and paste it into the large text area shown in the Markup Validation Service.
+<img src="media/validate-input.png" alt="A list of of HTML validation results from the W3C markup validation service">
 
-1. Press the Check button.
+3. Copy all the sample document's code (not just the body) 
+
+<img src="media/selected.png" alt="A list of of HTML validation results from the W3C markup validation service">
+
+4. Paste it into the large text area shown in the Markup Validation Service.
+
+<img src="media/pasted.png" alt="A list of of HTML validation results from the W3C markup validation service">
+
+5. Press the Check button.
 
 This should give you a list of errors and other information.
 
@@ -141,11 +178,43 @@ example: `<a href="https://www.mozilla.org/>link to Mozilla homepage</a> ↩ </u
 
 - **"Unclosed element `ul`"**: This is not very helpful, as the `<ul>` element is closed correctly. This error comes up because the `<a>` element is not closed, due to the missing closing quote mark.
 
-If you can't work out what every error message means, don't worry about it — a good idea is to try fixing a few errors at a time. Then try revalidating your HTML to show what errors are left. Sometimes fixing an earlier error will also get rid of other error messages — several errors can often be caused by a single problem, in a domino effect.
+<!-- end div -->
+
+<!-- div class="exercise" -->
+
+## Exercise Three
+
+> HTML Validation - Fix errors
+
+### Task 1
+
+- Go back to the code [Repl.it - Debugging](https://repl.it/@webdesignmmu/html11) and attempt to fix the errors.
+
+- If you can't work out what every error message means, don't worry about it — a good idea is to try fixing a few errors at a time. Then try revalidating your HTML to show what errors are left. Sometimes fixing an earlier error will also get rid of other error messages — several errors can often be caused by a single problem, in a domino effect.
 
 You will know when all your errors are fixed when you see the following banner in your output:
 
 <img src="media/valid-html-banner.png" alt="Banner that reads - The document validates according to the specified schema(s) and to additional constraints checked by the validator.">
+
+<!-- end div -->
+
+<!-- div class="exercise" -->
+
+## Exercise Four
+
+> HTML Validation - Your first webpage
+
+### Task 1
+
+- Go back to your page created with [Repl.it - HTML Document](https://repl.it/@webdesignmmu/html10)
+
+- Cut and paste the code into the validator
+
+- Does it validate?
+
+- If not, identify and fix any errors.
+
+<!-- end div -->
 
 <h2 class="deep">Deeper Learning</h2>
 
@@ -158,6 +227,9 @@ To get a better understanding of this topic use the following resources.
 - [W3C HTML Validation service](https://validator.w3.org/)
 
 - [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/)
+
+
+- [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
 
 
 ### &copy; Credit given
