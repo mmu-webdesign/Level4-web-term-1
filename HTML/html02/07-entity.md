@@ -1,4 +1,4 @@
-# Code, Entity Characters and Superscript/subscript
+# Code, Entity Characters, Superscript/subscript and HTML comments
 
 ## Representing computer code
 
@@ -137,6 +137,60 @@ The output of this code looks like so:
 - Make all the numbers subscript - we've done the first one (C<sub>8</sub>) for you. Code `10`, `4` and `2` the same so it looks like this:
 
 <img src="media/sub.png" alt="The numbers are all rendered in the browser as subscript">
+
+<!-- end div -->
+
+## HTML comments
+
+HTML has a mechanism to write comments in the code. Browsers ignore comments,  effectively making comments invisible to the user. The purpose of comments is to allow you to include notes in the code to explain your logic or coding. This is very useful if you return to a code base after being away for long enough that you don't completely remember it. Likewise, comments are invaluable as different people are making changes and updates.
+
+To write an HTML comment, wrap it in the special markers:
+
+ `<!--` and `-->`
+
+Here is a comment on [booking.com](http://booking.com) homepage - a job advert!
+
+```
+<!--
+You know you could be getting paid to poke around in our code?
+We're hiring designers and developers to work in Amsterdam:
+https://careers.booking.com/
+-->
+```
+
+<!-- div class="exercise" -->
+## Exercise Three
+
+> Adding HTML Comments - Continue with the Quotes and stuff Repl.it (`html12`)
+
+### Task 1
+
+- Copy and paste this text and code into the body of the webpage under the `HTML Comments` heading (`<h2>`).
+
+```
+<p>I'm not inside a comment</p>
+
+<p>I am!</p>
+
+```
+
+### Task 2
+
+- Now wrap a comment around the second paragraph.
+
+- Run your code and view in the browser window.
+
+As you can see below, if you've got it right, only the first paragraph displays in the live output.
+
+<img src="media/comments.png" alt="The first paragraph is rendered in the browser window, the second commented paragraph isn't">
+
+> Things to note about HTML Comments
+
+- Whist the content inside a `comment` is not displayed in the browser, it is not hidden. Anyone can `View Source` of a page and see what's hidden there.
+
+- Comments can be used to temporarily hide a piece or section of code. This can be useful during development.
+
+- Leaving good comments can help someone who inherits you code in the future. Good comments helps provide insight into your coding and design decisions.
 
 <!-- end div -->
 
