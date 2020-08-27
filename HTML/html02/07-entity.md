@@ -40,7 +40,6 @@ To       be
 
 
 
-
 ## Entity references: Including special characters in HTML
 
 In HTML, the characters `<`, `>`,`"`,`'` and & are special characters. They are parts of the HTML syntax itself. So how do you include one of these special characters in your text? For example, if you want to use an ampersand or less-than sign, and not have it interpreted as code.
@@ -80,7 +79,15 @@ You do this with character references. These are special codes that represent ch
 
 The character reference equivalent could be easily remembered because the text it uses can be seen as less than for '`&lt;`' , quotation for '`&quot;`' and similarly for others. To find more about entity reference, see [List of XML and HTML character entity references](http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references) (Wikipedia).
 
-In the example below, there are two paragraphs:
+
+<!-- div class="exercise" -->
+## Exercise One
+
+> Adding character references - Continue with the Quotes and stuff Repl.it (`html12`)
+
+### Task 1
+
+- Copy and paste this text and code into the body of the webpage under the `Character references` heading (`<h2>`).
 
 ```
 <p>In HTML, you define a paragraph using the <p> element.</p>
@@ -91,34 +98,47 @@ In the example below, there are two paragraphs:
 In the live output below, you can see that the first paragraph has gone wrong. The browser interprets the second instance of `<p>` as starting a new paragraph. The second paragraph looks fine because it has angle brackets with character references.
 
 
-<p>In HTML, you define a paragraph using the <p> element.</p>
+<img src="media/entity.png" alt="the paragraphs displayed in the browser as described above">
 
-<p>In HTML, you define a paragraph using the &lt;p&gt; element.</p>
-
+<!-- end div -->
 
 > Note: You don't need to use entity references for any other symbols, as modern browsers will handle the actual symbols just fine as long, as your HTML's character encoding is set to UTF-8.
 
 ## Superscript and subscript
 
-You will occasionally need to use superscript and subscript when marking up items like dates, chemical formulae, and mathematical equations so they have the correct meaning. The `<sup>` and `<sub>` elements handle this job. For example:
+You will occasionally need to use superscript and subscript when marking up items like dates, chemical formulae, and mathematical equations so they have the correct meaning. The `<sup>` and `<sub>` elements handle this job. 
+
+<!-- div class="exercise" -->
+## Exercise Two
+
+> Adding superscript and subscript - Continue with the Quotes and stuff Repl.it (`html12`)
+
+### Task 1
+
+- Copy and paste this text and code into the body of the webpage under the `Superscript and subscript` heading (`<h2>`).
 
 ```
 <p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
 
-<p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
-
-<p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
 ```
 
 The output of this code looks like so:
 
+<img src="media/sup.png" alt="The th is rendered in the browser as superscript">
 
-<p>My birthday is on the 25<sup>th</sup> of May 2001.</p>
+### Task 2
 
-<p>Caffeine's chemical formula is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>.</p>
+- Copy and paste this code into the page (under the birthday paragraph).
 
-<p>If x<sup>2</sup> is 9, x must equal 3 or -3.</p>
+```
+<p>Caffeine's chemical formula is C<sub>8</sub>H 10 N 4 O 2 .</p>
+```
 
+- Make all the numbers subscript - we've done the first one (C<sub>8</sub>) for you. Code `10`, `4` and `2` the same so it looks like this:
+
+<img src="media/sub.png" alt="The numbers are all rendered in the browser as subscript">
+
+<!-- end div -->
 
 <h2 class="deep">Deeper Learning</h2>
 

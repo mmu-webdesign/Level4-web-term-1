@@ -1,38 +1,65 @@
-# Quotes, Abbreviations & Time/Dates
-
-## Quotations
+# Quotations
 
 HTML also has features available for marking up quotations; which element you use depends on whether you are marking up a block or inline quotation.
 
-### Blockquotes
+## Blockquotes
 
-If a section of block level content (be it a paragraph, multiple paragraphs, a list, etc.) is quoted from somewhere else, you should wrap it inside a `<blockquote>` element to signify this, and include a URL pointing to the source of the quote inside a cite attribute. For example, the following markup is taken from the MDN `<blockquote>` element page:
+If a section of block level content (be it a paragraph, multiple paragraphs, a list, etc.) is quoted from somewhere else, you should wrap it inside a `<blockquote>` element to signify this, and include a URL pointing to the source of the quote inside a `cite` attribute. For example, the following is taken from the BBC Sports pages:
 
 ```
-<p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
-Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+<p>Messi - who has only ever played for Barca - wants to leave after a trophyless season which ended with an 8-2 thrashing by Bayern Munich in the Champions League quarter-finals.</p>
 ```
 
 To turn this into a block quote, we would just do this:
 
 ```
 <p>Here below is a blockquote...</p>
-<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
-  <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
-  Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+<blockquote cite="https://www.bbc.co.uk/sport/football/53918659">
+  <p>Messi - who has only ever played for Barca - wants to leave after a trophyless season which ended with an 8-2 thrashing by Bayern Munich in the Champions League quarter-finals.</p>
 </blockquote>
 ```
 
 Browser default styling will render this as an indented paragraph, as an indicator that it is a quote; the paragraph above the quotation is there to demostrate that.
 
-<p>Here below is a blockquote...</p>
-<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
-  <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
-  Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+<img src="media/blockquote.png" alt="Blockquote rendered in the browser">
+
+### Format
+
+```
+<blockquote cite=""> 
+Content
 </blockquote>
+```
+- The `cite` attribute allows you to put the URL of the source
+
+<!-- div class="exercise" -->
+## Exercise One
+
+> Adding a blockquote
+
+### Task 1
+
+- Open [Repl.it - Quotes and stuff](https://repl.it/@webdesignmmu/html12)
+
+### Task 2
+
+- Copy and paste this text from MMU Student regulations into the body of the webpage under the `Blockquote` heading (`<h2>`).
+
+```
+When you accept the University’s offer of a place, you form a contract with the University. This contract is based upon the University’s terms and conditions of contract. These set out the responsibilities of the University as an education provider, and the expectations of the University’s students. 
+```
+- Wrap it in the `blockquote` element.
+
+- Add the `cite` attribute.
+
+- Cite the following source - `https://www.mmu.ac.uk/academic/casqe/regulations/docs/policies_regulations.pdf`
+
+- Run in the browser.
+
+<!-- end div -->
 
 
-### Inline quotations
+## Inline quotations
 
 Inline quotations work in exactly the same way, except that they use the `<q>` element. For example, the below bit of markup contains a quotation from the MDN `<q>` page:
 
@@ -46,7 +73,51 @@ Browser default styling will render this as normal text put in quotes to indicat
 <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
 for short quotations that don't require paragraph breaks.</q></p>
 
-### Citations
+<!-- div class="exercise" -->
+## Exercise Two
+
+> Adding a quote - Continue with the Quotes and stuff Repl.it
+
+### Task 1
+
+- Copy and paste this text from the BBC into the body of the webpage under the `Inline quotations` heading (`<h2>`).
+
+```
+Richard Osman says being 6ft 7in, I've never walked into a room, got on the tube or walked down the street and not been noticed.
+```
+- Note that everything after `Richard Osman says` is a quote.
+
+- Wrap it in the `q` element.
+
+- Add the `cite` attribute.
+
+- Cite the following source - `https://www.bbc.co.uk/news/entertainment-arts-53648026`
+
+- Run in the browser.
+
+<!-- end div -->
+
+
+
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
+- LinkedIn Learning Video: [Jen Simmons - Quotes](https://www.linkedin.com/learning/html-essential-training-4/quotes?u=36102708) (3m 53s)
+
+- MDN: `<blockquote>` - [The Blockquote element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
+
+- MDN: `<q>` - [The Inline Quotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
+
+
+<h2 class="deep">Advanced Learning</h2>
+
+For students wanting more, we recommend the following topics and resources. 
+
+Citations, Abbreviations, dates and time are all things that not essential at this stage. If you want to know more, read the following:
+
+
+## Citations
 
 The content of the `cite` attribute sounds useful, but unfortunately browsers, screenreaders, etc. don't really do much with it. There is no way to get the browser to display the contents of cite, without writing your own solution using JavaScript or CSS. If you want to make the source of the quotation available on the page you need to make it available in the text via a link or some other appropriate way.
 
@@ -154,15 +225,6 @@ The basic example above just provides a simple machine readable date, but there 
 <time datetime="2016-W04">The fourth week of 2016</time>
 ```
 
-<h2 class="deep">Deeper Learning</h2>
-
-To get a better understanding of this topic use the following resources.
-
-- LinkedIn Learning Video: [Jen Simmons - Quotes](https://www.linkedin.com/learning/html-essential-training-4/quotes?u=36102708) (3m 53s)
-
-- MDN: `<blockquote>` - [The Blockquote element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote)
-
-- MDN: `<q>` - [The Inline Quotation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q)
 
 - MDN: `<cite>` - [The Citation element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite)
 
