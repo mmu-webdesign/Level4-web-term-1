@@ -85,7 +85,7 @@ for short quotations that don't require paragraph breaks.</q></p>
 ```
 Richard Osman says being 6ft 7in, I've never walked into a room, got on the tube or walked down the street and not been noticed.
 ```
-- Note that everything after `Richard Osman says` is a quote.
+- Note that everything after - `Richard Osman says` - is a quote.
 
 - Wrap it in the `q` element.
 
@@ -114,7 +114,7 @@ To get a better understanding of this topic use the following resources.
 
 For students wanting more, we recommend the following topics and resources. 
 
-Citations, Abbreviations, dates and time are all things that not essential at this stage. If you want to know more, read the following:
+Citations, Abbreviations, dates and time are all things that are not essential at this early stage. If you haver time and want to know more, read the following:
 
 
 ## Citations

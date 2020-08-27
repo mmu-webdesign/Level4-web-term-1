@@ -120,7 +120,7 @@ Add more to the page - Let's make it more personal:
 
 <h3 class="warning">Put the content in the &lt;body&gt;</h3>
 
-> All of that content needs to sit between the opening and closing `<body>` tags. A common mistake is to place the content in the `<head>` or between the closing `</head>` and the start `<body>`. Some times the `<body>` just gets deleted or shoved to the bottom.
+> All of that content needs to sit between the opening and closing `<body>` tags. A common student error is to place the content in the `<head>` or between the closing `</head>` and the start `<body>`. Some times the `<body>` just gets deleted or shoved to the bottom.
 
 ## Have you got it right?
 

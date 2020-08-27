@@ -18,11 +18,13 @@ A table is a structured set of data made up of rows and columns (**tabular data*
 
 <img src="media/swimming-timetable.png" alt="A swimming timetable showing a sample data table">
 
-Tables are very commonly used in human society, and have been for a long time, as evidenced by this US Census document from 1800:
+Tables are very commonly used in human society, and have been for a long time.
 
-<img src="media/1800-census.jpg" alt="A very old parchment document; the data is not easily readable, but it clearly shows a data table being used">
+It is therefore no wonder that the creators of HTML provided a means by which to structure and present tabular data on the web. 
 
-It is therefore no wonder that the creators of HTML provided a means by which to structure and present tabular data on the web.
+> **Accessibility issues** -  The data in the tables above is inaccessible to a screenreader or computer as the data is locked in a image. That means a visually impaired person cannot access the data, and nor can Google as it indexes the page. 
+>
+> Put the tables into html and the data becomes accessible. If coded correctly it can also be accessible on mobile, where these images may become too small to read.
 
 ## How does a table work?
 
