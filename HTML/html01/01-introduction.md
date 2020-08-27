@@ -133,7 +133,7 @@ Let's further explore our paragraph element from the previous section:
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - Task 1 files](https://repl.it/@webdesignmmu/html1) 
+- Open the exercise files in another browser window - [Repl.it - Task 1 files](https://repl.it/@webdesignmmu/html1)
 
 <figure>
 <img src="media/replit.png" alt="The replit interface">

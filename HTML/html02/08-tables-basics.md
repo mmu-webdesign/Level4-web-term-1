@@ -22,9 +22,9 @@ Tables are very commonly used in human society, and have been for a long time.
 
 It is therefore no wonder that the creators of HTML provided a means by which to structure and present tabular data on the web. 
 
-> **Accessibility issues** -  The data in the tables above is inaccessible to a screenreader or computer as the data is locked in a image. That means a visually impaired person cannot access the data, and nor can Google as it indexes the page. 
->
-> Put the tables into html and the data becomes accessible. If coded correctly it can also be accessible on mobile, where these images may become too small to read.
+> **Accessibility issues** -  The data in the tables above is inaccessible to a screenreader or computer as the data is locked in a image. That means a visually impaired person cannot access the data, and neither can Google as it indexes the page. Put the tables into html and the data becomes accessible. If coded correctly it can also be accessible on mobile `*`, where these images may become too small to read.
+
+`*` Apologies but we didn't have the time to make our tables mobile friendly!
 
 ## How does a table work?
 
@@ -171,39 +171,54 @@ When done correctly, even blind people can interpret tabular data in an HTML tab
 
 ## Table styling
 
-You can also have a look at the [live example on GitHub](https://mdn.github.io/learning-area/html/tables/assessment-finished/planets-data.html)! One thing you'll notice is that the table does look a bit more readable there — this is because the table you see above on this page has minimal styling, whereas the GitHub version has more significant CSS applied.
+You can also have a look at the [live example on GitHub](https://mdn.github.io/learning-area/html/tables/assessment-finished/planets-data.html)! One thing you'll notice is that the table does look a bit more readable there — this is because the table you see above on this page has minimal styling (the browser default styles), whereas the GitHub version has more significant CSS applied.
 
 Be under no illusion; for tables to be effective on the web, you need to provide some styling information with CSS, as well as good solid structure with HTML. In this module we are focusing on the HTML part; to find out about the CSS part you should visit MDN's [Styling tables article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables) after you've learnt about CSS.
 
-We won't focus on CSS in this module, but we have provided a minimal CSS stylesheet for you to use that will make your tables more readable than the default you get without any styling. You can find the [stylesheet here](https://github.com/mdn/learning-area/blob/master/html/tables/basic/minimal-table.css), and you can also find an [HTML template](https://github.com/mdn/learning-area/blob/master/html/tables/basic/blank-template.html) that applies the stylesheet — these together will give you a good starting point for experimenting with HTML tables.
+<!-- We won't focus on CSS in this module, but we have provided a minimal CSS stylesheet for you to use that will make your tables more readable than the default you get without any styling. You can find the [stylesheet here](https://github.com/mdn/learning-area/blob/master/html/tables/basic/minimal-table.css), and you can also find an [HTML template](https://github.com/mdn/learning-area/blob/master/html/tables/basic/blank-template.html) that applies the stylesheet — these together will give you a good starting point for experimenting with HTML tables. -->
 
 <h3 class="warning">When should you NOT use HTML tables?</h3>
 
-**HTML tables should be used for tabular data — this is what they are designed for**. Unfortunately, a lot of people used to use HTML tables to lay out web pages, e.g. one row to contain the header, one row to contain the content columns, one row to contain the footer, etc. You can find more details and an example at [Page Layouts](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML#Page_layouts) in MDN's [Accessibility Learning Module](https://developer.mozilla.org/en-US/docs/Learn/Accessibility). This was commonly used because CSS support across browsers used to be terrible; table layouts are much less common nowadays, but you might still see them in some corners of the web.
+**HTML tables should be used for tabular data — this is what they are designed for**. 
 
-In short, using tables for layout rather than CSS layout techniques is a bad idea. The main reasons are as follows:
+Unfortunately, in the early days of the web people used to use HTML tables to lay out web pages, e.g. one row to contain the header, one row to contain the content columns, one row to contain the footer, etc. 
 
-1. **Layout tables reduce accessibility for visually impaired users**: [Screenreaders](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility#Screenreaders), used by blind people, interpret the tags that exist in an HTML page and read out the contents to the user. Because tables are not the right tool for layout, and the markup is more complex than with CSS layout techniques, the screenreaders' output will be confusing to their users.
+You can find an example of a [Page Layout using tables](hhttps://mdn.github.io/learning-area/accessibility/html/table-layout.html) on MDN GitHub. View Source or Inspect to see the code. You will see that the whole page structure is created by a single table.
 
-1. **Tables produce tag soup**: As mentioned above, table layouts generally involve more complex markup structures than proper layout techniques. This can result in the code being harder to write, maintain, and debug.
+<img src="media/tables-page.gif" alt="Animation of Dev Tools showing table structure">
 
-1. **Tables are not automatically responsive**: When you use proper layout containers (such as `<header>`, `<section>`, `<article>`, or `<div>`), their width defaults to 100% of their parent element. Tables on the other hand are sized according to their content by default, so extra measures are needed to get table layout styling to effectively work across a variety of devices.
+This was commonly used because CSS support across browsers used to be terrible; table layouts are much less common nowadays, but you might still see them in some corners of the web.
 
-## Exercise: Creating your first table
+> In short, using tables for layout rather than CSS layout techniques is a bad idea. 
 
-We've talked table theory enough, so, let's dive into a practical example and build up a simple table.
+<!-- div class="exercise" -->
+## Exercise One
 
-1. First of all, make a local copy of blank-template.html and minimal-table.css in a new directory on your local machine.
+> Creating your first table - We've talked table theory enough, so, let's dive into a practical example and build up a simple table.
 
-1. The content of every table is enclosed by these two tags : `<table></table>`. Add these inside the body of your HTML.
+### Task 1
 
-1. The smallest container inside a table is a table cell, which is created by a `<td>` element (**'td' stands for 'table data'**). Add the following inside your table tags:
+- Open [Repl.it - HTML Tables](https://repl.it/@webdesignmmu/html13)
+
+- `index.html` is ready for you to start. We have linked to a style sheet, `style.css` to make the table look better and easier for you to work with. We haven't covered `CSS` yet so don't worry about it.
+
+### Task 2
+
+- The content of every table is enclosed by these two tags : `<table></table>`. Copy and paste this code inside the body of your HTML under the heading `<h1>Table template</h1>`.
+
+```
+<table>
+
+</table>
+```
+
+- The smallest container inside a table is a table cell, which is created by a `<td>` element (`td` stands for `table data`). Add the following inside your table tags:
 
 ```
 <td>Hi, I'm your first cell.</td>
 ```
 
-4. If we want a row of four cells, we need to copy these tags three times. Update the contents of your table to look like so:
+- If we want a row of four cells, we need to copy these tags three times. Update the contents of your table to look like so:
 
 ```
 <td>Hi, I'm your first cell.</td>
@@ -214,9 +229,12 @@ We've talked table theory enough, so, let's dive into a practical example and bu
 
 As you will see, the cells are not placed underneath each other, rather they are automatically aligned with each other on the same row. Each `<td>` element creates a single cell and together they make up the first row. Every cell we add makes the row grow longer.
 
-To stop this row from growing and start placing subsequent cells on a second row, we need to use the `<tr>` element (**'tr' stands for 'table row'**). Let's investigate this now.
 
-1. Place the four cells you've already created inside `<tr>` tags, like so:
+### Task 3
+
+To stop this row from growing and start placing subsequent cells on a second row, we need to use the `<tr>` element (`tr` stands for `table row`). Let's investigate this now.
+
+- Place the four cells you've already created inside `<tr>` tags, like so:
 
 ```
 <tr>
@@ -227,28 +245,33 @@ To stop this row from growing and start placing subsequent cells on a second row
 </tr>
 ```
 
-2. Now you've made one row, have a go at making one or two more — each row needs to be wrapped in an additional `<tr>` element, with each cell contained in a `<td>`.
+### Task 4
+
+- Now you've made one row, have a go at making one or two more — each row needs to be wrapped in an additional `<tr>` element, with each cell contained in a `<td>`.
 
 This should result in a table that looks something like the following:
 
-<table border="1">
- <tbody>
-  <tr>
-   <td>Hi, I'm your first cell.</td>
-   <td>I'm your second cell.</td>
-   <td>I'm your third cell.</td>
-   <td>I'm your fourth cell.</td>
-  </tr>
-  <tr>
-   <td>Second row, first cell.</td>
-   <td>Cell 2.</td>
-   <td>Cell 3.</td>
-   <td>Cell 4.</td>
-  </tr>
- </tbody>
-</table>
+<img src="media/table-row.png" alt="The table rendered in the browser with 4 cols and 2 rows">
 
-> Note: You can also find this on GitHub as [simple-table.html](https://github.com/mdn/learning-area/blob/master/html/tables/basic/simple-table.html) ([see it live also](http://mdn.github.io/learning-area/html/tables/basic/simple-table.html)).
+Remember to indent your code - it makes it easier to read and spot errors.
+
+```
+<table>
+  <tr>
+    <td>Hi, I'm your first cell.</td>
+    <td>I'm your second cell.</td>
+    <td>I'm your third cell.</td>
+    <td>I'm your fourth cell.</td>
+  </tr>
+  <tr>
+    <td>Second row, first cell.</td>
+    <td>Cell 2.</td>
+    <td>Cell 3.</td>
+    <td>Cell 4.</td>
+  </tr>
+</table>
+```
+<!-- end div -->
 
 ## Adding headers with `<th>` elements
 
