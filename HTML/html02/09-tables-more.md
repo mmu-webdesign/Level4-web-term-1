@@ -16,19 +16,31 @@ As you can infer from the brief example above, the caption is meant to contain a
 
 A caption is placed directly beneath the `<table>` tag.
 
-> Note: The summary attribute can also be used on the `<table>` element to provide a description — this is also read out by screenreaders. We'd recommend using the `<caption>` element instead, however, as summary is *deprecated* (no longer in use) by the HTML5 spec, and can't be read by sighted users (it doesn't appear on the page.)
 
-## Exercise: Adding a caption
+<!-- div class="exercise" -->
+## Exercise One
 
-Let's try this out, revisiting an example we first met in the previous article.
+> Adding a caption.
 
-1. Open up your language teacher's school timetable from the end of [HTML Table Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#Active_learning_colgroup_and_col), or make a local copy of our [timetable-fixed.html](https://github.com/mdn/learning-area/blob/master/html/tables/basic/timetable-fixed.html) file.
+### Task 1
 
-1. Add a suitable caption for the table.
+- Return to your HTML Tables Repl.it (`html13`)
 
-1. Save your code and open it in a browser to see what it looks like.
+### Task 2
 
->Note: You can find our version on GitHub — see [timetable-caption.html](https://github.com/mdn/learning-area/blob/master/html/tables/advanced/timetable-caption.html) ([see it live also](http://mdn.github.io/learning-area/html/tables/advanced/timetable-caption.html)).
+- Add a suitable caption to both of the tables.
+
+### Task 3
+
+- Run your code and view it in a browser to see what it looks like.
+
+<img src="media/table-caption.png" alt="The table headings are now highlighted in the browser">
+
+- If successful, you should be seeing both tables with captions - with your text obviously.
+
+<!-- end div -->
+
+> Default styles - By default the browser will centre the caption. We've increased the font size and weight (bold) in our CSS. 
 
 
 ## Adding structure with `<thead>`, `<tfoot>`, and `<tbody>`
@@ -45,181 +57,96 @@ To use them:
 
 - The `<tbody>` element needs to wrap the other parts of the table content that aren't in the table header or footer. It will appear below the table header or sometimes footer, depending on how you decided to structure it.
 
-> Note: `<tbody>` is always included in every table, implicitly if you don't specify it in your code. To check this, open up one of your previous examples that doesn't include `<tbody>` and look at the HTML code in your [browser developer tools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools) — you will see that the browser has added this tag for you. You might wonder why you ought to bother including it at all — you should, because it gives you more control over your table structure and styling.
+
+<!-- div class="exercise" -->
+## Exercise Two
+
+> Adding table structure (and further semantics).
+
+### Task 1
+
+- Return to your HTML Tables Repl.it (`html13`)
+
+### Task 2 
+
+- Using our Second Table, we are going to semantically mark-up the table sections, the head, the body and the footer using:
+
+  + `<thead> </thead>`
+  + `<tbody> </tbody>`
+  + `<tfoot> </tfoot>`
 
 
-## Exercise: Adding table structure
-
-Let's put these new elements into action.
-
-1. First of all, make a local copy of [spending-record.html](https://github.com/mdn/learning-area/blob/master/html/tables/advanced/spending-record.html) and [minimal-table.css](https://github.com/mdn/learning-area/blob/master/html/tables/advanced/minimal-table.css) in a new folder.
-
-1. Try opening it in a browser — You'll see that it looks OK, but it could stand to be improved. The "SUM" row that contains a summation of the spent amounts seems to be in the wrong place, and there are some details missing from the code.
-
-1. Put the obvious headers row inside a `<thead>` element, the "SUM" row inside a `<tfoot>` element, and the rest of the content inside a `<tbody>` element.
-
-1. Save and refresh, and you'll see that adding the `<tfoot>` element has caused the "SUM" row to go down to the bottom of the table.
-
-1. Next, add a `colspan` attribute to make the "SUM" cell span across the first four columns, so the actual number appears at the bottom of the "Cost" column.
-
-1. Let's add some simple extra styling to the table, to give you an idea of how useful these elements are for applying CSS. Inside the head of your HTML document, you'll see an empty `<style>` element. Inside this element, add the following lines of CSS code:
-
-```
-tbody {
-  font-size: 95%;
-  font-style: italic;
-}
-
-tfoot {
-  font-weight: bold;
-}
-```
-
- 7. Save and refresh, and have a look at the result. If the `<tbody>` and `<tfoot>` elements weren't in place, you'd have to write much more complicated selectors/rules to apply the same styling.
-
-> Note: We don't expect you to fully understand the CSS right now. You'll learn more about this when you go through our CSS modules.
-
-Your finished table should look something like the following:
-
-<img src="media/adding-table-structure.png" alt="see accessible example below">
-
-Note: You can also find it on Github as [spending-record-finished.html](https://github.com/mdn/learning-area/blob/master/html/tables/advanced/spending-record-finished.html) ([see it live also](http://mdn.github.io/learning-area/html/tables/advanced/spending-record-finished.html)).
-
-
-## Nesting Tables
-
-It is possible to nest a table inside another one, as long as you include the complete structure, including the `<table>` element. This is generally not really advised, as it makes the markup more confusing and less accessible to screenreader users, and in many cases you might as well just insert extra cells/rows/columns into the existing table. It is however sometimes necessary, for example if you want to import content easily from other sources.
-
-The following markup shows a simple nested table:
+- Wrap the `<thead>` tags around your first row like this:
 
 ```
-<table>
-  <tr>
-    <th>title1</th>
-    <th>title2</th>
-    <th>title3</th>
-  </tr>
-  <tr>
-    <td>
-        <table>
-            <tr>
-                <td>cell1</td>
-                <td>cell2</td>
-                <td>cell3</td>
-            </tr>
-      </table>`
-  </td>
-    <td>cell2</td>
-    <td>cell3</td>
-  </tr>
-  <tr>
-    <td>cell4</td>
-    <td>cell5</td>
-    <td>cell6</td>
-  </tr>
-</table>
+  <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>Knocky</th>
+      <th>Flor</th>
+      <th>Ella</th>
+      <th>Juan</th>
+    </tr>
+  </thead>
+```
+### Task 3
+
+- Run the page in the browser. We've included a bit of style (dark red font colour) for the `<thead>` so it should be obvious if it works.
+
+<img src="media/table-thead.png" alt="The top row headings are now dark red - illustrating the thead has been implemented correctly">
+
+### Task 4
+
+- Wrap the `<tbody>` tags around the next 5 rows.
+
+```
+<tbody>
+    <tr>
+    ...
+    </tr>
+    <tr>
+    ...
+    </tr>
+    <tr>
+    ...
+    </tr>
+    <tr>
+    ...
+    </tr>
+    <tr>
+    ...
+    </tr>
+</tbody>
 ```
 
-The output of which looks something like this:
+### Task 5
 
-<table style="border: dashed 1px red">
- <tbody>
-  <tr>
-   <th>title1</th>
-   <th>title2</th>
-   <th>title3</th>
-  </tr>
-  <tr>
-   <td >
-    <table style="border: dotted 1px orange">
-     <tbody>
-      <tr>
-       <td>cell1</td>
-       <td>cell2</td>
-       <td>cell3</td>
-      </tr>
-     </tbody>
-    </table>
-   </td>
-   <td>cell2</td>
-   <td>cell3</td>
-  </tr>
-  <tr>
-   <td>cell4</td>
-   <td>cell5</td>
-   <td>cell6</td>
-  </tr>
- </tbody>
-</table>
+- Run the page in the browser. We've included a bit of style (dark green font colour) for the `<tbody>`, so again it should be obvious if it works.
 
-We;ve added a dashed red border around the main table and a dotted orange border around the nested table to make it easier for you to spot.
+<img src="media/table-tbody.png" alt="The Eating Habits label now spans over the two rows">
+
+### Task 6
+
+- Wrap the `<tfoot>` tags around the final row.
+
+- This one:
+
+```
+  <tr>
+    <th colspan="5">This table is brought to you by Pooches Pet Parlour</th>
+  </tr>
+```
+### Task 7
+
+- Run the page in the browser. We've included a bit of style (dark red font colour, italic) for the `<tfoot>`. Here is the whole page.
+
+<img src="media/table-tfoot.png" alt="The Eating Habits label now spans over the two rows">
+
+<!-- end div -->
 
 ## Tables for visually impaired users
 
-Let's recap briefly on how we use data tables. A table can be a handy tool, for giving us quick access to data and allowing us to look up different values. For example, It takes only a short glance at the table below to find out how many rings were sold in Gent last August. To understand its information we make visual associations between the data in this table and its column and/or row headers.
-
-<table border="1" style="border: solid 2px grey">
- <caption>Items Sold August 2016</caption>
- <tbody>
-  <tr>
-   <td></td>
-   <td></td>
-   <th colspan="3" scope="colgroup">Clothes</th>
-   <th colspan="2" scope="colgroup">Accessories</th>
-  </tr>
-  <tr>
-   <td></td>
-   <td></td>
-   <th scope="col">Trousers</th>
-   <th scope="col">Skirts</th>
-   <th scope="col">Dresses</th>
-   <th scope="col">Bracelets</th>
-   <th scope="col">Rings</th>
-  </tr>
-  <tr>
-   <th rowspan="3" scope="rowgroup">Belgium</th>
-   <th scope="row">Antwerp</th>
-   <td>56</td>
-   <td>22</td>
-   <td>43</td>
-   <td>72</td>
-   <td>23</td>
-  </tr>
-  <tr>
-   <th scope="row">Gent</th>
-   <td>46</td>
-   <td>18</td>
-   <td>50</td>
-   <td>61</td>
-   <td>15</td>
-  </tr>
-  <tr>
-   <th scope="row">Brussels</th>
-   <td>51</td>
-   <td>27</td>
-   <td>38</td>
-   <td>69</td>
-   <td>28</td>
-  </tr>
-  <tr>
-   <th rowspan="2" scope="rowgroup">The Netherlands</th>
-   <th scope="row">Amsterdam</th>
-   <td>89</td>
-   <td>34</td>
-   <td>69</td>
-   <td>85</td>
-   <td>38</td>
-  </tr>
-  <tr>
-   <th scope="row">Utrecht</th>
-   <td>80</td>
-   <td>12</td>
-   <td>43</td>
-   <td>36</td>
-   <td>19</td>
-  </tr>
- </tbody>
-</table>
+Let's recap briefly on how we use data tables. A table can be a handy tool, for giving us quick access to data and allowing us to look up different values. For example, It takes only a short glance at the table below to find out how many rings were sold in Gent last August. To understand its information we make visual associations between the data in this table and its column and/or row headers. See our **Pooches table** above.
 
 But what if you cannot make those visual associations? How then can you read a table like the above? Visually impaired people often use a screenreader that reads out information on web pages to them. This is no problem when you're reading plain text but interpreting a table can be quite a challenge for a blind person. Nevertheless, with the proper markup we can replace visual associations by programmatic ones.
 
@@ -235,40 +162,63 @@ We already covered headers in our previous section *Adding headers with* `<th>` 
 
 ## The scope attribute
 
-A new topic for this article is the scope attribute, which can be added to the `<th>` element to tell screenreaders exactly what cells the header is a header for — is it a header for the row it is in, or the column, for example? Looking back to our spending record example from earlier on, you could unambiguously define the column headers as column headers like this:
+A new topic for this article is the `scope` attribute, which can be added to the `<th>` element to tell screenreaders exactly what cells the header is a header for — is it a header for the row it is in, or the column, for example? Looking back to our **Pooches** example from earlier on, you could unambiguously define the column headers as column headers using `scope="col"` like this:
 
 ```
 <thead>
   <tr>
-    <th scope="col">Purchase</th>
-    <th scope="col">Location</th>
-    <th scope="col">Date</th>
-    <th scope="col">Evaluation</th>
-    <th scope="col">Cost (€)</th>
+    <th scope="col">&nbsp;</th>
+    <th scope="col">Knocky</th>
+    <th scope="col">Flor</th>
+    <th scope="col">Ella</th>
+    <th scope="col">Juan</th>
   </tr>
 </thead>
 ```
 
-And each row could have a header defined like this (if we added row headers as well as column headers):
+And each row could have a header defined using `scope="row"` like this:
 
 ```
 <tr>
-  <th scope="row">Haircut</th>
-  <td>Hairdresser</td>
-  <td>12/09</td>
-  <td>Great idea</td>
-  <td>30</td>
+    <th scope="row">Breed</th>
+    <td>Jack Russell</td>
+    <td>Poodle</td>
+    <td>Streetdog</td>
+    <td>Cocker Spaniel</td>
 </tr>
 ```
 
-Screenreaders will recognize markup structured like this, and allow their users to read out the entire column or row at once, for example.
+Visually the `scope` attribute won't make any difference, but for Screenreaders will recognize markup structured like this, and allow their users to read out the entire column or row at once, for example.
 
-`scope` has two more possible values — `colgroup` and `rowgroup`. these are used for headings that sit over the top of multiple columns or rows. If you look back at the "**Items Sold August 2016**" table at the start of this section of the article, you'll see that the "Clothes" cell sits above the "Trousers", "Skirts", and "Dresses" cells. All of these cells should be marked up as headers (`<th>`), but "Clothes" is a heading that sits over the top and defines the other three subheadings. "Clothes" therefore should get an attribute of `scope="colgroup"`, whereas the others would get an attribute of `scope="col"`.
+<!-- div class="exercise" -->
+## Exercise Three
+
+> Adding `scope="col"` and `scope="row"` 
+
+### Task 1
+
+- Return to your HTML Tables Repl.it (`html13`)
+
+- Add both `scope="col"` and `scope="row"` to the Second Table as shown above.
+
+- Run in the browser - viually there should be no change.
+
+- Validate the code to check for errors.
+
+<!-- end div -->
+
+> This is the equivalent of a sighted person scanning over a table and spotting that Knocky's owner is the mother-in-law. It helps the screenreader associate that <td> containing mother-in-law with  the row and column headings.
+
+<img src="media/table-scope.png" alt="Our table, illustrating the link scope provides between col and row headings">
+
+> `scope` has two more possible values — `colgroup` and `rowgroup`. these are used for headings that sit over the top of multiple columns or rows. You can learn more below if you want.
 
 
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
+
+- MDN: `<caption>` - [The Table Caption element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)
 
 - MDN: `<thead>` - [The Table Head element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead)
 
@@ -276,17 +226,16 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<tbody>` - [The Table Body element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody)
 
-- MDN: `<col>` - [The Column element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)
 
-- MDN: `<colgroup>` - [The Column Group element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup)
-
-- MDN: `<caption>` - [The Table Caption element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)
-
-
+> Note: `<tbody>` is always included in every table, implicitly if you don't specify it in your code. To check this, open up one of your previous examples that doesn't include `<tbody>` and look at the HTML code in your [browser developer tools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools) — you will see that the browser has added this tag for you. You might wonder why you ought to bother including it at all — you should, because it gives you more control over your table structure and styling.
 
 <h2 class="advanced">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. 
+
+- MDN: `<col>` - [The Column element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col)
+
+- MDN: `<colgroup>` - [The Column Group element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup)
 
 - LinkedIn Learning Video: [Jen Kramer -  HTML Tables](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-tables%3Ftrk%3Dshare_ent_url&account=36102708) (1h 25m) - This complete course covers the essential skills you need to learn to display and format tabular data on the web. Watch and learn how to build tables with HTML, style tables with CSS, and make your tables accessible to users with disabilities on all types of devices.
 

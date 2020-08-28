@@ -418,7 +418,7 @@ Sometimes we want cells to span multiple rows or columns. Fortunately, table hea
 
 - Run the page in the browser. 
 
-<img src="media/table-without-colspan.png" alt="The table headings are now highlighted in the browser">
+<img src="media/table-without-colspan.png" alt="The extra cell appears on the bottom right of the table">
 
 - We've added a row, but it contains a single cell.
 
@@ -436,7 +436,7 @@ Sometimes we want cells to span multiple rows or columns. Fortunately, table hea
 
 - Run the page in the browser. You should have the added cell that *spans* all 5 columns.
 
-<img src="media/table-colspan.png" alt="The table headings are now highlighted in the browser">
+<img src="media/table-colspan.png" alt="The added cell now spans across all five columns at the bottom of the table">
 
 ### Task 5
 
@@ -457,7 +457,7 @@ Adding the `rowspan` attribute.
 
 - Run in the browser and you should see this:
 
-<img src="media/table-pre-rowspan.png" alt="The table headings are now highlighted in the browser">
+<img src="media/table-pre-rowspan.png" alt="The extra cells are added and sit to the left">
 
 - There are only four `<td>` cells defined, so only four columns.
 
@@ -474,7 +474,7 @@ Adding the `rowspan` attribute.
 
 - Run in the browser and you should now see this:
 
-<img src="media/table-rowspan.png" alt="The table headings are now highlighted in the browser">
+<img src="media/table-rowspan.png" alt="The Eating Habits label now spans over the two rows">
 
 - If successful, you should be seeing the Eating Habits row heading now spanning both (2) rows.
 
