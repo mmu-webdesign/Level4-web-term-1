@@ -339,7 +339,7 @@ The problem here in our second table is that, while you can kind of make out wha
 
 ### Task 3
 
-Let's have a go at improving this table.
+Let's have a go at improving the semantics of this table.
 
 - To recognize the table headers as headers, both visually and semantically, you can use the `<th>` element (`th` stands for `table header`). This works in exactly the same way as a `<td>`, except that it denotes a header, not a normal cell. 
 
@@ -352,12 +352,40 @@ Let's have a go at improving this table.
   + Ella
   + Juan
 
+For example `<th>`Knocky`</th>` instead of `<td>`Knocky`</td>`.
 
+- The headers for the rows are the dog features which include:
 
-1. Save your HTML and load it in a browser, and you should see that the headers now look like headers.
+  + Breed
+  + Age
+  + Owner
+  + Eating Habits
 
-> Note: You can find our finished example at [dogs-table-fixed.html](https://github.com/mdn/learning-area/blob/master/html/tables/basic/dogs-table-fixed.html) on GitHub ([see it live also](http://mdn.github.io/learning-area/html/tables/basic/dogs-table-fixed.html)).
+Again, define these as `table headings`.
 
+### Task 4
+
+- You will have noticed, the first cell of the header row and column looks like this:
+
+`<td>&nbsp;</td>`
+
+- Two things to note.
+
+  + First what is `&nbsp;` ? This is a non-breaking space. It simply adds space in our page. It's useful here as it ensures this cell has something in it,even if it is only a space. Use sparingly.
+
+  + Secondly, this cell is empty so should it be changed to a heading? We would say yes, as semantically it is part of the heading.
+
+### Task 5
+
+- Run the page in the browser, and you should see that the headers now look like headers.
+
+<img src="media/table-th.png" alt="The table headings are now highlighted in the browser">
+
+- Semantically the headers are now described (in the code) as headers.
+
+- Visually the headers (`<th>`) are now highlighted (by the CSS styling).
+
+<!-- end div -->
 
 ### Why are headers useful?
 
@@ -365,84 +393,92 @@ We have already partially answered this question — it is easier to find the da
 
 > Note: Table headings come with some default styling — they are bold and centered even if you don't add your own styling to the table, to help them stand out.
 
-Tables headers also have an added benefit — along with the scope attribute (which we'll learn about in the next article), they allow you to make tables more accessible by associating each header with all the data in the same row or column. Screenreaders are then able to read out a whole row or column of data at once, which is pretty useful.
+Tables headers also have an added benefit — along with the scope attribute (which we'll learn about in the next chapter), they allow you to make tables more accessible by associating each header with all the data in the same row or column. Screenreaders are then able to read out a whole row or column of data at once, which is pretty useful.
 
 ## Allowing cells to span multiple rows and columns
 
-Sometimes we want cells to span multiple rows or columns. Take the following simple example, which shows the names of common animals. In some cases, we want to show the names of the males and females next to the animal name. Sometimes we don't, and in such cases we just want the animal name to span the whole table.
+Sometimes we want cells to span multiple rows or columns. Fortunately, table headers and cells have the `colspan` and `rowspan` attributes, which allow us to do just those things. Both accept a unitless number value, which equals the number of rows or columns you want spanned. For example, `colspan="2"` makes a cell span two columns.
 
-The initial markup looks like this:
+<!-- div class="exercise" -->
+## Exercise Three
+
+> Let's use `colspan` and `rowspan`.
+
+### Task 1
+
+- Return to your HTML Tables Repl.it (`html13`)
+
+- Insert this code (extra row) to the bottom of the Second Table, before the closing `</table>` tag.
+```
+  <tr>
+    <th>This table is brought to you by Pooches Pet Parlour</th>
+  </tr>
+```
+### Task 2
+
+- Run the page in the browser. 
+
+<img src="media/table-without-colspan.png" alt="The table headings are now highlighted in the browser">
+
+- We've added a row, but it contains a single cell.
+
+### Task 3
+
+- Add the `colspan` attribute to this single cell.
+
+- Add a value of 5, so it spans 5 columns.
 
 ```
-<table>
-  <tr>
-    <th>Animals</th>
-  </tr>
-  <tr>
-    <th>Hippopotamus</th>
-  </tr>
-  <tr>
-    <th>Horse</th>
-    <td>Mare</td>
-  </tr>
-  <tr>
-    <td>Stallion</td>
-  </tr>
-  <tr>
-    <th>Crocodile</th>
-  </tr>
-  <tr>
-    <th>Chicken</th>
-    <td>Hen</td>
-  </tr>
-  <tr>
-    <td>Rooster</td>
-  </tr>
-</table>
+<th colspan="5">
 ```
-But the output doesn't give us quite what we want:
 
-<table border="1">
- <tbody>
-  <tr>
-   <th>Animals</th>
-  </tr>
-  <tr>
-   <th>Hippopotamus</th>
-  </tr>
-  <tr>
-   <th>Horse</th>
-   <td>Mare</td>
-  </tr>
-  <tr>
-   <td>Stallion</td>
-  </tr>
-  <tr>
-   <th>Crocodile</th>
-  </tr>
-  <tr>
-   <th>Chicken</th>
-   <td>Hen</td>
-  </tr>
-  <tr>
-   <td>Rooster</td>
-  </tr>
- </tbody>
-</table>
+### Task 4
 
-We need a way to get "Animals", "Hippopotamus", and "Crocodile" to span across two columns, and "Horse" and "Chicken" to span downwards over two rows. Fortunately, table headers and cells have the `colspan` and `rowspan` attributes, which allow us to do just those things. Both accept a unitless number value, which equals the number of rows or columns you want spanned. For example, `colspan="2"` makes a cell span two columns.
+- Run the page in the browser. You should have the added cell that *spans* all 5 columns.
 
-Let's use `colspan` and `rowspan` to improve this table.
+<img src="media/table-colspan.png" alt="The table headings are now highlighted in the browser">
 
-1. First, make a local copy of our [animals-table.html](https://github.com/mdn/learning-area/blob/master/html/tables/basic/animals-table.html) and [minimal-table.css](https://github.com/mdn/learning-area/blob/master/html/tables/basic/minimal-table.css) files in a new directory on your local machine. The HTML contains the same animals example as you saw above.
+### Task 5
 
-1. Next, use `colspan` to make "Animals", "Hippopotamus", and "Crocodile" span across two columns.
+Adding the `rowspan` attribute.
 
-1. Finally, use `rowspan` to make "Horse" and "Chicken" span across two rows.
-Save and open your code in a browser to see the improvement.
+- Insert the following row under the Eating Habits row.
 
-> Note: You can find our finished example at [animals-table-fixed.html](https://github.com/mdn/learning-area/blob/master/html/tables/basic/animals-table-fixed.html) on GitHub ([see it live also](http://mdn.github.io/learning-area/html/tables/basic/animals-table-fixed.html)).
+```   
+<tr>
+    <td>Pedigree Wet Food</td>
+    <td>Pedigree Dry Food</td>
+    <td>Pedigree Dry Food</td>
+    <td>Pedigree Wet Food</td>
+</tr>
+```
 
+### Task 5
+
+- Run in the browser and you should see this:
+
+<img src="media/table-pre-rowspan.png" alt="The table headings are now highlighted in the browser">
+
+- There are only four `<td>` cells defined, so only four columns.
+
+### Task 6
+
+- We are going to use `rowspan` to make the `row` span two rows for the cell containing Eating habits.
+
+- Edit the `<td>` for this cell to include the `rowspan` attribute with a value of `2`.
+
+```
+<th rowspan="2">Eating Habits</th>
+```
+### Task 7
+
+- Run in the browser and you should now see this:
+
+<img src="media/table-rowspan.png" alt="The table headings are now highlighted in the browser">
+
+- If successful, you should be seeing the Eating Habits row heading now spanning both (2) rows.
+
+<!-- end div -->
 
 <h2 class="deep">Deeper Learning</h2>
 
