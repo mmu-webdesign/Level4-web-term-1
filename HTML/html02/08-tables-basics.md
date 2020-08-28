@@ -167,15 +167,14 @@ Data about the planets of our solar system (Planetary facts taken from [Nasa's P
  </tbody>
 </table>
 
+
 When done correctly, even blind people can interpret tabular data in an HTML table — a successful HTML table should enhance the experience of sighted and visually impaired users alike.
 
 ## Table styling
 
 You can also have a look at the [live example on GitHub](https://mdn.github.io/learning-area/html/tables/assessment-finished/planets-data.html)! One thing you'll notice is that the table does look a bit more readable there — this is because the table you see above on this page has minimal styling (the browser default styles), whereas the GitHub version has more significant CSS applied.
 
-Be under no illusion; for tables to be effective on the web, you need to provide some styling information with CSS, as well as good solid structure with HTML. In this module we are focusing on the HTML part; to find out about the CSS part you should visit MDN's [Styling tables article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables) after you've learnt about CSS.
-
-<!-- We won't focus on CSS in this module, but we have provided a minimal CSS stylesheet for you to use that will make your tables more readable than the default you get without any styling. You can find the [stylesheet here](https://github.com/mdn/learning-area/blob/master/html/tables/basic/minimal-table.css), and you can also find an [HTML template](https://github.com/mdn/learning-area/blob/master/html/tables/basic/blank-template.html) that applies the stylesheet — these together will give you a good starting point for experimenting with HTML tables. -->
+Be under no illusion; for tables to be effective on the web, you need to provide some styling information with CSS, as well as good solid structure with HTML. In this chapter we are focusing on the HTML part.
 
 <h3 class="warning">When should you NOT use HTML tables?</h3>
 
@@ -204,7 +203,7 @@ This was commonly used because CSS support across browsers used to be terrible; 
 
 ### Task 2
 
-- The content of every table is enclosed by these two tags : `<table></table>`. Copy and paste this code inside the body of your HTML under the heading `<h1>Table template</h1>`.
+- The content of every table is enclosed by these two tags : `<table></table>`. Copy and paste this code inside the body of your HTML under the heading `<h2>First Table</h2>`.
 
 ```
 <table>
@@ -275,7 +274,20 @@ Remember to indent your code - it makes it easier to read and spot errors.
 
 ## Adding headers with `<th>` elements
 
-Now let's turn our attention to table headers — special cells that go at the start of a row or column and define the type of data that row or column contains (as an example, see the "Person" and "Age" cells in the first example shown in this article). To illustrate why they are useful, have a look at the following table example. First the source code:
+Now let's turn our attention to table headers — special cells that go at the start of a row or column and define the type of data that row or column contains (as an example, see the "Person" and "Age" cells in the first example shown in this chapter). To illustrate why they are useful, have a look at the following table example. First the source code:
+
+<!-- div class="exercise" -->
+## Exercise Two
+
+> Adding table headers.
+
+### Task 1
+
+- Return to your HTML Tables Repl.it (`html13`)
+
+### Task 2
+
+- Copy and paste this code inside the body of your HTML under the heading `<h2>Second Table</h2>`.
 
 ```
 <table>
@@ -316,57 +328,31 @@ Now let's turn our attention to table headers — special cells that go at the s
   </tr>
 </table>
 ```
-Now the actual rendered table:
 
-<table border="1">
- <tbody>
-  <tr>
-   <td></td>
-   <td>Knocky</td>
-   <td>Flor</td>
-   <td>Ella</td>
-   <td>Juan</td>
-  </tr>
-  <tr>
-   <td>Breed</td>
-   <td>Jack Russell</td>
-   <td>Poodle</td>
-   <td>Streetdog</td>
-   <td>Cocker Spaniel</td>
-  </tr>
-  <tr>
-   <td>Age</td>
-   <td>16</td>
-   <td>9</td>
-   <td>10</td>
-   <td>5</td>
-  </tr>
-  <tr>
-   <td>Owner</td>
-   <td>Mother-in-law</td>
-   <td>Me</td>
-   <td>Me</td>
-   <td>Sister-in-law</td>
-  </tr>
-  <tr>
-   <td>Eating Habits</td>
-   <td>Eats everyone's leftovers</td>
-   <td>Nibbles at food</td>
-   <td>Hearty eater</td>
-   <td>Will eat till he explodes</td>
-  </tr>
- </tbody>
-</table>
+### Task 2
 
-The problem here is that, while you can kind of make out what's going on, it is not as easy to cross reference data as it could be. If the column and row headings stood out in some way, it would be much better.
+- Run the page in the browser.  You should see this:
 
-## Exercise: table headers
+<img src="media/table-two.png" alt="Both tables rendered in the browser">
+
+The problem here in our second table is that, while you can kind of make out what's going on, it is not as easy to cross reference data as it could be. If the column and row headings stood out in some way, it would be much better.
+
+### Task 3
 
 Let's have a go at improving this table.
 
-1. First, make a local copy of MDN's [dogs-table.html](https://github.com/mdn/learning-area/blob/master/html/tables/basic/dogs-table.html) and [minimal-table.css](https://github.com/mdn/learning-area/blob/master/html/tables/basic/minimal-table.css) files in a new directory on your local machine. The HTML contains the same Dogs example as you saw above.
+- To recognize the table headers as headers, both visually and semantically, you can use the `<th>` element (`th` stands for `table header`). This works in exactly the same way as a `<td>`, except that it denotes a header, not a normal cell. 
 
-1. To recognize the table headers as headers, both visually and semantically, you can use the `<th>` element ('th' stands for 'table header'). This works in exactly the same way as a `<td>`, except that it denotes a header, not a normal cell. Go into your HTML, and change all the `<td>` elements surrounding the table headers into `<th>` elements.
+- Go into your HTML, and change all the `<td>` elements surrounding the table headers into `<th>` elements.
+
+- The headers for the columns are the dog names:
+
+  + Knocky
+  + Flor
+  + Ella
+  + Juan
+
+
 
 1. Save your HTML and load it in a browser, and you should see that the headers now look like headers.
 
@@ -470,6 +456,12 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: `<th>` - [The Table Header element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th)
 
+
+<h2 class="deep">Advanced Learning</h2>
+
+For students wanting more, we recommend the following topics and resources. 
+
+MDN: [Styling tables with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables) - You will need to understand CSS.
 
 ### &copy; Credit given
 
