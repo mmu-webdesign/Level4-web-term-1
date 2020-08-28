@@ -1,5 +1,7 @@
 # More `<html>` forms
 
+> This chapter provides more information including the important accessibility features of the `label` attribute `<fieldset>` and `<legend>` elements. You don't need to code any of this, just read though to get some understanding.
+
 ## The `<fieldset>` and `<legend>` elements
 
 The `<fieldset>` element is a convenient way to create groups of widgets that share the same purpose, for styling and semantic purposes. You can label a `<fieldset>` by including a `<legend>` element just below the opening `<fieldset>` tag. The text content of the `<legend>` formally describes the purpose of the `<fieldset>` it is included inside.
@@ -108,17 +110,19 @@ The code - look for the matching `id="taste_1"` and `<label for="taste_1">` whic
 </form>
 ```
 
-### More - temporary
+## Native form controls
+
+### Text input fields
 
 Text `<input>` fields are the most basic form widgets. They are a very convenient way to let the user enter any kind of data.
 
 They can have a `placeholder`; this is text that appears inside the text input box that should be used to briefly describe the purpose of the box.
 
-Checkboxes and radio buttons
+### Checkboxes and radio buttons
 
-Checkable items are controls whose state you can change by clicking on them or their associated labels. There are two kinds of checkable item: the check box and the radio button. Both use the checked attribute to indicate whether the widget is checked by default or not.
+Checkable items are controls whose state you can change by clicking on them or their associated labels. There are two kinds of checkable item: the `check box` and the `radio button`. Both use the checked attribute to indicate whether the widget is checked by default or not.
 
-E-mail address field
+### E-mail address field
 
 This type of field is set using the value email for the type attribute:
 ```
@@ -128,9 +132,9 @@ When this type is used, the user is required to type a valid email address into 
 
 <img src="media/email_address_invalid.png" alt="An invalid email input showing the message - Please enter an email address.">
 
-On some devices — notably, touch devices with dynamic keyboards like smart phones — a different virtual keypad might be presented that is more suitable for entering email addresses, including the @ key. See the Firefox for Android keyboard screenshot below for an example:
+On some devices — notably, touch devices with dynamic keyboards like smart phones — a different virtual keypad might be presented that is more suitable for entering email addresses, including the @ key. See the IOS keyboard screenshot below for an example:
 
-<img src="media/fx-android-email-type-keyboard.jpg" alt="firefox for android email keyboard, with ampersand displayed by default">
+<img src="media/keys-email.jpg" alt="IOS email keyboard, with ampersand displayed by default">
 
 ### Client-side validation
 
