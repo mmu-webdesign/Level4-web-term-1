@@ -480,6 +480,15 @@ Adding the `rowspan` attribute.
 
 <!-- end div -->
 
+<h3 class="warning">Errors - Validation</h3>
+
+- If things are not going quite right with your table, validating the code may help you identify the issues.
+
+- [The W3C HTML Validator](https://validator.w3.org/#validate_by_input)
+
+- `Ctl+z` (Undo) in the editor is also very helpful to rewind your coding.
+
+
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
