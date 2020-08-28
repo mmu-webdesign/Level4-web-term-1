@@ -201,7 +201,7 @@ Visually the `scope` attribute won't make any difference, but for Screenreaders 
 
 - Add both `scope="col"` and `scope="row"` to the Second Table as shown above.
 
-- Run in the browser - viually there should be no change.
+- Run in the browser - visually there should be no change.
 
 - Validate the code to check for errors.
 
