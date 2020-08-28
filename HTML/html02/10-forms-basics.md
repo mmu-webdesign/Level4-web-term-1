@@ -4,19 +4,28 @@
 
 Web forms are one of the main points of interaction between a user and a web site or application. Forms allow users to enter data, which is generally sent to a web server for processing and storage, or used on the client-side to immediately update the interface in some way (for example, add another item to a list, or show or hide a UI feature).
 
+> Note - in this unit we are not concerned with methods (programming/scripting) of processing a form. We focus on the html coding, the design and the accessibility of each form element. MDN's article on  *Sending form data* article is linked in the Advanced Learning section below.
+
 A web form's HTML is made up of one or more form controls (sometimes called widgets), plus some additional elements to help structure the overall form — they are often referred to as HTML forms. The controls can be single or multi-line text fields, dropdown boxes, buttons, checkboxes, or radio buttons, and are mostly created using the `<input>` element, although there are some other elements to learn about too.
 
 Form controls can also be programmed to enforce specific formats or values to be entered (**form validation**), and paired with text labels that describe their purpose to both sighted and blind users.
 
 <!-- div class="exercise" -->
 
-## Exercise: Implementing our form HTML
+## Exercise One
+
+> Implementing our form HTML
 
 Ok, let's have a go at creating the HTML for our form. We will use the following HTML elements: `<form>`, `<label>`, `<input>`, `<textarea>`, and `<button>`.
 
-Before you go any further, make a local copy of our simple HTML template — you'll enter your form HTML into here.
 
-### The `<form>` element
+### Task 1
+
+> The `<form>` element
+
+- Open [Repl.it - HTML Forms](https://repl.it/@webdesignmmu/html14)
+
+
 
 All forms start with a `<form>` element, like this:
 
@@ -26,30 +35,32 @@ All forms start with a `<form>` element, like this:
 </form>
 ```
 
-This element formally defines a form. It's a container element like a `<section>` or `<footer>` element, but specifically for containing forms; it also supports some specific attributes to configure the way the form behaves. All of its attributes are optional, but it's standard practice to always set at least the `action` and `method` attributes:
+As we have said, we are not interested at this stage in processing the form, so all you need to add to the `body` of the page is:
 
-1. The `action` attribute defines the location (URL) where the form's collected data should be sent when it is submitted.
+```
+<form>
 
-1. The `method` attribute defines which HTTP method to send the data with (usually `get` or `post`).
+</form>
+```
 
-> Note: The programming involved in sending a form is byond the scope of this unit. MDN's article on how those attributes work in the Sending form data article is linked in the Advanced Learning section below..
+This element formally defines a form. It's a container element like a `<div>` element, but specifically for containing forms.
 
-For now, add the above `<form>` element into your HTML `<body>`.
+### Task 2
 
-The `<label>`, `<input>`, and `<textarea>` elements
+> The `<label>`, `<input>`, and `<textarea>` elements
 
 Our contact form is not complex: the data entry portion contains three text fields, each with a corresponding `<label>`:
 
-1.The input field for the name is a single-line text field.
+1. The `input` field for the name is a single-line `text` field.
 
-1. The input field for the e-mail is an input of type email: a single-line text field that accepts only e-mail addresses.
+1. The `input` field for the e-mail is an input of `type email`: a single-line text field that accepts only e-mail addresses.
 
-1. The input field for the message is a `<textarea>`; a multiline text field.
+1. The `input` field for the message is a `<textarea>`; a multiline text field.
 
 In terms of HTML code we need something like the following to implement these form widgets:
 
 ```
-<form action="" method="post">
+<form>
  <ul>
   <li>
     <label for="name">Name:</label>
@@ -67,14 +78,39 @@ In terms of HTML code we need something like the following to implement these fo
 </form>
 
 ```
+> *Note that the form elements are placed inside an un-ordered list. More about this below.*
 
-Update your form code to look like the above.
+- Update your form code to look like the above by typing or copy & pasting the above.
 
-The `<li>` elements are there to conveniently structure our code and make styling easier (see later in the article). For usability and accessibility, we include an explicit label for each form control. Note the use of the for attribute on all `<label>` elements, which takes as its value the id of the form control with which it is associated — this is how you associate a form control with its label.
+### Task 3
 
-There is great benefit to doing this — it associates the label with the form control, enabling mouse, trackpad, and touch device users to click on the label to activate the corresponding control, and it also provides an accessible name for screen readers to read out to their users. You'll find further details of form labels in How to structure a web form.
+- Run the page and view in the browser window. It should something like this - not pretty!
 
-On the `<input>` element, the most important attribute is the type attribute. This attribute is extremely important because it defines the way the `<input>` element appears and behaves. You'll find more about this in the Basic native form controls article later on.
+<figure>
+<img src="media/form-ugly.png" alt="The form rendered in the browser">
+<figcaption>
+The form is rendered with the browser defaults including the list bullet points.
+</figcaption>
+</figure>
+
+<!-- end div -->
+
+## So what's going on here?
+
+Firstly, forget the styling. These are the browser defaults - which by default are terrible. You will be styling a form in the second assignment.
+
+<figure>
+<img src="media/form-notugly.png" alt="The form rendered in the browser with additional styled added">
+<figcaption>
+A little bit of added styling brings immediate improvements.
+</figcaption>
+</figure>
+
+The `<li>` elements are there to conveniently structure our code and make styling easier. For usability and accessibility, we include an explicit label for each form control. Note the use of the `for` attribute on all `<label>` elements, which takes as its value the `id` of the form control with which it is associated — this is how you associate a form control with its label.
+
+There is great benefit to doing this — it associates the `label` with the form control, enabling mouse, trackpad, and touch device users to click on the `label` to activate the corresponding control, and it also provides an accessible name for screen readers to read out to their users. You'll find further details of *form labels* in the next chapter.
+
+On the `<input>` element, the most important attribute is the type attribute. This attribute is extremely important because it defines the way the `<input>` element appears and behaves. 
 
 - In our simple example, we use the value `<input/text>` for the first input — the default value for this attribute. It represents a basic single-line text field that accepts any kind of text input.
 
@@ -94,17 +130,34 @@ by default this element is filled with this text
 </textarea>
 ```
 
-### The `<button>` element
+<!-- div class="exercise" -->
+## Exercise Two
 
-The markup for our form is almost complete; we just need to add a button to allow the user to send, or "submit", their data once they have filled out the form. This is done by using the `<button>` element; add the following just above the closing `</ul>` tag:
+> The `<button>` element
+
+The markup for our form is almost complete; we just need to add a `button` to allow the user to send, or "submit", their data once they have filled out the form.
+
+### Task 1
+
+- Return to the HTML Forms Repl.it (html14)
+
+- Add the `<button>` element by inserting it just above the closing `</ul>` tag:
 
 ```
-<li class="button">
+<li>
   <button type="submit">Send your message</button>
 </li>
 ```
 
-The `<button>` element also accepts a type attribute — this accepts one of three values: submit, reset, or button.
+### Task 2
+
+- Run to view in the browser. Your form should now include a rather ugly button (which again, can be styled).
+
+<img src="media/form-button.png" alt="The form rendered in the browser with a button">
+
+<!-- end div -->
+
+The `<button>` element also accepts a `type` attribute — this accepts one of three values: `submit`, `reset`, or `button`.
 
 - A click on a submit button (the default value) sends the form's data to the web page defined by the action attribute of the `<form>` element.
 
@@ -114,33 +167,7 @@ The `<button>` element also accepts a type attribute — this accepts one of thr
 
 > Note: You can also use the `<input>` element with the corresponding type to produce a button, for example `<input type="submit">`. The main advantage of the `<button>` element is that the `<input>` element only allows plain text in its label whereas the `<button>` element allows full HTML content, allowing more complex, creative button content.
 
-### Summary
 
-Congratulations, you've built your first web form. It looks like this live:
-
-<form action="" method="post">
- <ul>
-  <li>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name">
-  </li>
-  <li>
-    <label for="mail">E-mail:</label>
-    <input type="email" id="mail" name="user_email">
-  </li>
-  <li>
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
-  </li>
-  <li>
-    <button type="submit">Send your message</button>
-  </ul>
- </ul>
-</form>
-
-The problem is that our form looks (by default) **pretty ugly**. Don't worry, as you progress with CSS you will learn how to turn your form into a much more engaging experience. For the present, this is about learning about the elements that make up a `html` form.
-
-<!-- end div -->
 
 <h2 class="deep">Deeper Learning</h2>
 
