@@ -40,15 +40,14 @@ Sadly we don't have space to go into the use of ARIA Roles in our coding, but Je
 
 - LinkedIn Learning Video: [Jen Simmons - Aria roles](https://www.linkedin.com/learning/html-essential-training-4/aria-roles?u=36102708) (3m 59s) - a brief introduction.
 
+- MDN: [WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
+
 
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
-- MDN's [Accessibility Learning Module](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
-
-
-- MDN: [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+- MDN: [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML) - This takes all of the above issues and looks at them in more detail.
 
 
 - [WebAIM](https://webaim.org/) is one of the best resources on web accessibility. This includes the [WAVE accessibility evaluation tool](https://wave.webaim.org/) and their [Screen Reader User Survey](https://webaim.org/projects/screenreadersurvey8/) which provides an excellent insight into the current trends of screenreader use.
@@ -58,15 +57,11 @@ To get a better understanding of this topic use the following resources.
 
 For students wanting more, we recommend the following topics and resources. These resources go beyond the boundaries of this unit.
 
-- MDN: [CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)
+- MDN's [Accessibility Learning Module](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
 
-- MDN: [WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
 
-- MDN: [Accessible multimedia](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Multimedia)
 
-- MDN: [Mobile accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Mobile)
 
-- MDN: [Assessment: Accessibility troubleshooting](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/Accessibility_troubleshooting) - test yourself.
 
 
 ### &copy; Credit given
