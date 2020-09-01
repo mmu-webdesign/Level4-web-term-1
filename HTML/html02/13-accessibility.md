@@ -50,12 +50,11 @@ To get a better understanding of this topic use the following resources.
 - MDN: [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML) - This takes all of the above issues and looks at them in more detail.
 
 
-- [WebAIM](https://webaim.org/) is one of the best resources on web accessibility. This includes the [WAVE accessibility evaluation tool](https://wave.webaim.org/) and their [Screen Reader User Survey](https://webaim.org/projects/screenreadersurvey8/) which provides an excellent insight into the current trends of screenreader use.
-
-
 <h2 class="deep">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. These resources go beyond the boundaries of this unit.
+
+- [WebAIM](https://webaim.org/) is one of the best resources on web accessibility. This includes the [WAVE accessibility evaluation tool](https://wave.webaim.org/) and their [Screen Reader User Survey](https://webaim.org/projects/screenreadersurvey8/) which provides an excellent insight into the current trends of screenreader use.
 
 - MDN's [Accessibility Learning Module](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
 
