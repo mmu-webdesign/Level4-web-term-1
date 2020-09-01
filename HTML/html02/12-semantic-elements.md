@@ -38,7 +38,8 @@ The simple example shown above isn't pretty, but it is perfectly fine for illust
 
 This is because visuals don't tell the whole story. We use color and font size to draw sighted users' attention to the most useful parts of the content, like the navigation menu and related links, but what about visually impaired people for example, who might not find concepts like "pink" and "large font" very useful?
 
-<blockquote>
+### Don't rely on just colour
+
 Most people with colour vision deficiency have difficulty distinguishing between shades of red, yellow and green.
 
 This is known as "red-green" colour vision deficiency. It's a common problem that affects around 1 in 12 men and 1 in 200 women.
@@ -53,6 +54,8 @@ confuse reds with black
 Source - <a href="https://www.nhs.uk/conditions/colour-vision-deficiency">nhs.uk/colour-vision-deficiency</a>
 </blockquote>
 
+## Semantic elements for adding structure
+
 In your HTML code, you can mark up sections of content based on their functionality — you can use elements that represent the sections of content described above unambiguously, and assistive technologies like screenreaders can recognise those elements and help with tasks like "find the main navigation", or "find the main content." 
 
 To implement such semantic mark up, HTML provides dedicated tags that you can use to represent such sections, for example:
@@ -63,7 +66,7 @@ To implement such semantic mark up, HTML provides dedicated tags that you can us
 - **sidebar**: `<aside>`; often placed inside `<main>`.
 - **footer**: `<footer>`.
 
-> It's worth noting that if you have previously coded `html` you may have used the `<div>` element to provide this kind of structure using classes to name each part of the page including `<div class="nav">`. This of course does not provide semantic meaning to the page, is *old school*, and should be avoided.
+> **Old school coding**: It's worth noting that if you have previously coded `html` you may have used the `<div>` element to provide this kind of structure using classes to name each part of the page including `<div class="nav">`. This of course does not provide semantic meaning to the page, is *old school*, and should be avoided.
 
 
 <!-- div class="exercise" -->
