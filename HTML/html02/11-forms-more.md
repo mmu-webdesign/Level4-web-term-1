@@ -133,8 +133,13 @@ When this type is used, the user is required to type a valid email address into 
 <img src="media/email_address_invalid.png" alt="An invalid email input showing the message - Please enter an email address.">
 
 On some devices — notably, touch devices with dynamic keyboards like smart phones — a different virtual keypad might be presented that is more suitable for entering email addresses, including the @ key. See the IOS keyboard screenshot below for an example:
+<figure>
+<img src="media/keys-email.jpg" alt="IOS email keyboard">
+<figcaption>
+IOS email keyboard, with ampersand displayed by default.
+</figcaption>
+</figure>
 
-<img src="media/keys-email.jpg" alt="IOS email keyboard, with ampersand displayed by default">
 
 ### Client-side validation
 
@@ -152,9 +157,14 @@ A special field for filling in phone numbers can be created using tel as the val
 
 When accessed via a touch device with a dynamic keyboard, most devices will display a numeric keypad when `type="tel"` is encountered, meaning this type is useful whenever a numeric keypad is useful, and doesn't just have to be used for telephone numbers.
 
-The following Firefox for Android keyboard screenshot provides an example:
+The following IOS keyboard screenshot provides an example:
 
-<img src="media/fx-android-tel-type-keyboard.jpg" alt="firefox for android email keyboard, with ampersand displayed by default">
+<figure>
+<img src="media/keys-tel.jpg" alt="IOS email keyboard">
+<figcaption>
+IOS email keyboard, with ampersand displayed by default.
+</figcaption>
+</figure>
 
 Due to the wide variety of phone number formats around the world, this type of field does not enforce any constraints on the value entered by a user (this means it may include letters, etc.).
 
@@ -168,9 +178,14 @@ A special type of field for entering URLs can be created using the value url for
 
 It adds special validation constraints to the field. The browser will report an error if no protocol (such as `http`:) is entered, or if the URL is otherwise malformed. On devices with dynamic keyboards, the default keyboard will often display some or all of the colon, period, and forward slash as default keys.
 
-See below for an example (taken on Firefox for Android):
+See below for an example from IOS:
 
-<img src="media/fx-android-url-type-keyboard.jpg" alt="firefox for android email keyboard, with ampersand displayed by default">
+<figure>
+<img src="media/keys-url.jpg" alt="IOS email keyboard">
+<figcaption>
+IOS URL keyboard, with <code>.co.uk</code> and other top level domains such as <code>.com</code> displayed by default.
+</figcaption>
+</figure>
 
 > Note: Just because the URL is well-formed doesn't necessarily mean that it refers to a location that actually exists!
 
