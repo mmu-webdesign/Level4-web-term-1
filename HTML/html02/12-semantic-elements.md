@@ -50,7 +50,7 @@ Someone with this type of colour vision deficiency may:
 - have trouble distinguishing between shades of purple
 confuse reds with black
 
-Source - [nhs.uk/colour-vision-deficiency](https://www.nhs.uk/conditions/colour-vision-deficiency)
+Source - <a href="https://www.nhs.uk/conditions/colour-vision-deficiency">nhs.uk/colour-vision-deficiency</a>
 </blockquote>
 
 In your HTML code, you can mark up sections of content based on their functionality — you can use elements that represent the sections of content described above unambiguously, and assistive technologies like screenreaders can recognise those elements and help with tasks like "find the main navigation", or "find the main content." 
