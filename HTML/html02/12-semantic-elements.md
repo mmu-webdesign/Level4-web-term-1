@@ -168,7 +168,7 @@ To implement such semantic mark up, HTML provides dedicated tags that you can us
 
 ### Task 4
 
-- Look at the sub-pages, `cast.html` and `director.html` which are sat in the pages folder.
+- Look at the sub-pages, `cast.html` and `director.html` which are sat in the `pages` folder.
 
 - Take some time to look over the code for these pages, noting the sematic structure of `header`, `nav`, `main`, `article` and `footer`.
 
@@ -200,7 +200,8 @@ It's good to understand the overall meaning of all the `HTML` sectioning element
 - `<header>` represents a group of introductory content. If it is a child of `<body>` it defines the global header of a webpage, but if it's a child of an `<article>` or `<section>` it defines a specific header for that section (try not to confuse this with titles and headings).
 
 - `<nav>` contains the main navigation functionality for the page. Secondary links, etc., would not go in the navigation.
- - `<footer>` represents a group of end content for a page.
+
+- `<footer>` represents a group of end content for a page.
 Non-semantic wrappers
 
 <!-- div class="exercise" -->
@@ -215,13 +216,13 @@ Non-semantic wrappers
 
 ### Task 2
 
-- On `index.html`
+- `index.html`
 
 - Decide on a favourite film as the subject of the page.
 
 - Adjust the `<title>` to reflect your chosen film.
 
-- Add a meta description to the head with text relevant to your page.
+- Add a meta description to the head with content relevant to your page.
 
 ```
 <meta name="description" content="">
@@ -230,7 +231,7 @@ Non-semantic wrappers
 
 - You don't need to adjust the `<h3>` text or the text in the `paragraphs` - unless you really want to write about a film!
 
-- Insert the image `cinema-unsplash.jpg` which can be found in the `img` folder, at the top of the `article`, under the `<h2>`. You should note we have already provided the `figure` and `figcaption` elements. You need to insert the `<img>` element, get the path to the image correct, and add '`alt` text.
+- Insert the image `cinema-unsplash.jpg` which can be found in the `img` folder, at the top of the `article`, under the `<h2>`. You should note we have already provided the `figure` and `figcaption` elements. You need to insert the `<img>` element, get the path to the image correct, and add `alt` text.
 
 > Note we are using a *free to use* image from [Unsplash.com](Unsplash.com). Any images associated with the film, such as a poster or stills from the film will be copyright and rights of use restricted.
 
@@ -257,11 +258,11 @@ Becomes:
 
 > Navigation
 
-- Using the un-ordered list within the `<nav>` element, adjust the links of `index.html` so that the page links to `cast.html` and `director.html`, both sat in the `pages` folder. Think about the page needed.
+- Using the un-ordered list within the `<nav>` element, adjust the links of `index.html` so that the page links to `cast.html` and `director.html`, both sat in the `pages` folder. Think about the file paths.
 
 - Once that works, do the same for the `nav` links on both `cast.html` and `director.html` that take them home to `index.html` or to the other page.
 
-> Note in the navigation list - leave the link to the actual page you are on as a `#`.
+> Note: In the navigation list - leave the link to the actual page you are on as a `#`.
 
 - For example on `index.html` the link stays as:
 
@@ -287,7 +288,7 @@ Test you navigation, you should be able to jump from page to page and back to th
 
 ### Task 4
 
-- validate the code of each page to test for errors.
+- Validate the code of each page to check for errors.
 
 - Fix any errors.
 
