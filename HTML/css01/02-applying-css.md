@@ -157,3 +157,59 @@ The `href` attribute of the `<link>` element needs to reference a file on your f
 - No spaces or strange characters.
 
 - Make sure it has the `.css` file extension.
+
+<!-- div class="exercise" -->
+## Exercise One
+
+> Apply inline, internal and external CSS.
+
+### Task 1
+
+- Open the exercise files in another browser window - [Repl.it - Applying CSS](https://repl.it/@webdesignmmu/css02) 
+
+> using what you have learnt above add three styles to this document, using the inline, internal and external methods.
+
+### Task 2
+
+- Add an inline style that makes the `<h1>` heading **blue**.
+
+- Remember - the `style=""` attribute goes right in the opening tag of the `<h1>` element.
+
+### Task 3
+
+- Add an internal style that makes the `<h2>` headings **green**.
+
+- Remember - the `<style></style>` element goes in the head of the html document.
+
+- Remember - the style rule sits inside those `style` tags.
+
+### Task 4
+
+- Add an external style that makes the paragraph text **red**.
+
+- Remember - the style rule goes in the file `style.css`
+
+- Remember - you need to link to `style.css` in the head of your `html` file using the `<link>` element.
+
+> Stuck with the syntax of any of these styles? Just scroll up the page to see our examples of inline, internal and external styles.
+
+<figure>
+<img src="media/applying-css.png" alt="The page rendered in the browser, now with a blue heading">
+<figcaption>
+You should end up with a page like this. Validate the HTML to look for errors.
+</figcaption>
+</figure>
+
+<!-- end div -->
+
+
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
+
+
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
