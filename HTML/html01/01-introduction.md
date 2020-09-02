@@ -283,6 +283,23 @@ Your html file is simply a plain text file (usually a `.txt` file), with a `.htm
 
 *Small and portable - plain text files are the perfect format for the WWW* and a big part of its success.
 
+## File names
+
+> A few things to remember when naming **HTML** files.
+
+1. No spaces - so no `contact page.html`
+
+1. Use hyphens rather than underscore: `contact-page.html` rather than `contact_page.html`
+
+1. Avoid special characters, for example `contact@page.html`
+
+1. No CAPS - `Contact-Page.html` or `ContactPage.html`
+
+1. Decide on a style and be consistent - `contactpage.html` or `contact-page.html`
+
+1. Filenames help Google identify the content, same goes for images - `IMG4455.jpg` is not much use to Google, where 'hereford-bull.jpg' is (if that's what the image contains).
+
+
 <!-- end div -->
 
 <h2 class="deep">Deeper Learning</h2>
