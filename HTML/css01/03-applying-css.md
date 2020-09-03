@@ -203,6 +203,127 @@ You should end up with a page like this. Validate the HTML to look for errors.
 <!-- end div -->
 
 
+## CSS Comments
+
+As with any coding work, it is best practice to write comments along with CSS. This helps you to remember how the code works as you come back later for fixes or enhancement. It also helps others understand the code.
+
+**CSS Comments** begin with `/*` and end with `*/`. 
+
+In the example below, comments mark the start of distinct sections of code. This helps to navigate the codebase as it gets larger. With this kind of commenting in place, searching for comments in your code editor becomes a way to efficiently find a section of code.
+
+```
+/* Handle basic element styling */
+/* ------------------------------------------------- */
+body {
+  font: 1em/150% Helvetica, Arial, sans-serif; 
+  padding: 1em; 
+  margin: 0 auto; 
+  max-width: 33em;
+}
+
+@media (min-width: 70em) {
+  /* Let's special case the global font size. On large screen or window,
+     we increase the font size for better readability */
+  body {
+    font-size: 130%;
+  }
+}
+
+h1 {font-size: 1.5em;}
+
+/* Handle specific elements nested in the DOM  */
+/* ------------------------------------------------- */
+div p, #id:first-line {
+  background-color: red; 
+  border-radius: 3px;
+}
+```
+
+"Commenting out" code is also useful for temporarily disabling sections of code for testing. In the example below, the rules for `.special` are disabled by "commenting out" the code.
+
+```
+/*.special { 
+  color: red; 
+}*/
+
+p { 
+  color: blue; 
+}
+```
+
+<!-- div class="exercise" -->
+## Exercise TWO
+
+> Add a comment to your external CSS.
+
+### Task 1
+
+- Return to the Applying CSS Repl.it (css03) 
+
+- Add a CSS comment to `style.css`, just adding your *name* and the *company* you work for.
+
+<!-- end div -->
+
+
+## White space
+
+White space means actual spaces, tabs and new lines. Just as browsers ignore white space in HTML, browsers ignore white space inside CSS. The value of white space is how it can improve readability.
+
+In the example below, each declaration (and rule start/end) has its own line. This is arguably a good way to write CSS. It makes it easier to maintain and understand CSS.
+
+```
+h1 {
+  font-size: 1.5em;
+}
+
+div p,
+#id:first-line {
+  background-color: red;
+  border-radius: 3px;
+}
+
+div p {
+  margin: 0;
+  padding: 1em;
+}
+
+div p + p {
+  padding-top: 0;
+}
+```
+
+The next example shows the equivalent CSS  in a more compressed format. Although the two examples work the same, the one below is more difficult to read.
+
+```
+h1 {font-size: 1.5em;}
+div p, #id:first-line {background-color: red; border-radius: 3px;}
+div p {margin: 0; padding: 1em;}
+div p + p {padding-top: 0;}
+```
+
+For your own projects, you will format your code according to personal preference. For team projects, you may find that a team or project has its own style guide.
+
+> **Important**: Though white space separates values in CSS declarations, property names never have white space.
+
+- For example, these declarations are valid CSS:
+
+```
+margin: 0 auto;
+padding-left: 10px;
+```
+
+But these declarations are invalid:
+
+```
+margin: 0auto;
+padding- left: 10px;
+```
+
+Do you see the spacing errors? First, `0auto` is not recognized as a valid value for the margin property. The entry `0auto` is meant to be two separate values: `0` and `auto`. Second, the browser does not recognize `padding`- as a valid property. The correct property name (`padding-left`) is separated by an errant space.
+
+You should always make sure to separate distinct values from one another by at least one space. Keep property names and property values together as single unbroken strings.
+
+
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
