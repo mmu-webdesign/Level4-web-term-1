@@ -183,7 +183,45 @@ To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video - The full [CSS Essential Training](https://www.linkedin.com/learning/css-essential-training-3/)
 
+<h2 class="deep">Advanced Learning</h2>
+
+For students wanting more, we recommend the following topics and resources. 
+
+## CSS Modules
+
+As there are so many things that you could style using CSS, the language is broken down into modules. 
+
+At this stage you don't need to worry too much about how CSS is structured, however it can make it easier to find information if, for example, you are aware that a certain property is likely to be found among other similar things and are therefore probably in the same specification. 
+
+For a specific example, let's go back to the Backgrounds and Borders module — you might think that it makes logical sense for the [background-color](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) and [border-color](https://developer.mozilla.org/en-US/docs/Web/CSS/border-color) properties to be defined in this module. And you'd be right.
+
+### CSS Reference
+
+MDN's [exhaustive CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) for seasoned Web developers describes every property and concept of CSS.
+
+## CSS Specifications
+
+All web standards technologies (HTML, CSS, JavaScript, etc.) are defined in giant documents called specifications (or simply "specs"), which are published by standards organizations (such as the [W3C](https://developer.mozilla.org/en-US/docs/Glossary/W3C), [WHATWG](https://developer.mozilla.org/en-US/docs/Glossary/WHATWG) or [ECMA](https://developer.mozilla.org/en-US/docs/Glossary/ECMA)) and define precisely how those technologies are supposed to behave.
+
+CSS is no different — it is developed by a group within the W3C called the [CSS Working Group](https://www.w3.org/Style/CSS/). This group is made of representatives of browser vendors and other companies who have an interest in CSS. There are also other people, known as invited experts, who act as independent voices; they are not linked to a member organization.
+
+New CSS features are developed, or specified, by the CSS Working Group. Sometimes because a particular browser is interested in having some capability, other times because web designers and developers are asking for a feature, and sometimes because the Working Group itself has identified a requirement. CSS is constantly developing, with new features coming available. However, a key thing about CSS is that everyone works very hard to never change things in a way that would break old websites. A website built in 2000, using the limited CSS available then, should still be usable in a browser today!
+
+As a newcomer to CSS, it is likely that you will find the CSS specs overwhelming — they are intended for engineers to use to implement support for the features in user agents, not for web developers to read to understand CSS. Many experienced developers would much rather refer to MDN documentation or other tutorials. It is however worth knowing that they exist, understanding the relationship between the CSS you are using, browser support (see below), and the specs.
+
+## Browser support
+
+Once CSS has been specified then it is only useful for us in developing web pages if one or more browsers have implemented it. This means that the code has been written to turn the instruction in our CSS file into something that can be output to the screen. 
+
+It is unusual for all browsers to implement a feature at the same time, and so there is usually a gap where you can use some part of CSS in some browsers and not in others. For this reason, being able to check implementation status is useful. 
+
+The website [Can I Use](https://caniuse.com/) is a great resource for checking what features are working in what browser.
+
+
+
 
 ### &copy; Credit given
 
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
+
+Every entry in MDN's [CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) also provides a table showing browser compatibility. For example go to [the entry for CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid), scroll to the bottom of the page to see the browser compatibility table. 
