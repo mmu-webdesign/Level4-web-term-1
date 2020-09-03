@@ -36,9 +36,9 @@ The developer tools (Dev Tools) in your browser can really help understand and b
 
 ### Task 1
 
-- Watch this video to get a good understanding of how the Dev Tools work, and how to see both browser styles and your own. You can [view the sample file](media/example.html) in your browser and follow the task demonstrated.
+- Watch the video linked below to get a good understanding of how the Dev Tools work, and how to see both browser styles and your own. You can [view the sample file](media/example.html) in your browser and follow the task demonstrated.
 
-- LinkedIn Learning Video: [Browser developer tools](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcss-essential-training-3%3Ftrk%3Dshare_ent_url&account=36102708) - Every modern browser includes a set of browser developer tools, which can be used to inspect the HTML, CSS and JavaScript on any webpage.
+- **LinkedIn Learning Video**: [Browser developer tools](https://www.linkedin.com/learning/css-essential-training-3/browser-developer-tools?u=36102708) - Every modern browser includes a set of browser developer tools, which can be used to inspect the HTML, CSS and JavaScript on any webpage.
 
 <!-- end div -->
 
@@ -170,6 +170,10 @@ Is your heading blue?
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
+
+- LinkedIn Learning Video: [CSS Specifications and the W3C](https://www.linkedin.com/learning/css-essential-training-3/css-specifications-and-the-w3c?u=36102708)
+
+- LinkedIn Learning Video: [CSS Syntax and terminology](https://www.linkedin.com/learning/css-essential-training-3/css-syntax-and-terminology?u=36102708)
 
 - Mozilla Developer Video: [Where do browser styles come from](https://youtu.be/spK_S0HfzFw) (7m 01s) - More detail.
 

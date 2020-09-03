@@ -436,3 +436,20 @@ As you can with HTML, you can validate your CSS.
 
 <p style="color:white; background-color:green;padding: 5px;">Congratulations! No Error Found.</p>
 
+
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
+
+- LinkedIn Learning Video: [Type and universal selectors](https://www.linkedin.com/learning/css-essential-training-3/type-and-universal-selectors?u=36102708)
+
+- LinkedIn Learning Video: [Class and ID selectors](https://www.linkedin.com/learning/css-essential-training-3/class-and-id-selectors?u=36102708)
+
+- LinkedIn Learning Video: [Descendant selectors](https://www.linkedin.com/learning/css-essential-training-3/descendant-selectors?u=36102708)
+
+- LinkedIn Learning Video: [Grouping selectors](https://www.linkedin.com/learning/css-essential-training-3/grouping-selectors?u=36102708)
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).

@@ -207,8 +207,11 @@ You should end up with a page like this. Validate the HTML to look for errors.
 
 To get a better understanding of this topic use the following resources.
 
+- LinkedIn Learning Video: [Referencing CSS - inline, internal or external](https://www.linkedin.com/learning/css-essential-training-3/referencing-css?u=36102708)
 
+- LinkedIn Learning Video: [Relative paths](https://www.linkedin.com/learning/css-essential-training-3/project-relative-paths?u=36102708)
 
+- LinkedIn Learning Video: [Absolute paths](https://www.linkedin.com/learning/css-essential-training-3/absolute-paths?u=36102708)
 
 ### &copy; Credit given
 
