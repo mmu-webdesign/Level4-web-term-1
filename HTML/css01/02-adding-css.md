@@ -1,8 +1,14 @@
 # Adding CSS to our document
 
+## What is a selector?
+
+You have met selectors already (`p` and `h1` in this case). A **CSS selector** is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector.
+
+<img src="media/selector.png" alt="Some code with the h1 highlighted">
+
 ## Different types of selectors
 
-There are many different types of selectors. The previous chapter used element selectors, which select all elements of a given type (`<p>` and `,h1>` in this case). But we can make more specific selections as well. Here are some of the more common types of selectors:
+There are many different types of selectors. The previous chapter used element selectors, which select all elements of a given type. But we can make more specific selections as well. Here are some of the more common types of selectors:
 
 <table class="standard-table">
  <thead>
@@ -38,6 +44,12 @@ There are many different types of selectors. The previous chapter used element s
     selects <code>&lt;img src="myimage.png"&gt;</code> but not <code>&lt;img&gt;</code></td>
   </tr>
   <tr>
+   <td>Combinators</td>
+   <td>Combinators combine other selectors in order to target elements within our documents.</td>
+   <td><code>article > p { }</code><br>
+    selects paragraphs that are direct children of <code>&lt;article&gt;</code> elements using the child combinator <code>(>)</code>.</td>
+  </tr>
+    <tr>
    <td>Pseudo-class selector</td>
    <td>The specified element(s), but only when in the specified state. (For example, when a cursor hovers over a link.)</td>
    <td><code>a:hover</code><br>
@@ -47,6 +59,12 @@ There are many different types of selectors. The previous chapter used element s
 </table>
 
 There are many more selectors to discover. To learn more, see the [MDN Selectors guide](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors).
+
+<h3 class="warning">ID and Attribute selectors</h3>
+
+- `ID Selectors` - We will be using the `class` selector rather than `ID` selector. You are going to learn how a `class` selector works. `ID` works the same way but can only be used once on the page. 
+
+- `Attribute Selectors` - these can be very useful but need a more advanced understanding of CSS. We won't be using them. 
 
 <!-- div class="exercise" -->
 ## Exercise One
