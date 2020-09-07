@@ -88,13 +88,14 @@ body {
 
 - Do this, keeping in mind good colour contrast. The text must be legible - **Much more on this later**.
 
-<p style="color:#30323D; background-color:#4D5061; padding: 5px;">This is not good. This is not good. This is not good.</p>
+<p style="color:#949494; background-color:#ebecf0; padding: 5px; border: 1px solid black">This is not good. This is not good. This is not good.</p>
 
-- Selecting the *right* colours or *good* colours is hard but ive it a try. 
+- Selecting the *right* colours or *good* colours is hard but give it a try. 
 
-- Beware you will note that Repl.it likes to add colours using RGB - that's next.
+- Beware you will see that Repl.it likes to add colours using RGB - that's next.
 
 <!-- end div -->
+
 
 
 
