@@ -99,7 +99,7 @@ Defined as RGB these colours would be:
 - `background-color: rgb(249,249,249)`
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise Two
 
 > Have a play - Hex to RGB.
 
