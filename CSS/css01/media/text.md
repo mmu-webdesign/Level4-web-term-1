@@ -31,3 +31,26 @@
 
   </body>
 </html>
+
+
+
+
+
+### Task 3
+
+- Adjust `body` colours to create your own colour scheme.
+
+```
+body {
+  color:#;
+  background-color: #;
+}
+```
+
+- Add hex codes using the [website coolors.co](https://coolors.co/) to discover a colour scheme and the hex codes.
+
+- Do this, keeping in mind good colour contrast. The text must be legible - **Much more on this later**.
+
+<p style="color:#949494; background-color:#ebecf0; padding: 5px; border: 1px solid black">This is not good. This is not good. This is not good.</p>
+
+- Selecting the *right* colours or *good* colours is hard but give it a try. 
