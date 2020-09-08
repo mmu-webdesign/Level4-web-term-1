@@ -10,7 +10,7 @@ You have met selectors already (`p` and `h1` in this case). A **CSS selector** i
 
 There are many different types of selectors. The previous chapter used element selectors, which select all elements of a given type. But we can make more specific selections as well. Here are some of the more common types of selectors:
 
-<table class="standard-table">
+<table>
  <thead>
   <tr>
    <th scope="col">Selector name</th>
@@ -470,6 +470,11 @@ To get a better understanding of this topic use the following resources.
 
 
 - LinkedIn Learning Video: [Pseudo class selectors](https://www.linkedin.com/learning/css-essential-training-3/pseudo-class-selectors-and-links?u=36102708)
+
+- Article - CSS Tricks: [Beginner Concepts: How CSS Selectors Work](https://css-tricks.com/how-css-selectors-work/)
+
+- Article - CSS Tricks: [The Difference Between ID and Class](https://css-tricks.com/the-difference-between-id-and-class/) 
+
 
 ### &copy; Credit given
 

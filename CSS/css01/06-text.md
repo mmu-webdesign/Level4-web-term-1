@@ -518,7 +518,7 @@ h1 + p {
 
 <h3 class="warning">Danger!</h3>
 
-<p style="letter-spacing:6px; word-spacing:8px; font-size:1.4rem;">Leave letter and word spacing to designers. It can be dangerous in the wrong hands.</p>
+<p style="letter-spacing:8px; word-spacing:8px; font-size:1.4rem;">Leave letter and word spacing to designers. It can be dangerous in the wrong hands.</p>
 
 
 

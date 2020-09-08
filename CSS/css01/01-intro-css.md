@@ -221,7 +221,15 @@ It is unusual for all browsers to implement a feature at the same time, and so t
 
 The website [Can I Use](https://caniuse.com/) is a great resource for checking what features are working in what browser.
 
+<h2 class="deep">Deeper Learning</h2>
 
+To get a better understanding of this topic use the following resources.
+
+- Article - CSS Tricks: [CSS Basics: The Second “S” in CSS](https://css-tricks.com/css-basics-second-s-css/) 
+
+- Video - CSS Tricks: [HTML & CSS – The VERY Basics](https://css-tricks.com/video-screencasts/58-html-css-the-very-basics/)
+
+- Article - CSS Tricks: [CSS Basics: The Syntax That Matters & The Syntax That Doesn’t](https://css-tricks.com/css-basics-syntax-matters-syntax-doesnt/) 
 
 
 ### &copy; Credit given
