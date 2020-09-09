@@ -126,7 +126,9 @@ Let's further explore our paragraph element from the previous section:
 
 <!-- div class="exercise" -->
 
-## Exercise Four - Space
+## Exercise Four - Assessment One
+
+### Space
 
 - To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
 
@@ -184,7 +186,7 @@ We therefore need to give our content structural markup.
 
 <!-- div class="exercise" -->
 
-## Exercise Five
+## Exercise Five - Assessment One
 
 - Creating a Level 1 heading
 
@@ -207,7 +209,7 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 <!-- div class="exercise" -->
 
-## Exercise Six
+## Exercise Six - Assessment One
 
 - Adding paragraphs and Level Two heading
 
