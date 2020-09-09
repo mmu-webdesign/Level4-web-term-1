@@ -133,7 +133,7 @@ Let's further explore our paragraph element from the previous section:
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - Task 1 files](https://repl.it/@webdesignmmu/html1)
+- Open your **Assessment One** Repl.it
 
 <figure>
 <img src="media/replit.png" alt="The replit interface">
@@ -190,6 +190,8 @@ We therefore need to give our content structural markup.
 
 ### Task 1
 
+- Return to your **Assessment One** Repl.it
+
 - In the `repl.it` editor window add the `<h1>` tag to the main heading. Putting the closing tag at the end.
 
 ```
@@ -210,6 +212,8 @@ Select Play to reload the page in the browser window. You should now have a dist
 > Adding paragraphs and Level Two heading
 
 ### Task 1
+
+- Return to your **Assessment One** Repl.it
 
 - In the editor, surround the next two paragraphs with the opening and closing `<p>` tag.
 
