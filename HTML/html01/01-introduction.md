@@ -186,11 +186,11 @@ We therefore need to give our content structural markup.
 
 ## Exercise Five
 
-> Creating a Level 1 heading
+- Creating a Level 1 heading
 
 ### Task 1
 
-- Return to your **Assessment One** Repl.it
+> Return to your **Assessment One** Repl.it
 
 - In the `repl.it` editor window add the `<h1>` tag to the main heading. Putting the closing tag at the end.
 
@@ -209,11 +209,11 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 ## Exercise Six
 
-> Adding paragraphs and Level Two heading
+- Adding paragraphs and Level Two heading
 
 ### Task 1
 
-- Return to your **Assessment One** Repl.it
+> Return to your **Assessment One** Repl.it
 
 - In the editor, surround the next two paragraphs with the opening and closing `<p>` tag.
 
