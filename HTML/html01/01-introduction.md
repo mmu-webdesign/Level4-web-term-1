@@ -247,9 +247,9 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 **If it does, carry on**. If not check that the correct tag is in the correct place. 
 
-> Submit Assessment One.
-
 <!-- end div -->
+
+<p class="submit-work">Submit Assessment One.</p>
 
 ## Syntax highlighting
 
