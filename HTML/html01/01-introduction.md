@@ -186,7 +186,7 @@ We therefore need to give our content structural markup.
 
 <!-- div class="exercise" -->
 
-## Exercise Five - Assessment One
+## Exercise Five - Assessment One continued
 
 - Creating a Level 1 heading
 
@@ -209,7 +209,7 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 <!-- div class="exercise" -->
 
-## Exercise Six - Assessment One
+## Exercise Six - Assessment One continued
 
 - Adding paragraphs and Level Two heading
 
