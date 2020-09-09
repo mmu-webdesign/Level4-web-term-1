@@ -128,12 +128,12 @@ Let's further explore our paragraph element from the previous section:
 
 ## Exercise Four - Space
 
-> To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
+- To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
 
 
 ### Task 1
 
-- Open your **Assessment One** Repl.it
+> Open your **Assessment One** Repl.it
 
 <figure>
 <img src="media/replit.png" alt="The replit interface">
