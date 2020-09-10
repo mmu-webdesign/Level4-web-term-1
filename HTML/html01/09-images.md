@@ -56,13 +56,13 @@ There are sources of copyright free images, our favourite is [Unsplash.com](http
 
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise - Assessment 7
 
-> Adding images to our page
+Adding images to our page
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - Adding images files](https://repl.it/@webdesignmmu/html7)
+> Open your **Assessment 7** Repl.it
 
 ### Task 2
 
@@ -124,11 +124,13 @@ The easiest way to test your alt text is to purposely misspell your filename. If
 
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise - Assessment 7 continued
 
 > Adding alt text to the images
 
 ### Task 1
+
+- Return to your **Assessment 7** Repl.it
 
 - Edit each `<img>` element, adding the `alt` attribute with relevant text
 
@@ -214,9 +216,11 @@ If you put an image inside `<a>` tags, to turn an image into a link, you still m
 
 ```
 <!-- div class="exercise" -->
-## Exercise Three
+## Exercise - Assessment 7 continued
 
 > Using the example above make the logo a clickable link to the MMU homepage. 
+
+- Return to your **Assessment 7** Repl.it
 
 **Tip** - *If it makes it easier, spread out the code as in the example - remember the browser ignores the white space*.
 
@@ -282,17 +286,19 @@ This is a good thing to do, resulting in the page loading quicker and more smoot
 
 
 <!-- div class="exercise" -->
-## Exercise Four
+## Exercise - Assessment 7 continued
 
 > Adding the height and width attributes
 
 ### Task 1
 
+- Return to your **Assessment 7** Repl.it
+
 - Find the code for each image on the San Francisco page
 
 - Apply both height and width attributes to each `<img>` element
 
-For example
+For example:
 
 ```
 <img src="mmu-logo.jpg" alt="MMU Homepage" width="200" height="76">
@@ -404,13 +410,15 @@ A better solution, is to use the HTML5 `<figure>` and `<figcaption>` elements. T
 The `<figcaption>` element tells browsers, and assistive technology that the caption describes the other content of the `<figure>` element.
 
 <!-- div class="exercise" -->
-## Exercise Four
+## Exercise - Assessment 7 continued
 
 > Adding the `<figure>` and `<figcaption>` elements to each of our three San Francisco images
 
 **Note** - *this doesn't need to be done to every image you put on a page, only images where a caption would be useful. Think about newspapers, books and magazines. Image captions are more common than you might think*.
 
 ### Task 1
+
+- Return to your **Assessment 7** Repl.it
 
 - Apply `<figure>` and `<figcaption>` to each San Francisco image
 
@@ -445,7 +453,7 @@ The `<figcaption>` element tells browsers, and assistive technology that the cap
 
 <!-- end div -->
 
-
+<p class="submit-work">Submit Assessment 7.</p>
 
 
 > Note: From an accessibility viewpoint, captions and `alt` text have distinct roles. Captions benefit even people who can see the image, whereas `alt` text provides the same functionality as an absent image. Therefore, captions and alt text shouldn't just say the same thing, because they both appear when the image is gone. Try turning images off in your browser and see how it looks.

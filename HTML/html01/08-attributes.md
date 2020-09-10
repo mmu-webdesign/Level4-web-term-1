@@ -47,7 +47,8 @@ If you look at code for a lot of other sites, you might come across a number of 
 
 
 <!-- div class="exercise" -->
-## Exercise One
+
+## Exercise - HTML attributes
 
 > A short video on html attributes.
 
@@ -62,27 +63,10 @@ To get a better understanding of this topic use the following resources.
 
 - MDN: Attributes - [HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
+
 <h2 class="deep">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. 
-
-## Boolean attributes
-
-Sometimes you will see attributes written without values. This is entirely acceptable. These are called Boolean attributes. Boolean attributes can only have one value, which is generally the same as the attribute name. For example, consider the disabled attribute, which you can assign to form input elements. (You use this to disable the form input elements so the user can't make entries.) For example:
-
-```
-<input type="text" disabled="disabled">
-```
-As shorthand, it is acceptable to write this as follows:
-```
-<input type="text" disabled>
-```
-If you don't want it disabled, you just leave it out altogether.
-```
-<input type="text">  
-```
-This is more than you need to know at this stage as but the essential take away is: 
-> If a boolean attribute is present, its value is true, and if it’s absent, its value is false.
 
 ## Omitting quotes around attribute values
 

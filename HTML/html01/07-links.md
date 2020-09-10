@@ -82,20 +82,22 @@ As mentioned before, you can turn just about any content into a link, even block
 > Read more at WebAIM about [Screen Readers and Links](https://webaim.org/techniques/hypertext/#screen_readers). 
 
 <!-- div class="exercise" -->
-## Exercise One
 
-> Coding external links
+## Exercise - Assessment 6
+
+Coding external links
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - External Links files](https://repl.it/@webdesignmmu/html6)
+> Open your **Assessment 6** Repl.it
 
 ### Task 2
 
 - Before we start creating links, the page needs to be structured with a `<h1>` heading and `<p>` paragraphs.
+
 - Apply the code and Run in the browser window
 
-The page should now look like this:
+- The page should now look like this:
 
 <img src="media/links-with-structure.png" alt="Links page coded with heading and paragraphs">
 
@@ -173,15 +175,15 @@ Select the button highlighted in red. This will open your page in another browse
 
 > Add two more links to BBC Sports in the next two paragraphs
 
-- Formula One - `https://www.bbc.co.uk/sport/formula1`
+- Find the text **Formula One** and turn it into a link using - `https://www.bbc.co.uk/sport/formula1`
 
-- Football Gossip - `https://www.bbc.co.uk/sport/football/gossip`
+- Find the text **Football Gossip** and turn it into a link using - `https://www.bbc.co.uk/sport/football/gossip`
 
 ### Task 6
 
 > Add the final link which is to a WebAIM article that provides more information on best practices for link text.
 
-- Link Text and Appearance - `https://webaim.org/techniques/hypertext/link_text`
+- Find the text **Link Text and Appearance** and turn it into a link using - `https://webaim.org/techniques/hypertext/link_text`
 
 
 ### Solution
@@ -189,11 +191,16 @@ Select the button highlighted in red. This will open your page in another browse
 <figure>
 <img src="media/finished-links.png" alt="Links page in a browser window, completed">
 <figcaption>
-You completed page should like like this, with the links blue (mine are purple because I've already visited them to test). Click on each link to test it is working. If any fail, go back to your code.
+You completed page should like like this, with the links blue (mine are purple because I've already visited them to test). 
 </figcaption>
 </figure>
 
+- Check before submission - Open in a browser window and click on each link to test it is working. If any fail, go back to your code.
+
 <!-- end div -->
+
+
+<p class="submit-work">Submit Assessment 6</p>
 
 
 <h2 class="deep">Deeper Learning</h2>

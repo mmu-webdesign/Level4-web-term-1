@@ -59,13 +59,13 @@ Some of the more seasoned coders (like Derren) will remember the self closing ve
 We will shortly be introducing the image element, `<img>` which is also self closing and one element you will be using frequently.
 
 <!-- div class="exercise" -->
-## Exercise - Assessment Four
+## Exercise - Assessment 4
 
 Adding emphasis and importance to your html document.
 
 ### Task 1
 
-> Open your **Assessment Four** Repl.it
+> Open your **Assessment 4** Repl.it
 
 <img src="media/nesting.png" alt="Screenshot of the exercise file with errors">
 
@@ -126,7 +126,7 @@ The `spacing` makes it easier for you find `elements` and spot `errors`.
 <!-- end div -->
 
 
-<p class="submit-work">Submit Assessment Four.</p>
+<p class="submit-work">Submit Assessment 4</p>
 
 
 

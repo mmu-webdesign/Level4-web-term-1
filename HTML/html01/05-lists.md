@@ -139,13 +139,13 @@ The browser default styles will display description lists with the descriptions 
 We've just added the colour so you can better see the two different definitions. Added styling could make this much more engaging.
 
 <!-- div class="exercise" -->
-## Exercise - Assessment Five
+## Exercise - Assessment 5
 
 Creating an ordered and unordered list - There is no getting around it. To get used to the syntax for lists, you've got to do them. We will leave out the Description Term element as this is less common.
 
 ### Task 1
 
-> Open your **Assessment Five** Repl.it
+> Open your **Assessment 5** Repl.it
 
 ### Task 2
 
@@ -233,9 +233,11 @@ The code above produces this:
 
 
 <!-- div class="exercise" -->
-## Exercise - Assessment Five continued
+## Exercise - Assessment 5 continued
 
 ### Task 1
+
+- Return to your **Assessment 5** Repl.it
 
 - Using our list of Manchester Band Albums - Nest a list of two more Smiths albums like such: 
 
@@ -282,7 +284,7 @@ etc...
 - View it in the browser 
 
 
-<p class="submit-work">Submit Assessment Five.</p>
+<p class="submit-work">Submit Assessment 5.</p>
 
 
 

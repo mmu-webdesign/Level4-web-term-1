@@ -47,7 +47,7 @@ Some of the benefits from writing semantic markup include:
 When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; does it list out definitions?; is it a figure or image that needs a caption?; etc.
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise - Semantic code
 
 > A quick 4 minute read.
 

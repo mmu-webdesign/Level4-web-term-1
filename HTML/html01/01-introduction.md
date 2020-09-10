@@ -127,14 +127,14 @@ Let's further explore our paragraph element from the previous section:
 
 <!-- div class="exercise" -->
 
-## Exercise - Assessment One
+## Exercise - Assessment 1
 
 To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
 
 
 ### Task 1
 
-> Open your **Assessment One** Repl.it
+> Open your **Assessment 1** Repl.it
 
 
 <figure>
@@ -186,13 +186,13 @@ We therefore need to give our content structural markup.
 
 <!-- div class="exercise" -->
 
-## Exercise - Assessment One continued
+## Exercise - Assessment 1 continued
 
 - Creating a Level 1 heading
 
 ### Task 1
 
-> Return to your **Assessment One** Repl.it
+> Return to your **Assessment 1** Repl.it
 
 - In the `repl.it` editor window add the `<h1>` tag to the main heading. Putting the closing tag at the end.
 
@@ -209,13 +209,11 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 <!-- div class="exercise" -->
 
-## Exercise - Assessment One continued
+## Exercise - Assessment 1 continued
 
 - Adding paragraphs and Level Two heading
 
 ### Task 1
-
-> Return to your **Assessment One** Repl.it
 
 - In the editor, surround the next two paragraphs with the opening and closing `<p>` tag.
 
@@ -250,7 +248,7 @@ Select Play to reload the page in the browser window. You should now have a dist
 <!-- end div -->
 
 
-<p class="submit-work">Submit Assessment One.</p>
+<p class="submit-work">Submit Assessment 1</p>
 
 
 
