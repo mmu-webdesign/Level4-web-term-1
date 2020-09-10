@@ -263,7 +263,9 @@ etc...
 
 - Add a list of 3 places you have visited (unordered)
 
-### Tips
+<!-- end div -->
+
+## Tips
 
 > `Cut & Paste` is your friend in web development
 
@@ -280,10 +282,6 @@ You completed lists page should include 4 `lists`:
 - `Unordered` list of Australian bands
 - `Ordered` list of your favourite films
 - `Unordered` list of places you've visited
-
-
-<!-- end div -->
-
 
 <p class="submit-work">Submit Assessment Five.</p>
 
