@@ -263,25 +263,24 @@ etc...
 
 - Add a list of 3 places you have visited (unordered)
 
-<!-- end div -->
-
-## Tips
-
-> `Cut & Paste` is your friend in web development
-
-- To create these lists it is a lot quick to copy & paste one of your previous lists
-- Edit the list - the 5 or 3 list items only
-- Swap out the previous list item text for your films or places
-- Check your code
-- View it in the browser 
-
-You completed lists page should include 4 `lists`:
+> You completed lists page should include 4 `lists`:
 
 - `Ordered` list of Manchester Band Albums
   * With indented sub-list of Smiths albums
 - `Unordered` list of Australian bands
 - `Ordered` list of your favourite films
 - `Unordered` list of places you've visited
+<!-- end div -->
+
+## Tips
+
+- **Cut & Paste** is your friend in web development
+- To create these lists it is a lot quick to copy & paste one of your previous lists
+- Edit the list - the 5 or 3 list items only
+- Swap out the previous list item text for your films or places
+- Check your code
+- View it in the browser 
+
 
 <p class="submit-work">Submit Assessment Five.</p>
 
