@@ -68,13 +68,13 @@ Here's the best rule of thumb: it's likely appropriate to use `<b>`, `<i>`, or `
 **Warning**: People strongly associate underlining with hyperlinks. Therefore, on the Web, it's best to underline only links. Use the `<u>` element when it's semantically appropriate, but consider using CSS to change the default underline to something more appropriate on the Web. 
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise - Assessment Three
 
-> Adding emphasis and importance to your html document.
+Adding emphasis and importance to your html document.
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - Emphasis files](https://repl.it/@webdesignmmu/html3) 
+> Open your **Assessment Three** Repl.it
 
 <img src="media/emphasis-text.png" alt="Screenshot of the plain text for this exercise">
 
@@ -109,6 +109,11 @@ This is what your code should look like. For some of you it may be easier to lea
 Fix any issues and run again to check before you move on.
 
 <!-- end div -->
+
+
+<p class="submit-work">Submit Assessment Three.</p>
+
+
 
 <h2 class="deep">Deeper Learning</h2>
 

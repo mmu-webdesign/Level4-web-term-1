@@ -34,7 +34,7 @@ This is what HTML does. It is a mark-up language that gives us a method to descr
 
 <!-- div class="exercise" -->
 
-## Exercise One
+## Exercise - Looking at structure
 
 > Take a quick look through one of Trent Walton's articles, [Device Agnostic](https://trentwalton.com/2014/03/10/device-agnostic/). 
 
@@ -48,7 +48,8 @@ In this next task we ask to you actually read the text as well as look at the st
 
 <!-- div class="exercise" -->
 
-## Exercise Two 
+## Exercise - Reslient web design
+
 > Read the first Chapter of Jeremy Keith’s book, [Reslient web design. Chapter One: Foundations](https://resilientwebdesign.com/chapter1/). 
 
 As you read this chapter (*it's very relevant to what we are doing*), look at the structure of the page. It has a main (Level 1) heading - *Chapter 1: Foundations* followed by five sub (Level 2) headings including *Let’s share what we know*; *Net value; Hyperspace*; *Mark me up, mark me down*; *References*. 
@@ -115,7 +116,7 @@ Let's further explore our paragraph element from the previous section:
 
 <!-- div class="video" -->
 
-## Exercise Three
+## Exercise - Syntax of HTML elements
 
 > Watch the following short video for a deeper understanding of the syntax.
 
@@ -126,16 +127,15 @@ Let's further explore our paragraph element from the previous section:
 
 <!-- div class="exercise" -->
 
-## Exercise Four - Assessment One
+## Exercise - Assessment One
 
-### Space
-
-- To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
+To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
 
 
 ### Task 1
 
 > Open your **Assessment One** Repl.it
+
 
 <figure>
 <img src="media/replit.png" alt="The replit interface">
@@ -186,7 +186,7 @@ We therefore need to give our content structural markup.
 
 <!-- div class="exercise" -->
 
-## Exercise Five - Assessment One continued
+## Exercise - Assessment One continued
 
 - Creating a Level 1 heading
 
@@ -209,7 +209,7 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 <!-- div class="exercise" -->
 
-## Exercise Six - Assessment One continued
+## Exercise - Assessment One continued
 
 - Adding paragraphs and Level Two heading
 
@@ -249,7 +249,10 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 <!-- end div -->
 
+
 <p class="submit-work">Submit Assessment One.</p>
+
+
 
 ## Syntax highlighting
 
@@ -261,7 +264,7 @@ As things gets more complex you will see that further `highlighting` is added an
 
 <!-- div class="exercise" -->
 
-## Exercise Seven - Plain text files
+## Exercise - Plain text files
 
 > We are going to take a quick look at the file format used for html files - plain text.
 

@@ -79,7 +79,7 @@ In drama, where a character shares a comment only with the audience for humorous
 
 Description lists use a different wrapper than the other list types — `<dl>`; in addition each term is wrapped in a `<dt>` (description term) element, and each description is wrapped in a `<dd> `(description definition) element. 
 
-> Let's finish marking up our example:
+> The finished mark-up of our example:
 
 ```
 <dl>
@@ -139,13 +139,13 @@ The browser default styles will display description lists with the descriptions 
 We've just added the colour so you can better see the two different definitions. Added styling could make this much more engaging.
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise - Assessment Five
 
-> Creating an ordered and unordered list - There is no getting around it. To get used to the syntax for lists, you've got to do them. We will leave out the Description Term element as this is less common.
+Creating an ordered and unordered list - There is no getting around it. To get used to the syntax for lists, you've got to do them. We will leave out the Description Term element as this is less common.
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - List files](https://repl.it/@webdesignmmu/html5)
+> Open your **Assessment Five** Repl.it
 
 ### Task 2
 
@@ -196,9 +196,6 @@ But make sure that:
 <!-- end div -->
 
 
-<!-- div class="exercise" -->
-## Exercise Two
-
 ### Nesting lists 
 
 > It is perfectly ok to nest one list inside another one. You might want to have some sub-bullets sitting below a top-level bullet. 
@@ -234,9 +231,13 @@ The code above produces this:
 
 > Note: numbers and bullets can all be styled by CSS. For example changing the style of bullets to squares or circles, numbers to lower-roman or upper-roman. 
 
+
+<!-- div class="exercise" -->
+## Exercise - Assessment Five continued
+
 ### Task 1
 
-Using our list of Manchester Band Albums - Nest a list of two more Smiths albums like such: 
+- Using our list of Manchester Band Albums - Nest a list of two more Smiths albums like such: 
 
 <ol>
   <li>Buzzcocks – Singles Going Steady</li>
@@ -250,20 +251,15 @@ Using our list of Manchester Band Albums - Nest a list of two more Smiths albums
 </ol>
 etc...
 
-Save and view your completed page.
+- Save and view your completed page.
 
-<!-- end div -->
+### Task 2
 
-<!-- div class="exercise" -->
-## Exercise Three
-
-> Practice makes perfect. Add two more lists to the page. 
-
-### Task 1
+- Practice makes perfect. Add two more lists to the page. 
 
 - Add a list of 5 of your favourite films (ordered)
 
-### Task 2
+### Task 3
 
 - Add a list of 3 places you have visited (unordered)
 
@@ -287,6 +283,9 @@ You completed lists page should include 4 `lists`:
 
 
 <!-- end div -->
+
+
+<p class="submit-work">Submit Assessment Five.</p>
 
 
 
