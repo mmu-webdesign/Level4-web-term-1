@@ -34,7 +34,7 @@ This is what HTML does. It is a mark-up language that gives us a method to descr
 
 <!-- div class="exercise" -->
 
-## Exercise - Looking at structure
+## To do - Looking at page structure
 
 > Take a quick look through one of Trent Walton's articles, [Device Agnostic](https://trentwalton.com/2014/03/10/device-agnostic/). 
 
@@ -48,7 +48,7 @@ In this next task we ask to you actually read the text as well as look at the st
 
 <!-- div class="exercise" -->
 
-## Exercise - Reslient web design
+## To do - Reslient web design
 
 > Read the first Chapter of Jeremy Keith’s book, [Reslient web design. Chapter One: Foundations](https://resilientwebdesign.com/chapter1/). 
 
@@ -62,18 +62,8 @@ The text itself is set in paragraphs of various sizes, interspersed with a numbe
 This illustration, created via the HTML Validation Service plots both the page structural outline and heading level outline. We cover headings in the next section.
 
 ### Quiz - Did you read the chapter?
-- Q. Who wrote ‘As We May Think’?
-- A. Vannevar Bush
-- B. Vannevar Shrub
-- Q. Who created the Line Mode Browser?
-- A. Nicola Pellow
-- B. Marti Pellow
-- Q. Tim Berners-Lee was running which type of operating system?
-- A. NeXTSTEP operating system
-- B. NeXTJOBS operating system
-- Q. What does http stand for?
-- A. HyperText Transfer Protocol
-- B. HyperText Transfixed Protocol
+
+<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=UPs_KAujjEiQ9M2uT3rm0Z9V7jLeDDFMmZMGd1T81SNUNUtGNUdUVENBN0laNVpaNU0xN0VWVTFDMy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 
 <!-- end div -->
 
@@ -134,17 +124,17 @@ To mark-up a simple document with html heading and paragraph elements to create 
 
 ### Task 1
 
-> Open your **Assessment 1** Repl.it
+> Open your **Assessment 1** folder in your editor.
 
 
 <figure>
-<img src="media/replit.png" alt="The replit interface">
+<img src="media/html1.png" alt="The VSC interface">
 <figcaption>
-The editor window and the browser window, side by side in your browser.
+The Visual Studio Code (VSC)editor window.
 </figcaption>
 </figure>
 
-Our file (`index.html`) contains excerpts from [Gerry McGovern’s book World Wide Waste](https://gerrymcgovern.com/worldwidewaste/). It consists of a main heading, two paragraphs, a sub-heading and another paragraph.
+Our file (`assessment-01.html`) contains excerpts from [Gerry McGovern’s book World Wide Waste](https://gerrymcgovern.com/worldwidewaste/). It consists of a main heading, two paragraphs, a sub-heading and another paragraph.
 
 ```
 The Web is obese
@@ -160,7 +150,13 @@ Excerpts from Gerry McGovern's book World Wide Waste.
 
 ### Task 2
 
-- Select the Run button in repl.it so the text is displayed in the browser window on the right. The page displays but there is no structure to the page.
+- Open a web browser - preferably Chrome or Firefox
+
+> Safari on Mac will be fine, Edge on PC, sort of fine, Internet Explorer - avoid.
+
+- Drag `assessment-01.html` from the `html01` folder on to the browser window.
+
+- The page displays but there is no structure to the page.
 
 <img src="media/01-no-structure.png" alt="Illustration of the page in the browser with no structure" width="">
 
@@ -192,9 +188,9 @@ We therefore need to give our content structural markup.
 
 ### Task 1
 
-> Return to your **Assessment 1** Repl.it
+> Return to `assessment-01.html`
 
-- In the `repl.it` editor window add the `<h1>` tag to the main heading. Putting the closing tag at the end.
+- In the editor window add the `<h1>` tag to the main heading. Putting the closing tag at the end.
 
 ```
 <h1>The Web is obese</h1>
@@ -211,7 +207,7 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 ## Exercise - Assessment 1 continued
 
-- Adding paragraphs and Level Two heading
+- Adding paragraphs and a Level Two heading
 
 ### Task 1
 
@@ -248,7 +244,7 @@ Select Play to reload the page in the browser window. You should now have a dist
 <!-- end div -->
 
 
-<p class="submit-work">Submit Assessment 1</p>
+<p class="submit-work">Exercise 1 complete</p>
 
 
 
