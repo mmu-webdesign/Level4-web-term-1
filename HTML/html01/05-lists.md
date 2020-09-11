@@ -139,13 +139,21 @@ The browser default styles will display description lists with the descriptions 
 We've just added the colour so you can better see the two different definitions. Added styling could make this much more engaging.
 
 <!-- div class="exercise" -->
-## Exercise - Assessment 5
+## Exercise 5
 
 Creating an ordered and unordered list - There is no getting around it. To get used to the syntax for lists, you've got to do them. We will leave out the Description Term element as this is less common.
 
-### Task 1
+> Open the `html5` folder.
 
-> Open your **Assessment 5** Repl.it
+- Open `exercise-05.html` in your editor.
+
+
+<figure>
+<img src="media/ex-05.png" alt="The VSC interface">
+<figcaption>
+The Visual Studio Code (VSC)editor window.
+</figcaption>
+</figure>
 
 ### Task 2
 
@@ -164,8 +172,11 @@ New Order – Power, Corruption And Lies
 10CC – I’m Not In Love: The Essential 10cc
 The Hollies - Midas Touch - The Very Best of the Hollies
 ```
+- Save `exercise-05.html` and view the list in a browser.
 
 ### Task 3
+
+- Return to `exercise-05.html` in your editor.
 
 - You have a second list of Australian bands and their albums (in no particular order).
 
@@ -189,7 +200,7 @@ If you've got it right you should see in the browser:
 
 But make sure that:
 
-- There are both opening and closing tags for `<ol>` and `<ul>`
+- There are both opening and closing tags for either `<ol>` and `<ul>`
 - There are both opening and closing tags for every `<li>` element.
 
 
@@ -233,11 +244,11 @@ The code above produces this:
 
 
 <!-- div class="exercise" -->
-## Exercise - Assessment 5 continued
+## Exercise 5 continued
 
 ### Task 1
 
-- Return to your **Assessment 5** Repl.it
+- Return to `exercise-05.html`
 
 - Using our list of Manchester Band Albums - Nest a list of two more Smiths albums like such: 
 
@@ -253,6 +264,15 @@ The code above produces this:
 </ol>
 etc...
 
+- Clue - you list needs to sit within this list element so make space before you start coding the sub-list.
+
+```
+  <li>The Smiths – The Queen Is Dead
+
+
+  </li>
+```
+
 - Save and view your completed page.
 
 ### Task 2
@@ -265,26 +285,31 @@ etc...
 
 - Add a list of 3 places you have visited (unordered)
 
+## Tips
+
+> **Copy & Paste** is your friend in web development
+
+To create these lists it is a lot quick to copy & paste one of your previous lists.
+
+- copy & paste your list
+- Edit the new list
+- Swap out the previous list item text for your films or places
+- Check your code
+- View it in the browser 
+
 > You completed lists page should include 4 `lists`:
 
 - `Ordered` list of Manchester Band Albums
-  * With indented sub-list of Smiths albums
+  + With indented sub-list of Smiths albums
 - `Unordered` list of Australian bands
 - `Ordered` list of your favourite films
 - `Unordered` list of places you've visited
 <!-- end div -->
 
-## Tips
-
-- **Cut & Paste** is your friend in web development
-- To create these lists it is a lot quick to copy & paste one of your previous lists
-- Edit the list - the 5 or 3 list items only
-- Swap out the previous list item text for your films or places
-- Check your code
-- View it in the browser 
 
 
-<p class="submit-work">Submit Assessment 5.</p>
+
+<p class="submit-work">Exercise 5 complete</p>
 
 
 
