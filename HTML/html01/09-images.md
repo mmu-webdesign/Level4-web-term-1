@@ -56,13 +56,23 @@ There are sources of copyright free images, our favourite is [Unsplash.com](http
 
 
 <!-- div class="exercise" -->
-## Exercise - Assessment 7
+## Exercise 7
 
 Adding images to our page
 
 ### Task 1
 
-> Open your **Assessment 7** Repl.it
+> Open the `html7` folder.
+
+- Open `exercise-07.html` in your editor.
+
+
+<figure>
+<img src="media/ex-07.png" alt="The VSC interface">
+<figcaption>
+The Visual Studio Code (VSC)editor window.
+</figcaption>
+</figure>
 
 ### Task 2
 
@@ -78,25 +88,26 @@ Insert the code for all three images under the relevant title.
 <figure>
 <img src="media/golden-gate-bridge.jpg" alt="Golden Gate Bridge by Maarten van den Heuvel">
 <figcaption>
-filename: golden-gate-bridge.jpg
+<code>filename: golden-gate-bridge.jpg</code>
 </figcaption>
 </figure>
 
 <figure>
 <img src="media/lombard-street.jpg" alt="Lombard Street by Braden Collum">
 <figcaption>
-filename: lombard-street.jpg
+<code>filename: lombard-street.jpg</code>
 </figcaption>
 </figure>
 
 <figure>
 <img src="media/painted-ladies.jpg" alt="Painted ladies by Aaron Kato">
 <figcaption>
-filename: paintred-ladies.jpg
+<code>filename: paintred-ladies.jpg</code>
 </figcaption>
 </figure>
 
-- Select Run to view in the browser
+- Save and view in your browser.
+
 - The three images should be loading. If not, check your code.
 
 > Things to note
@@ -124,13 +135,13 @@ The easiest way to test your alt text is to purposely misspell your filename. If
 
 
 <!-- div class="exercise" -->
-## Exercise - Assessment 7 continued
+## Exercise 7 continued
 
 > Adding alt text to the images
 
 ### Task 1
 
-- Return to your **Assessment 7** Repl.it
+- Return to `exercise-07.html` in your editor.
 
 - Edit each `<img>` element, adding the `alt` attribute with relevant text
 
@@ -149,12 +160,17 @@ The easiest way to test your alt text is to purposely misspell your filename. If
 
 ### Task 2
 
-- Select Run to view in the browser
-- The page will look no different
+- Refresh the page in your browser.
+
+- The page will look no different.
+
 - Adjust the spelling of one of the image files, for example `olden-ate-ridge.jpg`
-- Select Run
+
+- Save `exercise-07.html`, refresh the page in the browser.
+ 
 - The image will fail to load - your alt text should be displayed (*as per the example image above for* `dinosaur.jpg`)
-- Fix the typo, check the image now loads.
+
+- If that has worked, return to your editor, fix the typo, save and check the image now loads in the browser.
 
 <!-- end div -->
 
@@ -216,11 +232,11 @@ If you put an image inside `<a>` tags, to turn an image into a link, you still m
 
 ```
 <!-- div class="exercise" -->
-## Exercise - Assessment 7 continued
+## Exercise 7 continued
 
 > Using the example above make the logo a clickable link to the MMU homepage. 
 
-- Return to your **Assessment 7** Repl.it
+- Return to `exercise-07.html` in your editor.
 
 **Tip** - *If it makes it easier, spread out the code as in the example - remember the browser ignores the white space*.
 
@@ -244,13 +260,13 @@ If you put an image inside `<a>` tags, to turn an image into a link, you still m
 
 - Change the alt to reflect where the link is going to - `alt="MMU Homepage"` 
 
-- Select Run
+- Save `exercise-07.html` in your editor.
 
-- Open the page in a new tab (as we did before to test links)
+- Refresh the page in your browser.
 
-- Test the link by clicking on the logo
+- Test the link by clicking on the logo.
 
-- Did it work? Yes - great! No - close the tab, check your code, try again.
+- Did it work? Yes - great! No - check your code, try again.
 
 <!-- end div -->
 
@@ -286,13 +302,13 @@ This is a good thing to do, resulting in the page loading quicker and more smoot
 
 
 <!-- div class="exercise" -->
-## Exercise - Assessment 7 continued
+## Exercise 7 continued
 
 > Adding the height and width attributes
 
 ### Task 1
 
-- Return to your **Assessment 7** Repl.it
+- Return to `exercise-07.html` in your editor.
 
 - Find the code for each image on the San Francisco page
 
@@ -328,9 +344,11 @@ If it makes it easier, spread out the code - remember the browser ignores the wh
      - width="600"
      - height="400"
 
-- Select Run to view in the browser
-- The page will look no different
-- You have however improved the performance of you page
+- Save `exercise-07.html` in your editor.
+
+- The page will look no different.
+
+- You have however improved the performance of you page.
 
 
 <!-- end div -->
@@ -410,7 +428,7 @@ A better solution, is to use the HTML5 `<figure>` and `<figcaption>` elements. T
 The `<figcaption>` element tells browsers, and assistive technology that the caption describes the other content of the `<figure>` element.
 
 <!-- div class="exercise" -->
-## Exercise - Assessment 7 continued
+## Exercise 7 continued
 
 > Adding the `<figure>` and `<figcaption>` elements to each of our three San Francisco images
 
@@ -418,7 +436,7 @@ The `<figcaption>` element tells browsers, and assistive technology that the cap
 
 ### Task 1
 
-- Return to your **Assessment 7** Repl.it
+- Return to `exercise-07.html` in your editor.
 
 - Apply `<figure>` and `<figcaption>` to each San Francisco image
 
@@ -439,8 +457,11 @@ The `<figcaption>` element tells browsers, and assistive technology that the cap
 - `painted-ladies.jpg`
      - The beautiful Painted Ladies, a row of Victorian and Edwardian style houses located across from Alamo Square park. A must visit location for all visitors.
 
-- Select Run to view in the browser
-- Your captions should sit neatly underneath the images
+- Save `exercise-07.html` in your editor.
+
+- Refresh the page in your browser.
+
+- Your captions should sit neatly underneath the images.
 
 > Note that the captions can be styled by CSS. They don't need to stay this ugly.
 
@@ -453,7 +474,7 @@ The `<figcaption>` element tells browsers, and assistive technology that the cap
 
 <!-- end div -->
 
-<p class="submit-work">Submit Assessment 7.</p>
+<p class="submit-work">Exercise 7 complete.</p>
 
 
 > Note: From an accessibility viewpoint, captions and `alt` text have distinct roles. Captions benefit even people who can see the image, whereas `alt` text provides the same functionality as an absent image. Therefore, captions and alt text shouldn't just say the same thing, because they both appear when the image is gone. Try turning images off in your browser and see how it looks.

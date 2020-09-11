@@ -48,7 +48,7 @@ If you look at code for a lot of other sites, you might come across a number of 
 
 <!-- div class="exercise" -->
 
-## Exercise - HTML attributes
+## To do - HTML attributes
 
 > A short video on html attributes.
 
@@ -64,11 +64,9 @@ To get a better understanding of this topic use the following resources.
 - MDN: Attributes - [HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
 
-<h2 class="deep">Advanced Learning</h2>
-
-For students wanting more, we recommend the following topics and resources. 
-
 ## Omitting quotes around attribute values
+
+**READ THIS IF YOU HAVE TIME.**
 
 If you look at code for a lot of other sites, you might come across a number of strange markup styles, including attribute values without quotes. This is permitted in certain circumstances, but it can also break your markup in other circumstances. For example, if we revisit our link example from earlier, we could write a basic version with only the href attribute, like this:
 
