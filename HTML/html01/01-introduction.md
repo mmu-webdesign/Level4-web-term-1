@@ -186,11 +186,11 @@ We therefore need to give our content structural markup.
 
 ## Exercise 1 continued
 
-- Creating a Level 1 heading
+Creating a Level 1 heading
 
 ### Task 1
 
-> Return to `exercise-01.html`
+- Return to `exercise-01.html`
 
 - In the editor window add the `<h1>` tag to the main heading. Putting the closing tag at the end.
 
@@ -199,19 +199,39 @@ We therefore need to give our content structural markup.
 
 ```
 
-Select Play to reload the page in the browser window. You should now have a distinct heading. If not, check your code and reload the page.
+- Save `exercise-01.html`
+
+- Refresh the page in your browser window.
+
+- You should now have a distinct heading. 
 
 <img src="media/01-heading.png" alt="Illustration of the heading" width="">
 
+- If not, check and amend your code, save and reload the page in the browser.
+
 <!-- end div -->
+
+## Edit, save and refresh
+
+> You will get very familiar with the process of creating, edit files, and then viewing the results in the browser.
+
+### Common student errors
+
+1. Editing a html file, forgetting to save.
+1. Editing a html file, saving but not refreshing in the browser.
+1. Editing one version of the file, but viewing another copy in the browser - wondering why the changes haven't appeared!
+
+
 
 <!-- div class="exercise" -->
 
 ## Exercise 1 continued
 
-- Adding paragraphs and a Level Two heading
+Adding paragraphs and a Level Two heading
 
 ### Task 1
+
+- Continue with `exercise-01.html`
 
 - In the editor, surround the next two paragraphs with the opening and closing `<p>` tag.
 
