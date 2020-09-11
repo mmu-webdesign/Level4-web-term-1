@@ -57,7 +57,9 @@ As mentioned before, you can turn just about any content into a link, even block
 
 ```
 <a href="https://www.mozilla.org/en-US/">
+
   <img src="mozilla-image.png" alt="mozilla logo that links to the mozilla homepage">
+
 </a>
 ```
 
@@ -83,21 +85,25 @@ As mentioned before, you can turn just about any content into a link, even block
 
 <!-- div class="exercise" -->
 
-## Exercise - Assessment 6
+## Exercise 6
 
 Coding external links
 
 ### Task 1
 
-> Open your **Assessment 6** Repl.it
+> Open the `html6` folder.
+
+- Open `exercise-06.html`in your editor.
+
+- Open `exercise-06.html`in your browser.
 
 ### Task 2
 
 - Before we start creating links, the page needs to be structured with a `<h1>` heading and `<p>` paragraphs.
 
-- Apply the code and Run in the browser window
+- Apply the code and save the file. 
 
-- The page should now look like this:
+- Refresh the browser to view `exercise-06.html`. The page should now look like this:
 
 <img src="media/links-with-structure.png" alt="Links page coded with heading and paragraphs">
 
@@ -106,8 +112,10 @@ Coding external links
 
 > Adding links to the page - each of these links lead off our webpage, to someone elses website.
 
-- BBC Sports - `https://www.bbc.co.uk/sport`
-- So for example this lik would include:
+
+- A link to BBC Sports homepage.
+
+- So for example this link would include:
 
 ```
 <a href="https://www.bbc.co.uk/sport">BBC Sports</a>
@@ -116,7 +124,9 @@ Coding external links
 
 ```
 <a href="https://www.bbc.co.uk/sport">
+
 BBC Sports
+
 </a>
 ```
 This includes:
@@ -130,22 +140,21 @@ This includes:
 
 Read this through a few times so that you really understand the stucture of the `anchor` element. The `<a>` wraps around the link text.
 
-- Code your link, Run and test that it works.
+- Find BBC Sports in the first paragraph of `exercise-06.html`.
 
-<h3 class="warning">How to test you links</h3>
+- Wrap the `<a>` element around the text as shown to create a hyper link to `"https://www.bbc.co.uk/sport"`.
 
-- The `Repl.it` browser can show your `links`, but they won't work
+- Save `exercise-06.html`.
 
-- To test your links you will need to open the page in a new browser tab. To do this:
+- Refresh in the browser to view and test the link. 
 
 <figure>
 <img src="media/view-in-browser.png" alt="Illustration of the button to select">
 <figcaption>
-Select the button highlighted in red. This will open your page in another browser tab. Your links will now work - if coded correctly.
+You should have a link on your page as shown. Select the link - does it go to BBC Sport as expected?
 </figcaption>
 </figure>
 
-- Close that browser tab once you've checked your links.
 
 ### Task 4 - Just read this
 
@@ -165,26 +174,33 @@ Select the button highlighted in red. This will open your page in another browse
 
 > It will be up to you as the coder, but remember:
 
-1. A good target size
+1. A good target size.
 
-1. but not over large - don't link the whole sentence
+1. But not over large - don't link the whole sentence.
 
-1. Works/makes sense out of context
+1. Works/makes sense out of context.
 
 ### Task 5
 
-> Add two more links to BBC Sports in the next two paragraphs
+- Return to `exercise-06.html` in your editor.
+
+- Add two more links to BBC Sports in the next two paragraphs.
 
 - Find the text **Formula One** and turn it into a link using - `https://www.bbc.co.uk/sport/formula1`
 
 - Find the text **Football Gossip** and turn it into a link using - `https://www.bbc.co.uk/sport/football/gossip`
 
+- Save `exercise-06.html`, refresh the page in your browser.
+
 ### Task 6
 
-> Add the final link which is to a WebAIM article that provides more information on best practices for link text.
+- Add the final link to `exercise-06.html` 
+
+- Create a link to this WebAIM article that provides more information on best practices for link text.
 
 - Find the text **Link Text and Appearance** and turn it into a link using - `https://webaim.org/techniques/hypertext/link_text`
 
+- Save `exercise-06.html`, refresh the page in your browser.
 
 ### Solution
 
@@ -200,7 +216,7 @@ You completed page should like like this, with the links blue (mine are purple b
 <!-- end div -->
 
 
-<p class="submit-work">Submit Assessment 6</p>
+<p class="submit-work">Exercise 6 complete</p>
 
 
 <h2 class="deep">Deeper Learning</h2>
