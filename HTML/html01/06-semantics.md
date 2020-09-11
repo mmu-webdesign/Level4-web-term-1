@@ -47,7 +47,7 @@ Some of the benefits from writing semantic markup include:
 When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; does it list out definitions?; is it a figure or image that needs a caption?; etc.
 
 <!-- div class="exercise" -->
-## Exercise - Semantic code
+## To do - Semantic code
 
 > A quick 4 minute read.
 
@@ -59,15 +59,21 @@ When approaching which markup to use, ask yourself, "What element(s) best descri
 
 To get a better understanding of this topic use the following resources.
 
+- LinkedIn Learning Video: [What are web semantics?](https://www.linkedin.com/learning/html5-structure-syntax-and-semantics/what-are-web-semantics?u=36102708) (2m 10s)
+
+- LinkedIn Learning Video: [Semantic HTML5](https://www.linkedin.com/learning/html5-structure-syntax-and-semantics/semantic-html5?u=36102708) (3m 57s)
+
 - MDN: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
 <h2 class="deep">Advanced Learning</h2>
 
 For students wanting more, we recommend the following topics and resources. 
 
-Students who already have a knowledge of html may want to complete the full course on crafting meaningful html. In our experience the area of semantics is something that many self taught coders, and even current professionals ignore.
+Students who already have a knowledge of HTML may want to complete the full course on crafting meaningful html. In our experience the area of semantics is something that many self taught coders, and even current professionals ignore.
 
 - LinkedIn Learning Video: Jen Kramer - [Craft meaningful html](https://www.linkedin.com/learning/crafting-meaningful-html/craft-meaningful-html?u=36102708) (1hr 22m)
+
+- You may also find this course on [HTML: Structured Semantic Data interesting](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-structured-semantic-data%3Ftrk%3Dshare_ent_url&account=36102708). It's way beyond this unit but for experienced coders it may be a useful additional resource.
 
 
 ### &copy; Credit given
