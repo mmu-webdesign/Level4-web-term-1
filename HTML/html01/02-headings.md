@@ -21,9 +21,9 @@ Apply the six heading elements — `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `
 
 ### Task 1
 
-> Open the `html2` folder in your editor.
+> Open the `html2` folder.
 
-- Open `exercise-02.html`
+- Open `exercise-02.html` in your editor.
 
 <img src="media/heading-text.png" alt="Screenshot showing the six headings prior to being coded">
 

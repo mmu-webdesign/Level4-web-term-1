@@ -59,13 +59,17 @@ Some of the more seasoned coders (like Derren) will remember the self closing ve
 We will shortly be introducing the image element, `<img>` which is also self closing and one element you will be using frequently.
 
 <!-- div class="exercise" -->
-## Exercise - Assessment 4
+## Exercise 4
 
 Adding emphasis and importance to your html document.
 
 ### Task 1
 
-> Open your **Assessment 4** Repl.it
+> Open the `html4` folder.
+
+- Open `exercise-04.html`in your editor.
+
+- View `exercise-04.html`in a browser.
 
 <img src="media/nesting.png" alt="Screenshot of the exercise file with errors">
 
@@ -79,13 +83,13 @@ Adding emphasis and importance to your html document.
 
 Some of these errors have caused the document to not display as we intended. Some of the errors atcually don't upset the look of the page (the nesting in this case) but still need be fixed for a valid html document.
 
-- Work through the code line by line to identify the errors
-- Fix each error, selecting Run to preview the page each time.
+- Work through the code in `exercise-04.html` line by line to identify the errors.
+- Fix each error, save and refreshing in the browser to preview the page each time.
 - There are just 5 errors to find and correct.
 
 ### Solution
 
-We've highlighted the location of the 5 errors. Once fixed, the page should display as we originally expected.
+- We've highlighted the location of the 5 errors. Once fixed, the page should display as we originally expected.
 
 <img src="media/nesting-errors.png" alt="Screenshot of the exercise file with errors highlighted">
 
@@ -100,6 +104,8 @@ A missing or incorrect closing element is a very common error in student code. *
 ### Task 3
 
 > The horizontal rule `<hr>`
+
+- Return to `exercise-04.html`
 
 - Just for completeness we would like you to add a horizontal rule to the page, just about that final `<h2>` on the page.
 
@@ -121,12 +127,12 @@ for the parishes of Grimpen, Thorsley, and High Barrow.</p>
 ```
 
 
-The `spacing` makes it easier for you find `elements` and spot `errors`.
+The *spacing* makes it easier for you find `elements` and spot errors.
 
 <!-- end div -->
 
 
-<p class="submit-work">Submit Assessment 4</p>
+<p class="submit-work">Exercise 4 completed</p>
 
 
 

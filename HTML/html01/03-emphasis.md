@@ -74,9 +74,9 @@ Adding emphasis and importance to your html document.
 
 ### Task 1
 
-> Open the `html3` folder in your editor.
+> Open the `html3` folder.
 
-- Open `exercise-03.html`
+- Open `exercise-03.html` in your editor.
 
 <img src="media/emphasis-text.png" alt="Screenshot of the plain text for this exercise">
 

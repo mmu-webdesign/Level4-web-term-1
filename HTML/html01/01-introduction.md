@@ -124,9 +124,9 @@ To mark-up a simple document with html heading and paragraph elements to create 
 
 ### Task 1
 
-> Open the `html1` folder in your editor.
+> Open the `html1` folder.
 
-- Open `exercise-01.html`
+- Open `exercise-01.html` in your editor.
 
 
 <figure>
