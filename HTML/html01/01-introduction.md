@@ -106,7 +106,7 @@ Let's further explore our paragraph element from the previous section:
 
 <!-- div class="video" -->
 
-## Exercise - Syntax of HTML elements
+## To do - Syntax of HTML elements
 
 > Watch the following short video for a deeper understanding of the syntax.
 
@@ -117,14 +117,16 @@ Let's further explore our paragraph element from the previous section:
 
 <!-- div class="exercise" -->
 
-## Exercise - Assessment 1
+## Exercise 1
 
 To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
 
 
 ### Task 1
 
-> Open your **Assessment 1** folder in your editor.
+> Open the `html1` folder in your editor.
+
+- Open `exercise-01.html`
 
 
 <figure>
@@ -134,7 +136,7 @@ The Visual Studio Code (VSC)editor window.
 </figcaption>
 </figure>
 
-Our file (`assessment-01.html`) contains excerpts from [Gerry McGovern’s book World Wide Waste](https://gerrymcgovern.com/worldwidewaste/). It consists of a main heading, two paragraphs, a sub-heading and another paragraph.
+Our file (`exercise-01.html`) contains excerpts from [Gerry McGovern’s book World Wide Waste](https://gerrymcgovern.com/worldwidewaste/). It consists of a main heading, two paragraphs, a sub-heading and another paragraph.
 
 ```
 The Web is obese
@@ -154,7 +156,7 @@ Excerpts from Gerry McGovern's book World Wide Waste.
 
 > Safari on Mac will be fine, Edge on PC, sort of fine, Internet Explorer - avoid.
 
-- Drag `assessment-01.html` from the `html01` folder on to the browser window.
+- Drag `exercise-01.html` from the `html01` folder on to the browser window.
 
 - The page displays but there is no structure to the page.
 
@@ -182,13 +184,13 @@ We therefore need to give our content structural markup.
 
 <!-- div class="exercise" -->
 
-## Exercise - Assessment 1 continued
+## Exercise 1 continued
 
 - Creating a Level 1 heading
 
 ### Task 1
 
-> Return to `assessment-01.html`
+> Return to `exercise-01.html`
 
 - In the editor window add the `<h1>` tag to the main heading. Putting the closing tag at the end.
 
@@ -205,7 +207,7 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 <!-- div class="exercise" -->
 
-## Exercise - Assessment 1 continued
+## Exercise 1 continued
 
 - Adding paragraphs and a Level Two heading
 
@@ -250,7 +252,7 @@ Select Play to reload the page in the browser window. You should now have a dist
 
 ## Syntax highlighting
 
-The editor includes *syntax highlighting* which you can see adds colour to the html elements, allowing you to spot them , and errors easier.
+A good IDE like Visual Studio Code includes *syntax highlighting* which you can see adds colour to the html elements, allowing you to spot them , and errors easier.
 
 <img src="media/01-syntax-highlighting.png" alt="Illustration of syntax highlighting" width="">
 
@@ -264,7 +266,7 @@ As things gets more complex you will see that further `highlighting` is added an
 
 ### Task 1
 
-- Copy and paste the text (with or without the coding) from `index.html` into a blank MSWord document. Save it as a `.docx` file. 
+- Copy and paste the text (with the coding) from `exercise-01.html` into a blank MSWord document. Save it as a `.docx` file. 
 
 ### Task 2
 
