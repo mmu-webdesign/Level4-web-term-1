@@ -68,21 +68,27 @@ Here's the best rule of thumb: it's likely appropriate to use `<b>`, `<i>`, or `
 **Warning**: People strongly associate underlining with hyperlinks. Therefore, on the Web, it's best to underline only links. Use the `<u>` element when it's semantically appropriate, but consider using CSS to change the default underline to something more appropriate on the Web. 
 
 <!-- div class="exercise" -->
-## Exercise - Assessment 3
+## Exercise 3
 
 Adding emphasis and importance to your html document.
 
 ### Task 1
 
-> Open your **Assessment 3** Repl.it
+> Open the `html3` folder in your editor.
+
+- Open `exercise-03.html`
 
 <img src="media/emphasis-text.png" alt="Screenshot of the plain text for this exercise">
 
 ### Task 2
 
+- Edit `exercise-03.html`
+
 - Create the page structure by adding a `<h1>` main heading, `<h2>` sub-headings, and `<p>` paragraphs.
 
-- Run the page and check it against the illustration below.
+- Save `exercise-03.html`
+
+- View the page in a browser and check it against the illustration below.
 
 ### Task 3
 
@@ -94,24 +100,26 @@ Adding emphasis and importance to your html document.
 
 - Apply the `<i>` element to the journal and article details - (*Lancet 1882*) and (*Journal of Psychology, March, 1883*).
 
-When completed, select Run. Does your page look like this?
+When completed, refresh the page in your browser. Does your page look like this?
 
 <img src="media/emphasis.png" alt="Screenshot of the completed file including strong, em, b and i elements">
 
 ### Solution
 
-This is what your code should look like. For some of you it may be easier to learn by copying our code. 
+- This is what your code should look like. 
+
+- For some of you it may be easier to learn by copying our code. 
 
 <img src="media/emphasis-complete.png" alt="Screenshot showing the code">
 
 ### Task 4
 
-Fix any issues and run again to check before you move on.
+- Fix any issues and run again to check before you move on.
 
 <!-- end div -->
 
 
-<p class="submit-work">Submit Assessment 3</p>
+<p class="submit-work">Exercise 3 complete</p>
 
 
 

@@ -15,30 +15,37 @@ It's really up to you what exactly the elements involved represent, as long as t
 - Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary. Documents with many levels (i.e., a deep heading hierarchy) become unwieldy and difficult to navigate. On such occasions, it is advisable to spread the content over multiple pages if possible.
 
 <!-- div class="exercise" -->
-## Exercise - Assessment 2
+## Exercise 2
 
 Apply the six heading elements — `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` to the six headings on the page.
 
 ### Task 1
 
-> Open your **Assessment 2** Repl.it
+> Open the `html2` folder in your editor.
+
+- Open `exercise-02.html`
 
 <img src="media/heading-text.png" alt="Screenshot showing the six headings prior to being coded">
 
 ### Task 2
 
-- Wrap each opening and closing tag around each of the six headings listed, going from `<h1>` to `<h6>`. Select the *run* button to refresh the browser window. 
+- Wrap each opening and closing tag around each of the six headings listed, going from `<h1>` to `<h6>`. 
 
-Your page should now look like this:
+- Save the file.
+
+- Drag and drop `exercise-02.html` on to a browser window. 
+
+- Your page should now display like this. The default styles of the browser apply a different font size to each level of heading.
 
 <img src="media/02-six-headings.png" alt="Illustrated anatomy of a HTML Element">
 
-If your headings look different, look at the example on [The HTML Section Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#Examples) on MDN and attempt to fix the problem(s). 
+- If your headings look different, look at the example on [The HTML Section Heading elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#Examples) on MDN and attempt to fix the problem(s). 
+
 
 <!-- end div -->
 
 
-<p class="submit-work">Submit Assessment 2</p>
+<p class="submit-work">Exercise 2 completed</p>
 
 
 

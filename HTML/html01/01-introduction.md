@@ -266,7 +266,7 @@ Adding paragraphs and a Level Two heading
 <!-- end div -->
 
 
-<p class="submit-work">Exercise 1 complete</p>
+<p class="submit-work">Exercise 1 completed</p>
 
 
 
