@@ -21,15 +21,25 @@ You can even use the document fragment reference on its own to link to another p
 ```
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 8
 
 > Internal links - creating links within (to a specific part of) a document.
 
 ### Task 1
 
-- Open [Repl.it - Internal Links](https://repl.it/@webdesignmmu/html8)
+> Open the `html8` folder.
 
+- Open `exercise-08.html` in your editor.
+
+
+<figure>
+<img src="media/ex-08.png" alt="The VSC interface">
+<figcaption>
 What you have is a document with a *table of contents* (menu) at the top, followed by three sections of text. In this exercise you are going to link each menu item to the relevant section. Allowing the reader to *jump* to the relevant section.
+</figcaption>
+</figure>
+
+> [Lorem Ipsum](https://www.lipsum.com/) - the *dummy text* you see in the paragraphs is commonly used by web developers to fill the void in their designs whilst waiting for the *real* content. Not ideal, but useful.
 
 ### Task 2
 
@@ -68,10 +78,15 @@ What you have is a document with a *table of contents* (menu) at the top, follow
   </li>
   
   ```
-- If you Run the page in the browser you will now see the menu items look like links (blue/purple underlined text). 
+- Save `exercise-08.html`, and open it in a browser.
+
+- In the browser you will now see the menu items look like links (blue/purple underlined text). 
+
 - Clicking on them does nothing - as we haven't defined the link location in the `href=""` attribute.
 
 ### Task 4
+
+- Return to `exercise-08.html` in your editor.
 
 - Adding the link location - but this time it's not an URL or file path. We are going to link to a named element on the page using an `ID` or `#` attribute.
 
@@ -85,7 +100,9 @@ What you have is a document with a *table of contents* (menu) at the top, follow
 
 - Obviously `#two` and `#three` for the other two.
 
-Nothing changes on our page as the destinations have yet to be defined.
+- Save `exercise-08.html`.
+
+- Nothing changes on our page yet as the destinations have yet to be defined.
 
 ### Task 5
 
@@ -96,9 +113,10 @@ Nothing changes on our page as the destinations have yet to be defined.
 ```
 <h2 id="one">Section One</h2>
 ```
-- Run the page again.
 
-- If you've got it right, when you click to Section One link in the menu the page will *jump down* to Section One.
+- Save `exercise-08.html`, and refresh the browser.
+
+- If you've got it right, when you click the <a>Section One</a> link in the menu the page will *jump down* to Section One as illustrated below.
 
 - If that has worked, do the same for sections two and three, obviously using `id="two"` and `id="three"`.
 
@@ -129,6 +147,8 @@ and
 
 - The `ID` can be added to any element, not just a heading.
 
+- You can only use an ID once on the page - it needs to be unique (for example, for this to work).
+
 - We could link to one of these sections from another website by using the full URL. For example:
 
 ```
@@ -138,25 +158,35 @@ and
 
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 8 continued
 
 > **Return to top**. You've probably used these a million times, a quick link that jumps you back to the top of the page.
 
 ### Task 1
 
-- Using the same `Repl.it - html8`
+- Return to `exercise-08.html` in your editor.
 
 - Using what you have learnt, create a link **Back to the Top** on this page. 
 
 - The text for the `<a>` link is already there at the bottom of the page.
 
+```
+<p>Return to Top</p>
+```
+
 - Hint - add the `ID` to the `<h1>` at the top of the page.
 
 - What name to use for your `ID`? Up to you. Just follow the rules (above) and keep it simple.
 
-- When complete, Run the page. Scroll to the bottom, and click on your new `Return to the Top` link. If everything is correct you should jump back up to the top. If not, check your code.
+- When complete, save `exercise-08.html` and refresh the page in the browser. 
+
+- Scroll to the bottom, and click on your new `Return to the Top` link. If everything is correct you should jump back up to the top. If not, check your code.
+
+> Back to the Top - is a standard practice, especially on long pages to make navigation simpler.
 
 <!-- end div -->
+
+<p class="submit-work">Exercise 8 is completed.</p> 
 
 ### &copy; Credit given
 

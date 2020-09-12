@@ -46,14 +46,24 @@ Find details on our <a href="contacts.html">contacts page</a>.</p>
 
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 9
 
 > Paths - File paths to link files, and to embed images.
 
 ### Task 1
 
-- Open [Repl.it - File Paths](https://repl.it/@webdesignmmu/html9)
+> Open the `html9` folder.
 
+- Open `index.html` in your editor.
+
+<figure>
+<img src="media/ex-09.png" alt="The VSC interface">
+<figcaption>
+Exercise 9 files and folders. 
+</figcaption>
+</figure>
+
+> Note that our core page (the HomePage) is `index.html` in **Exercise 9**. This is the default name of most homepages. Because it is default, when you go to a website like `http://www.mmu.ac.uk` you don't need to add the homepage filename. This avoids - `http://www.mmu.ac.uk/index.html`
 ### Task 2
 
 - Look at the file/ folder structure.
@@ -63,16 +73,17 @@ Find details on our <a href="contacts.html">contacts page</a>.</p>
 - We have our home page `index.html` on the root of our directory
 - There is an `img` folder for our images - currently empty
 - We have a `pages` folder for our sub-pages. At the moment it only contains `page-two.html`.
-- Both `mmu-logo.jpg` and `page-one.html` are also sat on the root
-- ignore `text.txt`.
+- Both `mmu-logo.jpg` and `page-one.html` are also sat on the root.
 
 ### Task 3
 
-- Run `index.html` in the browser
+- Open `index.html` in the browser
 
 <img src="media/paths-two.png" alt="index.html in the browser">
 
-- The logo loads because it is sat in the root folder with `index.html`. This makes the path simple - just the filename.
+- The logo loads because it is sat in the root folder with `index.html`. 
+
+- This makes the path simple - just the filename.
 
 ```
 <img src="mmu-logo.jpg" alt="Manchester Metropolitan University">
@@ -84,25 +95,33 @@ Find details on our <a href="contacts.html">contacts page</a>.</p>
 <a href="page-one.html">Page One</a>
 ```
 
-- The link to page two fails because this file is sat un the sub-folder, `pages`.
+### Task 4
 
-- Fix this error by adjusting the path.
+- The link from `index.html` to page two fails because this file is sat in the sub-folder, `pages`.
+
+- Fix link error by adjusting the path. 
+
+- Currently in `index.html`
 
 ```
 <a href="page-two.html">Page Two</a>
 ```
 
-- You need to tell the browser that this file is in the 'pages' folder. You do this by using the path `pages/page-two.html`.
+- You need to tell the browser that this file is in the `pages` folder. You do this by using the path:
 
-- Run `index.html` and test the link - it should now work.
+```
+pages/page-two.html
+```
+
+- Save `index.html`, refesh the page in the browser and test the link to `Page Two` - it should now work.
+
+### Task 5
 
 You will notice that the logo fails to load on `page-two.html`.
 
 <img src="media/paths-three.png" alt="index.html in the browser">
 
-### Task 4
-
-- The path to the image is incorrect. It currently assumes the `html` file and the `image` file are sat in the same older. They are not.
+- The path to the image is incorrect. It currently assumes the `html` file and the `image` file are sat in the same older. They are not- because we moved `page-two.html`.
 
 - Get the image working by adjusting the path.
 
@@ -110,15 +129,15 @@ You will notice that the logo fails to load on `page-two.html`.
 
 - You need to guide the path to `mmu-logo.jpg`. This would be `../` to drop out of the `pages` folder, followed by the image filename. `../mmu-logo.jpg`
 
-- Run the browser - note that it always takes you back to `index.html` - just follwo the link to `page-two.html` to see if the logo loads this time. If it doesn't, check your code.
+- Save `page-two.html` and refresh it in the browser to see if the logo loads this time. If it doesn't, check your code.
 
-### Task 4
+### Task 6
 
-Having an image on the root of a site is not good, especially as the site gained more images.
+> Having an image on the root of a site is not good, especially as the site gains more images.
 
 - Move `mmu-logo.jpg` into the `img` folder with a simple drag and drop.
 
-- If you now Run the page, you will see that the logo now fails to load on all of the pages.
+- If you now view your little site in the browser, you will see that the logo now fails to load on all of the pages. If it's still showing, refresh the page(s).
 
 - Fix this on each page by working out the paths.
 
@@ -130,7 +149,7 @@ Having an image on the root of a site is not good, especially as the site gained
 
 - Run the page and test each one - the logo should load on every page if you have the paths correct.
 
-### Task 5
+### Task 7
 
 And finally, let's get `page-one.html` off the root and into the `pages` folder to ensure we have a tidy site.
 
@@ -142,22 +161,22 @@ Now you have some fixing to do:
 
 - The logo path needs to now be the same as it is on `page-two.html`
 
-- Run the page and check everything out.
+- Save all pages (Save All), refresh `index.html` in the browser and check everything out.
 
-    - Both links from the homepage
+    - Both links from the homepage work.
 
-    - The logo (working) on each page
+    - The logo (working) on all three pages.
 
 <!-- end div -->
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 9 continued
 
 > Create a home link on both `page-one.html` and `page-two.html` by making the logo clickable.
 
 ### Task 1
 
-- On both `page-one.html` and `page-two.html` wrap an anchor tag around the `<img>` element as we did previously on the San Francisco page:
+- In the editor - On both `page-one.html` and `page-two.html` wrap an anchor tag around the `<img>` element as we did previously on the San Francisco page:
 
 ```
 <a href="http://www.mmu.ac.uk">
@@ -171,7 +190,9 @@ Now you have some fixing to do:
 
 - **Tip 2** - The code is the same on both pages - code one and copy and paste to the other.
 
-- Run the page - clicking the logo on `page-one.html` and `page-two.html` should take you back to the homepage. If it doesn't, check your code.
+- Save both pages and view in a browser
+
+- Clicking the logo on `page-one.html` and `page-two.html` should take you back to the homepage. If it doesn't, check your code.
 
 <figure>
 <img src="media/paths-final.gif" alt="animation of the links working">
@@ -181,6 +202,8 @@ Now you have some fixing to do:
 
 
 <!-- end div -->
+
+<p class="submit-work">Exercise 8 is completed.</p> 
 
 
 <h2 class="deep">Deeper Learning</h2>
