@@ -42,7 +42,7 @@ In HTML we use the `<strong>` (strong importance) element to mark up such instan
 
 <p>I am counting on you. <strong>Do not</strong> be late!</p>
 ```
-<div style="border: 1px solid red; padding: 5px;">
+<div style="border: 1px solid rgba(10, 130, 175, 1); padding: 5px; margin-bottom: 5px">
 <p>This liquid is <strong>highly toxic</strong>.</p>
 
 <p>I am counting on you. <strong>Do not</strong> be late!</p>
@@ -54,7 +54,7 @@ You can nest strong and emphasis inside one another if desired:
 <p>This liquid is <strong>highly toxic</strong> —
 if you drink it, <strong>you may <em>die</em></strong>.</p>
 ```
-<div style="border: 1px solid red; padding: 5px;">
+<div style="border: 1px solid rgba(10, 130, 175, 1); padding: 5px;">
 <p>This liquid is <strong>highly toxic</strong> —
 if you drink it, <strong>you may <em>die</em></strong>.</p>
 </div>
