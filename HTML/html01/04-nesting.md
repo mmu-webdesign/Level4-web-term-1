@@ -54,14 +54,14 @@ Not all elements follow the pattern of an opening tag, content, and a closing ta
 
 Some of the more seasoned coders (like Derren) will remember the self closing version of this element from XHTML.
 
-`<hr />` - we don't need to do this anymore in html5.
+`<hr />` - we don't need to do this anymore in HTML5.
 
 We will shortly be introducing the image element, `<img>` which is also self closing and one element you will be using frequently.
 
 <!-- div class="exercise" -->
 ## Exercise 4
 
-Adding emphasis and importance to your html document.
+Adding emphasis and importance to your HTML document.
 
 ### Task 1
 
@@ -81,7 +81,7 @@ Adding emphasis and importance to your html document.
 - missing tags
 - incorrect tags
 
-Some of these errors have caused the document to not display as we intended. Some of the errors atcually don't upset the look of the page (the nesting in this case) but still need be fixed for a valid html document.
+Some of these errors have caused the document to not display as we intended. Some of the errors atcually don't upset the look of the page (the nesting in this case) but still need be fixed for a valid HTML document.
 
 - Work through the code in `exercise-04.html` line by line to identify the errors.
 - Fix each error, save and refreshing in the browser to preview the page each time.

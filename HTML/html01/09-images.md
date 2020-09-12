@@ -112,7 +112,7 @@ Insert the code for all three images under the relevant title.
 
 > Things to note
 
-1. You only need to reference the file name because the html and image files are all sat in the same folder on the root of the site.
+1. You only need to reference the file name because the HTML and image files are all sat in the same folder on the root of the site.
 
 1. You can speed up the process by copy & pasting once you've coded one image - just change the filename each time.
 
@@ -354,7 +354,7 @@ If it makes it easier, spread out the code - remember the browser ignores the wh
 <!-- end div -->
 
 
-<h3 class="warning">Don't use html to re-sze images</h3>
+<h3 class="warning">Don't use HTML to re-sze images</h3>
 
 **You shouldn't alter the size of your images using HTML `height` and `width` attributes**. 
 

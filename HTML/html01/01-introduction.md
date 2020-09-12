@@ -39,7 +39,7 @@ This is what HTML does. It is a mark-up language that gives us a method to descr
 > Take a quick look through one of Trent Walton's articles, [Device Agnostic](https://trentwalton.com/2014/03/10/device-agnostic/). 
 
 - What you are seeing is a well structured document (headings, paragraphs, lists, blockquotes), with some high quality design applied on top. This is the top level to aspire to!
-- Take away that styling and you are left with a well formed, semantic html document. You are about to learn how to build such documents.
+- Take away that styling and you are left with a well formed, semantic HTML document. You are about to learn how to build such documents.
 
 
 <!-- end div -->
@@ -119,7 +119,7 @@ Let's further explore our paragraph element from the previous section:
 
 ## Exercise 1
 
-To mark-up a simple document with html heading and paragraph elements to create some structure to the page in the browser.
+To mark-up a simple document with HTML heading and paragraph elements to create some structure to the page in the browser.
 
 
 ### Task 1
@@ -180,7 +180,7 @@ This is because there are no elements to give the content structure, so the brow
 
 We therefore need to give our content structural markup.
 
-> **File format:** We are used to file formats such a `.ppt` and `.pdf` as two examples. Our file `index.html` is a plain text file with the file extension `.html`. It can be opened in any text editor such as Notepad on a PC or TextEdit on a Mac. It can be viewed in any web browser, on any internet enabled device. This means that the first html pages created by *Sir Tim* back in 1991 can still be viewed in any modern browser on any modern device, with any screen size. Take a look at the page [What is HyperText?](http://info.cern.ch/hypertext/WWW/WhatIs.html) archived on the CERN servers. The design is plain but the information is still accessible and useable to everyone.
+> **File format:** We are used to file formats such a `.ppt` and `.pdf` as two examples. Our file `index.html` is a plain text file with the file extension `.html`. It can be opened in any text editor such as Notepad on a PC or TextEdit on a Mac. It can be viewed in any web browser, on any internet enabled device. This means that the first HTML pages created by *Sir Tim* back in 1991 can still be viewed in any modern browser on any modern device, with any screen size. Take a look at the page [What is HyperText?](http://info.cern.ch/hypertext/WWW/WhatIs.html) archived on the CERN servers. The design is plain but the information is still accessible and useable to everyone.
 
 <!-- div class="exercise" -->
 
@@ -217,8 +217,8 @@ Creating a Level 1 heading
 
 ### Common student errors
 
-1. Editing a html file, forgetting to save.
-1. Editing a html file, saving but not refreshing in the browser.
+1. Editing a HTML file, forgetting to save.
+1. Editing a HTML file, saving but not refreshing in the browser.
 1. Editing one version of the file, but viewing another copy in the browser - wondering why the changes haven't appeared!
 
 
@@ -272,7 +272,7 @@ Adding paragraphs and a Level Two heading
 
 ## Syntax highlighting
 
-A good IDE like Visual Studio Code includes *syntax highlighting* which you can see adds colour to the html elements, allowing you to spot them , and errors easier.
+A good IDE like Visual Studio Code includes *syntax highlighting* which you can see adds colour to the HTML elements, allowing you to spot them , and errors easier.
 
 <img src="media/01-syntax-highlighting.png" alt="Illustration of syntax highlighting" width="">
 
@@ -282,7 +282,7 @@ As things gets more complex you will see that further `highlighting` is added an
 
 ## Exercise - Plain text files
 
-> We are going to take a quick look at the file format used for html files - plain text.
+> We are going to take a quick look at the file format used for HTML files - plain text.
 
 ### Task 1
 
@@ -306,7 +306,7 @@ Yes, the `plain text` file is much smaller. It doesn't carry all the extra infor
 
 Plain text files can also be opened, viewed and edited in a variety applications, on a variety of operating systems. 
 
-Your html file is simply a plain text file (usually a `.txt` file), with a `.html` file extension.
+Your HTML file is simply a plain text file (usually a `.txt` file), with a `.html` file extension.
 
 *Small and portable - plain text files are the perfect format for the WWW* and a big part of its success.
 

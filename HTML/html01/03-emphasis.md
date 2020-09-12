@@ -70,7 +70,7 @@ Here's the best rule of thumb: it's likely appropriate to use `<b>`, `<i>`, or `
 <!-- div class="exercise" -->
 ## Exercise 3
 
-Adding emphasis and importance to your html document.
+Adding emphasis and importance to your HTML document.
 
 ### Task 1
 
