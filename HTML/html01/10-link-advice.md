@@ -116,7 +116,11 @@ In fact, the email address is even optional. If you leave it out (that is, your 
 
 - Return to `exercise-07.html` in your editor.
 
-- Look for the following text at the bottom of the page - `Email Richard Eskins for more information`.
+- Look for the following text at the bottom of the page: 
+
+```
+Email Richard Eskins for more information.
+```
 
 - Make the name `Richard Eskins` into a clickable, mailto link using the example to `nowhere@mozilla.org` above as your guide.
 
