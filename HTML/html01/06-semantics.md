@@ -12,7 +12,7 @@ In HTML, for example, the `<h1>` element is a semantic element, which gives the 
 <h1>This is a top level heading</h1>
 ```
 
-By default, most browser's user agent stylesheet will style an `<h1>` with a large font size to make it look like a heading (although you could style it to look like anything you wanted - as we said previously under *Visuals*).
+By default, the user agent stylesheet on most browsers will style an `<h1>` with a large font size to make it look like a heading (although you could style it to look like anything you wanted - as we said previously under *Visuals*).
 
 
 <figure>

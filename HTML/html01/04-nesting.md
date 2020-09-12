@@ -26,7 +26,7 @@ There are two important categories of elements to know in HTML: block-level elem
 
 - **Block-level elements** form a visible block on a page. A block-level element appears on a new line following the content that precedes it. Any content that follows a block-level element also appears on a new line. Block-level elements are usually structural elements on the page. For example, a block-level element might represent headings, paragraphs, lists, navigation menus, or footers. A block-level element wouldn't be nested inside an inline element, but it might be nested inside another block-level element.
 
-- **Inline elements** are contained within block-level elements, and surround only small parts of the document’s content. (not entire paragraphs or groupings of content) An inline element will not cause a new line to appear in the document. It is typically used with text. For example, as an `<a>` element (hyperlink) or emphasis elements such as `<em>` or `<strong>`.
+- **Inline elements** are contained within block-level elements, and surround only small parts of the document’s content (not entire paragraphs or groupings of content). An inline element will not cause a new line to appear in the document. It is typically used with text. For example, as an `<a>` element (hyperlink) or emphasis elements such as `<em>` or `<strong>`.
 
 Consider the following example:
 
@@ -36,7 +36,7 @@ Consider the following example:
 <p>fourth</p><p>fifth</p><p>sixth</p>
 ```
 
-> This example will look like this:
+- This example will look like this:
 
 <em>first</em><em>second</em><em>third</em>
 
@@ -95,8 +95,8 @@ Some of these errors have caused the document to not display as we intended. Som
 
 1. Nesting - the opening`<p>` needs to be before the opening `<strong>`
 1. Nesting - the opening`<p>` needs to be before the opening `<b>`
-1. same
-1. The closing `</i>` is missing - hence the rest of the text become italic
+1. Same
+1. The closing `</i>` is missing - hence the rest of the text becomes italic
 1. The closing `</h2>` is actually another opening `<h2>` - the slash `/` has been missed, hence the rest of the text becoming `<h2>` sized.
 
 A missing or incorrect closing element is a very common error in student code. **Easy to spot, easy to correct**.
@@ -109,7 +109,7 @@ A missing or incorrect closing element is a very common error in student code. *
 
 - Just for completeness we would like you to add a horizontal rule to the page, just about that final `<h2>` on the page.
 
-- It should look like this once your un the file in the browser:
+- It should look like this once your refresh the file in the browser:
 
 <img src="media/hr-added.png" alt="Screenshot of the exercise file with errors highlighted">
 

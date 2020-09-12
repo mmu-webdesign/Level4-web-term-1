@@ -141,7 +141,7 @@ We've just added the colour so you can better see the two different definitions.
 <!-- div class="exercise" -->
 ## Exercise 5
 
-Creating an ordered and unordered list - There is no getting around it. To get used to the syntax for lists, you've got to do them. We will leave out the Description Term element as this is less common.
+Creating an ordered and unordered list - there is no getting around it. To get used to the syntax for lists, you've got to do them. We will leave out the Description Term element as this is less common.
 
 > Open the `html5` folder.
 
@@ -289,7 +289,7 @@ etc...
 
 > **Copy & Paste** is your friend in web development
 
-To create these lists it is a lot quick to copy & paste one of your previous lists.
+To create these lists it is a lot quicker to copy & paste one of your previous lists.
 
 - copy & paste your list
 - Edit the new list
@@ -297,7 +297,7 @@ To create these lists it is a lot quick to copy & paste one of your previous lis
 - Check your code
 - View it in the browser 
 
-> You completed lists page should include 4 `lists`:
+> Your completed lists page should include 4 `lists`:
 
 - `Ordered` list of Manchester Band Albums
   + With indented sub-list of Smiths albums
