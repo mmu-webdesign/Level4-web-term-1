@@ -51,11 +51,11 @@ Apply the six heading elements — `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `
 
 ## Visuals
 
-At this stage the web browser is apply all the styles that you see (illustrated above). This includes:
+At this stage the web browser is applying all the styles that you see (illustrated above). This includes:
 
 - The font(s) being used.
 - The size of each of the headings.
-- The margins, and line space.
+- The margins and line space.
 
 When working with the headings  `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` don't get wrapped up in the sizes. **Never choose to use a heading to because of its default size**, for example wrapping some text in a `<h6>` to produce <small>small text</small>. 
 

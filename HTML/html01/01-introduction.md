@@ -276,7 +276,7 @@ A good IDE like Visual Studio Code includes *syntax highlighting* which you can 
 
 <img src="media/01-syntax-highlighting.png" alt="Illustration of syntax highlighting" width="">
 
-As things gets more complex you will see that further `highlighting` is added and will help you navigate your code.
+As things get more complex you will see that further `highlighting` is added and will help you navigate your code.
 
 <!-- div class="exercise" -->
 
