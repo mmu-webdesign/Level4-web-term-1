@@ -140,7 +140,7 @@ Email Richard Eskins for more information.
 
 <!-- end div -->
 
-<p class="submit-work">Exercise 7 is complete.</p> 
+<p class="submit-work">Exercise 7 is completed.</p> 
 
 
 <h2 class="deep">Deeper Learning</h2>

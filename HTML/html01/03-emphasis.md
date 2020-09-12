@@ -119,7 +119,7 @@ When completed, refresh the page in your browser. Does your page look like this?
 <!-- end div -->
 
 
-<p class="submit-work">Exercise 3 complete</p>
+<p class="submit-work">Exercise 3 completed</p>
 
 
 

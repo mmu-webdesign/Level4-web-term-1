@@ -216,7 +216,7 @@ You completed page should like like this, with the links blue (mine are purple b
 <!-- end div -->
 
 
-<p class="submit-work">Exercise 6 complete</p>
+<p class="submit-work">Exercise 6 completed</p>
 
 
 <h2 class="deep">Deeper Learning</h2>

@@ -309,7 +309,7 @@ To create these lists it is a lot quick to copy & paste one of your previous lis
 
 
 
-<p class="submit-work">Exercise 5 complete</p>
+<p class="submit-work">Exercise 5 completed</p>
 
 
 
