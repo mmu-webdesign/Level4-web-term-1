@@ -474,7 +474,7 @@ The `<figcaption>` element tells browsers, and assistive technology that the cap
 
 <!-- end div -->
 
-<p class="submit-work">Exercise 7 complete.</p>
+<p class="submit-work">Exercise 7 is completed in the next Chapter.</p>
 
 
 > Note: From an accessibility viewpoint, captions and `alt` text have distinct roles. Captions benefit even people who can see the image, whereas `alt` text provides the same functionality as an absent image. Therefore, captions and alt text shouldn't just say the same thing, because they both appear when the image is gone. Try turning images off in your browser and see how it looks.
@@ -499,14 +499,6 @@ To get a better understanding of this topic use the following resources.
 
 For students wanting more, we recommend the following topics and resources. 
 
-## CSS background images
-
-You can also use Cascading StyleSheets (CSS) to embed images into webpages (and JavaScript, but that's another story entirely). 
-
-Using CSS is arguably easier to position and control than HTML images. So why bother with HTML images? **CSS background images are for decoration only**. If you just want to add something pretty to your page to enhance the visuals, this is fine. Though, such images have no semantic meaning at all. **They can't have any text equivalents, are invisible to screen readers, and so on**. This is where HTML images shine!
-
-**Summing up**: if an image has meaning, in terms of your content, you should use an HTML image. If an image is purely decoration, you should use CSS background images.
-
 - LinkedIn Learning Video: [Jen Simmons - Audio](https://www.linkedin.com/learning/html-essential-training-4/audio?u=36102708) (4m 11s) - Adding audio to your web page.
 
 - LinkedIn Learning Video: [Jen Simmons - Video](https://www.linkedin.com/learning/html-essential-training-4/video?u=36102708) (5m 38s) - Adding video to your web page.
@@ -518,6 +510,14 @@ Using CSS is arguably easier to position and control than HTML images. So why bo
 - LinkedIn Learning Video: [Jen Simmons - Embedding other media through iframes](https://www.linkedin.com/learning/html-essential-training-4/embedding-other-media-through-iframes?u=36102708) (3m 10s) - You will often embed videos from services like YouTube rather than hosting the media yourself.
 
 - MDN: [From object to iframe — other embedding technologies](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies)
+
+## CSS background images
+
+You can also use Cascading StyleSheets (CSS) to embed images into webpages (and JavaScript, but that's another story entirely). 
+
+Using CSS is arguably easier to position and control than HTML images. So why bother with HTML images? **CSS background images are for decoration only**. If you just want to add something pretty to your page to enhance the visuals, this is fine. Though, such images have no semantic meaning at all. **They can't have any text equivalents, are invisible to screen readers, and so on**. This is where HTML images shine!
+
+**Summing up**: if an image has meaning, in terms of your content, you should use an HTML image. If an image is purely decoration, you should use CSS background images.
 
 
 ### &copy; Credit given

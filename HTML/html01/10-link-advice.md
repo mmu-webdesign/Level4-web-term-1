@@ -108,19 +108,25 @@ This results in a link that looks like this: <a href="mailto:nowhere@mozilla.org
 In fact, the email address is even optional. If you leave it out (that is, your href is simply "mailto:"), a new outgoing email window will be opened by the user's mail client that has no destination address specified yet. This is often useful as "Share" links that users can click to send an email to an address of their choosing.
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 7 continued
 
 > Adding a `mailto` link.
 
 ### Task 1
 
-- return to your copy of [Repl.it - Adding images files](https://repl.it/@webdesignmmu/html7)
+- Return to `exercise-07.html` in your editor.
 
 - Look for the following text at the bottom of the page - `Email Richard Eskins for more information`.
-- Make the name `Richard Eskins` into a clickable, mailto link using the example to `nowhere@mozilla.org` as your guide.
+
+- Make the name `Richard Eskins` into a clickable, mailto link using the example to `nowhere@mozilla.org` above as your guide.
+
 - use the email address `richard.eskins@mmu.ac.uk`
-- Run in a browser window as before
-- Depending on the computer you are using, the link may open an email in your email client.
+
+- Save `exercise-07.html` and refresh in the browser.
+
+- <a>Richard Eskins</a> should be a link.
+
+- Depending on the computer you are using, clicking on the link may open an email in your email client.
 
 <figure>
   <img src="media/mailto.png"
@@ -130,7 +136,7 @@ In fact, the email address is even optional. If you leave it out (that is, your 
 
 <!-- end div -->
 
- 
+<p class="submit-work">Exercise 7 is complete.</p> 
 
 
 <h2 class="deep">Deeper Learning</h2>
