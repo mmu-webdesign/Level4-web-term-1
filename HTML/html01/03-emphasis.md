@@ -48,7 +48,7 @@ In HTML we use the `<strong>` (strong importance) element to mark up such instan
 <p>I am counting on you. <strong>Do not</strong> be late!</p>
 </div>
 
-You can nest strong and emphasis inside one another if desired:
+<p style="margin-top: 5px">You can nest strong and emphasis inside one another if desired:</p>
 
 ```
 <p>This liquid is <strong>highly toxic</strong> —
