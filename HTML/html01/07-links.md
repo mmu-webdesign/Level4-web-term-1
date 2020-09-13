@@ -17,7 +17,7 @@ The BBC homepage, for example, contains a large number of links that point not o
 
 ## Anatomy of a link
 
-A basic link is created by wrapping the text (or other content, see Block level links) you want to turn into a link inside an `<a>` element, and giving it an `href` attribute (also known as a Hypertext Reference , or target) that will contain the web address you want the link to point to.
+A basic link is created by wrapping the text (or other content, see Block level links) you want to turn into a link inside an `<a>` element, and giving it an `href` attribute (also known as a Hypertext Reference, or target) that will contain the web address you want the link to point to.
 
 ```
 <p>I'm creating a link to
@@ -73,7 +73,7 @@ As mentioned before, you can turn just about any content into a link, even block
 
 - Screen readers generally inform users that a piece of text (or a graphic) is a link 
 
-   - So don't add the work link to your link or alt text
+   - So don't add the word **link** to your link or alt text
 
 - Screen reader users often navigate from link to link, skipping the text in between
 
@@ -101,7 +101,7 @@ Coding external links
 
 ### Task 2
 
-- Before we start creating links, the page needs to be structured with a `<h1>` heading and `<p>` paragraphs.
+- Before we start creating links, the page needs to be structured with an `<h1>` heading and `<p>` paragraphs.
 
 - Apply the code and save the file. 
 
@@ -209,7 +209,7 @@ You should have a link on your page as shown. Select the link - does it go to BB
 <figure>
 <img src="media/finished-links.png" alt="Links page in a browser window, completed">
 <figcaption>
-You completed page should like like this, with the links blue (mine are purple because I've already visited them to test). 
+Your completed page should look like this, with the links blue (mine are purple because I've already visited them to test). 
 </figcaption>
 </figure>
 

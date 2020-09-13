@@ -209,7 +209,7 @@ You should use CSS background images for decorative images, but if you must use 
 
 If your image provides significant information, provide the same information in a brief alt text – or even better, in the main text which everybody can see. Don't write redundant alt text. How annoying would it be for a sighted user if all paragraphs were written twice in the main content? If the image is described adequately by the main text body, you can just use `alt=""`.
 
-**For example**, the MMU logo image contains the text Manchester Metropolitan University. We would use this as the `alt` tex, otherwise that text is lost.
+**For example**, the MMU logo image contains the text Manchester Metropolitan University. We would use this as the `alt` text, otherwise that text is lost.
 
 ```
 <img src="images/logo.png"
@@ -222,7 +222,7 @@ If your image provides significant information, provide the same information in 
 
 If you put an image inside `<a>` tags, to turn an image into a link, you still must provide accessible link text. In such cases you may, either, write it inside the same `<a>` element, or inside the image's `alt` attribute – whichever works best in your case.
 
-**As an example**, the logo here acts as a link to the companies homepage (as logos often do). The `alt` text indicates the *link destination*.
+**As an example**, the logo here acts as a link to the company's homepage (as logos often do). The `alt` text indicates the *link destination*.
 
 ```
 <a href="index.html">
@@ -271,7 +271,7 @@ If you put an image inside `<a>` tags, to turn an image into a link, you still m
 <!-- end div -->
 
 
-> Note: For more information on writing good `alt` text, see [MDN's guide to Text Alternatives](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML#Text_alternatives). For all assignments you will be required to write relevant, succinct 'alt' text.
+> Note: For more information on writing good alt text, see [MDN's guide to Text Alternatives](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML#Text_alternatives). For all assignments you will be required to write relevant, succinct alt text.
 
 
 <h3 class="warning">Text in images - Don't</h3>
@@ -298,21 +298,21 @@ This doesn't result in much difference to the display, under normal circumstance
 
 This is a good thing to do, resulting in the page loading quicker and more smoothly.
 
-> Setting the height and width attributes did go out of fashion, but in 2020 'thanks to some recent changes in browsers, it’s now well worth setting `width` and `height` attributes on your images to prevent layout shifts and improve the experience of your site visitors'. Barry Pollard - [Setting Height And Width On Images Is Important Again](https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/).
+> Setting the `height` and `width` attributes did go out of fashion, but in 2020 'thanks to some recent changes in browsers, it’s now well worth setting `width` and `height` attributes on your images to prevent layout shifts and improve the experience of your site visitors'. Barry Pollard - [Setting Height And Width On Images Is Important Again](https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/).
 
 
 <!-- div class="exercise" -->
 ## Exercise 7 continued
 
-> Adding the height and width attributes
+> Adding the `height` and `width` attributes.
 
 ### Task 1
 
 - Return to `exercise-07.html` in your editor.
 
-- Find the code for each image on the San Francisco page
+- Find the code for each image on the San Francisco page.
 
-- Apply both height and width attributes to each `<img>` element
+- Apply both `height` and `width` attributes to each `<img>` element.
 
 For example:
 
@@ -354,7 +354,7 @@ If it makes it easier, spread out the code - remember the browser ignores the wh
 <!-- end div -->
 
 
-<h3 class="warning">Don't use HTML to re-sze images</h3>
+<h3 class="warning">Don't use HTML to re-size images</h3>
 
 **You shouldn't alter the size of your images using HTML `height` and `width` attributes**. 
 
@@ -383,7 +383,7 @@ This gives us a tooltip on mouse hover, just like link titles:
 
 <img src="media/image-with-title.png" alt="The dinosaur image, with a tooltip title on top of it that reads A T-Rex on display at the Manchester University Museum ">
 
-**However, this is not recommended** — title has a number of accessibility problems, mainly based around the fact that screen reader support is very unpredictable and most browsers won't show it unless you are hovering with a mouse (so e.g. no access to keyboard or mobile users). If you are interested in more information about this, read [The Trials and Tribulations of the Title Attribute](https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/) by Scott O'Hara.
+**However, this is not recommended** — title has a number of accessibility problems, mainly based around the fact that screen reader support is very unpredictable and most browsers won't show it unless you are hovering over it with a mouse, so no access to keyboard or mobile users. If you are interested in more information about this, read [The Trials and Tribulations of the Title Attribute](https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/) by Scott O'Hara.
 
 It is better to include such supporting information in the main article text or via a caption, rather than attached to the image.
 
@@ -452,10 +452,10 @@ The `<figcaption>` element tells browsers, and assistive technology that the cap
      - Stunning panoramic shot of the Golden Gate Bridge, looking across the bay towards San Francisco.
 
 - `lombard-street.jpg`
-     - Take from the top of the world famous Lombard Street, known for its amazing winding road with Coit Tower in the distant background.
+     - Taken from the top of the world famous Lombard Street, known for its amazing winding road with Coit Tower in the distant background.
 
 - `painted-ladies.jpg`
-     - The beautiful Painted Ladies, a row of Victorian and Edwardian style houses located across from Alamo Square park. A must visit location for all visitors.
+     - The beautiful Painted Ladies, a row of Victorian and Edwardian style houses located across from Alamo Square park. A must visit location for all tourists.
 
 - Save `exercise-07.html` in your editor.
 
@@ -487,11 +487,11 @@ The `<figcaption>` element tells browsers, and assistive technology that the cap
 
 To get a better understanding of this topic use the following resources.
 
-- LinkedIn Learning Video: [Jen Simmons - images](https://www.linkedin.com/learning/html-essential-training-4/images?u=36102708) (4m 12s)
+- LinkedIn Learning Video: [Jen Simmons - Images](https://www.linkedin.com/learning/html-essential-training-4/images?u=36102708) (4m 12s)
 
 - LinkedIn Learning Video: [Jen Simmons - Figure and figcaption](https://www.linkedin.com/learning/html-essential-training-4/figure-and-figcaption?u=36102708) (1m 15s)
 
-- LinkedIn Learning Video: [Jen Simmons - image formats](https://www.linkedin.com/learning/html-essential-training-4/image-formats?u=36102708) (4m 48s) - we will be looking at image formats in greater detail later, but this provides a good introduction.
+- LinkedIn Learning Video: [Jen Simmons - Image formats](https://www.linkedin.com/learning/html-essential-training-4/image-formats?u=36102708) (4m 48s) - we will be looking at image formats in greater detail later, but this provides a good introduction.
 
 - MDN: `<img>` - [The Image Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
 

@@ -122,7 +122,7 @@ In fact, the email address is even optional. If you leave it out (that is, your 
 Email Richard Eskins for more information.
 ```
 
-- Make the name `Richard Eskins` into a clickable, mailto link using the example to `nowhere@mozilla.org` above as your guide.
+- Make the name `Richard Eskins` into a clickable, `mailto` link using the example to `nowhere@mozilla.org` above as your guide.
 
 - use the email address `richard.eskins@mmu.ac.uk`
 

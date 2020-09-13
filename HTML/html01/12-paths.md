@@ -7,7 +7,7 @@ To fully understand link targets, you need to understand URLs and file paths. Th
 > It makes sense for anyone new to this, to watch Jen's video first: **LinkedIn Learning Video**: [Jen Simmons - URL paths](https://www.linkedin.com/learning/html-essential-training-4/url-paths?u=36102708) (4m 45s)
 
 
-A URL, or Uniform Resource Locator is simply a string of text that defines where something is located on the Web. For example, MMUs homepage is located at https://www.mmu.ac.uk.
+A URL, or Uniform Resource Locator is simply a string of text that defines where something is located on the Web. For example, MMU's homepage is located at https://www.mmu.ac.uk.
 
 URLs use paths to find files. Paths specify where in the filesystem the file you are interested in is located. Let's look at a simple example of a directory structure (see the live version - <a href="https://github.com/mdn/learning-area/tree/master/html/introduction-to-html/creating-hyperlinks">creating-hyperlinks directory</a>.)
 
@@ -30,7 +30,7 @@ There are also two directories (folders) inside our root — `pdfs` and `project
 Find details on our <a href="contacts.html">contacts page</a>.</p>
 ```
 
-- **Moving down into subdirectories**: If you wanted to include a hyperlink inside `index.html` (the top level `index.html`) pointing to `projects/index.html`, you would need to go down into the projects directory before indicating the file you want to link to. This is done by specifying the directory's name, then a forward slash, then the name of the file. so the URL you would use is `projects/index.html`:
+- **Moving down into subdirectories**: If you wanted to include a hyperlink inside `index.html` (the top level `index.html`) pointing to `projects/index.html`, you would need to go down into the projects directory before indicating the file you want to link to. This is done by specifying the directory's name, then a forward slash, then the name of the file. So the URL you would use is `projects/index.html`:
 
 ```
 <p>Visit my <a href="projects/index.html">project homepage</a>.</p>
@@ -121,7 +121,7 @@ You will notice that the logo fails to load on `page-two.html`.
 
 <img src="media/paths-three.png" alt="index.html in the browser">
 
-- The path to the image is incorrect. It currently assumes the `html` file and the `image` file are sat in the same older. They are not- because we moved `page-two.html`.
+- The path to the image is incorrect. It currently assumes the `html` file and the `image` file are sat in the same folder. They are not- because we moved `page-two.html`.
 
 - Get the image working by adjusting the path.
 
@@ -197,7 +197,7 @@ Now you have some fixing to do:
 <figure>
 <img src="media/paths-final.gif" alt="animation of the links working">
 
-  <figcaption>Working links to sub-pages in the `pages` folder, with clickable logo, returning to the homepage - `index.html`</figcaption>
+  <figcaption>Working links to sub-pages in the <code>pages</code> folder, with clickable logo, returning to the homepage - <code>index.html</code></figcaption>
 </figure>
 
 

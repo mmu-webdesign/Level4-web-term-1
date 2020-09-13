@@ -352,7 +352,7 @@ Let's have a go at improving the semantics of this table.
   + Ella
   + Juan
 
-For example `<th>`Knocky`</th>` instead of `<td>`Knocky`</td>`.
+For example: `<th>`Knocky`</th>` instead of `<td>`Knocky`</td>`.
 
 - The headers for the rows are the dog features which include:
 

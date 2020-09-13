@@ -59,7 +59,7 @@ What you have is a document with a *table of contents* (menu) at the top, follow
 </ul>
 ```
 
-- Wrap each section title with a `<a>` element as below:
+- Wrap each section title with an `<a>` element as below:
 
 ```
   <li>
@@ -88,7 +88,7 @@ What you have is a document with a *table of contents* (menu) at the top, follow
 
 - Return to `exercise-08.html` in your editor.
 
-- Adding the link location - but this time it's not an URL or file path. We are going to link to a named element on the page using an `ID` or `#` attribute.
+- Adding the link location - but this time it's not a URL or file path. We are going to link to a named element on the page using an `ID` or `#` attribute.
 
 - As we are linking to each section we are going to use the name of the section, for example `#one` for Section One.
 

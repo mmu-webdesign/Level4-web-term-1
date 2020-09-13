@@ -67,6 +67,16 @@ This illustration, created via the HTML Validation Service plots both the page s
 
 <!-- end div -->
 
+## What is Markup
+
+<blockquote cite="https://en.wikipedia.org/wiki/Markup_language">
+<p>In computer text processing, a markup language is a system for annotating a document in a way that is syntactically distinguishable from the text, meaning when the document is processed for display, the markup language is not shown, and is only used to format the text. The idea and terminology evolved from the "marking up" of paper manuscripts (i.e., the revision instructions by editors), which is traditionally written with a red or blue pencil on authors' manuscripts. Such "markup" typically includes both content corrections (such as spelling, punctuation, or movement of content), and also typographic instructions, such as to make a heading larger or boldface.</p>
+
+<p>In digital media, this "blue pencil instruction text" was replaced by tags which ideally indicate what the parts of the document are, rather than details of how they might be shown on some display. This lets authors avoid formatting every instance of the same kind of thing redundantly (and possibly inconsistently). It also avoids the specification of fonts and dimensions which may not apply to many users (such as those with different-size displays, impaired vision and screen-reading software).</p>
+
+<p>Wikipedia</p>
+</blockquote>
+
 ## What is HTML?
 
 > *Let’s add some structure to our first document for the web* - but before we start coding we need to understand the syntax of HTML.

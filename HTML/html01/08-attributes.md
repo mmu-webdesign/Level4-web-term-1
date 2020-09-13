@@ -12,7 +12,7 @@ Attributes contain extra information about the element that won't appear in the 
 - The attribute name, followed by an equal sign.
 - An attribute value, wrapped with opening and closing quote marks.
 
-Another example of an element is `<a>` element whcih you have just used. As you now know `<a>` can make the text it encloses into a hyperlink. Anchors can take a number of attributes, but several are as follows:
+Another example of an element is the `<a>` element which you have just used. As you now know `<a>` can make the text it encloses into a hyperlink. Anchors can take a number of attributes, but several are as follows:
 
 - **href**: This attribute's value specifies the web address for the link. For example: `href="https://www.mozilla.org/"`.
 
@@ -30,16 +30,16 @@ And the link with attributes and values:
 ```
 <a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">Mozilla, home of Firefox</a>
 ```
-> On the page this will simply look lik this. The attributes are not shown. Only the title appears as a Tool Tip.
+> On the page this will simply look like this. The attributes are not shown. Only the title appears as a Tool Tip.
 
 <a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">Mozilla, home of Firefox</a>
 
 
-> Tip - Note that the `target="_blank"` attribute and value are not the best for both usability and accessibility. This essentially **takes over the users computer**, opening up a new window or tab. Not cool. The user should be left to decide this for themselves. A visually impaired user may struggle to notice a new tab or window has been created.
+> Tip - Note that the `target="_blank"` attribute and value are not the best for both usability and accessibility. This  **takes over the users computer**, opening up a new window or tab. Not cool. The user should be left to decide this for themselves. A visually impaired user may struggle to notice a new tab or window has been created.
 
 ## Omitting quotes around attribute values
 
-If you look at code for a lot of other sites, you might come across a number of strange markup styles, including attribute values without quotes. This is permitted in certain circumstances, but it can also break your markup in other circumstances. The bottom line is don't. There is more in the **Advanced section** below if you want the details.
+The bottom line is don't. There is more in the **Advanced section** below if you want the details.
 
 <h3 class="warning">Use double quotes</h3>
 
