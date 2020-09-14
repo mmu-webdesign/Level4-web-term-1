@@ -203,7 +203,7 @@ Now you have some fixing to do:
 
 <!-- end div -->
 
-<p class="submit-work">Exercise 8 is completed.</p> 
+<p class="submit-work">Exercise 9 is completed.</p> 
 
 
 <h2 class="deep">Deeper Learning</h2>
