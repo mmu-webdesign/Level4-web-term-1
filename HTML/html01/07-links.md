@@ -186,7 +186,7 @@ You should have a link on your page as shown. Select the link - does it go to BB
 
 - Return to `exercise-06.html` in your editor.
 
-- Add two more links to BBC Sports in the next two paragraphs.
+- Add two more links to other parts of the BBC Sports in the next two paragraphs.
 
 - Find the text **Formula One** and turn it into a link using - `https://www.bbc.co.uk/sport/formula1`
 
