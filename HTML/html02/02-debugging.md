@@ -29,23 +29,39 @@ HTML itself doesn't suffer from syntax errors because browsers parse it permissi
 > Note: HTML is parsed permissively because when the web was first created, it was decided that allowing people to get their content published was more important than making sure the syntax was absolutely correct. The web would probably not be as popular as it is today, if it had been more strict from the very beginning.
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 11
 
 > It's time to study the permissive nature of HTML code.
 
 ### Task 1
 
-- Open [Repl.it - Debugging](https://repl.it/@webdesignmmu/html11)
+> Open the `html11` folder.
+
+- Open `exercise-11.html` in your editor.
+
+<figure>
+<img src="media/ex-11.png" alt="The VSC interface">
+<figcaption>
+Exercise 11 files and folders. 
+</figcaption>
+</figure>
 
 - This demo is deliberately written to have some errors in it for us to explore (the HTML markup is said to be badly-formed, as opposed to well-formed).
 
+- Open `exercise-11.html` in your browser. You will see something like this:
+
+<figure>
+<img src="media/badly-formed-html.png" alt="A simple HTML document with a title of HTML debugging examples, and some information about common HTML errors, such as unclosed elements, badly nested elements, and unclosed attributes">
+<figcaption>
+This immediately doesn't look great. But the page does display despite the errors.
+</figcaption>
+</figure>
+
 ### Task 2
 
-In a browser you will see something like this:
+- Let's look at the source code to see if we can work out why.
 
-<img src="media/badly-formed-html.png" alt="A simple HTML document with a title of HTML debugging examples, and some information about common HTML errors, such as unclosed elements, badly nested elements, and unclosed attributes">
-
-- This immediately doesn't look great; let's look at the source code to see if we can work out why (only the body contents are shown):
+- Note -  this only the `body` content.
 
 ```
 <h1>HTML debugging examples</h1>
@@ -68,7 +84,7 @@ In a browser you will see something like this:
 
 ### Task 3
 
-Let's review the problems:
+- Let's review the problems:
 
 - The `paragraph` and `list item` elements have no closing tags. Looking at the image above, this doesn't seem to have affected the markup rendering too badly, as it is easy to infer where one element should end and another should begin.
 
@@ -86,23 +102,24 @@ Now let's look at the markup the browser has rendered, as opposed to the markup 
 
 To open the Developer Tools:
 
-1. Open the page in a separate window/tab.
+- Viewing `exercise-11.html` in your browser (use Chrome for ease).
 
-1. Right click on the page, and select Inspect from the menu - this will open Dev Tools.
+- Right click on the page, and select Inspect from the menu - this will open Dev Tools.
 
-If you are not familiar with how to use your browser's developer tools, take a few minutes to review [Discover Firefox developer tools](https://developer.mozilla.org/en-US/docs/Learn/Discover_browser_developer_tools).
+If you are not familiar with how to use your browser's developer tools, take a few minutes to review [Discover Firefox developer tools](https://developer.mozilla.org/en-US/docs/Learn/Discover_browser_developer_tools). Derren will talk about them this week.
 
-1. In the DOM inspector, you can see what the rendered markup looks like:
+- In the DOM inspector, you can see what the rendered markup looks like:
 
 <img src="media/html-inspector.png" alt="The HTML inspector in Firefox, with our example's paragraph highlighted, showing the text - What causes errors in HTML? Here you can see that the paragraph element has been closed by the browser">
 
-7. Using the DOM inspector, let's explore our code in detail to see how the browser has tried to fix our HTML errors (we did the review in Firefox; other modern browsers should give the same result):
+- Using the DOM inspector, let's explore our code in detail to see how the browser has tried to fix our HTML errors (we did the review in Firefox; other modern browsers should give the same result):
 
--The paragraphs and list items have been given closing tags.
+  + The paragraphs and list items have been given closing tags.
 
-- It isn't clear where the first `<strong>` element should be closed, so the browser has wrapped each separate block of text with its own strong tag, right down to the bottom of the document!
+  + It isn't clear where the first `<strong>` element should be closed, so the browser has wrapped each separate block of text with its own strong tag, right down to the bottom of the document!
 
-- The  incorrect nesting has been fixed by the browser like this:
+  + The  incorrect nesting has been fixed by the browser like this:
+
 ```
 <strong>strong
   <em>strong emphasised?</em>
@@ -114,6 +131,14 @@ The link with the missing double quote has been deleted altogether. The last lis
   Let's look at an example: </strong>
 </li>
 ```
+
+- **Close the Dev Tools**, but do try to get more familiar with them as you progress.
+
+- This is all part of the permissive nature of HTML code. The browser will try to ignore what it doesn't understand, and will try to fix what is missing in order to display the page the best it can.
+
+- Don't fix anything yet! You are going to learn how to validate your HTML - in search of errors such as these.
+
+
 <!-- end div -->
 
 ## HTML validation
@@ -127,23 +152,29 @@ The best strategy is to start by running your HTML page through the [Markup Vali
 To specify the HTML to validate, you can give it a web address, upload an HTML file, or directly input some HTML code.
 
 <!-- div class="exercise" -->
-## Exercise Two
+
+## Exercise 11 continued
 
 > HTML Validation
 
 ### Task 1
 
-- Return to [Repl.it - Debugging](https://repl.it/@webdesignmmu/html11)
+- Return to `exercise-11.html` in your editor.
+
 
 ### Task 2
 
-1. First, load up the [Markup Validation Service](https://validator.w3.org/) in one browser tab, if it isn't already.
+1. Open the following page -  the [Markup Validation Service](https://validator.w3.org/) in a browser tab.
 
 2. Switch to the Validate by Direct Input tab.
 
 <img src="media/validate-input.png" alt="Validator, direct input tab selected">
 
-3. Copy all the sample document's code (not just the body) 
+3. Copy all the code in `exercise-11.html` -(not just the body. 
+
+    + Ctrl+A to select all on a PC
+
+    + Gmd+A to select all on a Mac
 
 <img src="media/selected.png" alt="Complete html document, selected, in the editor window">
 
@@ -151,32 +182,46 @@ To specify the HTML to validate, you can give it a web address, upload an HTML f
 
 <img src="media/pasted.png" alt="Code pasted into the validator">
 
-5. Press the Check button.
+5. Select the Check button.
 
-This should give you a list of errors and other information.
-
+<figure>
 <img src="media/validation-results.png" alt="A list of of HTML validation results from the W3C markup validation service">
+<figcaption>This should give you a list of errors and other information which tries to help you identify the problem code - including line number.</figcaption>
+</figure>
 
 ### Interpreting the error messages
 
 The error messages are usually helpful, but sometimes they are not so helpful; with a bit of practice you can work out how to interpret these to fix your code. Let's go through the error messages and what they mean. You'll see that each message comes with a line and column number to help you to locate the error easily.
 
-- **"Consider adding a `lang` attribute to the html start tag to declare the language of this document."**: This is not an error but a warning. The recommendation is to always define a language and the warning explains how to do it.
+**"Consider adding a `lang` attribute to the html start tag to declare the language of this document."**: 
+- This is not an error but a warning. The recommendation is to always define a language and the warning explains how to do it.
 
-- **"End tag `li` implied, but there were open elements"** (2 instances): These messages indicate that an element is open that should be closed. The ending tag is implied, but not actually there. The line/column information points to the first line after the line where the closing tag should really be, but this is a good enough clue to see what is wrong.
+**"End tag `li` implied, but there were open elements"** (2 instances): 
 
-- **"Unclosed element `strong`"**: This is really easy to understand — a `<strong>` element is unclosed, and the line/column information points right to where it is.
+- These messages indicate that an element is open that should be closed. The ending tag is implied, but not actually there. The line/column information points to the first line after the line where the closing tag should really be, but this is a good enough clue to see what is wrong.
 
-- **"End tag `strong` violates nesting rules"**: This points out the incorrectly nested elements, and the line/column information points out where it is.
+**"Unclosed element `strong`"**: 
 
-- **"End of file reached when inside an attribute value. Ignoring tag"**: This one is rather cryptic; it refers to the fact that there is an attribute value not properly formed somewhere, possibly near the end of the file because the end of the file appears inside the attribute value. The fact that the browser doesn't render the link should give us a good clue as to what element is at fault.
+- This is really easy to understand — a `<strong>` element is unclosed, and the line/column information points right to where it is.
 
-- **"End of file seen and there were open elements"**: This is a bit ambiguous, but basically refers to the fact there are open elements that need to be properly closed. The lines numbers point to the last few lines of the file, and this error message comes with a line of code that points out an example of an open element:
+**"End tag `strong` violates nesting rules"**: 
+
+- This points out the incorrectly nested elements, and the line/column information points out where it is.
+
+**"End of file reached when inside an attribute value. Ignoring tag"**: 
+
+- This one is rather cryptic; it refers to the fact that there is an attribute value not properly formed somewhere, possibly near the end of the file because the end of the file appears inside the attribute value. The fact that the browser doesn't render the link should give us a good clue as to what element is at fault.
+
+**"End of file seen and there were open elements"**: 
+
+- This is a bit ambiguous, but basically refers to the fact there are open elements that need to be properly closed. The lines numbers point to the last few lines of the file, and this error message comes with a line of code that points out an example of an open element:
 example: `<a href="https://www.mozilla.org/>link to Mozilla homepage</a> ↩ </ul>↩ </body>↩</html>`
 
 > Note: An attribute missing a closing quote can result in an open element because the rest of the document is interpreted as the attribute's content.
 
-- **"Unclosed element `ul`"**: This is not very helpful, as the `<ul>` element is closed correctly. This error comes up because the `<a>` element is not closed, due to the missing closing quote mark.
+**"Unclosed element `ul`"**: 
+
+- This is not very helpful, as the `<ul>` element is closed correctly. This error comes up because the `<a>` element is not closed, due to the missing closing quote mark.
 
 <!-- end div -->
 
