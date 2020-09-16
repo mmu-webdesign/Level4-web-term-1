@@ -350,7 +350,11 @@ If it makes it easier, spread out the code - remember the browser ignores the wh
 
 - You have however improved the performance of you page.
 
-> **Note** - the image size values are the intrinsic width of the image in pixels. **Always** `width="600"`. **NEVER** `width="600px"`.
+> **Note** - the image size values are the intrinsic width of the image in pixels. 
+
+- **ALWAYS** - `width="600"`.
+
+- **NEVER** -  `width="600px"`.
 
 <!-- end div -->
 
