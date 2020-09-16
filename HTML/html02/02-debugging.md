@@ -170,7 +170,7 @@ To specify the HTML to validate, you can give it a web address, upload an HTML f
 
 <img src="media/validate-input.png" alt="Validator, direct input tab selected">
 
-3. Copy all the code in `exercise-11.html` -(not just the body. 
+3. Copy all the code in `exercise-11.html` - not just the body. 
 
     + Ctrl+A to select all on a PC
 
@@ -178,9 +178,12 @@ To specify the HTML to validate, you can give it a web address, upload an HTML f
 
     + Ctrl+C (PC) or Cmd+C (Mac) to copy
 
+
 <img src="media/selected.png" alt="Complete html document, selected, in the editor window">
 
 4. Paste it into the large text area shown in the Markup Validation Service.
+
+    + Ctrl+V (PC) or Cmd+V (Mac) to paste
 
 <img src="media/pasted.png" alt="Code pasted into the validator">
 
@@ -251,17 +254,15 @@ example: `<a href="https://www.mozilla.org/>link to Mozilla homepage</a> ↩ </u
 
 <!-- div class="exercise" -->
 
-## return to Exercise 10
+## Return to Exercise 10
 
-> HTML Validation - Your first webpage
+> HTML Validation - Your first webpage `exercise-10.html`
 
 ### Task 1
 
-> Open the `html10` folder in File Explorer (PC) or Finder (Mac)
-
 - This time we are going to use File Upload to validate our document.
 
-- Open the [File Upload page in your browser](https://validator.w3.org/#validate_by_upload).
+- Open the [File Upload page in another browser tab](https://validator.w3.org/#validate_by_upload).
 
 <img src="media/ex-11-upload.png" alt="validator upload interface">
 
@@ -271,7 +272,9 @@ example: `<a href="https://www.mozilla.org/>link to Mozilla homepage</a> ↩ </u
 
 - Does it validate?
 
-- If not, identify and fix any errors before you continue. Re-validate to check your fixes.
+- If not, identify and fix any errors before you continue. 
+
+- If needed - re-validate to check your fixes.
 
 <!-- end div -->
 
