@@ -84,7 +84,7 @@ You can do this two ways:
   </body>
 </html>
 ```
-- Save `exercise-10.html`and view the page in your browser. You will of course only see the paragraph of text as this is all that is in the body of the document at the moment.
+- Save `exercise-10.html` and view the page in your browser. You will of course only see the paragraph of text as this is all that is in the body of the document at the moment.
 
 <figure>
 <img src="media/first-page-tab.png" alt="animation of the internal links">

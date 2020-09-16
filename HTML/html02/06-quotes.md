@@ -14,8 +14,11 @@ To turn this into a block quote, we would just do this:
 
 ```
 <p>Here below is a blockquote...</p>
+
 <blockquote cite="https://www.bbc.co.uk/sport/football/53918659">
+
   <p>Messi - who has only ever played for Barca - wants to leave after a trophyless season which ended with an 8-2 thrashing by Bayern Munich in the Champions League quarter-finals.</p>
+
 </blockquote>
 ```
 
@@ -33,13 +36,23 @@ Content
 - The `cite` attribute allows you to put the URL of the source
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 12
 
 > Adding a blockquote
 
 ### Task 1
 
-- Open [Repl.it - Quotes and stuff](https://repl.it/@webdesignmmu/html12)
+> Open the `html12` folder.
+
+- Open `exercise-12.html` in your editor.
+
+<figure>
+<img src="media/ex-12.png" alt="The VSC interface">
+<figcaption>
+Exercise 12 files and folders. 
+</figcaption>
+</figure>
+
 
 ### Task 2
 
@@ -54,7 +67,11 @@ When you accept the University’s offer of a place, you form a contract with th
 
 - Cite the following source - `https://www.mmu.ac.uk/academic/casqe/regulations/docs/policies_regulations.pdf`
 
-- Run in the browser.
+- Save `exercise-10.html` and view the page in your browser.
+
+- You will see an indented paragraph. The citied URL is in the code only and not visible on the page. 
+
+- Additional CSS could be applied to make the blockquote standout.
 
 <!-- end div -->
 
@@ -74,26 +91,35 @@ Browser default styling will render this as normal text put in quotes to indicat
 for short quotations that don't require paragraph breaks.</q></p>
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 12 continued
 
-> Adding a quote - Continue with the Quotes and stuff Repl.it
+> Adding a quote
 
 ### Task 1
+
+- Return to `exercise-12.html` in your editor.
 
 - Copy and paste this text from the BBC into the body of the webpage under the `Inline quotations` heading (`<h2>`).
 
 ```
 Richard Osman says being 6ft 7in, I've never walked into a room, got on the tube or walked down the street and not been noticed.
 ```
-- Note that everything after - `Richard Osman says` - is a quote.
+- Note that everything after - *Richard Osman says* - is a quote.
 
-- Wrap it in the `q` element.
+- Wrap the quoted text in the `q` element.
 
-- Add the `cite` attribute.
+- Add the `cite` attribute to the opening `<q>` element (as shown above).
 
 - Cite the following source - `https://www.bbc.co.uk/news/entertainment-arts-53648026`
 
-- Run in the browser.
+- Save `exercise-10.html` and view the page in your browser.
+
+- The quote should now be quoted. Again the `<q>` element could be styled to enhance the effect.
+
+<div style="border: 1px solid rgba(10, 130, 175, 1); padding: 5px; margin-bottom: 5px">
+Richard Osman says <q>being 6ft 7in, I've never walked into a room, got on the tube or walked down the street and not been noticed</q>.
+</div>
+
 
 <!-- end div -->
 
