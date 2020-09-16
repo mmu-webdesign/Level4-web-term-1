@@ -38,7 +38,7 @@ Content
 <!-- div class="exercise" -->
 ## Exercise 12
 
-> Adding a blockquote
+- Adding a blockquote
 
 ### Task 1
 
@@ -114,12 +114,7 @@ Richard Osman says being 6ft 7in, I've never walked into a room, got on the tube
 
 - Save `exercise-10.html` and view the page in your browser.
 
-- The quote should now be quoted. Again the `<q>` element could be styled to enhance the effect.
-
-<div style="border: 1px solid rgba(10, 130, 175, 1); padding: 5px; margin-bottom: 5px">
-Richard Osman says <q>being 6ft 7in, I've never walked into a room, got on the tube or walked down the street and not been noticed</q>.
-</div>
-
+- The quote should now be quoted. Again the `<q>` element could be styled to enhance the effect. See [bobulate.com](https://bobulate.com/) for nice examples.
 
 <!-- end div -->
 

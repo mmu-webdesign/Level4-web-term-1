@@ -31,7 +31,7 @@ HTML itself doesn't suffer from syntax errors because browsers parse it permissi
 <!-- div class="exercise" -->
 ## Exercise 11
 
-> It's time to study the permissive nature of HTML code.
+- It's time to study the permissive nature of HTML code.
 
 ### Task 1
 

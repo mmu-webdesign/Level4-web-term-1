@@ -45,7 +45,7 @@ More recently, the doctype is a historical artifact that needs to be included fo
 
 ## Exercise 10
 
-> Create your first complete HTML document and add some page content.
+- Create your first complete HTML document and add some page content.
 
 ### Task 1
 

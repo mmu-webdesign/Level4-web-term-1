@@ -234,9 +234,11 @@ Is supposed to provide keywords for search engines to determine relevance of tha
 
 ## Exercise 10 continued
 
+> Adding a Meta Description to `exercise-10.html`.
+
 ### Task 1
 
-> Open the `html10` folder.
+- Open the `html10` folder.
 
 - Open `exercise-10.html` in your editor.
 

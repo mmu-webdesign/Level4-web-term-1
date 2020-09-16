@@ -81,11 +81,13 @@ The character reference equivalent could be easily remembered because the text i
 
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 12 continued
 
-> Adding character references - Continue with the Quotes and stuff Repl.it (`html12`)
+> Adding character references
 
 ### Task 1
+
+- Return to `exercise-12.html` in your editor.
 
 - Copy and paste this text and code into the body of the webpage under the `Character references` heading (`<h2>`).
 
@@ -95,10 +97,14 @@ The character reference equivalent could be easily remembered because the text i
 <p>In HTML, you define a paragraph using the &lt;p&gt; element.</p>
 
 ```
-In the live output below, you can see that the first paragraph has gone wrong. The browser interprets the second instance of `<p>` as starting a new paragraph. The second paragraph looks fine because it has angle brackets with character references.
 
+- Save `exercise-12.html` and refresh in your browser.
+
+- In the live output below, you will see that the first paragraph has gone wrong. The browser interprets the second instance of `<p>` as starting a new paragraph. The second paragraph looks fine because it has angle brackets with character references.
 
 <img src="media/entity.png" alt="the paragraphs displayed in the browser as described above">
+
+- This code wouldn't validate either. But leave the example as it is.
 
 <!-- end div -->
 
@@ -109,11 +115,13 @@ In the live output below, you can see that the first paragraph has gone wrong. T
 You will occasionally need to use superscript and subscript when marking up items like dates, chemical formulae, and mathematical equations so they have the correct meaning. The `<sup>` and `<sub>` elements handle this job. 
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 12 continued
 
-> Adding superscript and subscript - Continue with the Quotes and stuff Repl.it (`html12`)
+> Adding superscript and subscript
 
 ### Task 1
+
+- Return to `exercise-12.html` in your editor.
 
 - Copy and paste this text and code into the body of the webpage under the `Superscript and subscript` heading (`<h2>`).
 
@@ -122,11 +130,16 @@ You will occasionally need to use superscript and subscript when marking up item
 
 ```
 
-The output of this code looks like so:
+- Save `exercise-12.html` and refresh in your browser.
+
+- Your page should now include this sentence with the <sup>th</sup> superscript in place.
 
 <img src="media/sup.png" alt="The th is rendered in the browser as superscript">
 
+
 ### Task 2
+
+- Return to `exercise-12.html` in your editor.
 
 - Copy and paste this code into the page (under the birthday paragraph).
 
@@ -134,9 +147,16 @@ The output of this code looks like so:
 <p>Caffeine's chemical formula is C<sub>8</sub>H 10 N 4 O 2 .</p>
 ```
 
-- Make all the numbers subscript - we've done the first one (C<sub>8</sub>) for you. Code `10`, `4` and `2` the same so it looks like this:
+- Make all the numbers subscript - we've done the first one (C<sub>8</sub>) for you. Code `10`, `4` and `2` the same.
 
+- Save `exercise-12.html` and refresh in your browser.
+
+<figure>
 <img src="media/sub.png" alt="The numbers are all rendered in the browser as subscript">
+<figcaption>
+Your formula should look like this.
+</figcaption>
+</figure>
 
 <!-- end div -->
 
@@ -159,11 +179,13 @@ https://careers.booking.com/
 ```
 
 <!-- div class="exercise" -->
-## Exercise Three
+## Exercise 12 continued
 
-> Adding HTML Comments - Continue with the Quotes and stuff Repl.it (`html12`)
+> Adding HTML Comments
 
 ### Task 1
+
+- Return to `exercise-12.html` in your editor.
 
 - Copy and paste this text and code into the body of the webpage under the `HTML Comments` heading (`<h2>`).
 
@@ -174,17 +196,20 @@ https://careers.booking.com/
 
 ```
 
+- Save `exercise-12.html` and continue.
+
 ### Task 2
 
 - Now wrap a comment around the second paragraph.
 
-- Run your code and view in the browser window.
+- Save `exercise-12.html` and refresh in your browser.
 
-As you can see below, if you've got it right, only the first paragraph displays in the live output.
+- As you can see below, if you've got it right, only the first paragraph displays in the live output.
 
 <img src="media/comments.png" alt="The first paragraph is rendered in the browser window, the second commented paragraph isn't">
 
-> Things to note about HTML Comments
+
+### Things to note about HTML Comments
 
 - Whist the content inside a `comment` is not displayed in the browser, it is not hidden. Anyone can `View Source` of a page and see what's hidden there.
 
@@ -193,6 +218,9 @@ As you can see below, if you've got it right, only the first paragraph displays 
 - Leaving good comments can help someone who inherits you code in the future. Good comments helps provide insight into your coding and design decisions.
 
 <!-- end div -->
+
+<p class="submit-work">Exercise 12 completed.</p> 
+
 
 <h2 class="deep">Deeper Learning</h2>
 
