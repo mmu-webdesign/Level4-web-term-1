@@ -160,13 +160,15 @@ Specifying a description that includes keywords relating to the content of your 
 
 <!-- div class="exercise" -->
 
-## Exercise One
+## To Do - Meta Description
 
 > The description is also used on search engine result pages. Let's go through an exercise to explore this:
 
 - Go to the [home page of Gov UK https://www.gov.uk](https://www.gov.uk/).
 
 - View the page's source (Right click on the page, choose View Page Source from the context menu.)
+
+  + This article explains [How to View Source code on any browser](https://www.computerhope.com/issues/ch000746.htm).
 
 - Find the description meta tag. It will look something like this (although it may change over time):
 
@@ -193,7 +195,7 @@ Is supposed to provide keywords for search engines to determine relevance of tha
 
 <!-- div class="exercise" -->
 
-## Exercise Two 
+## To Do - Your company 
 
 > How does your company do?
 
@@ -230,11 +232,13 @@ Is supposed to provide keywords for search engines to determine relevance of tha
 
 <!-- div class="exercise" -->
 
-## Exercise Three 
+## Exercise 10 continued
 
 ### Task 1
 
-- Go back to your personal page created with [Repl.it - HTML Document](https://repl.it/@webdesignmmu/html10)
+> Open the `html10` folder.
+
+- Open `exercise-10.html` in your editor.
 
 - You added a page title, something like:
 
@@ -251,17 +255,22 @@ Is supposed to provide keywords for search engines to determine relevance of tha
 ```
 - Note that your text goes in here - `content="Your text"`
 
-- Students often make the mistake of putiing their description over the word description - here - `name="description"` - DON'T, leave this alone.
+- Students often make the mistake of putiing their description over the word description - here - `name="description"` - leave this alone.
 
-- At the moment your description is limited as the page doesn't actually have much content to describe. Image this page to be the homepage for a personal website for your work or hobbies. Now get more creative.
+- At the moment your description is limited as the page doesn't actually have much content to describe. Imagine this page to be the homepage for a personal website for your work or hobbies. Now get more creative.
 
 ### Task 3
 
-- Once you have you `title` and `meta description` cut and paste them into this Google search results preview tool:
+- Once you have your `title` and `meta description` cut and paste them into this Google search results preview tool (just the text, not the HTML):
 
 > [Google search results preview tool](https://blog.spotibo.com/serp-preview-tool/)
 
-- This  tool allows you to see your `title` and `meta description`, as they would look in Google.
+<figure>
+<img src="media/ex-10-meta.png" alt="The Serp Preview tool showing our metadata example as per Google display">
+<figcaption>
+This  tool allows you to see your `title` and `meta description`, as they would look in Google.
+</figcaption>
+</figure>
 
 - Too long? Too short? Adjust as required and paste back into your page.
 
@@ -269,6 +278,8 @@ Is supposed to provide keywords for search engines to determine relevance of tha
 
 
 <!-- end div -->
+
+<p class="submit-work">Exercise 10 is definitely completed.</p> 
 
 ## Setting the primary language of the document
 

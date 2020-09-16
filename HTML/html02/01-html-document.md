@@ -129,9 +129,9 @@ You can do this two ways:
 
 <!-- end div -->
 
-<p class="submit-work">Exercise 10 is completed.</p> 
+<p class="submit-work">Exercise 10 is not quite completed.</p> 
 
-- Well nearly - you need to validate `exercise-10.html` as directed in the next chapter.
+- You need to validate `exercise-10.html` as directed in the next chapter.
 
 
 <h3 class="warning">Put the content in the &lt;body&gt;</h3>

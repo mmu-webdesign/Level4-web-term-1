@@ -278,7 +278,10 @@ example: `<a href="https://www.mozilla.org/>link to Mozilla homepage</a> ↩ </u
 
 <!-- end div -->
 
-<p class="submit-work">Exercise 10 really is completed.</p> 
+<p class="submit-work">Exercise 10 is still not quite completed.</p> 
+
+- You need to add metadata in the next chapter.
+
 
 <h3 class="warning">Validation - Coursework</h3>
 
