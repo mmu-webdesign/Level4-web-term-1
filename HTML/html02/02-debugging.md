@@ -176,6 +176,8 @@ To specify the HTML to validate, you can give it a web address, upload an HTML f
 
     + Gmd+A to select all on a Mac
 
+    + Ctrl+C (PC) or Cmd+C (Mac) to copy
+
 <img src="media/selected.png" alt="Complete html document, selected, in the editor window">
 
 4. Paste it into the large text area shown in the Markup Validation Service.
@@ -227,45 +229,67 @@ example: `<a href="https://www.mozilla.org/>link to Mozilla homepage</a> ↩ </u
 
 <!-- div class="exercise" -->
 
-## Exercise Three
+## Exercise 11 continued
 
 > HTML Validation - Fix errors
 
 ### Task 1
 
-- Go back to the code [Repl.it - Debugging](https://repl.it/@webdesignmmu/html11) and attempt to fix the errors.
+- Return to `exercise-11.html` in your editor and attempt to fix the errors.
 
 - If you can't work out what every error message means, don't worry about it — a good idea is to try fixing a few errors at a time. Then try revalidating your HTML to show what errors are left. Sometimes fixing an earlier error will also get rid of other error messages — several errors can often be caused by a single problem, in a domino effect.
 
-You will know when all your errors are fixed when you see the following banner in your output:
+- Keep going until all errors are fixed.
+
+- You will know when all your errors are fixed when you see the following banner from the validator:
 
 <img src="media/valid-html-banner.png" alt="Banner that reads - The document validates according to the specified schema(s) and to additional constraints checked by the validator.">
 
 <!-- end div -->
 
+<p class="submit-work">Exercise 11 is completed.</p> 
+
 <!-- div class="exercise" -->
 
-## Exercise Four
+## return to Exercise 10
 
 > HTML Validation - Your first webpage
 
 ### Task 1
 
-- Go back to your page created with [Repl.it - HTML Document](https://repl.it/@webdesignmmu/html10)
+> Open the `html10` folder in File Explorer (PC) or Finder (Mac)
 
-- Cut and paste the code into the validator
+- This time we are going to use File Upload to validate our document.
+
+- Open the [File Upload page in your browser](https://validator.w3.org/#validate_by_upload).
+
+<img src="media/ex-11-upload.png" alt="validator upload interface">
+
+- Select **Choose File**.
+
+- Navigate to `exercise-10.html` and select **Check**.
 
 - Does it validate?
 
-- If not, identify and fix any errors.
+- If not, identify and fix any errors before you continue. Re-validate to check your fixes.
 
 <!-- end div -->
+
+<p class="submit-work">Exercise 10 really is completed.</p> 
 
 <h3 class="warning">Validation - Coursework</h3>
 
 - We use validation as one of our methods of assessing the quality of your work.
 
 - All of your coding submissions will be expected to validate (full HTML documents and later, CSS files)
+
+### Student favourite errors
+
+A few favourite errors to keep in mind as you work on and validate more complex pages.
+
+1. Failing to close a heading - half of the page now looks like a heading. Find and close the offending heading tag.
+
+2. Failing to add a closing `</a>` tag - everything after the intial link becomes a clickable link. Remember that every link has an opening `<a>` followed by a closing `</a>`. If half of you page now looks like a link - that's what's gone wrong.
 
 <h2 class="deep">Deeper Learning</h2>
 
