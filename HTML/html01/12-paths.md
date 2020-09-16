@@ -200,6 +200,12 @@ Now you have some fixing to do:
   <figcaption>Working links to sub-pages in the <code>pages</code> folder, with clickable logo, returning to the homepage - <code>index.html</code></figcaption>
 </figure>
 
+### File/folder structure
+
+<figure>
+<img src="media/ex09-finished.png" alt="Files and folders for exercise 9">
+  <figcaption>Your finished file/folder structure should look like this.</figcaption>
+</figure>
 
 <!-- end div -->
 

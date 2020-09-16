@@ -127,6 +127,8 @@ What you have is a document with a *table of contents* (menu) at the top, follow
   <figcaption>This illustrates the menu links working, creating links to the various sections of the document.</figcaption>
 </figure>
 
+> If you have trouble seeing the page *jump to the links*, make your browser window smaller.
+
 <!-- end div -->
 
 ### Things to note
