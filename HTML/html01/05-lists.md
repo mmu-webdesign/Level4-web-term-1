@@ -299,11 +299,11 @@ To create these lists it is a lot quicker to copy & paste one of your previous l
 
 > Your completed lists page should include 4 `lists`:
 
-- `Ordered` list of Manchester Band Albums
+1. `Ordered` list of Manchester Band Albums
   + With indented sub-list of Smiths albums
-- `Unordered` list of Australian bands
-- `Ordered` list of your favourite films
-- `Unordered` list of places you've visited
+2. `Unordered` list of Australian bands
+3. `Ordered` list of 5 of your favourite films
+4. `Unordered` list of 3 of places you've visited
 <!-- end div -->
 
 
