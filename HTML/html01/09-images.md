@@ -102,7 +102,7 @@ Insert the code for all three images under the relevant title.
 <figure>
 <img src="media/painted-ladies.jpg" alt="Painted ladies by Aaron Kato">
 <figcaption>
-<code>filename: paintred-ladies.jpg</code>
+<code>filename: painted-ladies.jpg</code>
 </figcaption>
 </figure>
 
@@ -350,6 +350,7 @@ If it makes it easier, spread out the code - remember the browser ignores the wh
 
 - You have however improved the performance of you page.
 
+> **Note** - the image size values are the intrinsic width of the image in pixels. **Always** `width="600"`. **NEVER** `width="600px"`.
 
 <!-- end div -->
 
