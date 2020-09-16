@@ -39,24 +39,36 @@ More recently, the doctype is a historical artifact that needs to be included fo
 
 1. `<body></body>`: The `<body>` element. This contains all the content that displays on the page, including text, images, videos, games, playable audio tracks, or whatever else.
 
+> Note - all of the content of the previous exercsies would sit in the `body` of a complete HTML document.
+
 <!-- div class="exercise" -->
-## Exercise One
+
+## Exercise 10
 
 > Create your first complete HTML document and add some page content.
 
 ### Task 1
 
-- Open [Repl.it - HTML Document](https://repl.it/@webdesignmmu/html10)
+> Open the `html10` folder.
 
-- You have an empty file - `index.html`
+- Open `exercise-10.html` in your editor.
+
+<figure>
+<img src="media/ex-10.png" alt="The VSC interface">
+<figcaption>
+Exercise 10 files and folders. 
+</figcaption>
+</figure>
+
+- You have an empty HTML file - `exercise-10.html`
 
 ### Task 2
 
 You can do this two ways:
 
-1. Copy this code, line by line into `index.html`. If you are new to `html` this kind of practice will help your understanding of each element. 
+1. Copy this code, line by line into `exercise-10.html`. If you are new to `html` this kind of practice will help your understanding of each element. 
 
-2. Copy this code and paste it into the document. This is quick and easy. You will never need to write out this code as all editors will provide yo with a template 'html' document. Do this is yo are confident that you understand each line of code.
+2. Copy and paste this code into `exercise-10.html`. This is quick and easy. You will never need to write out this code as all editors will provide you with a template HTML document. Do this if you are confident that you understand each line of code.
 
 ```
 <!DOCTYPE html>
@@ -72,19 +84,16 @@ You can do this two ways:
   </body>
 </html>
 ```
-- Run the page in the browser. You will of course only see the paragraph of text as this is all that is in the body of the document.
-
-- <img src="media/view-in-tab.png" alt="Open in a new tab button" width="20"> Now open the page in a new tab by selecting the button on the top right. 
-
+- Save `exercise-10.html`and view the page in the browser. You will of course only see the paragraph of text as this is all that is in the body of the document at the moment.
 
 <figure>
 <img src="media/first-page-tab.png" alt="animation of the internal links">
-  <figcaption>With a separate page you can now see the page title in the tab.</figcaption>
+  <figcaption>Note that you can now see the page title (<code>My test page</code>) in the browser tab.</figcaption>
 </figure>
 
 ### Task 3
 
-Add more to the page - Let's make it more personal:
+- Add more to the page - Let's make it more personal:
 
 #### The `<head>`
 
@@ -109,7 +118,9 @@ Add more to the page - Let's make it more personal:
 ```
 - Finish up by adding a paragraph that describes you current role.
 
-- Run the page and view your first, complete personal webpage.
+- Save `exercise-10.html`and view the page in the browser.
+
+- Review your first, complete webpage. Is it working?
 
 <figure>
 <img src="media/first-webpage.png" alt="Finished web page in the browser">
@@ -117,6 +128,9 @@ Add more to the page - Let's make it more personal:
 </figure>
 
 <!-- end div -->
+
+<p class="submit-work">Exercise 10 is completed.</p> 
+
 
 <h3 class="warning">Put the content in the &lt;body&gt;</h3>
 
@@ -132,7 +146,7 @@ In the next chapter we discuss de-bugging. We are going to check the quality of 
 
 To get a better understanding of this topic use the following resources.
 
-- LinkedIn Learning Video: [Jen Simmons -  The html page](https://www.linkedin.com/learning/html-essential-training-4/the-html-page?u=36102708) (5m 1s)
+- LinkedIn Learning Video: [Jen Simmons -  The HTML page](https://www.linkedin.com/learning/html-essential-training-4/the-html-page?u=36102708) (5m 1s)
 
 - MDN: `<!DOCTYPE html>` - [Doctype](https://developer.mozilla.org/en-US/docs/Glossary/Doctype)
 
