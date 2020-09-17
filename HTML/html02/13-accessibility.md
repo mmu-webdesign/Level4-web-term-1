@@ -58,7 +58,9 @@ For students wanting more, we recommend the following topics and resources. Thes
 
 - MDN's [Accessibility Learning Module](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
 
+- LinkedIn Learning Video: [Derek Featherstone - Accessibility for Web Design](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Faccessibility-for-web-design%3Ftrk%3Dshare_ent_url&account=36102708) - A full course on web accessibility. (2h 4m) Everyone involved in the web development process needs to know these basic elements of web accessibility.
 
+- LinkedIn Learning Video: [Derek Featherstone - UX Foundations: Accessibility](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fux-foundations-accessibility%3Ftrk%3Dshare_ent_url&account=36102708) - Another full course on web accessibility. (1h 20m).
 
 
 

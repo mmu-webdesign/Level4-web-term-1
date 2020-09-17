@@ -158,15 +158,41 @@ Non-semantic wrappers
 <meta name="description" content="">
 ```
 
+- Save `index.html` and refresh the page in your browser. 
+
+- The revised title should be in the browser tab.
+
+### Task 2
+
 - Adjust the text of both the `<h1>` and the `<h2>` to reflect your film.
 
 - You don't need to adjust the `<h3>` text or the text in the `paragraphs` - unless you really want to write about a film!
 
-- Insert the image `cinema-unsplash.jpg` which can be found in the `img` folder, at the top of the `article`, under the `<h2>`. You should note we have already provided the `figure` and `figcaption` elements. You need to insert the `<img>` element, get the path to the image correct, and add `alt` text.
+- Save `index.html` and refresh the page in your browser. 
+
+- Check the titles have changed.
+
+### Task 3
+
+- Insert the image `cinema-unsplash.jpg` which can be found in the `img` folder, at the top of the `article`, under the `<h2>`. 
+
+- You should note we have already provided the `figure` and `figcaption` elements. 
+
+- You need to insert the `<img>` element, get the path to the image correct, and add `alt` text.
 
 > Note we are using a *free to use* image from [Unsplash.com](Unsplash.com). Any images associated with the film, such as a poster or stills from the film will be copyright and rights of use restricted.
 
-- **Resources** - Finally on `index.html` create three links:
+- Save `index.html` and refresh the page in your browser. 
+
+- Check that the image now loads.
+
+### Task 3
+
+>Resources section
+
+- Finally in the resources section of `index.html` you will find an un-ordered list, containing three incomplete links 
+
+- Use this existing code to create three links:
 
   + Link to the films website or IMDB or Wikipedia entry
   + Link to lead actors website or IMDB or Wikipedia entry
@@ -185,11 +211,21 @@ Becomes:
 <a href="https://www.sonypictures.com/movies/jumanjiwelcometothejungle">Jumanji: Welcome to the Future</a>
 ```
 
-### Task 3
+- Save `index.html` and refresh the page in your browser. 
+
+- Check that the links work, taking you to the relevant sites.
+
+
+### Task 4
 
 > Navigation
 
-- Using the un-ordered list within the `<nav>` element, adjust the links of `index.html` so that the page links to `cast.html` and `director.html`, both sat in the `pages` folder. Think about the file paths.
+- Using the un-ordered list within the `<nav>` element, adjust the links of `index.html` so that the page links to `cast.html` and `director.html`, both sat in the `pages` folder. Think about and adjust the file paths.
+
+- Save `index.html` and refresh the page in your browser to test the links.
+
+
+### Task 5
 
 - Once that works, do the same for the `nav` links on both `cast.html` and `director.html` that take them home to `index.html` or to the other page.
 
@@ -213,17 +249,31 @@ Becomes:
 <a href="#">The Director</a><
 ```
 
-Test you navigation, you should be able to jump from page to page and back to the homepage (`index.html`)
+- Save `index.html` and refresh the page in your browser. 
 
-- Last thing - just adjust the `<title>` and `<h1>` on both sub-pages to reflect your chosen film.
+- Test you navigation, you should be able to jump from page to page and back to the homepage (`index.html`)
 
-### Task 4
+### Task 6
 
-- Validate the code of each page to check for errors.
+- Adjust the `<title>` and `<h1>` on both sub-pages (`cast.html` and `director.html`) to reflect your chosen film.
+
+- Save `index.html` and refresh the page in your browser. 
+
+- Check everything - the content, the image and the navigation.
+
+### Task 7
+
+- Validate `index.html`, `cast.html` and `director.html` via File Upload.
+
+- [The W3C HTML Validator](https://validator.w3.org/#validate_by_upload)
 
 - Fix any errors.
 
+- Re-validate each page to ensure it now passes.
+
 <!-- end div -->
+
+<p class="submit-work">Exercise 15 completed.</p> 
 
 <h2 class="deep">Deeper Learning</h2>
 
