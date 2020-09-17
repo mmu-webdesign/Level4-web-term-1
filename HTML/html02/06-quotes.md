@@ -22,7 +22,7 @@ To turn this into a block quote, we would just do this:
 </blockquote>
 ```
 
-Browser default styling will render this as an indented paragraph, as an indicator that it is a quote; the paragraph above the quotation is there to demostrate that.
+Browser default styling will render this as an indented paragraph, as an indicator that it is a quote; the paragraph above the quotation is there to demonstrate that.
 
 <img src="media/blockquote.png" alt="Blockquote rendered in the browser">
 
@@ -135,7 +135,7 @@ To get a better understanding of this topic use the following resources.
 
 For students wanting more, we recommend the following topics and resources. 
 
-Citations, Abbreviations, dates and time are all things that are not essential at this early stage. If you haver time and want to know more, read the following:
+Citations, Abbreviations, dates and time are all things that are not essential at this early stage. If you have time and want to know more, read the following:
 
 
 ## Citations

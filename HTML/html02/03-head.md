@@ -24,7 +24,11 @@ The HTML head is the contents of the `<head>` element — unlike the contents of
 </head>
 ```
 
-In larger pages however, the head can get quite full. Try going to some of your favorite websites and use *View Source* or the *developer tools* to check out their head contents. Our aim here is not to show you how to use everything that can possibly be put in the head, but rather to teach you how to use the major elements that you'll want to include in the head, and give you some familiarity. Let's get started.
+In larger pages however, the head can get quite full. Try going to some of your favorite websites and use *View Source* or the *developer tools* to check out their head contents.
+
+- [How to view the HTML source code of a web page](https://www.computerhope.com/issues/ch000746.htm).
+
+Our aim here is not to show you how to use everything that can possibly be put in the head, but rather to teach you how to use the major elements that you'll want to include in the head, and give you some familiarity.
 
 ## Adding a title
 
@@ -65,7 +69,7 @@ A few guidelines and tips for composing good titles:
 
 ### Homepage - `<title>`
 
-The title on your homepage will usually reflect who whole site, company or brand. For example, if you are well known, you can get away with:
+The title on your homepage will usually reflect the whole site, company or brand. For example, if you are well known, you can get away with:
 
 ```
 <title>BBC - Home</title>
@@ -109,7 +113,7 @@ Consider if this was reversed:
 ```
 <title>Manchester Metropolitan University | About us</title>
 ```
-A visually impaired person using a screen reader has the page title read out to them, for every page the land on. If whilst navigating the MMU website, they had to hear Manchester Metropolitan University announced each time *before* discovering the function of the page it would be very annoying.
+A visually impaired person using a screen reader has the page title read out to them. If whilst navigating the MMU website, they had to hear Manchester Metropolitan University announced each time *before* discovering the function of the page it would be very annoying.
 
 The correct way around means they can hear `About us`, press `SPACE bar` (if they already know they are on the MMU website) and the screen reader will skip to the top of the page.
 
@@ -117,8 +121,10 @@ The correct way around means they can hear `About us`, press `SPACE bar` (if the
 
 Metadata is data that describes data, and HTML has an "official" way of adding metadata to a document — the `<meta>` element. Of course, the other stuff we are talking about in this article could also be thought of as metadata too. There are a lot of different types of `<meta>` elements that can be included in your page's `<head>`, but we won't try to explain them all at this stage, as it would just get too confusing. Instead, we'll explain a few things that you might commonly see, just to give you an idea.
 
-Specifying your document's character encoding
-In the example we saw above, this line was included:
+
+### Specifying your document's character encoding
+
+In the HTML document example at the top of this chapter this line was included:
 
 ```
 <meta charset="utf-8">
@@ -128,14 +134,16 @@ This element simply specifies the document's character encoding — the characte
 
 <img src="media/correct-encoding.png" alt="a web page containing English and Japanese characters, with the character encoding set to universal, or utf-8. Both languages display fine">
 
-> Note: Some browsers (e.g. Chrome) automatically fix incorrect encodings, so depending on what browser you use, you may not see this problem anyway. You should still set an encoding of utf-8 on your page anyway, to avoid any potential problems in other browsers.
+> **Note**: Some browsers (e.g. Chrome) automatically fix incorrect encodings, so depending on what browser you use, you may not see this problem anyway. You should still set an encoding of `utf-8` on your page anyway, to avoid any potential problems in other browsers.
 
 
-## Adding an author and description
+### Adding an author and description
+
 Many `<meta>` elements include name and content attributes:
 
-- name specifies the type of meta element it is; what type of information it contains.
-- content specifies the actual meta content.
+- `name` specifies the type of meta element it is; what type of information it contains.
+
+- `content` contains the actual meta content.
 
 Two such meta elements that are useful to include on your page define the author of the page, and provide a concise description of the page. Let's look at an example:
 
@@ -154,7 +162,7 @@ Specifying a description that includes keywords relating to the content of your 
 - Writing a good meta description and title can be an art in itself. It is part of the skill set for good SEO (Search Engine Optimisation).
 - *Currently* Google's recommended `meta description` length is from 120 to 158 characters.
 - *Currently* Google's recommended `title` length is around 50 characters.
-- **Both of the above change regularly and Goolge don't like talking about it**.
+- **Both of the above change regularly and Google don't like talking about it**.
 - See below for deeper and advanced learning in this area.
 
 
@@ -175,7 +183,7 @@ Specifying a description that includes keywords relating to the content of your 
 ```
 <meta name="description" content="GOV.UK - The place to find government services and information - Simpler, clearer, faster">
 ```
-Now search for "Gov UK" in your favorite search engine (We used Google.) You'll notice the description `<meta name="description">` and `<title>` element content used in the search result — definitely worth having!
+Now search for "Gov UK" in your favourite search engine (we used Google). You'll notice the description `<meta name="description">` and `<title>` element content used in the search result — definitely worth having!
 
 <figure>
 <img src="media/gov-uk-google-results.png" alt="A Google search result for Gov UK">
@@ -187,11 +195,12 @@ In Google, you will see some relevant subpages of Gov UK listed below the main h
 <!-- end div -->
 
 ### `<meta name="keywords">` 
-Some `<meta>` features just aren't used any more. For example, the keyword `<meta>` element:
+
+Some `<meta>` features just aren't used any more. For example, the `keyword` `<meta>` element:
 ```
 <meta name="keywords" content="fill, in, your, keywords, here">
 ```
-Is supposed to provide keywords for search engines to determine relevance of that page for different search terms. However, it is ignored by search engines, because spammers were just filling the keyword list with hundreds of keywords, biasing results. *Keywords may still be useful on an intranet where you have better control of the keywords authors use*.
+This meta element is supposed to provide keywords for search engines to determine relevance of that page for different search terms. However, it is ignored by search engines, because spammers were just filling the keyword list with hundreds of keywords, biasing results. *Keywords may still be useful on an intranet where you have better control of the keywords authors use*.
 
 <!-- div class="exercise" -->
 
@@ -207,9 +216,9 @@ Is supposed to provide keywords for search engines to determine relevance of tha
 
 - **Check** - Does Google <a href="#">display the page title as the blue link</a> in the results? 
 
-> Note: you will also need to open your employers homepage in another tab and View Source to see the code. `Ctl or Cmd + F` to search the code.
+> Note: you will also need to open your employer's homepage in another tab and View Source to see the code. `Ctl or Cmd + F` to search the code.
 
-- **Check** - Does Google display all of the text in the tile or is it truncated... (because it is too long)?
+- **Check** - Does Google display all of the text in the title or is it truncated... (because it is too long)?
 
 ### Task 3
 
@@ -225,7 +234,7 @@ Is supposed to provide keywords for search engines to determine relevance of tha
 - Are the title and description both well written?
 - Are either of them over-long?
 - Are either of them missing?
-- When displayed in the search results, do yo think they are helping the person searching?
+- When displayed in the search results, do you think they are helping the person searching?
 - Are they helping the search ranking of the company? - *You can't answer this, but do think about it*.
 
 <!-- end div -->
@@ -257,9 +266,9 @@ Is supposed to provide keywords for search engines to determine relevance of tha
 ```
 - Note that your text goes in here - `content="Your text"`
 
-- Students often make the mistake of putiing their description over the word description - here - `name="description"` - leave this alone.
+- Students often make the mistake of putting their description over the word description - here - `name="description"` - leave this alone.
 
-- At the moment your description is limited as the page doesn't actually have much content to describe. Imagine this page to be the homepage for a personal website for your work or hobbies. Now get more creative.
+- At the moment your description is limited as the page doesn't actually have much content to describe. Imagine this page to be the homepage for a personal website for your work or hobbies. Now get more creative - write your self a good, descriptive *meta description* that will sell yor portfolio to the world (and Google).
 
 ### Task 3
 
@@ -293,7 +302,7 @@ Finally, it's worth mentioning that you can (and really should) set the language
 
 This is useful in many ways. Your HTML document will be indexed more effectively by search engines if its language is set (allowing it to appear correctly in language-specific results, for example), and it is useful to people with visual impairments using screen readers (for example, the word "six" exists in both French and English, but is pronounced differently.)
 
-- US english `<html lang="en">`
+- US English `<html lang="en">`
 
 - French `<html lang="fr">`
 
@@ -327,7 +336,7 @@ For students wanting more, we recommend the following topics and resources.
 
 Some of you may be interested to know more about the use of metadata and improved search results. Both of these courses go into the practice of Search Engine Optimisation (SEO).
 
-- LinkedIn Learning Video: [Improve SEO for your website](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fimprove-seo-for-your-website%3Ftrk%3Dshare_ent_url&account=36102708) (1h 10m) - discover how to build an authority site that ranks highly in Google—or simply boost traffic to your current website—by leveraging key SEO tools and techniques
+- LinkedIn Learning Video: [Improve SEO for your website](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fimprove-seo-for-your-website%3Ftrk%3Dshare_ent_url&account=36102708) (1h 10m) - discover how to build an authority site that ranks highly in Google—or simply boosts traffic to your current website—by leveraging key SEO tools and techniques
 
 - LinkedIn Learning Video: [SEO Foundations](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fseo-foundations-2%3Ftrk%3Dshare_ent_url&account=36102708) (3h 36m) Explore the basics of SEO, including how to read a results page and see how rankings affect businesses large and small. 
 

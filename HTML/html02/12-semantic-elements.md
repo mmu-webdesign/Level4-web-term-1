@@ -41,27 +41,29 @@ This is because visuals don't tell the whole story. We use color and font size t
 ### Don't rely on just colour
 
 
-<p>Most people with colour vision deficiency have difficulty distinguishing between shades of red, yellow and green.</p>
+Most people with colour vision deficiency have difficulty distinguishing between shades of red, yellow and green.
 
-<p>This is known as "red-green" colour vision deficiency. It's a common problem that affects around 1 in 12 men and 1 in 200 women.</p>
+This is known as "red-green" colour vision deficiency. It's a common problem that affects around 1 in 12 men and 1 in 200 women.
 
-<p>Someone with this type of colour vision deficiency may:<p>
+Someone with this type of colour vision deficiency may:
 
-<ul>
-  <li>Find it hard to tell the difference between reds, oranges, yellows, browns and greens.</li>
-  <li>See these colours as much duller than they would appear to someone with normal vision.</li>
-  <li>Have trouble distinguishing between shades of purple.</li>
-  <li>Confuse reds with black.</li>
-</ul>
-<p>In rare cases, some people have trouble with blues, greens and yellows instead. This is known as "blue-yellow" colour vision deficiency.</p>
+- Find it hard to tell the difference between reds, oranges, yellows, browns and greens.
 
-<p>Source - <a href="https://www.nhs.uk/conditions/colour-vision-deficiency">nhs.uk/colour-vision-deficiency</a></p>
+- See these colours as much duller than they would appear to someone with normal vision.
+
+- Have trouble distinguishing between shades of purple.
+
+- Confuse reds with black.
+
+In rare cases, some people have trouble with blues, greens and yellows instead. This is known as "blue-yellow" colour vision deficiency.
+
+Source - <a href="https://www.nhs.uk/conditions/colour-vision-deficiency">nhs.uk/colour-vision-deficiency</a>
 
 
 
 ## Semantic elements for adding structure
 
-In your HTML code, you can mark up sections of content based on their functionality — you can use elements that represent the sections of content described above unambiguously, and assistive technologies like screenreaders can recognise those elements and help with tasks like "find the main navigation", or "find the main content." 
+In your HTML code, you can mark up sections of content based on their functionality — you can use elements that represent the sections of content described above unambiguously, and assistive technologies like screen readers can recognise those elements and help with tasks like "find the main navigation", or "find the main content." 
 
 To implement such semantic mark up, HTML provides dedicated tags that you can use to represent such sections, for example:
 

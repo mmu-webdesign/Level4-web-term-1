@@ -48,13 +48,13 @@ A `<div>` works fine in this case to group the content. We've included a heading
 
 ### `<div>` - thing to remember
 
-- `<div>` is an block element. Like other block elements such as `<p>` and `<ul>`, it creates it's own space on the page. 
+- `<div>` is a block element. Like other block elements such as `<p>` and `<ul>`, it creates its own space on the page. 
 
 - It can contain other block elements as per our example above.
 
 - `<div>` is non-semantic, it carries no meaning - it does not describe the type of content it contains.
 
-- Mostly it is used on conjunction with CSS to apply a style to something.
+- Mostly it is used in conjunction with CSS to apply a style to something.
 
 - Previously `<div>` was used to define the stucture of a web page using classes or IDs (more to come on these in CSS) to name each section. For example:
 

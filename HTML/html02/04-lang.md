@@ -59,7 +59,7 @@ DO NOT use the `<br>` element to either create the illusion of paragraph breaks 
 
 To get a better understanding of this topic use the following resources.
 
-- LinkedIn Learning Video: [Jen Simmons - Supporting langauges](https://www.linkedin.com/learning/html-essential-training-4/supporting-languages?u=36102708) (4m 6s)
+- LinkedIn Learning Video: [Jen Simmons - Supporting languages](https://www.linkedin.com/learning/html-essential-training-4/supporting-languages?u=36102708) (4m 6s)
 
 - MDN: `lang` - [The Lang attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang)
 

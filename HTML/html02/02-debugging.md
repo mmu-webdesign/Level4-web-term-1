@@ -14,7 +14,9 @@ Debugging doesn't have to be scary though —  the key to being comfortable with
 
 ## HTML and debugging
 
-HTML is not as complicated to understand as Rust. HTML is not compiled into a different form before the browser parses it and shows the result (it is interpreted, not compiled). And HTML's [element syntax](https://developer.mozilla.org/en-US/docs/Glossary/element) is arguably a lot easier to understand than a "real programming language" like Rust, JavaScript, or Java. The way that browsers parse HTML is a lot more permissive than how programming languages are run, which is both a good and a bad thing.
+HTML is not as complicated to understand as Rust. HTML is not compiled into a different form before the browser parses it and shows the result (it is interpreted, not compiled meaning it is read and run at the same time). And HTML's [element syntax](https://developer.mozilla.org/en-US/docs/Glossary/element) is arguably a lot easier to understand than a "real programming language" like Rust, JavaScript, or Java. 
+
+Furthermore, the way that browsers parse HTML is a lot more permissive than how programming languages are run, which is both a good and a bad thing.
 
 ## Permissive code
 
@@ -219,7 +221,7 @@ The error messages are usually helpful, but sometimes they are not so helpful; w
 
 **"End of file seen and there were open elements"**: 
 
-- This is a bit ambiguous, but basically refers to the fact there are open elements that need to be properly closed. The lines numbers point to the last few lines of the file, and this error message comes with a line of code that points out an example of an open element:
+- This is a bit ambiguous, but basically refers to the fact there are open elements that need to be properly closed. The line numbers point to the last few lines of the file, and this error message comes with a line of code that points out an example of an open element:
 example: `<a href="https://www.mozilla.org/>link to Mozilla homepage</a> ↩ </ul>↩ </body>↩</html>`
 
 > Note: An attribute missing a closing quote can result in an open element because the rest of the document is interpreted as the attribute's content.

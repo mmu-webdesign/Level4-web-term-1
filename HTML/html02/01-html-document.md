@@ -116,7 +116,7 @@ You can do this two ways:
 ```
 <h2>Job Description</h2>
 ```
-- Finish up by adding a paragraph that describes you current role.
+- Finish up by adding a paragraph that describes your current role.
 
 - Save `exercise-10.html`and view the page in your browser.
 
@@ -140,7 +140,7 @@ You can do this two ways:
 
 ## Have you got it right?
 
-In the next chapter we discuss de-bugging. We are going to check the quality of your code through validation before continuing to look at the `<head>` in more detail.
+In the next chapter we discuss de-bugging i.e. correcting errors. We are going to check the quality of your code through validation before continuing to look at the `<head>` in more detail.
 
 
 
