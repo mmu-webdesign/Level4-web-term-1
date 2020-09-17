@@ -2,9 +2,9 @@
 
 This gets you started with HTML tables, covering the very basics such as rows and cells, headings, making cells span multiple columns and rows, and how to group together all the cells in a column for styling purposes.
 
-<h3 class="warning">New to tables?</h3>
+<h3 class="warning">New to HTML tables?</h3>
 
-If new to tables, it may help to watch Jen's videos **before** starting to follow the tutorial and exercises. 
+If new to HTML tables, it may help to watch Jen's videos **before** starting to follow the tutorial and exercises. 
 
 - LinkedIn Learning Video: [Jen Simmons -  When to use tables](https://www.linkedin.com/learning/html-essential-training-4/when-to-use-tables?u=36102708) (4m 35s)
 
@@ -191,15 +191,26 @@ This was commonly used because CSS support across browsers used to be terrible; 
 > In short, using tables for layout rather than CSS layout techniques is a bad idea. 
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 13
 
-> Creating your first table - We've talked table theory enough, so, let's dive into a practical example and build up a simple table.
+> Creating your first table. 
+
+- We've talked table theory enough, so, let's dive into a practical example and build up a simple table.
 
 ### Task 1
 
-- Open [Repl.it - HTML Tables](https://repl.it/@webdesignmmu/html13)
+> Open the `html13` folder.
 
-- `index.html` is ready for you to start. We have linked to a style sheet, `style.css` to make the table look better and easier for you to work with. We haven't covered `CSS` yet so don't worry about it.
+- Open `exercise-13.html` in your editor.
+
+<figure>
+<img src="media/ex-13.png" alt="The VSC interface">
+<figcaption>
+Exercise 13 files and folders. 
+</figcaption>
+</figure>
+
+- `exercise-13.html` is ready for you to start. We have linked to a style sheet, `style.css` to make the table look better and easier for you to work with. We haven't covered `CSS` yet so don't worry about it - just let it do its stuff.
 
 ### Task 2
 
@@ -207,6 +218,7 @@ This was commonly used because CSS support across browsers used to be terrible; 
 
 ```
 <table>
+
 
 </table>
 ```
@@ -226,12 +238,14 @@ This was commonly used because CSS support across browsers used to be terrible; 
 <td>I'm your fourth cell.</td>
 ```
 
-As you will see, the cells are not placed underneath each other, rather they are automatically aligned with each other on the same row. Each `<td>` element creates a single cell and together they make up the first row. Every cell we add makes the row grow longer.
+- Save `exercise-13.html` and view the page in your browser.
+
+- As you will see, the cells are not placed underneath each other, rather they are automatically aligned with each other on the same row. Each `<td>` element creates a single cell and together they make up the first row. Every cell we add makes the row grow longer.
 
 
 ### Task 3
 
-To stop this row from growing and start placing subsequent cells on a second row, we need to use the `<tr>` element (`tr` stands for `table row`). Let's investigate this now.
+To stop this row from growing and to start placing subsequent cells on a second row, we need to use the `<tr>` element (`tr` stands for `table row`). Let's investigate this now.
 
 - Place the four cells you've already created inside `<tr>` tags, like so:
 
@@ -243,33 +257,40 @@ To stop this row from growing and start placing subsequent cells on a second row
     <td>I'm your fourth cell.</td>
 </tr>
 ```
+- Save `exercise-13.html` and view the page in your browser.
+
+- The table looks no different in the browser, but we have clearly defined both the start and end of this particular row.
+
 
 ### Task 4
 
-- Now you've made one row, have a go at making one or two more — each row needs to be wrapped in an additional `<tr>` element, with each cell contained in a `<td>`.
+- Now you've made one row, have a go at making one more — each row needs to be wrapped in an additional `<tr>` element, with each cell contained in a `<td>`.
 
-This should result in a table that looks something like the following:
+- This should result in a table that looks something like the following:
 
 <img src="media/table-row.png" alt="The table rendered in the browser with 4 cols and 2 rows">
 
-Remember to indent your code - it makes it easier to read and spot errors.
+- If you want to see what the table looks like with just the default browser styles simply cut `<link href="style.css" rel="stylesheet">` from the head of the document, save and refresh your browser. Paste `<link href="style.css" rel="stylesheet">` back into the head and save before carrying on.
+
+- Remember to indent your code - it makes it easier to read and spot errors. For example like:
 
 ```
 <table>
   <tr>
-    <td>Hi, I'm your first cell.</td>
-    <td>I'm your second cell.</td>
-    <td>I'm your third cell.</td>
-    <td>I'm your fourth cell.</td>
-  </tr>
-  <tr>
-    <td>Second row, first cell.</td>
+    <td>First row, first cell.</td>
     <td>Cell 2.</td>
     <td>Cell 3.</td>
     <td>Cell 4.</td>
   </tr>
 </table>
 ```
+
+- In Visual Studio Code you can highlight a whole block and tab to indent.
+
+- You can also Tab + Shift to remove an indent.
+
+- Don't be afraid to space your code out at this stage. It makes it easier for you to read.
+
 <!-- end div -->
 
 ## Adding headers with `<th>` elements
@@ -277,15 +298,14 @@ Remember to indent your code - it makes it easier to read and spot errors.
 Now let's turn our attention to table headers — special cells that go at the start of a row or column and define the type of data that row or column contains (as an example, see the "Person" and "Age" cells in the first example shown in this chapter). To illustrate why they are useful, have a look at the following table example. First the source code:
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 13 continued
 
 > Adding table headers.
 
+
 ### Task 1
 
-- Return to your HTML Tables Repl.it (`html13`)
-
-### Task 2
+- Return to `exercise-13.html` in your editor.
 
 - Copy and paste this code inside the body of your HTML under the heading `<h2>Second Table</h2>`.
 
@@ -329,21 +349,19 @@ Now let's turn our attention to table headers — special cells that go at the s
 </table>
 ```
 
-### Task 2
-
-- Run the page in the browser.  You should see this:
+- Save `exercise-13.html` and view the page in your browser.
 
 <img src="media/table-two.png" alt="Both tables rendered in the browser">
 
-The problem here in our second table is that, while you can kind of make out what's going on, it is not as easy to cross reference data as it could be. If the column and row headings stood out in some way, it would be much better.
+- The problem here in our second table is that, while you can kind of make out what's going on, it is not as easy to cross reference data as it could be. If the column and row headings stood out in some way, it would be much better.
 
-### Task 3
+### Task 2
 
-Let's have a go at improving the semantics of this table.
+- Let's have a go at improving the semantics of this table.
 
 - To recognize the table headers as headers, both visually and semantically, you can use the `<th>` element (`th` stands for `table header`). This works in exactly the same way as a `<td>`, except that it denotes a header, not a normal cell. 
 
-- Go into your HTML, and change all the `<td>` elements surrounding the table headers into `<th>` elements.
+- Go into your `exercise-13.html` and change all the `<td>` elements surrounding the table headers into `<th>` elements.
 
 - The headers for the columns are the dog names:
 
@@ -363,7 +381,11 @@ For example: `<th>`Knocky`</th>` instead of `<td>`Knocky`</td>`.
 
 Again, define these as `table headings`.
 
-### Task 4
+- Save `exercise-13.html` and view the page in your browser.
+
+- Before we review the results, just read **Task 4**.
+
+### Task 3
 
 - You will have noticed, the first cell of the header row and column looks like this:
 
@@ -371,13 +393,13 @@ Again, define these as `table headings`.
 
 - Two things to note.
 
-  + First what is `&nbsp;` ? This is a non-breaking space. It simply adds space in our page. It's useful here as it ensures this cell has something in it,even if it is only a space. Use sparingly.
+  + First what is `&nbsp;`? This is a non-breaking space. It simply adds space in our page. It's useful here as it ensures this cell has something in it,even if it is only a space. Use sparingly.
 
   + Secondly, this cell is empty so should it be changed to a heading? We would say yes, as semantically it is part of the heading.
 
-### Task 5
+### Task 4
 
-- Run the page in the browser, and you should see that the headers now look like headers.
+- Looking at `exercise-13.html` in the browser you should see that the headers now look like headers.
 
 <img src="media/table-th.png" alt="The table headings are now highlighted in the browser">
 
@@ -400,13 +422,14 @@ Tables headers also have an added benefit — along with the scope attribute (wh
 Sometimes we want cells to span multiple rows or columns. Fortunately, table headers and cells have the `colspan` and `rowspan` attributes, which allow us to do just those things. Both accept a unitless number value, which equals the number of rows or columns you want spanned. For example, `colspan="2"` makes a cell span two columns.
 
 <!-- div class="exercise" -->
-## Exercise Three
+## Exercise 13 continued
 
 > Let's use `colspan` and `rowspan`.
 
+
 ### Task 1
 
-- Return to your HTML Tables Repl.it (`html13`)
+- Return to `exercise-13.html` in your editor.
 
 - Insert this code (extra row) to the bottom of the Second Table, before the closing `</table>` tag.
 ```
@@ -414,31 +437,30 @@ Sometimes we want cells to span multiple rows or columns. Fortunately, table hea
     <th>This table is brought to you by Pooches Pet Parlour</th>
   </tr>
 ```
-### Task 2
 
-- Run the page in the browser. 
+- Save `exercise-13.html` and view the page in your browser.
 
 <img src="media/table-without-colspan.png" alt="The extra cell appears on the bottom right of the table">
 
 - We've added a row, but it contains a single cell.
 
-### Task 3
+### Task 2
 
 - Add the `colspan` attribute to this single cell.
 
 - Add a value of 5, so it spans 5 columns.
 
 ```
-<th colspan="5">
+<th colspan="5">This table is brought to you...
 ```
 
-### Task 4
+- Save `exercise-13.html` and view the page in your browser.
 
-- Run the page in the browser. You should have the added cell that *spans* all 5 columns.
+- The added cell should now *span* all 5 columns.
 
 <img src="media/table-colspan.png" alt="The added cell now spans across all five columns at the bottom of the table">
 
-### Task 5
+### Task 3
 
 Adding the `rowspan` attribute.
 
@@ -453,30 +475,31 @@ Adding the `rowspan` attribute.
 </tr>
 ```
 
-### Task 5
+- Save `exercise-13.html` and view the page in your browser.
 
-- Run in the browser and you should see this:
+- You should see this:
 
 <img src="media/table-pre-rowspan.png" alt="The extra cells are added and sit to the left">
 
-- There are only four `<td>` cells defined, so only four columns.
+- There are only four `<td>` cells defined, so only four columns. The table is incomplete. There is no `<th>` defined, but the cells all sit to the left.
 
-### Task 6
+### Task 4
 
-- We are going to use `rowspan` to make the `row` span two rows for the cell containing Eating habits.
+- We are going to use `rowspan` to make the `row` span two rows for the cell containing **Eating habits**. This will make this cell the *table heading* for both rows.
 
 - Edit the `<td>` for this cell to include the `rowspan` attribute with a value of `2`.
 
 ```
 <th rowspan="2">Eating Habits</th>
 ```
-### Task 7
 
-- Run in the browser and you should now see this:
+- Save `exercise-13.html` and view the page in your browser.
+
+- If successful, you should be seeing the **Eating Habits** row heading now spanning both (2) rows.
 
 <img src="media/table-rowspan.png" alt="The Eating Habits label now spans over the two rows">
 
-- If successful, you should be seeing the Eating Habits row heading now spanning both (2) rows.
+
 
 <!-- end div -->
 
@@ -484,9 +507,12 @@ Adding the `rowspan` attribute.
 
 - If things are not going quite right with your table, validating the code may help you identify the issues.
 
-- [The W3C HTML Validator](https://validator.w3.org/#validate_by_input)
+- [The W3C HTML Validator](https://validator.w3.org/#validate_by_upload)
 
-- `Ctl+z` (Undo) in the editor is also very helpful to rewind your coding.
+- Validate `exercise-13.html` via File Upload.
+
+- Use the feedback from any errors to help you spot your mistakes.
+
 
 
 <h2 class="deep">Deeper Learning</h2>
