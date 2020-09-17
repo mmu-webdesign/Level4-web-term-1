@@ -57,8 +57,7 @@ Someone with this type of colour vision deficiency may:
 
 In rare cases, some people have trouble with blues, greens and yellows instead. This is known as "blue-yellow" colour vision deficiency.
 
-Source - <a href="https://www.nhs.uk/conditions/colour-vision-deficiency">nhs.uk/colour-vision-deficiency</a>
-
+Source - [Colour Vision Deficiency NHS](https://www.nhs.uk/conditions/colour-vision-deficiency">nhs.uk/).
 
 
 ## Semantic elements for adding structure
@@ -67,11 +66,20 @@ In your HTML code, you can mark up sections of content based on their functional
 
 To implement such semantic mark up, HTML provides dedicated tags that you can use to represent such sections, for example:
 
-- **header**: `<header>`.
-- **navigation bar**: `<nav>`.
-- **main content**: `<main>`, with various content subsections represented by `<article>`, `<section>`, and `<div>` elements.
-- **sidebar**: `<aside>`; often placed inside `<main>`.
-- **footer**: `<footer>`.
+- **header**: 
+`<header>`
+
+- **navigation bar**: 
+`<nav>`
+
+- **main content**: 
+`<main>`, with various content subsections represented by `<article>`, `<section>`, and `<div>` elements.
+
+- **sidebar**: 
+`<aside>`; often placed inside `<main>`
+
+- **footer**: 
+`<footer>`
 
 > **Old school coding**: It's worth noting that if you have previously coded `html` you may have used the `<div>` element to provide this kind of structure using classes to name each part of the page including `<div class="nav">`. This of course does not provide semantic meaning to the page, is *old school*, and should be avoided.
 
