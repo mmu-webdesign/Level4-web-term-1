@@ -71,109 +71,40 @@ To implement such semantic mark up, HTML provides dedicated tags that you can us
 
 <!-- div class="exercise" -->
 
-## Exercise One
+## Exercise 15
 
 > Semantic page structure
 
 ### Task 1
 
-- Open [Repl.it - Semantic structure](https://repl.it/@webdesignmmu/html15)
+> Open the `html15` folder.
 
-### Task 2
+- Open `index.html` in your editor.
 
-- Copy & Paste this code into the empty `index.html` file.
+<figure>
+<img src="media/ex-15.png" alt="The VSC interface">
+<figcaption>
+Exercise 15 files and folders. 
+</figcaption>
+</figure>
 
-```
-<!DOCTYPE html>
-<html lang="en-GB">
-  <head>
-    <meta charset="utf-8">
-
-    <title>My favourite film - Film Title</title>
-  </head>
-
-  <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
-
-    <header>
-      <h1>Film title</h1>
-    </header>
-
-    <!-- Here is our navigation that is used across all the pages of our website -->
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">The Cast</a></li>
-        <li><a href="#">The Director</a></li>
-      </ul>
-    </nav>
-
-    <!-- Here is our page's main content -->
-    <main>
-
-      <!-- It contains an article -->
-      <article>
-
-        <h2>Article heading - about the film</h2>
-
-        <figure>
-        <!-- Insert the image here -->
-
-        <figcaption>Photo by <a href="https://unsplash.com/@kristsll">Krists Luhaers</a> on <a href="https://unsplash.com/s/photos/cinema-theatre">Unsplash</a>
-        </figcaption>
-        </figure>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. .</p>
-
-        <h3>Subsection - about the cast</h3>
-
-        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-
-        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet..</p>
-
-        <h3>Another subsection - this time about the director</h3>
-
-        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus..</p>
-
-        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio..</p>
-      </article>
-
-      <!-- the aside content can also be nested within the main content -->
-      <aside>
-        <h2>Resources</h2>
-
-        <ul>
-          <li><a href="#">Link to the films website or IMDB or Wikipedia entry</a></li>
-          <li><a href="#">Link to lead actors website or IMDB or Wikipedia entry</a></li>
-          <li><a href="#">Link to Directors website or IMDB or Wikipedia entry</a></li>
-        </ul>
-      </aside>
-
-    </main>
-
-    <!-- And here is our main footer that is used across all the pages of our website -->
-
-    <footer>
-      <p>©Copyright 2050 by nobody. All rights reversed.</p>
-    </footer>
-
-  </body>
-</html>
-```
-
-### Task 3
-
-- Run the page in the browser to view the output.
-
-- Take some time to look over the code and the page to understand it — the comments inside the code should also help you to understand it. 
+- Take some time to look over the code  — the comments inside the code should help you to understand it. 
 
 > Remember this page only has the browser default styles, it is going to look plain - don't worry about this. We will work on `CSS` for page layout later.
 
-### Task 4
+### Task 2
 
-- Look at the sub-pages, `cast.html` and `director.html` which are sat in the `pages` folder.
+- Look at the sub-pages, `cast.html` and `director.html` which are sat in the `pages` folder in your editor.
 
 - Take some time to look over the code for these pages, noting the sematic structure of `header`, `nav`, `main`, `article` and `footer`.
+
+### Task 3
+
+- Look at all three pages, `index.html`, `cast.html` and `director.html` in your browser. 
+
+- There are some problems that we are going to fix later. 
+
+- Concentrate on how the semantic elements like `nav` and `main` are used to describe parts of the document.
 
 <!-- end div -->
 
@@ -209,17 +140,13 @@ Non-semantic wrappers
 
 <!-- div class="exercise" -->
 
-## Exercise Two
+## Exercise 15 continued
 
 > Completing the **Film** website.
 
 ### Task 1
 
-- Return to the Semantic structure Repl.it (html15)
-
-### Task 2
-
-- `index.html`
+- Return to `index.html` in your editor.
 
 - Decide on a favourite film as the subject of the page.
 
@@ -230,6 +157,7 @@ Non-semantic wrappers
 ```
 <meta name="description" content="">
 ```
+
 - Adjust the text of both the `<h1>` and the `<h2>` to reflect your film.
 
 - You don't need to adjust the `<h3>` text or the text in the `paragraphs` - unless you really want to write about a film!
