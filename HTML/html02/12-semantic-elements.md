@@ -24,13 +24,7 @@ A simple website structure example featuring a main heading, navigation menu, ma
 </figcaption>
 </figure>
 
-You'll soon learn how the same, semantic code can be delivered in a variety of designs just by tweaking the CSS. Some times sites all start to look the same. 
-
-<figure>
-<img src="media/which-webpage.png" alt="Illustration of two possible common webpage designs in 2016">
-<figcaption>Which one of the two possible websites are you currently designing? A <a href="https://t.co/ZD0uRGTqqm">famous tweet</a> by J.H. Gold (@jongold) <a href="https://twitter.com/jongold/status/694591217523363840?ref_src=twsrc%5Etfw">February 2, 2016</a>
-</figcaption>
-</figure>
+You'll soon learn how the same, semantic code can be delivered in a variety of designs just by tweaking the CSS. Remember [CSS Zen Garden](http://www.csszengarden.com/)?
 
 ## HTML for structuring content
 
@@ -81,7 +75,7 @@ To implement such semantic mark up, HTML provides dedicated tags that you can us
 - **footer**: 
 `<footer>`
 
-> **Old school coding**: It's worth noting that if you have previously coded `html` you may have used the `<div>` element to provide this kind of structure using classes to name each part of the page including `<div class="nav">`. This of course does not provide semantic meaning to the page, is *old school*, and should be avoided.
+> **Old school coding**: It's worth noting that if you have previously coded `html` you may have used the `<div>` element to provide this kind of structure using classes to name each part of the page including `<div class="nav">`. This, as it does not provide semantic meaning to the page, is *old school*, and should be avoided.
 
 
 <!-- div class="exercise" -->
@@ -266,7 +260,7 @@ Becomes:
 
 - Save `index.html` and refresh the page in your browser. 
 
-- Test you navigation, you should be able to jump from page to page and back to the homepage (`index.html`)
+- Test your navigation, you should be able to jump from page to page and back to the homepage (`index.html`)
 
 ### Task 6
 

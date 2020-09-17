@@ -18,7 +18,7 @@ The basic elements of accessibility in relation to HTML are as follows:
 
 - Provide `alt` text for all images that contain important information, information that enhances the user experience.
 
-- If the image is *fluff*, and the content is unimportant such as a stock image of people in an office, then use a *null* alt - `alt=""`
+- If the image is *fluff*, e.g. the content is unimportant such as a stock image of people in an office, then use a *null* alt - `alt=""`
 
 ## Language
 
@@ -30,7 +30,7 @@ The basic elements of accessibility in relation to HTML are as follows:
 
 ## Forms
 
-- Use `caption` and legend` to group elements of a form.
+- Use `caption` and `legend` to group elements of a form.
 
 - Use the `label` element with the `for` attribute to associate a forms label with its HTML form widget.
 

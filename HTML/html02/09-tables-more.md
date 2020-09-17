@@ -51,7 +51,7 @@ These elements don't make the table any more accessible to screenreader users, a
 
 To use them:
 
-- The `<thead>` element must wrap the part of the table that is the header — this is usually the first row containing the column headings, but this is not necessarily always the case. If you are using `<col>`/`<colgroup>` element, the table header should come just below those.
+- The `<thead>` element must wrap the part of the table that is the header — this is usually the first row containing the column headings, but this is not necessarily always the case. 
 
 - The `<tfoot>` element needs to wrap the part of the table that is the footer — this might be a final row with items in the previous rows summed, for example. You can include the table footer right at the bottom of the table as you'd expect, or just below the table header (the browser will still render it at the bottom of the table).
 
@@ -151,7 +151,7 @@ To use them:
 
 ## Tables for visually impaired users
 
-Let's recap briefly on how we use data tables. A table can be a handy tool, for giving us quick access to data and allowing us to look up different values. For example, It takes only a short glance at the table below to find out how many rings were sold in Gent last August. To understand its information we make visual associations between the data in this table and its column and/or row headers. See our **Pooches table** above.
+Let's recap briefly on how we use data tables. A table can be a handy tool, for giving us quick access to data and allowing us to look up different values. To understand its information we make visual associations between the data in this table and its column and/or row headers. See our **Pooches table** above.
 
 But what if you cannot make those visual associations? How then can you read a table like the above? Visually impaired people often use a screenreader that reads out information on web pages to them. This is no problem when you're reading plain text but interpreting a table can be quite a challenge for a blind person. Nevertheless, with the proper markup we can replace visual associations by programmatic ones.
 
@@ -204,7 +204,9 @@ Visually the `scope` attribute won't make any difference, but for Screenreaders 
 
 - Return to `exercise-13.html` in your editor.
 
-- Add both `scope="col"` and `scope="row"` to the Second Table as shown above.
+- Add both `scope="col"` and `scope="row"` to the Second Table.
+
+- Use the examples above to help you.
 
 - Save `exercise-13.html` and view the page in your browser. 
 
@@ -221,7 +223,7 @@ Visually the `scope` attribute won't make any difference, but for Screenreaders 
 <p class="submit-work">Exercise 13 completed.</p> 
 
 
-> `scope` has two more possible values — `colgroup` and `rowgroup`. these are used for headings that sit over the top of multiple columns or rows. You can learn more below if you want.
+> `scope` has two more possible values — `colgroup` and `rowgroup`. These are used for headings that sit over the top of multiple columns or rows. You can learn more below if you want.
 
 
 <h2 class="deep">Deeper Learning</h2>

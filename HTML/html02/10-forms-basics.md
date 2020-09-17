@@ -63,7 +63,7 @@ Exercise 14 files and folders.
 
 1. The `input` field for the e-mail is an input of `type email`: a single-line text field that accepts only e-mail addresses.
 
-1. The `input` field for the message is a `<textarea>`; a multiline text field.
+1. The `input` field for the message is a `<textarea>`: a multiline text field.
 
 - Add the following code (type or copy & paste) to `exercise-14.html` between the `<form>` tags
 

@@ -32,7 +32,7 @@ Here is a little example:
 ```
 Which will display like this:
 
-<form>
+<form style="padding-bottom: 15px">
   <fieldset>
     <legend>Fruit juice size</legend>
     <p>
@@ -52,13 +52,13 @@ Which will display like this:
 
 When reading the above form, a screen reader will speak "**Fruit juice size small**" for the first widget, "**Fruit juice size medium**" for the second, and "**Fruit juice size large**" for the third.
 
-The use case in this example is one of the most important. Each time you have a set of radio buttons, you should nest them inside a `<fieldset>` element. There are other use cases, and in general the `<fieldset>` element can also be used to section a form. Ideally, long forms should be spread across multiple pages, but if a form is getting long and must be on a single page, putting the different related sections inside different `fieldsets` improves usability.
+Each time you have a set of radio buttons, you should nest them inside a `<fieldset>` element. There are other use cases, and in general the `<fieldset>` element can also be used to section a form. Ideally, long forms should be spread across multiple pages, but if a form is getting long and must be on a single page, putting the different related sections inside different `fieldsets` improves usability.
 
 Because of its influence over assistive technology, the `<fieldset>` element is one of the key elements for building accessible forms; however it is your responsibility not to abuse it. If possible, each time you build a form, try to listen to how a screen reader interprets it. If it sounds odd, try to improve the form structure.
 
 ## The `<label>` element
 
-As we saw in the previous article, The ```<label>``` element is the formal way to define a label for an HTML form widget. This is the most important element if you want to build accessible forms — when implemented properly, screenreaders will speak a form element's label along with any related instructions, as well as it being useful for sighted users. Take this example, which we saw in the previous article:
+As we saw in the previous chapter, the ```<label>``` element is the formal way to define a label for an HTML form widget. This is the most important element if you want to build accessible forms — when implemented properly, screenreaders will speak a form element's label along with any related instructions, as well as it being useful for sighted users. Take this example, which we saw in the previous article:
 
 ```
 <label for="name">Name:</label> <input type="text" id="name" name="user_name">
@@ -76,7 +76,7 @@ There is another way to associate a form control with a label — nest the form 
 
 Even in such cases however, it is considered best practice to set the for attribute to ensure all assistive technologies understand the relationship between label and widget.
 
-> If there is no label, or if the form control is neither implicitly or explicitly associated with a label, and a screenreader will read out something like "Edit text blank", which isn't very helpful at all.
+> If there is no label, or if the form control is neither implicitly or explicitly associated with a label, a screen reader will read out something like "Edit text blank", which isn't very helpful at all.
 
 ### Labels are clickable, too!
 

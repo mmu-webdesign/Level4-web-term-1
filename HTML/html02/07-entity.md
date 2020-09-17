@@ -42,7 +42,7 @@ To       be
 
 ## Entity references: Including special characters in HTML
 
-In HTML, the characters `<`, `>`,`"`,`'` and & are special characters. They are parts of the HTML syntax itself. So how do you include one of these special characters in your text? For example, if you want to use an ampersand or less-than sign, and not have it interpreted as code.
+In HTML, the characters `<`, `>`,`"`,`'` and & are special characters. They are part of the HTML syntax itself. So how do you include one of these special characters in your text? For example, if you want to use an ampersand or less-than sign, and not have it interpreted as code.
 
 You do this with character references. These are special codes that represent characters, to be used in these exact circumstances. Each character reference starts with an ampersand (&), and ends with a semicolon (;).
 
@@ -108,7 +108,7 @@ The character reference equivalent could be easily remembered because the text i
 
 <!-- end div -->
 
-> Note: You don't need to use entity references for any other symbols, as modern browsers will handle the actual symbols just fine as long, as your HTML's character encoding is set to UTF-8.
+> Note: You don't need to use entity references for any other symbols, as modern browsers will handle the actual symbols just fine as long as your HTML's character encoding is set to UTF-8.
 
 ## Superscript and subscript
 
@@ -215,7 +215,7 @@ https://careers.booking.com/
 
 - Comments can be used to temporarily hide a piece or section of code. This can be useful during development.
 
-- Leaving good comments can help someone who inherits you code in the future. Good comments helps provide insight into your coding and design decisions.
+- Leaving good comments can help someone who inherits your code in the future. Good comments helps provide insight into your coding and design decisions.
 
 <!-- end div -->
 
