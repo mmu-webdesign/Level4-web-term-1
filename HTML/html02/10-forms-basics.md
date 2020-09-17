@@ -65,7 +65,7 @@ Exercise 14 files and folders.
 
 1. The `input` field for the message is a `<textarea>`; a multiline text field.
 
-- Add the following to code (type or copy & paste) `exercise-14.html` between the `<form>` tags
+- Add the following code (type or copy & paste) to `exercise-14.html` between the `<form>` tags
 
 ```
  <ul>
