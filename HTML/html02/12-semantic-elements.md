@@ -40,19 +40,26 @@ This is because visuals don't tell the whole story. We use color and font size t
 
 ### Don't rely on just colour
 
+<blockquote>
 Most people with colour vision deficiency have difficulty distinguishing between shades of red, yellow and green.
 
 This is known as "red-green" colour vision deficiency. It's a common problem that affects around 1 in 12 men and 1 in 200 women.
 
 Someone with this type of colour vision deficiency may:
 
- - find it hard to tell the difference between reds, oranges, yellows, browns and greens
- - see these colours as much duller than they would appear to someone with normal vision
-- have trouble distinguishing between shades of purple
-confuse reds with black
+- Find it hard to tell the difference between reds, oranges, yellows, browns and greens.
+
+- See these colours as much duller than they would appear to someone with normal vision.
+
+- Have trouble distinguishing between shades of purple.
+
+- Confuse reds with black.
+
+In rare cases, some people have trouble with blues, greens and yellows instead. This is known as "blue-yellow" colour vision deficiency.
 
 Source - <a href="https://www.nhs.uk/conditions/colour-vision-deficiency">nhs.uk/colour-vision-deficiency</a>
 </blockquote>
+
 
 ## Semantic elements for adding structure
 
