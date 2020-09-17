@@ -18,25 +18,25 @@ A caption is placed directly beneath the `<table>` tag.
 
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 13 continued
 
 > Adding a caption.
 
+
 ### Task 1
 
-- Return to your HTML Tables Repl.it (`html13`)
+- Return to `exercise-13.html` in your editor.
 
-### Task 2
+- Using what you have learnt above, add a suitable caption to both of the tables using the `<caption> </caption>` element.
 
-- Add a suitable caption to both of the tables.
+- Remember it goes just under the opening `<table>` tag.
 
-### Task 3
+- Save `exercise-13.html` and view the page in your browser.
 
-- Run your code and view it in a browser to see what it looks like.
-
+<figure>
 <img src="media/table-caption.png" alt="The table headings are now highlighted in the browser">
-
-- If successful, you should be seeing both tables with captions - with your text obviously.
+<figcaption>If successful, you should be seeing both tables with captions - with your text obviously.<figcaption>
+</figure>
 
 <!-- end div -->
 
@@ -59,17 +59,15 @@ To use them:
 
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 13 continued
 
 > Adding table structure (and further semantics).
 
 ### Task 1
 
-- Return to your HTML Tables Repl.it (`html13`)
+- Return to `exercise-13.html` in your editor.
 
-### Task 2 
-
-- Using our Second Table, we are going to semantically mark-up the table sections, the head, the body and the footer using:
+- Using our **Second Table**, we are going to semantically mark-up the table sections, the head, the body and the footer using:
 
   + `<thead> </thead>`
   + `<tbody> </tbody>`
@@ -89,15 +87,18 @@ To use them:
     </tr>
   </thead>
 ```
-### Task 3
 
-- Run the page in the browser. We've included a bit of style (dark red font colour) for the `<thead>` so it should be obvious if it works.
+- Save `exercise-13.html` and view the page in your browser.
+
+- We've included a bit of style (dark red font colour) for the `<thead>` so it should be obvious if it works.
 
 <img src="media/table-thead.png" alt="The top row headings are now dark red - illustrating the thead has been implemented correctly">
 
-### Task 4
+### Task 2
 
-- Wrap the `<tbody>` tags around the next 5 rows.
+- Return to `exercise-13.html` in your editor.
+
+- Wrap the `<tbody> </tbody>` element around the next 5 rows.
 
 ```
 <tbody>
@@ -119,15 +120,17 @@ To use them:
 </tbody>
 ```
 
-### Task 5
+- Save `exercise-13.html` and view the page in your browser.
 
-- Run the page in the browser. We've included a bit of style (dark green font colour) for the `<tbody>`, so again it should be obvious if it works.
+- Again, we've included a bit of style (dark green font colour) for the `<tbody>`, so it should be obvious if it works.
 
 <img src="media/table-tbody.png" alt="The Eating Habits label now spans over the two rows">
 
-### Task 6
+### Task 3
 
-- Wrap the `<tfoot>` tags around the final row.
+- Return to `exercise-13.html` in your editor.
+
+- Wrap the `<tfoot> </tfoot>` element around the final row.
 
 - This one:
 
@@ -136,13 +139,15 @@ To use them:
     <th colspan="5">This table is brought to you by Pooches Pet Parlour</th>
   </tr>
 ```
-### Task 7
 
-- Run the page in the browser. We've included a bit of style (dark red font colour, italic) for the `<tfoot>`. Here is the whole page.
+- Save `exercise-13.html` and view the page in your browser.
+
+- We've included more style (dark red font colour, italic) for the `<tfoot>`. Here is the whole page.
 
 <img src="media/table-tfoot.png" alt="The Eating Habits label now spans over the two rows">
 
 <!-- end div -->
+
 
 ## Tables for visually impaired users
 
@@ -191,25 +196,30 @@ And each row could have a header defined using `scope="row"` like this:
 Visually the `scope` attribute won't make any difference, but for Screenreaders will recognize markup structured like this, and allow their users to read out the entire column or row at once, for example.
 
 <!-- div class="exercise" -->
-## Exercise Three
+## Exercise 13 continued
 
 > Adding `scope="col"` and `scope="row"` 
 
 ### Task 1
 
-- Return to your HTML Tables Repl.it (`html13`)
+- Return to `exercise-13.html` in your editor.
 
 - Add both `scope="col"` and `scope="row"` to the Second Table as shown above.
 
-- Run in the browser - visually there should be no change.
+- Save `exercise-13.html` and view the page in your browser. 
 
-- Validate the code to check for errors.
+- Visually there should be no change.
+
+- Validate `exercise-13.html` to check for errors.
+
+> This is the equivalent of a sighted person scanning over a table and spotting that Knocky's owner is the mother-in-law. It helps the screenreader associate that `<td> `containing **mother-in-law** with  the row and column headings.
+
+<img src="media/table-scope.png" alt="Our table, illustrating the link scope provides between col and row headings">
 
 <!-- end div -->
 
-> This is the equivalent of a sighted person scanning over a table and spotting that Knocky's owner is the mother-in-law. It helps the screenreader associate that <td> containing mother-in-law with  the row and column headings.
+<p class="submit-work">Exercise 13 completed.</p> 
 
-<img src="media/table-scope.png" alt="Our table, illustrating the link scope provides between col and row headings">
 
 > `scope` has two more possible values — `colgroup` and `rowgroup`. these are used for headings that sit over the top of multiple columns or rows. You can learn more below if you want.
 
