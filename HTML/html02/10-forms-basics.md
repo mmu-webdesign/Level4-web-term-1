@@ -12,22 +12,27 @@ Form controls can also be programmed to enforce specific formats or values to be
 
 <!-- div class="exercise" -->
 
-## Exercise One
+## Exercise 14
 
-> Implementing our form HTML
-
-Ok, let's have a go at creating the HTML for our form. We will use the following HTML elements: `<form>`, `<label>`, `<input>`, `<textarea>`, and `<button>`.
-
+- We've talked table theory enough, so, let's dive into a practical example and build up a simple table.
 
 ### Task 1
 
-> The `<form>` element
+> Open the `html14` folder.
 
-- Open [Repl.it - HTML Forms](https://repl.it/@webdesignmmu/html14)
+- Open `exercise-14.html` in your editor.
+
+<figure>
+<img src="media/ex-14.png" alt="The VSC interface">
+<figcaption>
+Exercise 14 files and folders. 
+</figcaption>
+</figure>
 
 
+> We will use the following HTML elements: `<form>`, `<label>`, `<input>`, `<textarea>`, and `<button>`.
 
-All forms start with a `<form>` element, like this:
+- All forms start with a `<form>` element, like this:
 
 ```
 <form action="/my-handling-form-page" method="post">
@@ -35,21 +40,24 @@ All forms start with a `<form>` element, like this:
 </form>
 ```
 
-As we have said, we are not interested at this stage in processing the form, so all you need to add to the `body` of the page is:
+- As we have said, we are not interested at this stage in processing the form, so all you need to add to the `body` of the page is opening and closing `<form>` tags.
 
 ```
 <form>
 
+
 </form>
 ```
 
-This element formally defines a form. It's a container element like a `<div>` element, but specifically for containing forms.
+- Save `exercise-14.html`.
+
+- This element formally defines a form. It's a container element like a `<div>` element, but specifically for containing forms.
 
 ### Task 2
 
 > The `<label>`, `<input>`, and `<textarea>` elements
 
-Our contact form is not complex: the data entry portion contains three text fields, each with a corresponding `<label>`:
+- Our contact form is not complex: the data entry portion contains three text fields, each with a corresponding `<label>`:
 
 1. The `input` field for the name is a single-line `text` field.
 
@@ -57,10 +65,9 @@ Our contact form is not complex: the data entry portion contains three text fiel
 
 1. The `input` field for the message is a `<textarea>`; a multiline text field.
 
-In terms of HTML code we need something like the following to implement these form widgets:
+- Add the following to code (type or copy & paste) `exercise-14.html` between the `<form>` tags
 
 ```
-<form>
  <ul>
   <li>
     <label for="name">Name:</label>
@@ -75,16 +82,13 @@ In terms of HTML code we need something like the following to implement these fo
     <textarea id="msg" name="user_message"></textarea>
   </li>
  </ul>
-</form>
 
 ```
 > *Note that the form elements are placed inside an un-ordered list. More about this below.*
 
-- Update your form code to look like the above by typing or copy & pasting the above.
+- Save `exercise-14.html` and view the page in your browser. 
 
-### Task 3
-
-- Run the page and view in the browser window. It should something like this - not pretty!
+- It should something like this - not pretty!
 
 <figure>
 <img src="media/form-ugly.png" alt="The form rendered in the browser">
@@ -131,15 +135,15 @@ by default this element is filled with this text
 ```
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 14 continued
 
 > The `<button>` element
 
-The markup for our form is almost complete; we just need to add a `button` to allow the user to send, or "submit", their data once they have filled out the form.
+- The markup for our form is almost complete; we just need to add a `button` to allow the user to send, or "submit", their data once they have filled out the form.
 
 ### Task 1
 
-- Return to the HTML Forms Repl.it (html14)
+- Return to `exercise-14.html` in your editor.
 
 - Add the `<button>` element by inserting it just above the closing `</ul>` tag:
 
@@ -149,15 +153,21 @@ The markup for our form is almost complete; we just need to add a `button` to al
 </li>
 ```
 
-### Task 2
+- Save `exercise-14.html` and view the page in your browser. 
 
-- Run to view in the browser. Your form should now include a rather ugly button (which again, can be styled).
+- You should now have a submit button added to your form.
 
 <img src="media/form-button.png" alt="The form rendered in the browser with a button">
 
+- Our button won't actually do anything as we have no script or programming attached to the form. Again we are focussing on the HTML.
+
 <!-- end div -->
 
-The `<button>` element also accepts a `type` attribute — this accepts one of three values: `submit`, `reset`, or `button`.
+<p class="submit-work">Exercise 14 completed.</p> 
+
+## It is also worth knowing...
+
+- The `<button>` element also accepts a `type` attribute — this accepts one of three values: `submit`, `reset`, or `button`.
 
 - A click on a submit button (the default value) sends the form's data to the web page defined by the action attribute of the `<form>` element.
 
