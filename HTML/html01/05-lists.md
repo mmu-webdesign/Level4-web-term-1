@@ -151,7 +151,7 @@ Creating an ordered and unordered list - there is no getting around it. To get u
 <figure>
 <img src="media/ex-05.png" alt="The VSC interface">
 <figcaption>
-The Visual Studio Code (VSC)editor window.
+The Visual Studio Code (VSC) editor window.
 </figcaption>
 </figure>
 
@@ -190,6 +190,9 @@ Regurgitator – Unit
 You Am I – Hi Fi Way
 Crowded House – Woodface
 ```
+
+- Save `exercise-05.html`, refresh the page in the browser.
+ 
 
 ### Solution
 

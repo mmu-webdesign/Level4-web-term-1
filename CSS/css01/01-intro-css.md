@@ -30,13 +30,11 @@ Like most large websites, if you remove the custom styles and revert to the brow
 The developer tools (Dev Tools) in your browser can really help understand and bug test your CSS. It also helps you understand the User Agent Styles that the browser is applying.
 
 <!-- div class="exercise" -->
-## Exercise One
+## To Do - Dev Tools
 
 > How to use browser developer tools
 
-### Task 1
-
-- Watch the video linked below to get a good understanding of how the Dev Tools work, and how to see both browser styles and your own. You can [view the sample file](media/example.html) in your browser and follow the task demonstrated.
+If you are still unsure about browser developer tools watch the video linked below to get a good understanding of how the Dev Tools work, and how to see both browser styles and your own. You can [view the sample file](media/example.html) in your browser and follow the task demonstrated.
 
 - **LinkedIn Learning Video**: [Browser developer tools](https://www.linkedin.com/learning/css-essential-training-3/browser-developer-tools?u=36102708) - Every modern browser includes a set of browser developer tools, which can be used to inspect the HTML, CSS and JavaScript on any webpage.
 
@@ -79,25 +77,40 @@ p {
 ```
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 1
 
-> Apply this simple CSS ruleset
+> Apply a simple CSS ruleset.
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - First CSS](https://repl.it/@webdesignmmu/css01) 
+- Open the `css01` folder.
 
-- Run the page in the browser to see the heading and paragraphs.
+- Open `exercise-01.html` in your editor.
 
-- Note that browser default (User Agent) styles include larger font size for the `<h1>`, margins above and below the heading and paragraphs; and margins to the left and right.
+<figure>
+<img src="media/ex-01.png" alt="The VSC interface">
+<figcaption>
+The Visual Studio Code (VSC) editor window.
+</figcaption>
+</figure>
+
+- Open `exercise-05.html` in your browser to see the heading and paragraphs.
+
+<figure>
+<img src="media/ex-01-1.png" alt="The VSC interface">
+<figcaption>
+All of the browser default (User Agent) styles that you've got used to seeing in the HTML exercsies are in place including a larger font size for the &lt;h1&gt;, margins above and below the heading and paragraphs; and margins to the left and right.
+</figcaption>
+</figure>
+
 
 ### Task 2
 
-- Apply our own styles.
+> Apply our own styles.
 
-- Select the `style.css` file in the editor - it should be blank
+- View the file `style.css` in the editor - it should be blank.
 
-- Copy & paste our initial style into `style.css`
+- Copy & paste our initial style into `style.css`.
 
 ```
 p {
@@ -106,7 +119,10 @@ p {
   border: 1px solid black;
 }
 ```
-- Select `index.html` and Run the page to view it in the browser.
+
+- Save `style.css`.
+
+- Refresh `exercise-01.html` in the browser.
 
 - You should now have a page like this:
 
@@ -127,14 +143,13 @@ p {
 }
 ```
 
-- In plain english the ruleset reads:
+- In plain english the ruleset reads: Every paragraph on the page
 
-    + Every paragraph on the page
     + font colour red (notice the USA spelling)
     + each paragraph is 400 pixel wide
     + each paragraph gets a 1 pixel wide, solid (not dotted or dashed) border, colour black.
 
-### Task 2
+### Task 3
 
 - To finish off, try to add a further ruleset that  targets the `<h1>` heading, to make the text blue.
 
@@ -154,7 +169,9 @@ property: value;
 ```
 - Your property is the colour (spelt `color`) and the value is `blue`.
 
-- Complete the style and Run `index.html` in the browser.
+- Save `style.css`.
+
+- Refresh `exercise-01.html` in the browser.
 
 <figure>
 <img src="media/blue-heading.png" alt="The page rendered in the browser, now with a blue heading">
@@ -177,15 +194,22 @@ To get a better understanding of this topic use the following resources.
 
 - Mozilla Developer Video: [Where do browser styles come from](https://youtu.be/spK_S0HfzFw) (7m 01s) - More detail.
 
-- MDN: `<p>` - [The Paragraph element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
-
 - LinkedIn Learning Video: [Jen Simmons -  Formatting html](https://www.linkedin.com/learning/html-essential-training-4/formatting-html?u=36102708) (4m 30s)
+
+- Article - CSS Tricks: [CSS Basics: The Second “S” in CSS](https://css-tricks.com/css-basics-second-s-css/) 
+
+- Video - CSS Tricks: [HTML & CSS – The VERY Basics](https://css-tricks.com/video-screencasts/58-html-css-the-very-basics/)
+
+- Article - CSS Tricks: [CSS Basics: The Syntax That Matters & The Syntax That Doesn’t](https://css-tricks.com/css-basics-syntax-matters-syntax-doesnt/) 
+
 
 <h2 class="books">CSS Resources</h2>
 
 - THE resource for all things CSS - [CSS Tricks](https://css-tricks.com/)
 
 - LinkedIn Learning Video - The full [CSS Essential Training](https://www.linkedin.com/learning/css-essential-training-3/)
+
+
 
 <h2 class="deep">Advanced Learning</h2>
 
@@ -221,15 +245,6 @@ It is unusual for all browsers to implement a feature at the same time, and so t
 
 The website [Can I Use](https://caniuse.com/) is a great resource for checking what features are working in what browser.
 
-<h2 class="deep">Deeper Learning</h2>
-
-To get a better understanding of this topic use the following resources.
-
-- Article - CSS Tricks: [CSS Basics: The Second “S” in CSS](https://css-tricks.com/css-basics-second-s-css/) 
-
-- Video - CSS Tricks: [HTML & CSS – The VERY Basics](https://css-tricks.com/video-screencasts/58-html-css-the-very-basics/)
-
-- Article - CSS Tricks: [CSS Basics: The Syntax That Matters & The Syntax That Doesn’t](https://css-tricks.com/css-basics-syntax-matters-syntax-doesnt/) 
 
 
 ### &copy; Credit given
