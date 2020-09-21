@@ -75,8 +75,7 @@ This immediately doesn't look great. But the page does display despite the error
       then its effect can spread to areas you didn't intend
 
   <li>Badly nested elements: Nesting elements properly is also very important
-      for code behaving correctly. <strong>strong <em>strong emphasised?</strong>
-      what is this?</em>
+      for code behaving correctly. <strong><em>strong emphasised?</strong></em> What is this?
 
   <li>Unclosed attributes: Another common source of HTML problems. Let's
       look at an example: <a href="https://www.mozilla.org/>link to Mozilla
@@ -92,7 +91,7 @@ This immediately doesn't look great. But the page does display despite the error
 
 - The first `<strong>` element has no closing tag. This is a bit more problematic, as it isn't easy to tell where the element is supposed to end. In fact, the whole of the rest of the text has been strongly emphasised.
 
-- This section is badly nested: `<strong>strong <em> strong emphasised?</strong> what is this?</em>`. It is not easy to tell how this has been interpreted because of the previous problem. *Remember the rule? First in, last out*.
+- This section is badly nested: `<strong> <em> strong emphasised?</strong></em> What is this?`. It is not easy to tell how this has been interpreted because of the previous problem. *Remember the rule? First in, last out*.
 
 - The `href` attribute value has a missing closing double quote. This seems to have caused the biggest problem — the link has not rendered at all.
 
