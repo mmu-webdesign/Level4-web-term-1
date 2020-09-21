@@ -136,7 +136,7 @@ On some devices — notably, touch devices with dynamic keyboards like smart pho
 <figure>
 <img src="media/keys-email.jpg" alt="IOS email keyboard">
 <figcaption>
-IOS email keyboard, with ampersand displayed by default.
+IOS email keyboard, with @ displayed by default.
 </figcaption>
 </figure>
 
@@ -162,7 +162,7 @@ The following IOS keyboard screenshot provides an example:
 <figure>
 <img src="media/keys-tel.jpg" alt="IOS email keyboard">
 <figcaption>
-IOS email keyboard, with ampersand displayed by default.
+IOS phone number keyboard displayed by default.
 </figcaption>
 </figure>
 
