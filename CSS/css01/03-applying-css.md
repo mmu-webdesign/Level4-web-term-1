@@ -187,7 +187,7 @@ A simple HTML page - headings, paragraphs and link. Browser default styles.
 </figcaption>
 </figure>
 
-### Task 2
+### Task 2 - Inline style
 
 
 - Add an **inline style** that makes the `<h1>` heading **blue**.
@@ -198,7 +198,7 @@ A simple HTML page - headings, paragraphs and link. Browser default styles.
 
 - Check you have a blue main heading.
 
-### Task 3
+### Task 3 - Internal style
 
 - Add an **internal style** that makes both of the `<h2>` headings **green**.
 
@@ -217,7 +217,7 @@ Inline and internal styles applied to the HTML file <code>exercise-03.html</code
 </figcaption>
 </figure>
 
-### Task 4
+### Task 4 - External style
 
 - Add an **external style** that makes the paragraph text **red**.
 
@@ -286,7 +286,7 @@ div p, #id:first-line {
 ```
 
 <!-- div class="exercise" -->
-## Exercise 3
+## Exercise 3 continued
 
 > Add a comment to your external CSS.
 

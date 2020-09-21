@@ -154,25 +154,50 @@ The benefit of using relative units is that with some careful planning you can m
 
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 4
 
 > Using ems and rems.
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - ems and rems](https://repl.it/@webdesignmmu/css04)
+- Open the `css04` folder.
+
+- Open `exercise-04.html` in your editor.
+
+<figure>
+<img src="media/ex-04.png" alt="The VSC interface">
+<figcaption>
+The Visual Studio Code (VSC) editor window.
+</figcaption>
+</figure>
 
 ### Task 2
 
+- Open `exercise-04.html` in the browser to check it works.
+
 - Review the HTML
 
-- The HTML is a set of nested lists — we have three lists in total and both examples have the same HTML. The only difference is that the first has a `class` of `ems` and the second a `class` of `rems`. Ignore the `Percentages` list for now.
+- The HTML is a set of nested lists — we have three lists in total and both examples have the same HTML. 
+
+- The only difference is that the first has a `class` of `ems` and the second a `class` of `rems`. Ignore the `Percentages` list for now.
+
+<figure>
+<img src="media/ex-04-1.png" alt="exercise-04.html rendered in the browser">
+<figcaption>
+Three lists.
+</figcaption>
+</figure>
+
 
 ### Task 3
 
-- To start with, we set 16px as the font size on the `<html>` element.
+- Return to the `css04` folder.
 
-- Add to 'style.css' the following ruleset:
+- Open `style.css` in your editor.
+
+- To start with, we set 16px as the *font size* on the `<html>` element.
+
+- Add to `style.css` the following ruleset:
 
 ```
 html {
@@ -181,48 +206,79 @@ html {
 ```
 - This sets the base `font-size` as the the absolute length unit of 16 pixels.
 
-### Task 4
+- Save `style.css` and refresh `exercise-04.html` in the browser.
 
-- Add to 'style.css' the following:
+- Nothing will have changed because the browser default base font size is usually 16px.
+
+### Task 4 - Ems
+
+- Return to `style.css` in your editor and add the following ruleset:
 
 ```
 .ems li {
   font-size: 1.3em;
 }
 ```
-- This sets the font size for the `<li>` elements in the lust with the class of `ems`.
 
-- Run `index.html` in the browser.
+- This sets the font size for the `<li>` elements in the list with the class of `ems`.
 
-- The `em` unit means "my parent element's font-size" in the case of typography. The `<li>` elements inside the `<ul>` with a class of `ems` take their sizing from their parent. **So each successive level of nesting gets progressively larger, as each has its font size set to 1.3em — 1.3 times its parent's font size**.
+- Save `style.css` and refresh `exercise-04.html` in the browser.
 
-### Task 4
+- The `em` unit means "my parent element's font-size" in the case of typography. 
 
-- Add to 'style.css' the following:
+- The `<li>` elements inside the `<ul>` with a class of `ems` take their sizing from their parent. **So each successive level of nesting gets progressively larger, as each has its font size set to 1.3em — 1.3 times its parent's font size**.
+
+<figure>
+<img src="media/ex-04-2.png" alt="The lists rendered with em font sizing">
+<figcaption>
+Therefore, as we have a list inside a list, inside a list - the font size increases each time.
+</figcaption>
+</figure>
+
+
+### Task 4 - Rems
+
+- Return to `style.css` in your editor and add the following ruleset:
 
 ```
 .rems li {
   font-size: 1.3rem;
 }
 ```
-- Run `index.html` in the browser.
+- Save `style.css` and refresh `exercise-04.html` in the browser.
 
-- The `rem` unit means "The root element's font-size". (`rem` stands for "root em".) The `<li>` elements inside the `<ul>` with a class of `rems` take their sizing from the root element (`<html>`). This means that each successive level of nesting does not keep getting larger.
+- The `rem` unit means "The root element's font-size". (`rem` stands for "root em".) 
 
-However, if you change the` <html>` `font-size` in the CSS you will see that everything else changes relative to it — both `rem`- and `em`-sized text.
+- The `<li>` elements inside the `<ul>` with a class of `rems` take their sizing from the root element (`<html>`) - not the parent like `ems`. 
+
+<figure>
+<img src="media/ex-04-3.png" alt="List rendered with rems">
+<figcaption>
+This means that each successive level of nesting does not keep getting larger.
+</figcaption>
+</figure>
+
 
 ### Task 3
 
-- Change the 16px font size to 20px.
+Changing the` <html>` `font-size` in the CSS will mean that everything else changes relative to it — both `rem`- and `em`-sized text.
+
+- Return to `style.css` in your editor and change the `16px` font size to `20px`.
 
 ```
 html {
   font-size: 20px;
 }
 ```
-- Run `index.html` in the browser.
 
-- Note how everything else changes relative to it.
+- Save `style.css` and refresh `exercise-04.html` in the browser.
+
+<figure>
+<img src="media/ex-04-4.png" alt="List rendered with rems">
+<figcaption>
+Note how everything else changes relative to it.
+</figcaption>
+</figure>
 
 - You can see that using `rem` is simpler. You don't have to worry about the nesting issues of `em`, although this can sometimes be handy.
 
@@ -238,15 +294,13 @@ There are lots of articles, blog posts and tweets arguing the merit of `em`, `re
 In a lot of cases, a percentage is treated in the same way as a length. The thing with percentages is that they are always set relative to some other value. For example, if you set an element's font-size as a percentage it will be a percentage of the font-size of the element's parent. If you use a percentage for a width value, it will be a percentage of the width of the parent.
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 4 continued
 
 > Using percentages.
 
 ### Task 1
 
-- Return to ems and rems Repl.it (css04)
-
-### Task 2
+- Return to the `css04` folder.
 
 - Add the following to your CSS in `style.css`:
 
@@ -255,15 +309,24 @@ In a lot of cases, a percentage is treated in the same way as a length. The thin
     font-size: 80%;
 }
 ```
-- Run `index.html` in the browser.
+- Save `style.css` and refresh `exercise-04.html` in the browser.
 
-- As the font sizes set in percentages. Each `<li>` has a `font-size` of `80%`, therefore you will see that the nested list items become progressively smaller as they inherit their sizing from their parent.
+- View the **percentages** list at the bottom of the page.
+
+- As the font sizes are set in percentages each `<li>` has a `font-size` of `80%`, therefore you will see that the nested list items become progressively smaller as they inherit their sizing from their parent.
+
+<figure>
+<img src="media/ex-04-5.png" alt="List rendered with percentages">
+<figcaption>
+The list items get smaller as they become 80% of their parent.
+</figcaption>
+</figure>
 
 <!-- end div -->
 
 > Note that, while many values accept a length or a percentage, there are some that only accept length. 
 
-
+- These exercises show how these values are applied and some of the issues related to them. You will discover more as we define font sizes, and even more in the second assignment as we start to size containers.
 
 <h2 class="deep">Deeper Learning</h2>
 
