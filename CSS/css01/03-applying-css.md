@@ -159,44 +159,80 @@ The `href` attribute of the `<link>` element needs to reference a file on your f
 - Make sure it has the `.css` file extension.
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 3
 
 > Apply inline, internal and external CSS.
 
+Using what you have learnt above add three styles to this document, using the inline, internal and external methods.
+
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - Applying CSS](https://repl.it/@webdesignmmu/css03) 
+- Open the `css03` folder.
 
-> using what you have learnt above add three styles to this document, using the inline, internal and external methods.
+- Open `exercise-03.html` in your editor.
+
+<figure>
+<img src="media/ex-03.png" alt="The VSC interface">
+<figcaption>
+The Visual Studio Code (VSC) editor window.
+</figcaption>
+</figure>
+
+- Open `exercise-03.html` in the browser to check it works.
+
+<figure>
+<img src="media/ex-03-1.png" alt="exercise-03.html rendered in the browser">
+<figcaption>
+A simple HTML page - headings, paragraphs and link. Browser default styles.
+</figcaption>
+</figure>
 
 ### Task 2
 
-- Add an inline style that makes the `<h1>` heading **blue**.
+
+- Add an **inline style** that makes the `<h1>` heading **blue**.
 
 - Remember - the `style=""` attribute goes right in the opening tag of the `<h1>` element.
 
+- Save `exercise-03.html` and reload the web page in your browser. 
+
+- Check you have a blue main heading.
+
 ### Task 3
 
-- Add an internal style that makes the `<h2>` headings **green**.
+- Add an **internal style** that makes both of the `<h2>` headings **green**.
 
 - Remember - the `<style></style>` element goes in the head of the html document.
 
 - Remember - the style rule sits inside those `style` tags.
 
+- Save `exercise-03.html` and reload the web page in your browser. 
+
+- Check you both sub-headings are green.
+
+<figure>
+<img src="media/ex-03-2.png" alt="exercise-03.html rendered in the browser">
+<figcaption>
+Inline and internal styles applied to the HTML file <code>exercise-03.html</code> 
+</figcaption>
+</figure>
+
 ### Task 4
 
-- Add an external style that makes the paragraph text **red**.
+- Add an **external style** that makes the paragraph text **red**.
 
 - Remember - the style rule goes in the file `style.css`
 
-- Remember - you need to link to `style.css` in the head of your `html` file using the `<link>` element.
+- You need to link to `style.css` in the head of your `html` file using the `<link>` element.
+
+- Save both `style.css` and `exercise-03.html` and refresh the page in the browser.
 
 > Stuck with the syntax of any of these styles? Just scroll up the page to see our examples of inline, internal and external styles.
 
 <figure>
 <img src="media/applying-css.png" alt="The page rendered in the browser, now with a blue heading">
 <figcaption>
-You should end up with a page like this. Validate the HTML to look for errors.
+You should end up with a page like this. Validate the HTML to check for errors.
 </figcaption>
 </figure>
 
@@ -239,28 +275,56 @@ div p, #id:first-line {
 }
 ```
 
-"Commenting out" code is also useful for temporarily disabling sections of code for testing. In the example below, the rules for `.special` are disabled by "commenting out" the code.
+"Commenting out" code is also useful for temporarily disabling sections of code for testing. In the example below, one of the rules for `.special` are disabled by "commenting out" the code.
 
 ```
-/*.special { 
-  color: red; 
-}*/
-
-p { 
-  color: blue; 
+.special { 
+  color: red;
+  /* border: 1px solid red; */
 }
+
 ```
 
 <!-- div class="exercise" -->
-## Exercise TWO
+## Exercise 3
 
 > Add a comment to your external CSS.
 
+
 ### Task 1
 
-- Return to the Applying CSS Repl.it (css03) 
+- Return to the `css03` folder in VSC.
 
-- Add a CSS comment to `style.css`, just adding your *name* and the *company* you work for.
+- Add a CSS comment to the top of `style.css`
+
+- Add your *name* and the *company* you work for.
+
+- Save `style.css`
+
+- Refresh `exercise-03.html` in the browser to check the comment hasn't caused any issues.
+
+### Task 2
+
+- Return to `style.css`
+
+- Add a `font-size` rule to your paragraph ruleset so it now looks like the following:
+
+```
+p {
+    color: red;
+    font-size: 1.2rem;
+}
+```
+
+- Save `style.css` and refresh `exercise-03.html` in the browser to view the larger paragraph font size.
+
+### Task 3
+
+- Now wrap a CSS comment `/*  */` around that new rule.
+
+- Save `style.css` and refresh `exercise-03.html` in the browser.
+
+- The `font-size: 1.2rem;` style should no longer be applied - it has been *commented out*.
 
 <!-- end div -->
 
@@ -292,7 +356,7 @@ div p + p {
 }
 ```
 
-The next example shows the equivalent CSS  in a more compressed format. Although the two examples work the same, the one below is more difficult to read.
+The next example shows the equivalent CSS  in a more compressed format. Although the two examples work the same, the one below is arguably more difficult to read.
 
 ```
 h1 {font-size: 1.5em;}
