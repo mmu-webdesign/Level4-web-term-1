@@ -67,7 +67,7 @@ When you accept the University’s offer of a place, you form a contract with th
 
 - Cite the following source - `https://www.mmu.ac.uk/academic/casqe/regulations/docs/policies_regulations.pdf`
 
-- Save `exercise-10.html` and view the page in your browser.
+- Save `exercise-12.html` and view the page in your browser.
 
 - You will see an indented paragraph. The citied URL is in the code only and not visible on the page. 
 
@@ -112,7 +112,7 @@ Richard Osman says being 6ft 7in, I've never walked into a room, got on the tube
 
 - Cite the following source - `https://www.bbc.co.uk/news/entertainment-arts-53648026`
 
-- Save `exercise-10.html` and view the page in your browser.
+- Save `exercise-12.html` and view the page in your browser.
 
 - The quote should now be quoted. Again the `<q>` element could be styled to enhance the effect. See [bobulate.com](https://bobulate.com/) for nice examples.
 
