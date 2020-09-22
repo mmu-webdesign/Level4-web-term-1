@@ -15,32 +15,54 @@ In her book [Learning Web Design](https://www.learningwebdesign.com/), Jennifer 
 
 The easiest way to understand the box model is to envision that every element (block and inline) on the page is contained by its own rectangle box. That's every heading, paragraph, span, header, footer etc. 
 
-This is why we can apply properties to each of those blocks as we have been doing. We can add backgrounds, borders, margins and padding. We can even postion them - mode to come.
+This is why we can apply properties to each of those blocks as we have been doing. We can add backgrounds, borders, margins and padding. We can even position them - more to come.
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 7
 
 > Viewing the box model.
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - Concepts](https://repl.it/@webdesignmmu/css07)
+- Open the `css07` folder.
+
+- Open `exercise-07.html` in your editor.
+
+<figure>
+<img src="media/ex-07.png" alt="The VSC interface">
+<figcaption>
+The Visual Studio Code (VSC) editor window.
+</figcaption>
+</figure>
 
 ### Task 2
 
-- Using the `*` selector add the following line to `style.css`.
+- Open `exercise-07.html` in the browser to check it works.
+
+<figure>
+<img src="media/ex-07-1.png" alt="exercise-07.html rendered in the browser">
+<figcaption>
+The basic Back to the Future page, with some basic styles.
+</figcaption>
+</figure>
+
+
+### Task 3
+
+- Open `style.css` in the editor.
+
+- Using the `*` selector add the *test style* to `style.css`.
 
 ```
 * {
   border: 1px solid red; 
 }
 ```
+- Save `style.css` and refresh `exercise-07.html` in the browser.
 
-- The `*` selector selects everything on the page - it applies our style to everything on the page. This is not a selector you would use very often, if at all.
+- As you have already seen, the `*` selector selects everything on the page - it applies our style to everything on the page. This is not a selector you would use very often, if at all.
 
-### Task 3
-
-- Run the page in the browser. You should now see **every element on the page** has a thin red border - this is showing every box on the page. This includes:
+- The thin red border is applied to all elements including:
 
 - `body`
 - `header`
@@ -61,6 +83,49 @@ The red border helps us see <em>every</em> box.
 </figcaption>
 </figure>
 
+#### Things to note
+
+- Each box stretches across the page if it can.
+
+- Note - for example the headings - the text finishes but the box continues.
+
+- Inline elements also have their own box.
+
+- The box model is beautiful, but can be confusing - more later.
+
+### Task 4
+
+- To see individual boxes try adjusting our *test* style.
+
+- Change `* {border: 1px solid red;}` in your stylesheet to:
+
+```
+header {
+  border: 1px solid red;
+}
+```
+
+- Save `style.css` and refresh `exercise-07.html` in the browser to see the box that the `<header>` element creates.
+
+- Then change the same style to:
+
+```
+article {
+  border: 1px solid red;
+}
+```
+- Save `style.css` and refresh `exercise-07.html` in the browser to see the box that the `<article>` element creates.
+
+- Repeat this with a few more elements that you can see in `exercise-07.html` to get a clearer idea of the boxes created by each element.
+
+### Task 5
+
+- Remove *red border test style* from your stylesheet.
+
+- Save `style.css` and refresh `exercise-07.html` in the browser.
+
+- Check that the red borders have gone.
+
 <!-- end div -->
 
 > Using `* {border: 1px solid red;}` in you CSS is a really handy way to identify what is happening on the page when you are struggling with the *box model* - which you will!
@@ -72,17 +137,13 @@ Inheritance is the method where CCS properties are passed down (or not) form a H
 > You have already seen inheritance in action.
 
 <!-- div class="exercise" -->
-## Exercise Two
+## To Do - Inheritance
 
-> Inheritance in action.
+> Inheritance in action. We are just going to look at the code we already have in place.
 
 ### Task 1
 
-- Return to your Concepts Repl.it (css07)
-
-### Task 2
-
-- Remove `* {border: 1px solid red;}` from your stylesheet and add the following styles:
+- Return to `style.css` in the editor and look at the styles we have provided:
 
 ```
 html {
@@ -96,9 +157,7 @@ body {
     line-height: 1.6;
 }
 ```
-- Run the page in the browser.
-
-### Task 3
+- View `exercise-07.html` in the browser.
 
 Things to note:
 
@@ -108,16 +167,20 @@ Things to note:
 
 - As we've specified `font-size`, `color`, `font-family` and `line-height` - this is the **cascade** in action - more shortly.
 
-### Task 4
+### Task 2
+
+- View `exercise-07.html` in the editor.
 
 - Look at the first paragraph.
 
 <figure>
 <img src="media/concepts-two.png" alt="paragraph rendered next to actual code">
 <figcaption>
-Note that the styles inherited from our `body` styling are inherited by both the paragraph and then the span and em elements inside - the <code>font-size</code>, <code>color</code>, <code>font-family</code> and <code>line-height</code>.
+Note that the styles inherited from our `body` styling are inherited by both the paragraph and the span and em elements inside - the <code>font-size</code>, <code>color</code>, <code>font-family</code> and <code>line-height</code>.
 </figcaption>
 </figure>
+
+- The inheritance works here because we wouldn't the flow of these styles to stop just because parts of the paragraph are inside other (inline) elements.
 
 <!-- end div -->
 
@@ -135,9 +198,9 @@ h2 + p{
 ```
 You will note the following:
 
-- That all the text inherits the colour, including the etx in the `span` and `em` elements.
+- That **all** the text inherits the colour, including the text in the `span` and `em` elements.
 
-- that the `span` and `em` elements don't inherit the border.
+- **BUT** - the `span` and `em` elements don't inherit the border.
 
 <figure>
 <img src="media/concepts-three.png" alt="Paragraph rendered with red text and orange border.">
@@ -162,7 +225,7 @@ As you already know, CSS allows us to apply styles from a number of sources - th
 
 The stylesheet hierarchy determines which style wins.
 
-- Any User agent styles are applied first
+- Any User agent (browser) styles are applied first
 - External styles are next
 - Embedded styles follow
 - Inline styles have the final say and override all others
@@ -184,17 +247,16 @@ Specificity is how the browser decides which rule applies if multiple rules have
 
 - **A class selector is more specific** — it will select only the elements on a page that have a specific class attribute value — so will get a higher score.
 
+- **An ID selector is even more specific** — it will select only the one element on a page that has a specific ID attribute value — so will be very specific and get a higher score. This is why developers avoid IDs for CSS if possible.
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 7 continued
 
 > Cascade and specificity in action.
 
 ### Task 1
 
-- Return to your Concepts Repl.it (css07)
-
-### Task 2
+- Return to `exercise-07.html` in your editor.
 
 - Add a second `<h2>` above the paragraph that starts with *Jeff Goldblum originally auditioned*...
 
@@ -204,21 +266,30 @@ Specificity is how the browser decides which rule applies if multiple rules have
 <h2 class="also">Also ran</h2>
 ```
 
-### Task 3
+- Save `exercise-07.html`
+
+### Task 2
+
+- Return to `style.css` in your editor.
 
 - Apply a simple style to that class by adding to your stylesheet the following:
 
 ```
 .also {
-    colour: #4B0082;
+    color: #4B0082;
 }
 ```
 
-- Run the page in the browser - you now have a nifty, indigo coloured sub-heading.
+- Save `style.css` and refresh `exercise-07.html` in the browser. 
 
+<figure>
 <img src="media/concepts-four.png" alt="Screenshot of the new heading">
+<figcaption>
+You now have a nifty, indigo coloured sub-heading.
+</figcaption>
+</figure>
 
-### Task 4
+### Task 3
 
 Let's work out what is at play here:
 
@@ -240,7 +311,9 @@ Dev Tools in the browser lets us see what CSS is being used and what CSS is bein
 </figcaption>
 </figure>
 
-### Task 5
+### Task 4
+
+- Return to `style.css` in your editor.
 
 - Add a `font-size` to the class we created.
 
@@ -250,15 +323,15 @@ Dev Tools in the browser lets us see what CSS is being used and what CSS is bein
     font-size: 2rem;
 }
 ```
-- Run the page in the browser.
+- Save `style.css` and refresh `exercise-07.html` in the browser. 
 
-- If you can, open the page up in another window (as we did before), and right click to **Inspect** with the Dev Tools.
+- If you can, right click to **Inspect** with the Dev Tools.
 
 
 <figure>
 <img src="media/concepts-six.png" alt="Screenshot from the dev tools, showing the change in the CSS ruleset">
 <figcaption>
-Following that extra style, you should se that our new <code>font-size</code> (because it's more specific), over-writes the original <code>h2</code> style.
+Following that extra style, you should see that our new <code>font-size</code> (because it's more specific), over-writes the original User Agent (browser) default <code>h2</code> style.
 </figcaption>
 </figure>
 
