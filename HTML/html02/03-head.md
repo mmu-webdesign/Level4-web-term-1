@@ -85,7 +85,7 @@ Just `Harry's Fish & Chips` might be too vague. Where? Chicago?
 If it's not as clear as `fish and chips`, you may need more. `car parts` alone may not be enough.
 
 ```
-<title>Gregg's Car Parts, VW, Ford and Renault. Altincham UK</title>
+<title>Gregg's Car Parts, VW, Ford and Renault. Altrincham UK</title>
 ```
 Avoid the words `Welcome` or `Home Page` as they are often wasted words (unless again, you are the BBC or MMU). These are so `1995`! If it's your site, don't just use your name unless it's `Madonna` or `Banksy`.
 
