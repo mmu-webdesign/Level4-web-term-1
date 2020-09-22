@@ -78,7 +78,7 @@ The title on your homepage will usually reflect the whole site, company or brand
 If you are a little smaller, you may require some context. For example:
 
 ```
-<title>Harry's Fish & Chips, Altincham UK</title>
+<title>Harry's Fish & Chips, Altrincham UK</title>
 ```
 Just `Harry's Fish & Chips` might be too vague. Where? Chicago? 
 
