@@ -4,7 +4,7 @@
 
 > Please watch the following short video. These will help you better understand the rest of this chapter.
 
-- LinkedIn Learning Video: [CSS essential training -  [Typography for the web](https://www.linkedin.com/learning/css-essential-training-3/typography-for-the-web?u=36102708) 2m 59s
+- LinkedIn Learning Video: [CSS essential training -  [Typography for the web](https://www.linkedin.com/learning/css-essential-training-3/typography-for-the-web?u=36102708) (2m 59s)
 
 The CSS properties used to style text generally fall into two categories, which we'll look at separately in this article:
 
@@ -22,7 +22,7 @@ Let's move straight on to look at properties for styling fonts.
 
 The `color` property sets the colour of the foreground content of the selected elements (which is usually the text, but can also include a couple of other things, such as an underline or overline placed on text using the `text-decoration` property).
 
-`color` can accept any CSS colour unit, for example:
+As you know, `color` can accept any CSS colour unit, for example:
 
 `p {
     color: red;
@@ -40,29 +40,76 @@ Or
     color: rgb(255,0,0);
 }`
 
-<p style="color:#FF0000;">All of which would produce red text.</p>
+<p style="color:#FF0000; margin: 20px">All of which would produce red text.</p>
 
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 6
 
 > Adding colour.
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - Typography](https://repl.it/@webdesignmmu/css06)
+- Open the `css06` folder.
+
+- Open `exercise-06.html` in your editor.
+
+<figure>
+<img src="media/ex-06.png" alt="The VSC interface">
+<figcaption>
+The Visual Studio Code (VSC) editor window.
+</figcaption>
+</figure>
 
 ### Task 2
 
-- Create a stylesheet, `style.css` on the root of the site.
+- Open `exercise-06.html` in the browser to check it works.
 
-- Add a link to `style.css` to the `<head> of `index.html`.
+<figure>
+<img src="media/ex-06-1.png" alt="exercise-06.html rendered in the browser">
+<figcaption>
+The basic Tommy the cat page, with browser default styles.
+</figcaption>
+</figure>
 
-- Syntax - `<link href="style.css" rel="stylesheet">`
 
 ### Task 3
 
-- Add the following colours to the heading text and the paragraph text.
+- Return to the `css06` folder in your editor.
+
+- Create a stylesheet, `style.css` on the root of the `css06` folder.
+
+- Add the test style:
+
+```
+* {
+    border: 1px solid red;
+}
+```
+- Save `style.css`.
+
+### Task 4
+
+- Return to `exercise-06.html` and add a link to `style.css` to the `<head>` of `index.html` using the `<link>` element as before.
+
+- Refresh `exercise-06.html` to check that the styles are applied.
+
+- If they are not, check your link, check the location of your css file.
+
+<figure>
+<img src="media/ex-06-2.png" alt="exercise-06.html rendered in the browser">
+<figcaption>
+Thin red border applied to all elements of the page.
+</figcaption>
+</figure>
+
+### Task 5
+
+- Return to `style.css` in the editor.
+
+- Remove the test (red border) styles.
+
+- Add the following colours to the heading text and the paragraph text:
 
 ```
 h1 {
@@ -73,14 +120,16 @@ p {
     color: #2F4F4F;
 }
 ```
-- Run in the browser.
 
-- You should have a maroon heading and dark slate grey text. If it's not working check:
+- Save `style.css` and refresh `exercise-06.html` in the browser.
 
-    + Your link to the stylesheet - is it the correct syntax? Is it the correct filename?
-    + Is the CSS written as above?
+<figure>
+<img src="media/ex-06-3.png" alt="exercise-06.html rendered in the browser">
+<figcaption>
+You should have a maroon heading and dark slate grey text.
+</figcaption>
+</figure>
 
-- Fix any issues and run the page again.
 
 <!-- end div -->
 
@@ -229,17 +278,15 @@ It is a good idea to provide a suitable generic font name at the end of the stac
 > Note: Font names that have more than one word — like Trebuchet MS — need to be surrounded by quotes, for example "Trebuchet MS".
 
 <!-- div class="exercise" -->
-## Exercise Two
+## Exercise 6 continued
 
 > Adding a `font-family`.
 
 ### Task 1
 
-- Return to your Typography Repl.it (css06)
+- Return to `style.css` on the root of the `css06` folder.
 
-### Task 2
-
-- Add both of these font families to you `h1` and `p` styles in `style.css` under the color rules.
+- **Add both of these font families styles** to your existing `h1` and `p` rulesets.
 
 ```
 h1 {
@@ -253,14 +300,21 @@ p {
 }
 ```
 
-- Run the page in the browser to view the applied fonts.
+- Refresh `exercise-06.html` in the browser to see the change in fonts.
 
-- If you computer or device doesn't have the first font listed it will apply the next available, dropping back to the defaults of `sans-serif` or `serif` if necessary.
+<figure>
+<img src="media/ex-06-4.png" alt="exercise-06.html rendered in the browser">
+<figcaption>
+If your computer or device doesn't have the first font listed it will apply the next available, dropping back to the defaults of `sans-serif` or `serif` if necessary.
+</figcaption>
+</figure>
 
-- Again you might note the editor tries to help you by providing set lists of web-safe font families. This will help you in the future.
+- If you type our the above CSS rathe than copy & pasting, you might note the editor tries to help you by providing set lists of web-safe font families. This will help you in the future. You don't need to memorise all this stuff!
+
 
 
 <!-- end div -->
+
 
 ## Font size
 
@@ -281,30 +335,37 @@ The font-size of an element is inherited from that element's parent element. Thi
 When sizing your text, a simple trick used is to set the base font-size of the document to 10 px, so that then the maths is a lot easier to work out — required (r)em values are then the pixel font size divided by 10, not 16. After doing that, you can easily size the different types of text in your document to what you want. It is a good idea to list all your font-size rulesets in a designated area in your stylesheet, so they are easy to find.
 
 <!-- div class="exercise" -->
-## Exercise Three
+## Exercise 6 continued
 
 > Adding a `font-size`.
 
 ### Task 1
 
-- Return to your Typography Repl.it (css06)
-
-### Task 2
+- Return to `style.css`.
 
 - Set the base font size.
 
-- Add this style to the top of `style.css`
+- It makes sense to insert this style at the top of your css file.
 
 ```
 html {
   font-size: 10px;
 }
 ```
-- As explained above. with a base font the maths becomes easier. `1rem` is 10px, so `2rem` is 20px. Same with `em`'s.
+- As explained above, with a base font the maths becomes easier. `1rem` is now 10px, so `2rem` is 20px. Same with `em`'s.
+
+- Save `style.css` and refresh `exercise-06.html` in the browser.
+
+<figure>
+<img src="media/ex-06-5.png" alt="exercise-06.html rendered in the browser">
+<figcaption>
+Our base font size now makes everything (relatively) smaller. Time to apply our own sizes.
+</figcaption>
+</figure>
 
 ### Task 3
 
-- Add both of these font-sizes to you `h1` and `p` styles in `style.css`.
+- Add both of these font-sizes to your `h1` and `p` styles in `style.css`.
 
 ```
 h1 {
@@ -319,9 +380,40 @@ p {
     font-family:georgia, times, serif; 
 }
 ```
-- Run in the browser. You page should look something like this. Much better than the browser defaults.
+- Save `style.css` and refresh `exercise-06.html` in the browser.
 
-<img src="media/fonts-one.png" alt="Page rendered with coloured text, increased font sizes and fonts applied.">
+- Your page should look something like this. Much better than the browser defaults.
+
+<figure>
+<img src="media/ex-06-6.png" alt="exercise-06.html rendered in the browser">
+<figcaption>
+Our heading and paragraphs are now sized relatively to the base font size of 10px. 
+</figcaption>
+</figure>
+
+> If this was written in pixels:
+
+```
+  h1 {
+    font-size: 50px;
+    color: #800000;
+    font-family: Arial, Helvetica, sans-serif;     
+}
+
+p {
+    font-size: 18px;
+    color: #2F4F4F;
+    font-family:georgia, times, serif; 
+}
+```
+
+## So why not use pixels?
+
+- You can! 
+
+- Using relative values like `rem` means that you can be certain, if someone increases the font size in their browser everything stays relative.
+
+- The arguments for and against both methods rattle on.
 
 <!-- end div -->
 
@@ -364,21 +456,27 @@ CSS provides four common properties to alter the visual weight/emphasis of text:
 </ul>
 
 <!-- div class="exercise" -->
-## Exercise Four
+## Exercise 6 continued
 
 > Let's look at adding a couple of these properties to our page.
 
 ### Task 1
 
-- Return to your Typography Repl.it (css06)
-
-### Task 2
+- Return to `style.css`.
 
 - Add this `text-transform` rule to your `h1` style.
 
 ```
-text-transform: capitalize;
+h1 {
+    font-size: 5rem;
+    color: #800000;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-transform: capitalize;    
+}
 ```
+
+- Save `style.css` and refresh `exercise-06.html` in the browser.
+
 - Transforms all words to <span style="text-transform: capitalize;">have the first letter capitalized</span>
 
 ### Task 3

@@ -211,7 +211,7 @@ https://careers.booking.com/
 
 ### Things to note about HTML Comments
 
-- Whist the content inside a `comment` is not displayed in the browser, it is not hidden. Anyone can `View Source` of a page and see what's hidden there.
+- Whilst the content inside a `comment` is not displayed in the browser, it is not hidden. Anyone can `View Source` of a page and see what's hidden there.
 
 - Comments can be used to temporarily hide a piece or section of code. This can be useful during development.
 

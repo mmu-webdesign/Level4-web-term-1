@@ -530,20 +530,14 @@ body h1 + p .special {
 
 <!-- end div -->
 
-## Wrapping up
-
-> In this tutorial, we have taken a look at a number of ways in which you can style a document using CSS selectors. We will be developing this knowledge as we move through the rest of the lessons. However you now already know enough to style text, apply CSS based on different ways of targeting elements in the document, and look up properties and values in the MDN documentation.
-
-<figure>
-<img src="media/adding-css.png" alt="The page rendered in the browser, with all elements completed">
-<figcaption>
-The final version of <code>exercise-02.html</code>, with styles as applied in Exercise 2.
-</figcaption>
-</figure>
-
 ## CSS Validation
 
-As you can with HTML, you can validate your CSS.
+> As you can with HTML, you can validate your CSS.
+
+<!-- div class="exercise" -->
+## Exercise 2 continued
+
+### Task 1
 
 - Use the [CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_upload).
 
@@ -554,6 +548,20 @@ As you can with HTML, you can validate your CSS.
 - Fix any erros and re-validate.
 
 <p style="color:white; background-color:green;padding: 5px;">Congratulations! No Error Found.</p>
+<!-- end div -->
+
+<p class="submit-work">Exercise 2 completed</p>
+
+## Wrapping up
+
+> In this tutorial, we have taken a look at a number of ways in which you can style a document using CSS selectors. We will be developing this knowledge as we move through the rest of the lessons. However you now already know enough to style text, apply CSS based on different ways of targeting elements in the document, and look up properties and values in the MDN documentation.
+
+<figure>
+<img src="media/adding-css.png" alt="The page rendered in the browser, with all elements completed">
+<figcaption>
+The final version of <code>exercise-02.html</code>, with styles as applied in Exercise 2.
+</figcaption>
+</figure>
 
 
 <h2 class="deep">Deeper Learning</h2>

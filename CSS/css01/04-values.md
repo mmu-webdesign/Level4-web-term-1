@@ -326,7 +326,12 @@ The list items get smaller as they become 80% of their parent.
 
 > Note that, while many values accept a length or a percentage, there are some that only accept length. 
 
+<p class="submit-work">Exercise 4 completed</p>
+
 - These exercises show how these values are applied and some of the issues related to them. You will discover more as we define font sizes, and even more in the second assignment as we start to size containers.
+
+
+
 
 <h2 class="deep">Deeper Learning</h2>
 

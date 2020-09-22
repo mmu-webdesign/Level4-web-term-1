@@ -328,6 +328,7 @@ p {
 
 <!-- end div -->
 
+<p class="submit-work">Exercise 3 completed</p>
 
 ## White space
 

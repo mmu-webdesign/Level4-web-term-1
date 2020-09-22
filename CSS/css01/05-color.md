@@ -23,17 +23,70 @@ The next type of colour value you are likely to encounter is **hexadecimal codes
 These values are a bit more complex and less easy to understand, but they are a lot more versatile than keywords — you can use hex values to represent any colour you want to use in your colour scheme.
 
 <!-- div class="exercise" -->
-## Exercise One
+## Exercise 5
 
 > Using `hex` values.
 
 ### Task 1
 
-- Open the exercise files in another browser window - [Repl.it - colour](https://repl.it/@webdesignmmu/css05)
+- Open the `css05` folder.
+
+- Open `exercise-05.html` in your editor.
+
+<figure>
+<img src="media/ex-05.png" alt="The VSC interface">
+<figcaption>
+The Visual Studio Code (VSC) editor window.
+</figcaption>
+</figure>
 
 ### Task 2
 
-- Add the following CSS to `style.css`:
+- Open `exercise-05.html` in the browser to check it works.
+
+<figure>
+<img src="media/ex-05-1.png" alt="exercise-05.html rendered in the browser">
+<figcaption>
+The basic Back to the Future page, with browser default styles.
+</figcaption>
+</figure>
+
+### Task 3
+
+- Return to `exercise-05.html` in your editor. 
+
+- Attach the stylesheet - `style.css`
+
+- Link to `style.css` in the head of `exercise-05.html` (just under the title) using the `<link rel="stylesheet" href="">` element.
+
+- Save `exercise-05.html` and refresh in your browser.
+
+<figure>
+<img src="media/ex-05-2.png" alt="exercise-05.html rendered in the browser">
+<figcaption>
+You can confirm the attached style is working as the one style in <code>style.css</code> is working.
+</figcaption>
+</figure>
+
+- `style.css` contained the following style, which applies a red border to every element box (more about boxes later) on the page.
+
+```
+* {
+    border: 1px solid red;
+}
+```
+
+- This is a handy bit of code to confirm things are working.
+
+- It is also handy when you can't quite work out *what is what* in your CSS.
+
+### Task 4
+
+- Return to `style.css` in the editor.
+
+- Remove the previous style - get rid of that ugly border.
+
+- Add the following style:
 
 ```
 body {
@@ -41,17 +94,19 @@ body {
   background-color: #f9f9f9;
 }
 ```
-- Applying styles to the `body`, applies the styles to everything in the browser window.
-
-- Run `index.html` in the browser.
+- Applying styles to the `body`, applies the styles to everything in the browser window that can inherit them.
 
 - `color:#545454;` gives us grey text (headings and paragraphs).
 
 - `background-color: #f9f9f9;` gives us an off-white background to the whole page.
 
-### Task 2
+- Save `style.css` and refresh `exercise-05.html` in the browser.
 
-- Add the following CSS to `style.css`:
+- Check that you page reflects these changes (the background is subtle).
+
+### Task 5
+
+- Return to `style.css` in the editor and add the following styles:
 
 ```
 a:link {
@@ -67,17 +122,25 @@ a:hover {
     background-color: #fcf9d1;
 }
 ```
-- Run in the browser to test the effect.
+
+- Save `style.css` and refresh `exercise-05.html` in the browser.
 
 - Once again we are styling the various link states with these pseudo selectors.
 
 - `background-color: #fcf9d1;` is added to our hover effect.
 
+- Hover over links and click them to test the styles applied.
+
+<figure>
+<img src="media/ex-05-3.png" alt="exercise-05.html rendered in the browser">
+<figcaption>
+Showing the hover effect on the Wikipedia link.
+</figcaption>
+</figure>
+
 <!-- end div -->
 
-> Beware you will see that Repl.it likes to add colours using RGB - that's next.
-
-
+<p class="submit-work">Exercise 5 completed</p>
 
 ## RGB and RGBA values
 
@@ -99,7 +162,7 @@ Defined as RGB these colours would be:
 - `background-color: rgb(249,249,249)`
 
 <!-- div class="exercise" -->
-## Exercise Two
+## To Do - Hex to RGB
 
 > Have a play - Hex to RGB.
 
@@ -108,6 +171,8 @@ Defined as RGB these colours would be:
 - Enter the hex code - `#00FF00`
 - Enter the hex code - `#0000FF`
 - Try some others.
+
+> There are many tools on the web that provide a similar service. You graphics editor may provide colours as Hex and RGB.
 <!-- end div -->
 
 ### RGBA colours
@@ -154,7 +219,7 @@ Just as RGB has RGBA, HSL has an HSLA equivalent, which gives you the same abili
 
 You can use any of these color values in your projects. It is likely that for most projects you will decide on a color palette and then use those colors — and your chosen method of specifying color — throughout the whole project. You can mix and match color models, however for consistency it is usually best if your entire project uses the same one!
 
-> We find students get along with the hex values better in the early days of coding.
+> We find students get along with the hex values better in the early days of coding. You may find the need to move to RBGA when you want to start to control opacity. There will be more of this in the second assignment.
 
 <h2 class="deep">Deeper Learning</h2>
 
@@ -162,7 +227,7 @@ To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Colour property](https://www.linkedin.com/learning/css-essential-training-3/the-color-and-property-values?u=36102708)
 
-
+- There are many sites providing tables of colour names, hex and RGB values. [Color-hex](https://www.color-hex.com/) does a good job in providing plenty of detail for every shade.
 
 ### &copy; Credit given
 

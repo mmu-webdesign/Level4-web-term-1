@@ -180,9 +180,14 @@ Is your heading blue?
 </figcaption>
 </figure>
 
+> How have we applied these styles? We will talk about that next.
+
 <!-- end div -->
 
-> How have we applied these styles? We will talk about that next.
+
+<p class="submit-work">Exercise 1 completed</p>
+
+
 
 <h2 class="deep">Deeper Learning</h2>
 
