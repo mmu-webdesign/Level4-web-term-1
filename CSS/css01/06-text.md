@@ -477,9 +477,12 @@ h1 {
 
 - Save `style.css` and refresh `exercise-06.html` in the browser.
 
-- Transforms all words to <span style="text-transform: capitalize;">have the first letter capitalized</span>
 
-### Task 3
+ <p style="text-transform: capitalize; font-size: 20px; margin:20px">Transforms all words to have the first letter capitalized</p>
+
+### Task 2
+
+- Return to `style.css`.
 
 - Insert the following ruleset to the bottom of your stylesheet.
 
@@ -488,9 +491,11 @@ h1 + p {
   font-weight: bold;
 }
 ```
-- This style applies a <strong style="font-weight: bold;">bold font weight</strong> to the whole paragraph that follows the heading, using an `adjacent sibling selector` (+).
+- This style applies a <strong style="font-weight: bold;">bold font weight</strong> to the whole paragraph that follows the heading, using an `adjacent sibling selector` (`+`).
 
-- Run in the browser. You page should reflect these added styles.
+- Save `style.css` and refresh `exercise-06.html` in the browser.
+
+- Your page should reflect these added styles.
 
 <img src="media/fonts-two.png" alt="Page rendered with capitalized heading and bold first paragraph">
 
@@ -559,27 +564,36 @@ Full article - [Why You Should Never Center Align Paragraph Text](https://uxmove
 The `line-height` property sets the height of each line of text — this can take most length and size units, but can also take a unitless value, which acts as a multiplier and is generally considered the best option — the `font-size` is multiplied to get the `line-height`. Body text generally looks nicer and is easier to read when the lines are spaced apart; the recommended line height is around 1.5 – 2 (double spaced.) 
 
 <!-- div class="exercise" -->
-## Exercise Five
+## Exercise 6 continued
 
 > Line height - simple but very effective.
 
 ### Task 1
 
-- Return to your Typography Repl.it (css06)
+- Return to `style.css`.
 
-### Task 2
-
-- So to set our lines of text to 1.6 times the height of the font add this `line-height` rule to your `p` style.
+- Adjust the line height of our text to 1.6 times the height of the font by adding the `line-height` rule to your `p` style.
 
 ```
-line-height: 1.6;
+p {
+    font-size:1.8rem;
+    color: #2F4F4F;
+    font-family:georgia, times, serif;
+    line-height: 1.6; 
+}
 ```
 
-- Note there is no unit - no `1.6px` or `1.6rem`.
+- Note there is no unit added to the value - no `1.6px` or `1.6rem`.
 
-- Run in the browser. You page should reflect these added styles. You can see that the increased line height adds light to the page. Everything is less cramped and easier to read.
+- Save `style.css` and refresh `exercise-06.html` in the browser.
 
+<figure>
 <img src="media/fonts-three.png" alt="Page rendered with added line height.">
+<figcaption>
+Your page should reflect these added styles. You can see that the increased line height adds light to the page. Everything is less cramped and easier to read. 
+</figcaption>
+</figure>
+
 
 <!-- end div -->
 
@@ -588,15 +602,13 @@ line-height: 1.6;
 The `letter-spacing` and `word-spacing` properties allow you to set the spacing between letters and words in your text. You won't use these very often, but might find a use for them to get a certain look, or to improve the legibility of a particularly dense font. They can take most length and size units.
 
 <!-- div class="exercise" -->
-## Exercise Six
+## Exercise 6 continued
 
 > Letter and word spacing.
 
 ### Task 1
 
-- Return to your Typography Repl.it (css06)
-
-### Task 2
+- Return to `style.css`.
 
 - Add the following rule to your first paragraph:
 
@@ -608,11 +620,18 @@ h1 + p {
 }
 ```
 
-- Run in the browser. You page should reflect these added styles. 
+- Save `style.css` and refresh `exercise-06.html` in the browser. You page should reflect these added styles. 
 
+<figure>
 <img src="media/fonts-four.png" alt="Page rendered with letter and word spacing.">
+<figcaption>
+The first paragraph now has word and letter spacing. 
+</figcaption>
+</figure>
 
 <!-- end div -->
+
+<p class="submit-work">Exercise 6 completed</p>
 
 <h3 class="warning">Danger!</h3>
 
