@@ -320,7 +320,7 @@ These codes are defined by the [ISO 639-1 standard](https://en.wikipedia.org/wik
 
 To get a better understanding of this topic use the following resources.
 
-- LinkedIn Learning Video: [Jen Simmons -  Document head](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-essential-training-4%3Ftrk%3Dshare_ent_url&account=36102708) (3m 56s)
+- LinkedIn Learning Video: [Jen Simmons -  Document head](https://www.linkedin.com/learning/html-essential-training-4/document-head?u=36102708) (3m 56s)
 
 - MDN: `<head>` - [The Document Metadata (Header) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
 
