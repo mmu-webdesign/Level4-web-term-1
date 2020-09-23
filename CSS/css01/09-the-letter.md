@@ -292,6 +292,14 @@ The finished page. HTML and CSS applied. Your choice of fonts and colours may va
 <p class="submit-work">Exercise 9 completed</p>
 
 
+**Final thing to note** - at the moment our page will expand across the width of our browser, however wide we make the window. This can make it hard to read. We will address the width of our pages in the next Book. *This is the line length and is an important part of the usability of any page we create*.
+
+<blockquote cite="https://practicaltypography.com/line-length.html">
+<p>Line length is the distance between the left and right edges of a text block. Overly long lines are a common problem, but they’re easy to correct. Shorter lines will make a big difference in the legibility and professionalism of your layout.</p>
+<p>From <a href="https://practicaltypography.com/line-length.html">practicaltypography.com</a></p>
+</blockquote>
+
+
 ### &copy; Credit given
 
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
