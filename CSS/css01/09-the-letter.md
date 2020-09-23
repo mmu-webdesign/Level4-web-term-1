@@ -283,8 +283,15 @@ Your page should be looking something like this so far.
 <figure>
 <img src="media/ex-09-5.png" alt="exercise-09.html rendered in the browser">
 <figcaption>
-The finished page. HTML and CSS applied.
+The finished page. HTML and CSS applied. Your choice of fonts and colours may vary.
 </figcaption>
 </figure>
 
+<!-- end div -->
 
+<p class="submit-work">Exercise 9 completed</p>
+
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
