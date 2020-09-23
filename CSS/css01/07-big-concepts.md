@@ -337,6 +337,8 @@ Following that extra style, you should see that our new <code>font-size</code> (
 
 <!-- end div -->
 
+<p class="submit-work">Exercise 7 completed</p>
+
 ## Cascade, specificity and inheritance
 
 >This can seem like a set of tricky concepts to understand. As you get more practice writing CSS, however, the way it works will become more obvious to you.
@@ -378,8 +380,6 @@ To get a better understanding of this topic use the following resources.
 For students wanting more, we recommend the following topics and resources. 
 
 - Andy Clarke's popular article - [CSS Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html).
-
-- 
 
 
 ### &copy; Credit given

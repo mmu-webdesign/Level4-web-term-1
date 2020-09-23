@@ -114,7 +114,7 @@ Now we've looked at general spacing techniques for lists, let's explore some lis
 <!-- div class="exercise" -->
 ## Exercise 8 continued
 
-> Bullet styles
+### Task 1 - Bullet styles
 
 - As mentioned above, the list-style-type property allows you to set what type of bullet to use for the bullet points. 
 
@@ -138,8 +138,168 @@ If successful, your list style has changed to uppercase roman numerals.
 </figcaption>
 </figure>
 
-> Bullet position
 
-The list-style-position property sets whether the bullets appear inside the list items, or outside them before the start of each item. The default value is outside, which causes the bullets to sit outside the list items, as seen above.
 
-If you set the value to inside, the bullets will sit inside the lines:
+### Task 2 - Bullet position
+
+- The list-style-position property sets whether the bullets appear inside the list items, or outside them before the start of each item. The default value is outside, which causes the bullets to sit outside the list items.
+
+- Return to `style.css` in the editor.
+
+- If you set the value to inside, the bullets will sit inside the lines.
+
+- Add the rule `list-style-position: inside;` to the `ol` ruleset that we just added to `style.css`:
+
+```
+ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+```
+- Save `style.css` and refresh `exercise-08.html` in the browser.
+
+<figure>
+<img src="media/ex-08-4.png" alt="exercise-08.html rendered in the browser">
+<figcaption>
+If successful, your list style has changed and the bullets now appear inside the list items.
+</figcaption>
+</figure>
+
+### Task 3 - Using a custom bullet image
+
+- The list-style-image property allows you to use a custom image for your bullet. 
+
+  + This allows more creativity in your designs. 
+
+  + You should however using standard images such as `.gif` and `.jpg` files as they will just add to the weight of the page download. 
+
+  + Our example uses an SVG image - an SVG is created with code, therefore add minimal weight to the page.
+
+- The syntax is pretty simple:
+
+```
+ul {
+  list-style-image: url(star.svg);
+}
+```
+
+- However, this property is a bit limited in terms of controlling the position, size, etc. of the bullets. You are better off using the background family of properties.
+
+- Return to `style.css` in the editor.
+
+- If you set the value to inside, the bullets will sit inside the lines.
+
+- Add the following two rulesets to the bottom of `style.css`:
+
+```
+ ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding-left: 2rem;
+    background-image: url(img/star.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+  }
+```
+- Save `style.css` and refresh `exercise-08.html` in the browser.
+
+- Here we've done the following:
+
+- Set the padding-left of the `<ul>` down from the default 40px to 20px, then set the same amount on the list items. This is so that overall the list items are still lined up with the order list items and the description list descriptions, but the list items have some padding for the background images to sit inside. If we didn't do this, the background images would overlap with the list item text, which would look messy.
+
+- Set the `list-style-type` to none, so that no bullet appears by default. We're going to use background properties to handle the bullets instead.
+
+- Inserted a bullet onto each unordered list item. The relevant properties are as follows:
+
+  + [background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image): This references the path to the image file you want to use as the bullet.
+
+  + [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position): This defines where in the background of the selected element the image will appear — in this case we are saying 0 0, which means the bullet will appear in the very top left of each list item.
+
+  + [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size): This sets the size of the background image. We ideally want the bullets to be the same size as the list items (or very slightly smaller or larger). We are using a size of 1.6rem (16px), which fits very nicely with the 20px padding we've allowed for the bullet to sit inside — 16px plus 4px of space between the bullet and the list item text works well.
+
+  + [background-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat): By default, background images repeat until they fill up the available background space. We only want one copy of the image inserted in each case, so we set this to a value of no-repeat.
+
+<figure>
+<img src="media/ex-08-5.png" alt="exercise-08.html rendered in the browser">
+<figcaption>
+If successful, your un-ordered list style now has a red star (<code>star.svg</code>) as the bullet.
+</figcaption>
+</figure>
+
+> More on backgrounds to follow.
+
+<!-- end div -->
+
+## Link states
+
+We have already applied styles to links based on their state. Let's look at this in a little more detail.
+
+The first thing to understand is the concept of link states — different states that links can exist in, which can be styled using different **pseudo-classes**:
+
+- **Link (unvisited)**: The default state that a link resides in, when it isn't in any other state. This can be specifically styled using the :link pseudo class.
+
+- **Visited:** A link when it has already been visited (exists in the browser's history), styled using the :visited pseudo class.
+
+- **Hover**: A link when it is being hovered over by a user's mouse pointer, styled using the :hover pseudo class.
+
+- **Focus**: A link when it has been focused (for example moved to by a keyboard user using the Tab key or similar, or programmatically focused using HTMLElement.focus()) — this is styled using the :focus pseudo class.
+
+- **Active**: A link when it is being activated (e.g. clicked on), styled using the :active pseudo class.
+
+### Default styles
+
+- We've all seen the default styles for a link:
+
+<figure>
+<img src="media/ex-08-6.png" alt="Basic links rendered in the browser">
+<figcaption>
+Three links with the browser default styles.
+</figcaption>
+</figure>
+
+- You'll notice a few things as you explore the default styles:
+
+    Links are underlined.
+    Unvisited links are blue.
+    Visited links are purple.
+    Hovering a link makes the mouse pointer change to a little hand icon.
+    Focused links have an outline around them — you should be able to focus on the links on this page with the keyboard by pressing the tab key (On Mac, you'll need to use option + tab, or enable the Full Keyboard Access: All controls option by pressing Ctrl + F7.)
+    Active links are red (Try holding down the mouse button on the link as you click it.)
+
+Interestingly enough, these default styles are nearly the same as they were back in the early days of browsers in the mid-1990s. This is because users know and have come to expect this behaviour — if links were styled differently, it would confuse a lot of people. This doesn't mean that you shouldn't style links at all, just that you should not stray too far from the expected behaviour. You should at least:
+
+    Use underlining for links, but not for other things. If you don't want to underline links, at least highlight them in some other way.
+    Make them react in some way when hovered/focused, and in a slightly different way when activated.
+
+The default styles can be turned off/changed using the following CSS properties:
+
+    color for the text color.
+    cursor for the mouse pointer style — you shouldn't turn this off unless you've got a very good reason.
+    outline for the text outline (an outline is similar to a border, the only difference being that border takes up space in the box and an outline doesn't; it just sits over the top of the background). The outline is a useful accessibility aid, so think carefully before turning it off; you should at least double up the styles given to the link hover state on the focus state too.
+
+
+
+
+
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
+
+
+
+<h2 class="deep">Advanced Learning</h2>
+
+For students wanting more, we recommend the following topics and resources. 
+
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
+
+
+<p class="submit-work">Exercise 8 completed</p>
