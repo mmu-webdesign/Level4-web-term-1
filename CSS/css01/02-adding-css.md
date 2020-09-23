@@ -577,9 +577,6 @@ To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Grouping selectors](https://www.linkedin.com/learning/css-essential-training-3/grouping-selectors?u=36102708)
 
-
-- LinkedIn Learning Video: [Pseudo class selectors](https://www.linkedin.com/learning/css-essential-training-3/pseudo-class-selectors-and-links?u=36102708)
-
 - Article - CSS Tricks: [Beginner Concepts: How CSS Selectors Work](https://css-tricks.com/how-css-selectors-work/)
 
 - Article - CSS Tricks: [The Difference Between ID and Class](https://css-tricks.com/the-difference-between-id-and-class/) 

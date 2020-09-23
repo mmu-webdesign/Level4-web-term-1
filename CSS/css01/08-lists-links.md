@@ -261,40 +261,153 @@ Three links with the browser default styles.
 </figcaption>
 </figure>
 
+- View these links at the bottom of `exercise-08.html` in the browser.
+
 - You'll notice a few things as you explore the default styles:
 
-    Links are underlined.
-    Unvisited links are blue.
-    Visited links are purple.
-    Hovering a link makes the mouse pointer change to a little hand icon.
-    Focused links have an outline around them — you should be able to focus on the links on this page with the keyboard by pressing the tab key (On Mac, you'll need to use option + tab, or enable the Full Keyboard Access: All controls option by pressing Ctrl + F7.)
-    Active links are red (Try holding down the mouse button on the link as you click it.)
+  + Links are underlined.
+  + Unvisited links are blue.
+  + Visited links are purple.
+  + Hovering a link makes the mouse pointer change to a little hand icon.
+  + Focused links have an outline around them — you should be able to focus on the links on this page with the keyboard by pressing the tab key (On Mac, you'll need to use option + tab, or enable the Full Keyboard Access: All controls option by pressing Ctrl + F7.)
+  + Active links are red (Try holding down the mouse button on the link as you click it.)
+
+
 
 Interestingly enough, these default styles are nearly the same as they were back in the early days of browsers in the mid-1990s. This is because users know and have come to expect this behaviour — if links were styled differently, it would confuse a lot of people. This doesn't mean that you shouldn't style links at all, just that you should not stray too far from the expected behaviour. You should at least:
 
-    Use underlining for links, but not for other things. If you don't want to underline links, at least highlight them in some other way.
-    Make them react in some way when hovered/focused, and in a slightly different way when activated.
+- Use underlining for links, but not for other things. If you don't want to underline links, at least highlight them in some other way.
+
+- Make them react in some way when hovered/focused, and in a slightly different way when activated.
 
 The default styles can be turned off/changed using the following CSS properties:
 
-    color for the text color.
-    cursor for the mouse pointer style — you shouldn't turn this off unless you've got a very good reason.
-    outline for the text outline (an outline is similar to a border, the only difference being that border takes up space in the box and an outline doesn't; it just sits over the top of the background). The outline is a useful accessibility aid, so think carefully before turning it off; you should at least double up the styles given to the link hover state on the focus state too.
+- [color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) for the text color.
+
+- [cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) for the mouse pointer style — you shouldn't turn this off unless you've got a very good reason.
+
+- [outline](https://developer.mozilla.org/en-US/docs/Web/CSS/outline) for the text outline (an outline is similar to a border, the only difference being that border takes up space in the box and an outline doesn't; it just sits over the top of the background). The outline is a useful accessibility aid, so think carefully before turning it off; you should at least double up the styles given to the link hover state on the focus state too.
+
+<!-- div class="exercise" -->
+## Exercise 8 continued
+
+- Applying some basic styles to the various link states.
+
+### Task 1
+
+- Return to `style.css` in the editor.
+
+- Add the following styles to the bottom of `style.css`:
+
+```
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437A16;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;     
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+```
+- Save `style.css` and refresh `exercise-08.html` in the browser. 
+
+- Scroll down to the links section at the bottom of the page.
+
+<figure>
+<img src="media/ex-08-7.png" alt="exercise-08.html rendered in the browser">
+<figcaption>
+If successful, your link styles have changed from the defaults.
+</figcaption>
+</figure>
+
+- So what did we do here? This certainly looks different to the default styling, but it still provides a familiar enough experience for users to know what's going on:
+
+- The fist of these rules uses the `a` selector to get rid of the default text underline and focus outline (which varies across browsers anyway), and adds a tiny amount of padding to each link — all of this will become clear later on.
+
+- Next, we use the `a:link` and `a:visited` selectors to set a couple of color variations on unvisited and visited links, so they are distinct.
+
+- The next two rules use `a:focus` and `a:hover` to set focused and hovered links to have different background colors, plus an underline to make the link stand out even more. Two points to note here are:
+
+    + The underline has been created using `border-bottom`, not `text-decoration` — some people prefer this because the former has better styling options than the latter, and is drawn a bit lower, so doesn't cut across the descenders of the word being underlined (e.g. the tails on g and y).
+
+    + The `border-bottom` value has been set as 1px solid, with no color specified. Doing this makes the border adopt the same color as the element's text, which is useful in cases like this where the text is a different color in each case.
+
+- Finally, `a:active` is used to give the links an inverted color scheme while they are being activated, to make it clear something important is happening!
 
 
+<!-- end div -->
 
+<p class="submit-work">Exercise 8 completed</p>
+
+<h3 class="warning">Link style order</h3>
+
+The order of our CSS for the various link states is important because the link styles build on one another, for example the styles in the first rule will apply to all the subsequent ones, and when a link is being activated, it is also being hovered over.
+
+Therefore we use this order:
+
+```
+a {
+
+}
+
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+```
+
+If you put these in the wrong order, things won't work properly. To remember the order, you could try using a mnemonic like **L**o**V**e **F**ears **HA**te.
+
+> Note: you do not need to use all 7 states every time. Pick and choose what you need, but retain the order.
 
 
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
+- Article - CSS Tricks: [List-style](https://css-tricks.com/almanac/properties/l/list-style/) 
+
+- Video - CSS Tricks: [Inside & Aligned Lists](https://css-tricks.com/video-screencasts/184-inside-aligned-lists/) 
+
+- LinkedIn Learning Video: [Pseudo class selectors](https://www.linkedin.com/learning/css-essential-training-3/pseudo-class-selectors-and-links?u=36102708)
 
 
-
-<h2 class="deep">Advanced Learning</h2>
-
-For students wanting more, we recommend the following topics and resources. 
 
 
 ### &copy; Credit given
@@ -302,4 +415,3 @@ For students wanting more, we recommend the following topics and resources.
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
 
-<p class="submit-work">Exercise 8 completed</p>
