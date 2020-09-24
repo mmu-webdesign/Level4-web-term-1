@@ -287,15 +287,16 @@ The finished page. HTML and CSS applied. Your choice of fonts and colours may va
 </figcaption>
 </figure>
 
-<!-- end div -->
-
-<p class="submit-work">Exercise 9 completed</p>
-
 <h3 class="warning">Most common error?</h3>
 
 - Typing `colour` instead of `color` in your coding?
 
-- **Am I right?**
+
+<!-- end div -->
+
+<p class="submit-work">Exercise 9 completed</p>
+
+
 
 
 **Final thing to note** - at the moment our page will expand across the width of our browser, however wide we make the window. This can make it hard to read. We will address the width of our pages in the next Book. *This is the line length and is an important part of the usability of any page we create*.
