@@ -301,9 +301,81 @@ We can control all margins of an element at once using the `margin` property, or
 - [margin-left](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-left)
 
 
+<!-- div class="exercise" -->
+## To Do
+
+> In the example below, try changing the margin values to see how the box is pushed around due to the margin creating or removing space (if it is a negative margin) between this element and the containing element.
+
+<figure>
+<img src="media/ex-10-5.png" alt="example-c.html rendered in the browser">
+<figcaption>
+The screenshot shows two boxes, one inside another. Because the top margin of the internal box is negative, the box appears outside of the containing box.  
+</figcaption>
+</figure>
+
+### Task 1
+
+- Open the `css10` folder.
+
+- Open `example-c.html` in your editor.
+
+- Open `example-c.html` in the browser to check it works.
+
+- Return to `example-c.html` in your editor.
+
+- Find this style ruleset in the `head` of the document.
+
+```
+        .changes {
+            margin-top: -40px;
+            margin-right: 30px;
+            margin-bottom: 40px;
+            margin-left: 4em;
+            }
+```
+
+- Adjust the margin values to see how the box is pushed around due to the margin creating or removing space.
+
+- For example, remove the negative value:
+
+```
+margin-top: 40px;
+```
+
+- or increase it.
+
+```
+margin-top: -80px;
+```
+
+- Adjust margin-right, margin-bottom and margin-left values to see the effect.
+
+- Each time save `example-c.html` and refresh it in the browser to view the changes.
+
+- The `example` files are not part of the assessment. 
+
+- You can leave them in the folder.
+
+<!-- end div -->
 
 
+## Margin collapsing
 
+A key thing to understand about margins is the concept of margin collapsing. If you have two elements whose margins touch, and both margins are positive, those margins will combine to become one margin, which is the size of the largest individual margin. If one or both margins are negative, the amount of negative value will subtract from the total.
+
+<!-- div class="exercise" -->
+## To Do
+
+> In the example below, we have two paragraphs. The top paragraph has a `margin-bottom` of 50 pixels. The second paragraph has a `margin-top` of 30 pixels. 
+
+<figure>
+<img src="media/ex-10-6.png" alt="example-d.html.html rendered in the browser">
+<figcaption>
+The margins have collapsed together so the actual margin between the boxes is 50 pixels and not the total of the two margins. 
+</figcaption>
+</figure>
+
+copy instructions from above....
 
 ### Things are changing
 
