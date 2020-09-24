@@ -40,7 +40,9 @@ The developer tools (Dev Tools) in your browser can really help understand and b
 
 > How to use browser developer tools
 
-If you are still unsure about browser developer tools watch the video linked below to get a good understanding of how the Dev Tools work, and how to see both browser styles and your own. You can [view the sample file](media/example.html) in your browser and follow the task demonstrated.
+If you are still unsure about browser developer tools watch the video linked below to get a good understanding of how the Dev Tools work, and how to see both browser styles and your own. 
+
+- You can [view the sample file](media/example.html) in your browser and follow the task demonstrated.
 
 - **LinkedIn Learning Video**: [Browser developer tools](https://www.linkedin.com/learning/css-essential-training-3/browser-developer-tools?u=36102708) - Every modern browser includes a set of browser developer tools, which can be used to inspect the HTML, CSS and JavaScript on any webpage.
 
