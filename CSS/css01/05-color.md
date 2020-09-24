@@ -150,7 +150,8 @@ The third scheme we'll talk about here is RGB. An RGB value is a function — `r
 - `color: rgb(0,255,0)` - full green
 - `color: rgb(0,0,255)` - full blue
 
-The two hex colours we started with
+Here are the two hex colours we started with:
+
 - `color:#545454;` 
 - `background-color: #f9f9f9;`
 
@@ -172,7 +173,7 @@ Defined as RGB these colours would be:
 - Enter the hex code - `#0000FF`
 - Try some others.
 
-> There are many tools on the web that provide a similar service. You graphics editor may provide colours as Hex and RGB.
+> There are many tools on the web that provide a similar service. Your graphics editor may provide colours as Hex and RGB.
 <!-- end div -->
 
 ### RGBA colours

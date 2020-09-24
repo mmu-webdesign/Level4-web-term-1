@@ -8,11 +8,15 @@ CSS is a language for specifying how documents are presented to users — how th
 
 A document is usually a text file structured using a markup language — `HTML` is the most common markup language, but you may also come across other markup languages such as `SVG` or `XML`.
 
-Presenting a document to a user means converting it into a form usable by your audience. Browsers, like Firefox, Chrome, or Edge , are designed to present documents visually, for example, on your laptop, tablet or mobile.
+Presenting a document to a user means converting it into a form usable by your audience. Browsers like Firefox, Chrome or Edge are designed to present documents visually, for example, on your laptop, tablet or mobile.
 
 > Note: A browser is sometimes called a `user agent`, which basically means a computer program that represents a person inside a computer system. Browsers are the main type of `user agent` we think of when talking about CSS, however, it is not the only one. There are other `user agent`s available — such as those which convert HTML and CSS documents into PDFs to be printed.
 
-CSS can be used for very basic document text styling — for example changing the color and size of headings and links. It can be used to create layout — for example turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation. Have a look at the links in this paragraph for specific examples.
+CSS can be used for document text styling — for example changing the color and size of headings and links. It can be used to create layout — for example turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation.
+
+CSS has been taken to new levels by people like [Diana Smith](https://diana-adrianne.com/) and [Louise Flanagan](https://lou-flan.com/) who both ‘paint’ in code. 
+
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvicenews%2Fvideos%2F370559090286411%2F&show_text=0&width=476" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
 ## Browser default styles
 
@@ -52,7 +56,7 @@ Let's dissect the CSS code for red paragraph text to understand how it works :
 The whole structure is called a ruleset. (The term ruleset is often referred to as just rule, a CSS rule.) Note the names of the individual parts:
 
 ### Selector
-This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, <p> elements). To style a different element, change the selector.
+This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, `<p>` elements). To style a different element, change the selector.
 
 ### Declaration
 This is a single rule like color: red;. It specifies which of the element's properties you want to style.
@@ -96,12 +100,12 @@ The Visual Studio Code (VSC) editor window.
 </figcaption>
 </figure>
 
-- Open `exercise-05.html` in your browser to see the heading and paragraphs.
+- Open `exercise-01.html` in your browser to see the heading and paragraphs.
 
 <figure>
 <img src="media/ex-01-1.png" alt="The VSC interface">
 <figcaption>
-All of the browser default (User Agent) styles that you've got used to seeing in the HTML exercsies are in place including a larger font size for the &lt;h1&gt;, margins above and below the heading and paragraphs; and margins to the left and right.
+All of the browser default (User Agent) styles that you've got used to seeing in the HTML exercises are in place including a larger font size for the &lt;h1&gt;, margins above and below the headings and paragraphs, and margins to the left and right.
 </figcaption>
 </figure>
 
@@ -145,7 +149,7 @@ p {
 }
 ```
 
-- In plain english the ruleset reads: Every paragraph on the page
+- In plain English the ruleset reads: Every paragraph on the page
 
     + font colour red (notice the USA spelling)
     + each paragraph is 400 pixel wide
@@ -226,7 +230,7 @@ For students wanting more, we recommend the following topics and resources.
 
 As there are so many things that you could style using CSS, the language is broken down into modules. 
 
-At this stage you don't need to worry too much about how CSS is structured, however it can make it easier to find information if, for example, you are aware that a certain property is likely to be found among other similar things and are therefore probably in the same specification. 
+At this stage you don't need to worry too much about how CSS is structured, however it can make it easier to find information if, for example, you are aware that a certain property is likely to be found among other similar things and therefore probably in the same specification. 
 
 For a specific example, let's go back to the Backgrounds and Borders module — you might think that it makes logical sense for the [background-color](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) and [border-color](https://developer.mozilla.org/en-US/docs/Web/CSS/border-color) properties to be defined in this module. And you'd be right.
 

@@ -309,7 +309,7 @@ If your computer or device doesn't have the first font listed it will apply the 
 </figcaption>
 </figure>
 
-- If you type our the above CSS rathe than copy & pasting, you might note the editor tries to help you by providing set lists of web-safe font families. This will help you in the future. You don't need to memorise all this stuff!
+- If you type out the above CSS rather than copy & pasting, you might note the editor tries to help you by providing set lists of web-safe font families. This will help you in the future. You don't need to memorise all this stuff!
 
 
 
@@ -540,9 +540,11 @@ We could add `text-align: center;` to the ruleset for our `<h1>` heading, **but 
 
 <h3 class="warning">Centred text</h3>
 
-Centred text is the students nemesis. Students like to centre text. DON'T.
+Centred text is the student's nemesis. Students like to centre text. **DON'T**.
 
-Centre headings, perhaps small captions but that's about it. **DO NOT CENTRE BLOCKS OF TEXT** - it makes it hard to read. Think of any report, book, magazine (except the odd trendy, arty magazine) and the text is aligned to the left (or justified - easier in print).
+Centre headings, perhaps small captions but that's about it. 
+
+**DO NOT CENTRE BLOCKS OF TEXT** - it makes it hard to read. Think of any report, book, magazine (except the odd trendy, arty magazine) and the text is aligned to the left (or justified - easier in print).
 
 #### Centred text
 
@@ -620,7 +622,7 @@ h1 + p {
 }
 ```
 
-- Save `style.css` and refresh `exercise-06.html` in the browser. You page should reflect these added styles. 
+- Save `style.css` and refresh `exercise-06.html` in the browser. Your page should reflect these added styles. 
 
 <figure>
 <img src="media/fonts-four.png" alt="Page rendered with letter and word spacing.">

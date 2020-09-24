@@ -95,7 +95,7 @@ The page with the browser default styles and a red border applied - External CSS
 
 - Make **Starting dates** a Level 2 heading. Do the same with **Subjects of study**.
 
-- After **Starting dates** tag uop the next paragraph.
+- After **Starting dates** tag up the next paragraph.
 
 - Save `exercise-09.html` and refresh in the browser.
 
@@ -154,7 +154,7 @@ html {
 ```
 - Save `style.css` and refresh `exercise-09.html` to view in the browser.
 
-> Note - Most these instructions will *be in english* rather than giving you the code. That would be too easy!
+> Note - Most these instructions will *be in English* rather than giving you the code. That would be too easy!
 
 - Return to `style.css` in the editor and apply the following styles.
 
@@ -163,7 +163,7 @@ html {
 <figure>
 <img src="media/ex-09-3.png" alt="exercise-09.html rendered in the browser">
 <figcaption>
-VSC will help you by prompting you with fon-family options to select.
+VSC will help you by prompting you with <code>font-family</code> options to select.
 </figcaption>
 </figure>
 
@@ -226,7 +226,7 @@ Your page should be looking something like this so far.
 
 - Create a style to apply the `list-style-position: inside;` rule to your Ordered List.
 
-- Also change the list-style-type, but remember to keep it as a number. The [MDN reference on list-style-type](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type) will help you select something. 
+- Also change the `list-style-type` to `lower-roman` or `upper-roman`. There are plenty of other styles (see [MDN reference on list-style-type](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type)), but remember to keep the list as a numbered.
 
 - Save `style.css` and refresh `exercise-09.html` to view in the browser.
 
@@ -276,7 +276,7 @@ Your page should be looking something like this so far.
 
 - Create the class `.address { }` in your stylesheet.
 
-- Add a font style of `italic`, font family of `fantasy`, font size of `1.8rem`, color of `#2A2C3A`and a font weight of `900`.
+- Add a font style of `italic`, font family of `fantasy`, font size of `1.8rem`, colour of `#2A2C3A` and a font weight of `900`.
 
 - Save `style.css` and refresh `exercise-09.html` to view in the browser.
 
@@ -290,6 +290,12 @@ The finished page. HTML and CSS applied. Your choice of fonts and colours may va
 <!-- end div -->
 
 <p class="submit-work">Exercise 9 completed</p>
+
+<h3 class="warning">Most common error?</h3>
+
+- Typing `colour` instead of `color` in your coding?
+
+- **Am I right?**
 
 
 **Final thing to note** - at the moment our page will expand across the width of our browser, however wide we make the window. This can make it hard to read. We will address the width of our pages in the next Book. *This is the line length and is an important part of the usability of any page we create*.

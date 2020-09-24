@@ -97,26 +97,26 @@ A simple HTML page - heading, paragraphs, link and list.
 
 - The very first thing we need to do is to tell the HTML document that we have some CSS rules we want it to use. There are three different ways to apply CSS to an HTML document that you'll commonly come across, however, for now, we will look at the most usual and useful way of doing so — linking CSS from the head of your document.
 
-- Create a file in the same folder as your HTML document and save it as `styles.css`. The `.css` extension shows that this is a CSS file.
+- Create a file in the same folder as your HTML document and save it as `style.css`. The `.css` extension shows that this is a CSS file.
 
 <figure>
 <img src="media/ex-02-2.png" alt="exercise-02.html rendered in the browser">
 <figcaption>
-VSC has a New File button (also a new folder button next to it) for speed. Just press and add the file name `styles.css`.
+VSC has a New File button (also a new folder button next to it) for speed. Just press and add the file name `.css`.
 </figcaption>
 </figure>
 
 ### Task 3
 
-- To link `styles.css` to index.html add the following line under the `<title> </title>`, but inside the <head> of the HTML document:
+- To link `style.css` to index.html add the following line under the `<title> </title>`, but inside the <head> of the HTML document:
 
 ```
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
 ```
 
 - This `<link>` element tells the browser that we have a stylesheet, using the rel attribute, and the location of that stylesheet as the value of the href attribute. 
 
-- You can test that the CSS works by adding a rule to styles.css. Using your code editor add the following to your CSS file:
+- You can test that the CSS works by adding a rule to `style.css`. Using your code editor add the following to your CSS file:
 
 ```
 h1 {
@@ -362,7 +362,7 @@ li.special {
 
 There are times when you will want something to look different based on where it is in the document. There are a number of selectors that can help you here, but for now we will look at just a couple. 
 
-In our document are two `<em>` elements — one inside a paragraph and the other inside a list item. To select only an `<em>` that is nested inside an <li> element we can use a selector called the `descendant combinator`, which simply takes the form of a space between two other selectors.
+In our document are two `<em>` elements — one inside a paragraph and the other inside a list item. To select only an `<em>` that is nested inside an `<li>` element we can use a selector called the `descendant combinator`, which simply takes the form of a space between two other selectors.
 
 <!-- div class="exercise" -->
 ## Exercise 2 continued
@@ -409,6 +409,8 @@ h1 + p {
 - Refresh `exercise-02.html` again in the browser to see the changes. 
 
 - Has the first paragraph grown? If not, check your code.
+
+- See below for what it should look like:
 
 <figure>
 <img src="media/ex-02-7.png" alt="exercise-02.html again rendered in the browser">

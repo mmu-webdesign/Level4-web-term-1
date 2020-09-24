@@ -74,7 +74,7 @@ There are various numeric data types that you might find yourself using in CSS. 
   </tr>
   <tr>
    <td><code><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/dimension">&lt;dimension&gt;</a></code></td>
-   <td>A <code>&lt;dimension&gt;</code> is a <code>&lt;number&gt;</code> with a unit attached to it. For example, <code>45deg</code>, <code>5s</code>, or <code>10px</code>. <code>&lt;dimension&gt;</code> is an umbrella category that includes the <code><a href="/en-US/docs/Web/CSS/length">&lt;length&gt;</a></code>, <code><a href="/en-US/docs/Web/CSS/angle">&lt;angle&gt;</a></code>, <code><a href="/en-US/docs/Web/CSS/time">&lt;time&gt;</a></code>, and <code><a href="/en-US/docs/Web/CSS/resolution">&lt;resolution&gt;</a></code> types<a href="/en-US/docs/Web/CSS/resolution">.</a></td>
+   <td>A <code>&lt;dimension&gt;</code> is a <code>&lt;number&gt;</code> with a unit attached to it. For example, <code>45deg</code>, <code>5s</code>, or <code>10px</code>. <code>&lt;dimension&gt;</code> is an umbrella category that includes the <code><a href="/en-US/docs/Web/CSS/length">&lt;length&gt;</a></code>, <code><a href="/en-US/docs/Web/CSS/angle">&lt;angle&gt;</a></code>, <code><a href="/en-US/docs/Web/CSS/time">&lt;time&gt;</a></code>, and <code><a href="/en-US/docs/Web/CSS/resolution">&lt;resolution&gt;</a></code> types.</td>
   </tr>
   <tr>
    <td><code><a href="/en-US/docs/Web/CSS/percentage">&lt;percentage&gt;</a></code></td>
@@ -91,7 +91,7 @@ The numeric type you will come across most frequently is `<length>`. For example
 
 `Centimeters`, `Millimeters`, `Inches`, `Picas`, `Points` and `Pixels` are all absolute length units — they are not relative to anything else, and are generally considered to always be the same size.
 
-In CSS we can use Most of these values are more useful when used for print, rather than screen output. For example, we don't typically use cm (centimeters) on screen. 
+In CSS we can use most of these values but some are more useful when used for print, rather than screen output. For example, we don't typically use cm (centimeters) on screen. 
 
 > The only value that you will commonly use is px (pixels).
 
@@ -261,7 +261,7 @@ This means that each successive level of nesting does not keep getting larger.
 
 ### Task 3
 
-Changing the` <html>` `font-size` in the CSS will mean that everything else changes relative to it — both `rem`- and `em`-sized text.
+Changing the `<html>` `font-size` in the CSS will mean that everything else changes relative to it — both `rem`- and `em`-sized text.
 
 - Return to `style.css` in your editor and change the `16px` font size to `20px`.
 
@@ -302,13 +302,14 @@ In a lot of cases, a percentage is treated in the same way as a length. The thin
 
 - Return to the `css04` folder.
 
-- Add the following to your CSS in `style.css`:
+- Add the following ruleset to your CSS in `style.css`:
 
 ```
-.Percentages li {
+.percentages li {
     font-size: 80%;
 }
 ```
+
 - Save `style.css` and refresh `exercise-04.html` in the browser.
 
 - View the **percentages** list at the bottom of the page.

@@ -28,7 +28,7 @@ The style goes right inside the tag:
 
 <h3 class="warning">Avoid inline styles</h3>
 
-Avoid using CSS in this way when possible. It is the opposite of a best practice. First, it is the least efficient implementation of CSS for maintenance. One styling change might require multiple edits within in a single web page. Second, inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand. Separating code and content makes maintenance easier for all who work on the the website.
+Avoid using CSS in this way when possible. It is the opposite of a best practice. First, it is the least efficient implementation of CSS for maintenance. One styling change might require multiple edits within in a single web page. Second, inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand. Separating code and content makes maintenance easier for all who work on the website.
 
 There are a few circumstances where inline styles are more common. You might have to resort to using inline styles if your working environment is very restrictive. For example, perhaps your CMS only allows you to edit the HTML body. You may also see a lot of inline styles in HTML email to achieve compatibility with as many email clients as possible.
 
@@ -114,7 +114,7 @@ In this example:
 
 - The `<link>` element is placed in the `head`, just under the `<title>` element.
 
-- `rel="stylesheet"` simply indicates the relatonship of this linked document is as a *stylesheet*.
+- `rel="stylesheet"` simply indicates the relationship of this linked document is as a *stylesheet*.
 
 - Then as usual, `href=""` links to the source document - the stylesheet. In this case it is a CSS file called `style.css`.
 
@@ -137,17 +137,22 @@ p {
 
 ### The correct path
 
-The `href` attribute of the `<link>` element needs to reference a file on your file system. In the example above, the CSS file is in the same folder as the HTML document, but you could place it somewhere else and adjust the path. Here are two examples:
+The `href` attribute of the `<link>` element needs to reference a file on your file system. In the example above, the CSS file is in the same folder as the HTML document, but you could place it somewhere else and adjust the path. 
 
-- Inside a subdirectory called styles inside the current directory (as per Repl.it)
+#### Here are two example paths:
+
+- Inside a subdirectory called `styles` inside the current directory.
+
 ```
 <link rel="stylesheet" href="styles/style.css">
 ```
 
-- Go up one directory level, then inside a subdirectory called styles
+- Go up one directory level, then inside a subdirectory called `styles`.
+
 ```
 <link rel="stylesheet" href="../styles/style.css">
 ```
+
 ### The file name
 
 - We are using `style.css`

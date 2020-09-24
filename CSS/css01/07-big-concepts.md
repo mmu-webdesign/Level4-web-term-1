@@ -11,7 +11,7 @@ In her book [Learning Web Design](https://www.learningwebdesign.com/), Jennifer 
 
 ## Box model
 
-*The box model will be dealt with in more detail at a later, but at this stage you do need to understand essence of the box model*.
+*The box model will be dealt with in more detail in Book 2, but at this stage you do need to understand essence of the box model*.
 
 The easiest way to understand the box model is to envision that every element (block and inline) on the page is contained by its own rectangle box. That's every heading, paragraph, span, header, footer etc. 
 
@@ -128,11 +128,11 @@ article {
 
 <!-- end div -->
 
-> Using `* {border: 1px solid red;}` in you CSS is a really handy way to identify what is happening on the page when you are struggling with the *box model* - which you will!
+> Using `* {border: 1px solid red;}` in your CSS is a really handy way to identify what is happening on the page when you are struggling with the *box model* - which you will!
 
 ## Inheritance
 
-Inheritance is the method where CCS properties are passed down (or not) form a HTML element, to the elements they contain.
+Inheritance is the method where CCS properties are passed down (or not) from a HTML element, to the elements they contain.
 
 > You have already seen inheritance in action.
 
@@ -180,7 +180,7 @@ Note that the styles inherited from our `body` styling are inherited by both the
 </figcaption>
 </figure>
 
-- The inheritance works here because we wouldn't the flow of these styles to stop just because parts of the paragraph are inside other (inline) elements.
+- The inheritance works here because we wouldn't want the flow of these styles to stop just because parts of the paragraph are inside other (inline) elements.
 
 <!-- end div -->
 
@@ -219,7 +219,7 @@ At some point, you will be working on a project and you will find that the CSS y
 
 Also significant here is the concept of **inheritance**, which as we know means some CSS properties by default inherit values set on the current element's parent element, and some don't. This can also cause some behavior that you might not expect.
 
-As you already know, CSS allows us to apply styles from a number of sources - the *User Agent* styles and the *author styles* (you - the developer) which may me external, internal and/or inline. The cascade relates to how the browser works this out and any conflicts.
+As you already know, CSS allows us to apply styles from a number of sources - the *User Agent* styles and the *author styles* (you - the developer) which may be external, internal and/or inline. The cascade relates to how the browser works this out and any conflicts.
 
 **For example** - the default (user agent) style for a `color` cascades down until it is overridden in the cascade by a `color` you may have defined in your stylesheet.
 
@@ -235,7 +235,9 @@ The stylesheet hierarchy determines which style wins.
 
 ## Specificity
 
-<blockquote cite"https://www.learningwebdesign.com/">
+
+<blockquote cite="https://www.learningwebdesign.com/">
+
 <p>Once the applicable style sheet has been chosen, there may still be conflicts: therefore, the cascade continues at the rule level. When two rules in a single style sheet conflict, the type of selector is used to determine the winner. The more specific the selector, the more weight it is given to override conflicting declarations.</p> 
 
 <p>Jen Niederst Robbins.</p>
@@ -347,7 +349,7 @@ One last thing you should know is Rule Order:
 
 This deals with styles of equal weight. What if a stylesheet has one `h1` styled as `red`, and another as `blue` (yes it happens - stylesheets can get big and hard to manage).
 
-Simply, the last rule will win. Therfore the `h1` rule further down the stylesheet will win. It's the same for styles in the same rule, for example:
+Simply, the last rule will win. Therefore the `h1` rule further down the stylesheet will win. It's the same for styles in the same rule, for example:
 
 ```
 h1 {
