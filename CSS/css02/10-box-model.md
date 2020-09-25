@@ -76,7 +76,7 @@ We can see how inline elements behave in this next example.
 <figure>
 <img src="media/ex-10-2.png" alt="example-b.html rendered in the browser">
 <figcaption>
-You can view this file, the HTML and CSS in the file <code>example-b.html</code> in the <code>css10</code> folder.
+You can view this file, the HTML and CSS in the file <code>example-b.html</code> in the <code>css10</code> folder. Open it in a browser.
 </figcaption>
 </figure>
 
@@ -159,7 +159,7 @@ If we assume that the box has the following CSS defining `width`, `height`, `mar
 The space taken up by our box using the standard box model will actually be 410px (350 + 25 + 25 + 5 + 5), and the height 210px (150 + 25 + 25 + 5 + 5), as the padding and border are added to the width used for the content box.
 
 <figure>
-<img src="media/standard-box-model.png" alt="exercise-09.html rendered in the browser">
+<img src="media/standard-box-model.png" alt="The standard box model illustrated ">
 <figcaption>
 This diagram shows our box with a defined width of 350px. When we add the left and right padding and borders, the actual box width in much larger (410px). Same happens with the height. <em>The developer is often left wondering why the box is bigger than expected</em>.
 </figcaption>
@@ -174,7 +174,7 @@ You might think it is rather inconvenient to have to add up the border and paddi
 For this reason, CSS had an alternative box model introduced some time after the standard box model. **Using this model, any width is the width of the visible box on the page, therefore the content area width is that width minus the width for the padding and border**. The same CSS as used above would give the below result (width = 350px, height = 150px).
 
 <figure>
-<img src="media/alternate-box-model.png" alt="exercise-09.html rendered in the browser">
+<img src="media/alternate-box-model.png" alt="The Box sizing model illustrated">
 <figcaption>
 This diagram shows our box with a defined width of 350px but using the alternative box model means that this time the left and right borders and padding are included in the 350px. <em>We get exactly what we expected this time</em>.
 </figcaption>
@@ -207,7 +207,7 @@ html {
 In the below example, you can see two boxes. Both have a class of `.box`, which gives them the same width, height, margin, border, and padding. The only difference is that the second box has been set to use the alternative box model.
 
 <figure>
-<img src="media/ex-10-3.png" alt="exercise-10.html rendered in the browser">
+<img src="media/ex-10-3.png" alt="exercise-10a.html rendered in the browser">
 <figcaption>
 This screenshot shows two boxes styled with the same dimensions using the <code>.box</code> class, but the second box uses the <code>box-sizing: border-box</code> rule to apply the alternative box model. Therefore the 2nd box includes the border and padding in its height and width.
 </figcaption>
@@ -216,6 +216,8 @@ This screenshot shows two boxes styled with the same dimensions using the <code>
 ### The CSS
 
 ```
+    /* Styles for both boxes */
+
     .box {
     border: 5px solid rebeccapurple;
     background-color: lightgray;
@@ -224,6 +226,8 @@ This screenshot shows two boxes styled with the same dimensions using the <code>
     width: 300px;
     height: 150px;
     }
+
+    /* Styles for the second box only */
 
     .alternate {
     box-sizing: border-box;
@@ -234,17 +238,17 @@ This screenshot shows two boxes styled with the same dimensions using the <code>
 We tend to prefer this alternative method, called `box-sizing` by most, as it makes life simpler. Using `box-sizing` means we get the box at the size we expect it to be and not larger because we forgot to take into account borders and padding.
 
 <!-- div class="exercise" -->
-## Exercise 10
+## Exercise 10a
 
 ### Task 1
 
 - Open the `css10` folder in VSC.
 
-- Open `exercise-10.html` in your editor.
+- Open `exercise-10a.html` in your editor.
 
-- Open `exercise-10.html` in the browser to check it works.
+- Open `exercise-10a.html` in the browser to check it works.
 
-- Return to `exercise-10.html` in your editor.
+- Return to `exercise-10a.html` in your editor.
 
 - Can you change the size of the second box (by adding CSS to the `.alternate` class) to make it match the first box in width and height?
 
@@ -256,12 +260,12 @@ We tend to prefer this alternative method, called `box-sizing` by most, as it ma
 
     + Work out the revised `height` and `width` by adding the padding and borders.
 
-- Save `exercise-10.html` and refreshing it in the browser to see change.
+- Save `exercise-10a.html` and refreshing it in the browser to see change.
 
 - It should look like this if correct:
 
 <figure>
-<img src="media/ex-10-4.png" alt="exercise-10.html rendered in the browser">
+<img src="media/ex-10-4.png" alt="exercise-10a.html rendered in the browser">
 <figcaption>
 Our screenshot shows boxes looking the same size. The second box using the <code>box-sizing: border-box</code> rule needs larger height and width values to allow for the inclusion of the border and padding.
 </figcaption>
@@ -269,6 +273,7 @@ Our screenshot shows boxes looking the same size. The second box using the <code
 
 <!-- end div -->
 
+<p class="submit-work">Exercise 10a completed</p>
 
 ## Use browser DevTools to view the box model
 
@@ -276,20 +281,51 @@ Your [browser developer tools](https://developer.mozilla.org/en-US/docs/Learn/Co
 
 
 <figure>
-<img src="media/box-model-devtools.png" alt="exercise-10.html rendered in the browser">
+<img src="media/box-model-devtools.png" alt="exercise-10a.html rendered in the browser">
 <figcaption>
-Screenshot of the Box Model inspector in the Firefox developer tools. You can inspect any element on the page to view its box properties. Give it a try in your browser on the file <code>exercise-10.html</code>. 
+Screenshot of the Box Model inspector in the Firefox developer tools. You can inspect any element on the page to view its box properties. 
 </figcaption>
 </figure>
 
+- Give it a try in your browser on the file <code>exercise-10a.html</code>.
+
+- View the page in your browser, and use Dev Tools to look at the box model of each box.
 
 ## Margins, padding, and borders
 
-You've already seen the [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin), [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding), and [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border) properties at work in the example above. The properties used in that example are **shorthands** and allow us to set all four sides of the box at once. These shorthands also have equivalent longhand properties, which allow control over the different sides of the box individually.
+You've already seen the [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin), [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding), and [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border) properties at work in the example above. 
 
-Let's explore these properties in more detail.
+Before we start it is important to understand how margins, padding, and borders are applied to each box. The properties used in that example are **shorthands** and allow us to set all four sides of the box at once. These shorthands also have equivalent longhand properties, which allow control over the different sides of the box individually.
 
-### Margin
+<figure>
+<img src="media/boxdim.png" alt="Margins, padding, and borders">
+<figcaption>
+ This W3C diagram illustrates how each side of the box has padding, border and margin. Source - <a href="https://www.w3.org/TR/CSS2/box.html">www.w3.org/TR/CSS2/box.html</a>
+</figcaption>
+</figure>
+
+- The above illustrates:
+
+    + TM - Top Margin
+    + TB - Top Border
+    + TP - Top Padding
+    + RM - Right Margin
+    + RB - Right Border
+    + RP - Right Padding
+    + BM - Bottom Margin
+    + BB - Bottom Border
+    + BP - Bottom Padding
+    + LM - Left Margin
+    + LB - Left Border
+    + LP - Left Padding
+
+- Everything goes clockwise.
+
+- Top, Right, Bottom, Left.
+
+We will look at margins, padding, and borders individually.
+
+## Margin
 
 The margin is an invisible space around your box. It pushes other elements away from the box. Margins can have positive or negative values. Setting a negative margin on one side of your box can cause it to overlap other things on the page. Whether you are using the standard or alternative box model, the margin is always added after the size of the visible box has been calculated.
 
@@ -299,6 +335,165 @@ We can control all margins of an element at once using the `margin` property, or
 - [margin-right](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-right)
 - [margin-bottom](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-bottom)
 - [margin-left](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-left)
+
+### Applying margins
+
+We will look closer at how margins are applied to one, some or all of the margins. The good news is, that this works pretty much the same for padding and borders as well.
+
+<!-- div class="exercise" -->
+## Exercise 10a
+
+### Task 1
+
+- Return to the `css10` folder in VSC.
+
+- Open `exercise-10b.html` in your editor.
+
+- Open `exercise-10b.html` in the browser to check it works.
+
+<figure>
+<img src="media/ex-10-7.png" alt="exercise-10b.html rendered in the browser">
+<figcaption>
+The screenshot shows two boxes, one inside another.  
+</figcaption>
+</figure>
+
+### Task 2
+
+- Let's review the HTML:
+
+    + You have two boxes created with `<div>` elements. One inside the other.
+
+- And the CSS:
+
+    + The outer box (container) has a blue border.
+
+    + The outer box has a margin value of 40px - this applies a 40px margin to top, right, bottom and left. More on this short hand code shortly.
+
+    + The inner box has a purple border and grey background.
+
+    + The inner box has a height (usually avoided - but good for this demo).
+
+    + The inner box has all 4 margins, top, right, bottom and left defined but set at `0px`.
+
+- By using a box within a box it will be easier for you to see your styles applied.
+
+### Task 3
+
+- Return to `exercise-10b.html` in your editor.
+
+- Identify the margin rulesets:
+
+```
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+```
+- Edit each rule, one by one - amending the value to `20px`.
+
+- For example:
+
+```
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+```
+
+- Save `exercise-10b.html`, refresh the page in the browser and view the change.
+
+- Do the same to each margin, saving and viewing the change.
+
+<figure>
+<img src="media/ex-10-8.png" alt="exercise-10b.html rendered in the browser">
+<figcaption>
+Your inner box should end up with a 20px margin all around.
+</figcaption>
+</figure>
+
+- change the top and bottom margins:
+
+```
+        margin-top: 40px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+```
+
+- Save `exercise-10b.html`, refresh the page in the browser and view the change.
+
+<figure>
+<img src="media/ex-10-9.png" alt="exercise-10b.html rendered in the browser">
+<figcaption>
+Your inner box should end have larger top and bottom margins as illustrated.
+</figcaption>
+</figure>
+
+### task 4
+
+#### Shorthand
+
+- The `margin` CSS property sets the margin area on all four sides of an element. It is a shorthand for `margin-top`, `margin-right`, `margin-bottom`, and `margin-left`.
+
+- Delete the four margin rules and replace them with the following single (shorthand) ruleset:
+
+```
+margin: 50px;
+```
+
+- Save `exercise-10b.html`, refresh the page in the browser and view the change.
+
+- The **single value** applies a (`50px`) margin all around.
+
+- Change the margin rule to:
+
+```
+margin: 50px 5px;
+```
+
+- The **two values** apply to *top* and *bottom* margin (`50px`) and *right* and *left* margin (`5px`).
+
+- Save `exercise-10b.html`, refresh the page in the browser and view the change.
+
+- Change the margin rule to:
+
+```
+margin: 40px 10px 90px;
+```
+
+- The **three values** apply to *top* margin (`40px`), *right* and *left* margins (`10px`) and *bottom* margin (`90px`).
+
+- Save `exercise-10b.html`, refresh the page in the browser and view the change.
+
+<figure>
+<img src="media/ex-10-10.png" alt="exercise-10b.html rendered in the browser">
+<figcaption>
+Your inner box should end have larger top and bottom margins as illustrated.
+</figcaption>
+</figure>
+
+- Finally change the margin rule to:
+
+```
+margin: 40px 20px 80px 50px;
+```
+
+- The four values apply top (`40px`), right (`20px`), bottom (`80px`) and left (`50px`) margins - always clockwise.
+
+
+- Save `exercise-10b.html`, refresh the page in the browser and view the change.
+
+<figure>
+<img src="media/ex-10-11.png" alt="exercise-10b.html rendered in the browser">
+<figcaption>
+Your inner box should reflect the margins as illustrated. The shorthand has allowed us to quickly apply values to all four margins in this final example.
+</figcaption>
+</figure>
+
+
+<!-- end div -->
+
 
 
 <!-- div class="exercise" -->
@@ -375,10 +570,102 @@ The margins have collapsed together so the actual margin between the boxes is 50
 </figcaption>
 </figure>
 
-copy instructions from above....
+### Task 1
+
+- Open the `css10` folder.
+
+- Open `example-d.html` in your editor.
+
+- Open `example-d.html` in the browser to check it looks as show above. Two paragraphs sat in a container (`<div>`).
+
+- Return to `example-d.html` in your editor.
+
+- Find this style ruleset in the `head` of the document.
+
+```
+    /* Styles for Margin collapsing */
+
+    .one {
+    margin-bottom: 50px;
+    }
+
+    .two {
+    margin-top: 30px;
+    }
+```
+
+- To reiterate, we have margin collapsing in action here:
+
+    + With a bottom margin of 50px (on the top paragraph), and a top margin of 30px (on the bottom paragraph) we would expect a gap of 80px.
+
+    + What we get with the margin collapse happening is just the largest margin (50px bottom margin) only. The top margin of 30px has gone.
+
+### Task 2
+
+- You can test this by setting the margin-top of paragraph two to 0.
+
+```
+    /* Styles for Margin collapsing */
+
+    .one {
+    margin-bottom: 50px;
+    }
+
+    .two {
+    margin-top: 0px;
+    }
+```
+
+- Make this edit, save `example-d.html` and refresh it in your browser.
+
+- The page should look no different, but you have proved that the top margin is collapsed. The visible margin between the two paragraphs will not change — it retains the 50 pixels set in the bottom-margin of paragraph one.
+
+### Task 3
+
+- Return to `example-d.html` in your editor.
+
+- If you set `margin-top` to `-10px`, you'll see that the overall margin becomes 40px — it subtracts from the 50px.
+
+```
+    /* Styles for Margin collapsing */
+
+    .one {
+    margin-bottom: 50px;
+    }
+
+    .two {
+    margin-top: -10px;
+    }
+```
+
+- Make this edit, save `example-d.html` and refresh it in your browser.
+
+- The margin will *jump* a little as the margin between the two paragraphs decreases to 40px.
+
+<!-- end div -->
+
+There are a number of rules that dictate when margins do and do not collapse. For further information see MDN's detailed page on [mastering margin collapsing](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing). 
+
+**The main thing to remember for now is that margin collapsing is a thing that happens.** If you are creating space with margins and don't get the space you expect, this is probably what is happening.
+
+
+
+
+
+
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
 
 ### Things are changing
 
 CSS traditionally has sized things according to the physical dimensions of the screen. Therefore we describe boxes as having a `width` and `height`, position items from the top and left, float things left, assign borders, margin, and padding to the top, right, bottom, left, etc. The W3C [Logical Properties and Values specification](https://drafts.csswg.org/css-logical/) defines mappings for these physical values to their logical, or flow relative, counterparts — e.g. start and end as opposed to left and right/top and bottom.
 
-This is beyond the scope of this unit but more expereinced devloper may want to tak e a look at MDN's [Basic concepts of Logical Properties and Values](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Basic_concepts).
+This is beyond the scope of this unit but more experienced developer may want to tak e a look at MDN's [Basic concepts of Logical Properties and Values](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Basic_concepts).
+
+
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
