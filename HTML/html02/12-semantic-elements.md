@@ -51,7 +51,7 @@ Someone with this type of colour vision deficiency may:
 
 In rare cases, some people have trouble with blues, greens and yellows instead. This is known as "blue-yellow" colour vision deficiency.
 
-Source - [Colour Vision Deficiency NHS](https://www.nhs.uk/conditions/colour-vision-deficiency").
+Source - [Colour Vision Deficiency NHS](https://www.nhs.uk/conditions/colour-vision-deficiency/).
 
 
 ## Semantic elements for adding structure
