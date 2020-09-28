@@ -166,11 +166,11 @@ The code shows a simple page including a containing <code>div</code> around a si
 
 - Open `exercise-11.html` in the browser to check it works.
 
-- Create a styklesheet - `style.css`
+- Create a stylesheet - `style.css`
 
 - Link to the stylesheet from `exercise-11.html`
 
-- Check it woks by using:
+- Check it works by using:
 
 ```
 * {
@@ -183,7 +183,7 @@ The code shows a simple page including a containing <code>div</code> around a si
 - Refresh `exercise-11.html` in your browser.
 
 <figure>
-<img src="media/ex-11-1.png" alt="exercise-04.html rendered in the browser">
+<img src="media/ex-11-1.png" alt="exercise-11.html rendered in the browser">
 <figcaption>
 The red border lets us know the stylesheet is working. It also shows our boxes.
 </figcaption>
@@ -195,8 +195,88 @@ The red border lets us know the stylesheet is working. It also shows our boxes.
 
 ### Task 3
 
+- Return to `style.css` in the editor.
+
+- Apply some base styles.
+
+```
+html{
+    font-size: 10px; /* 1 rem is now 10px for easy maths */
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4 ;
+    color: #333; 
+    background-color: #f2f5f5; 
+}
+p {
+    font-size: 2.4rem;
+}
+```
+
+- Save `style.css` and refresh `exercise-11.html` in the browser to see the changes applied.
 
 
+### Task 4
+
+- Apply margins, padding and borders.
+
+- Return to `style.css` in the editor.
+
+- Create two classes (to match the classes in `exercise-11.html`).
+
+```
+.container {
+    max-width: 800px;
+}
+
+.box {
+    background-color: #E0E6E6;
+}
+```
+
+- The `max-width` just ensures our box doesn't get too big. Much more of this when we start getting *responsive* with our CSS.
+
+- Save `style.css` and refresh `exercise-11.html` in the browser to see the changes applied.
+
+<figure>
+<img src="media/ex-11-2.png" alt="exercise-04.html rendered in the browser">
+<figcaption>
+Basic styles applied and classes created.
+</figcaption>
+</figure>
+
+### Task 5
+
+- Apply the following styles to add margins, padding and borders.
+
+
+- Add to `.container` a margin top and bottom of `4rem` and a margin right and left of `2rem`, using the CSS shorthand.
+
+    + The margin pushes our container away from the browser edges.
+
+- Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
+
+- Add to `.container` a `2px` `dotted` border with the colour value `#878f8f`.
+
+- Save and test in the browser.
+
+<figure>
+<img src="media/ex-11-3.png" alt="exercise-04.html rendered in the browser">
+<figcaption>
+Margins and border in place.
+</figcaption>
+</figure>
+
+- Add to `.box` padding of `2rem`.
+
+    + Note how this pushes the content away from the edges.
+
+- Save and test in the browser.
+
+-  Add to `.box` a margin of `1rem`.
+
+    + Note how this creates space around the box. 
 
 
 

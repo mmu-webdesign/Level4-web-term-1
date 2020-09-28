@@ -108,7 +108,7 @@ VSC has a New File button (also a new folder button next to it) for speed. Just 
 
 ### Task 3
 
-- To link `style.css` to index.html add the following line under the `<title> </title>`, but inside the <head> of the HTML document:
+- To link `style.css` to `exercise-02.html` add the following line under the `<title> </title>`, but inside the <head> of the HTML document:
 
 ```
 <link rel="stylesheet" href="style.css">
