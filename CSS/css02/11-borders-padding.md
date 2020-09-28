@@ -130,7 +130,26 @@ border: 1px solid #000;
 ```
 
 
+## Padding
 
+The padding sits between the border and the content area. Unlike margins you cannot have negative amounts of padding, so the value must be 0 or a positive value. Any background applied to your element will display behind the padding, and it is typically used to push the content away from the border.
+
+YOu will note that Derren prefers to use (when possible) `padding` rather than `margin` to create space between elements. 
+
+We can control the padding on each side of an element individually using the padding property, or each side individually using the equivalent longhand properties:
+
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+
+
+<!-- div class="exercise" -->
+## Exercise 11
+
+<!-- end div -->
+
+<p class="submit-work">Exercise 11 completed</p>
 
 
 
