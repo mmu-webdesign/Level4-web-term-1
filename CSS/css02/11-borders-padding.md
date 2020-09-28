@@ -147,6 +147,80 @@ We can control the padding on each side of an element individually using the pad
 <!-- div class="exercise" -->
 ## Exercise 11
 
+> Borders and padding.
+
+### Task 1
+
+- Open the `css11` folder.
+
+- Open `exercise-11.html` in your editor.
+
+<figure>
+<img src="media/ex-11.png" alt="The VSC interface">
+<figcaption>
+The code shows a simple page including a containing <code>div</code> around a single paragraph.
+</figcaption>
+</figure>
+
+### Task 2
+
+- Open `exercise-11.html` in the browser to check it works.
+
+- Create a styklesheet - `style.css`
+
+- Link to the stylesheet from `exercise-11.html`
+
+- Check it woks by using:
+
+```
+* {
+    border: 1px solid red;
+}
+```
+
+- Save both `style.css` and `exercise-11.html`.
+
+- Refresh `exercise-11.html` in your browser.
+
+<figure>
+<img src="media/ex-11-1.png" alt="exercise-04.html rendered in the browser">
+<figcaption>
+The red border lets us know the stylesheet is working. It also shows our boxes.
+</figcaption>
+</figure>
+
+> See you've been using border and shorthand already!
+
+- Remove that style once you know the stylesheet is attached and working.
+
+### Task 3
+
+
+
+
+
+
+     .container {
+        border: 5px solid blue;
+        margin: 40px;
+      }
+
+      .box {
+        border: 5px solid rebeccapurple;
+        background-color: lightgray;
+      }
+
+
+        .container {
+        padding: 20px;
+        }
+
+        .box {
+        padding-top: 0;
+        padding-right: 30px;
+        padding-bottom: 40px;
+        padding-left: 4em;
+        }  
 <!-- end div -->
 
 <p class="submit-work">Exercise 11 completed</p>

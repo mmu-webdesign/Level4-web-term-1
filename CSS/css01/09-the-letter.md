@@ -173,7 +173,7 @@ VSC will help you by prompting you with <code>font-family</code> options to sele
 
 - Return to `style.css` in the editor.
 
-- Apply a complimentary font family (different to the one chosen for the body) to both `h1` and `h2` elements including . 
+- Apply a complimentary font family (different to the one chosen for the body) to both `h1` and `h2` elements. 
 
 - Apply a `font-size` to each of the headings using `rems`.
 
