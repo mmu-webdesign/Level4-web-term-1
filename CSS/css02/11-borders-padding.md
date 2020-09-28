@@ -276,31 +276,25 @@ Margins and border in place.
 
 -  Add to `.box` a margin of `1rem`.
 
-    + Note how this creates space around the box. 
+    + Note how this creates space around the box.
 
+- Finally, add to `.box` solid bottom and top borders of `20px` with the colour value `#878f8f`.
 
+- Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
 
-     .container {
-        border: 5px solid blue;
-        margin: 40px;
-      }
+<figure>
+<img src="media/ex-11-4.png" alt="exercise-04.html rendered in the browser">
+<figcaption>
+The resulting page should look like this.
+</figcaption>
+</figure>
 
-      .box {
-        border: 5px solid rebeccapurple;
-        background-color: lightgray;
-      }
+## Background colors
 
+- You may have noticed that we introduced the [background-color property](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color) in the last exercise, both for the body and the `.box` class.
 
-        .container {
-        padding: 20px;
-        }
+- The `background-color` property defines the background colour on any element in CSS. The property accepts any valid `<color>`. A background-color extends underneath the content and padding box of the element.
 
-        .box {
-        padding-top: 0;
-        padding-right: 30px;
-        padding-bottom: 40px;
-        padding-left: 4em;
-        }  
 <!-- end div -->
 
 <p class="submit-work">Exercise 11 completed</p>
