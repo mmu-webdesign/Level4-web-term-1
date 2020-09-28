@@ -291,6 +291,10 @@ Screenshot of the Box Model inspector in the Firefox developer tools. You can in
 
 - View the page in your browser, and use Dev Tools to look at the box model of each box.
 
+- This LinkedIn Learning Video looks at [Debugging the box model](https://www.linkedin.com/learning/css-essential-training-3/debugging-the-box-model?u=36102708) (3m 28s)
+
+- The file you need for this video is available here - [box-model.html](media/box-model.html).
+
 ## Margins, padding, and borders
 
 You've already seen the [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin), [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding), and [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border) properties at work in the example above. 
@@ -491,9 +495,13 @@ Your inner box should reflect the margins as illustrated. The shorthand has allo
 </figcaption>
 </figure>
 
+- The shorthand properties can speed up your coding, and of course mean less code. As you will see in the next chapter, both borders and padding follow the same method, always going clockwise.
+
+- It will still be useful in some circumstances to target a single element, such as `margin-bottom` from time to time in your coding.
 
 <!-- end div -->
 
+<p class="submit-work">Exercise 10b completed</p>
 
 
 <!-- div class="exercise" -->
@@ -642,6 +650,8 @@ The margins have collapsed together so the actual margin between the boxes is 50
 
 - The margin will *jump* a little as the margin between the two paragraphs decreases to 40px.
 
+- A reminder - The `example` files are not part of the assessment, but you can leave them in the folder.
+
 <!-- end div -->
 
 There are a number of rules that dictate when margins do and do not collapse. For further information see MDN's detailed page on [mastering margin collapsing](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing). 
@@ -649,14 +659,26 @@ There are a number of rules that dictate when margins do and do not collapse. Fo
 **The main thing to remember for now is that margin collapsing is a thing that happens.** If you are creating space with margins and don't get the space you expect, this is probably what is happening.
 
 
-
-
-
-
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
+- LinkedIn Learning Video: [Introduction to the box model](https://www.linkedin.com/learning/css-essential-training-3/introduction-to-the-box-model?u=36102708) (1m 7s)
+
+- LinkedIn Learning Video: [Inline, block and display](https://www.linkedin.com/learning/css-essential-training-3/inline-block-and-display?u=36102708) (3m 6s)
+
+- LinkedIn Learning Video: [The box model properties](https://www.linkedin.com/learning/css-essential-training-3/the-box-model-properties?u=36102708) (2m 6s)
+
+- LinkedIn Learning Video: [The box properties syntax and usage](https://www.linkedin.com/learning/css-essential-training-3/the-box-properties-syntax-and-usage?u=36102708) (3m 17s)
+
+- LinkedIn Learning Video: [Padding, margin and border](https://www.linkedin.com/learning/css-essential-training-3/padding-margin-and-border?u=36102708) (5m 34s)
+
+- Article - CSS Tricks: [The CSS Box Model](https://css-tricks.com/the-css-box-model/) 
+
+
+<h2 class="deep">Advanced Learning</h2>
+
+For students wanting more, we recommend the following topics and resources. 
 
 ### Things are changing
 
