@@ -102,7 +102,7 @@ body {
 
 - Save `style.css` and refresh `exercise-05.html` in the browser.
 
-- Check that you page reflects these changes (the background is subtle).
+- Check that your page reflects these changes (the background is subtle).
 
 ### Task 5
 

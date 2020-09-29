@@ -183,7 +183,7 @@ The code shows a simple page including a containing <code>div</code> around a si
 - Refresh `exercise-11.html` in your browser.
 
 <figure>
-<img src="media/ex-11-1.png" alt="exercise-11.html rendered in the browser">
+<img src="media/ex-11-1.png" alt="exercise-11.html rendered in the browser with all borders red">
 <figcaption>
 The red border lets us know the stylesheet is working. It also shows our boxes.
 </figcaption>
@@ -240,7 +240,7 @@ p {
 - Save `style.css` and refresh `exercise-11.html` in the browser to see the changes applied.
 
 <figure>
-<img src="media/ex-11-2.png" alt="exercise-04.html rendered in the browser">
+<img src="media/ex-11-2.png" alt="exercise-11.html rendered in the browser with basic styles applied">
 <figcaption>
 Basic styles applied and classes created.
 </figcaption>
@@ -262,7 +262,7 @@ Basic styles applied and classes created.
 - Save and test in the browser.
 
 <figure>
-<img src="media/ex-11-3.png" alt="exercise-04.html rendered in the browser">
+<img src="media/ex-11-3.png" alt="exercise-11.html rendered in the browser with border and margin">
 <figcaption>
 Margins and border in place.
 </figcaption>
@@ -283,7 +283,7 @@ Margins and border in place.
 - Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
 
 <figure>
-<img src="media/ex-11-4.png" alt="exercise-04.html rendered in the browser">
+<img src="media/ex-11-4.png" alt="exercise-11.html rendered in the browser with all styles applied">
 <figcaption>
 The resulting page should look like this.
 </figcaption>
@@ -297,9 +297,124 @@ The resulting page should look like this.
 
 <!-- end div -->
 
+## Width and height
+
+In our previous exercises we created boxes by adding `height` and `width` attributes. We did this because the boxes had none or little content.
+In this exercise our box did have content, but we used `max-width` to stop the container becoming too wide for our demonstration. 
+
+Height and width can be applied with `rems` (as we have used), `ems`, `px` and percentages. For example we could have made our box `max-width: 75%` which would mean our box would always be `75%` of the width of the container - in our example, the browser window. 
+
+
+<!-- div class="exercise" -->
+## Exercise 11 continued
+
+> Percentage.
+
+### Task 1
+
+- Return to `style.css` in the editor.
+
+- Change your `max-width` value to `width: 50%`.
+
+```
+.container {
+    width: 50%;
+    margin: 4rem 2rem;
+    border:  2px dotted #878f8f;
+}
+```
+- Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
+
+- Notice that our container now takes up 50% of the width of the browser window.
+
+- Adjust your browser's width to see the box change to maintain that 50%.
+
+### Task 2
+
+- Change your `width` value to `75%`.
+
+- Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
+
+- Resize your browser window to see the effect.
+
+### task 3
+
+- Return your `.container` style back to the `max-width`.
+
+```
+.container {
+    max-width: 800px;
+    margin: 4rem 2rem;
+    border:  2px dotted #878f8f;
+}
+```
+
+- Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
+
+<!-- end div -->
+
+## Our block of content
+
+- In our example page `exercise-11.html` we have a block of content.
+
+- We have a `max-width` - this stops the text flowing across the page when the browser window is wide.
+
+<figure>
+<img src="media/ex-11-5.png" alt="exercise-11.html rendered in the browser">
+<figcaption>
+The container has a restricted width of 800px.
+</figcaption>
+</figure>
+
+- Restricting the width ensures our text has a good reading length.
+
+- The usual quoted number for optimal line length is 65 characters. This is based on 45 to 75 characters (including spaces and punctuation) per line for print.
+
+- Of course this will vary and depend on the font size. Either way, you need a comfortable line length for your text.
+
+<!-- div class="exercise" -->
+## Exercise 11 continued
+
+> Line length.
+
+### Task 1
+
+- Return to `exercise-11.html` in the editor.
+
+- Replace your paragraph text with this line of numbers:
+
+```
+    <div class="container">
+
+        <p class="box">01234567890123456789012345678901234567890123456789012345678912345</p>
+
+    </div>
+```
+- Save `exercise-11.html` and refresh the browser to see the changes.
+
+<figure>
+<img src="media/ex-11-6.png" alt="exercise-11.html rendered in the browser">
+<figcaption>
+Our paragraph is a line of 65 characters. Our box can be resized to better fit this reading length.
+</figcaption>
+</figure>
+
+### Task 2
+
+- Return to `style.css` in the editor.
+
+- Adjust the `.container` max-width value to better fit this line length.
+
+- Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
+
+<figure>
+<img src="media/ex-11-6.png" alt="exercise-11.html rendered in the browser">
+<figcaption>
+Our paragraph is a line of 65 characters. Our box can be resized to better fit this reading length.
+</figcaption>
+</figure>
+
 <p class="submit-work">Exercise 11 completed</p>
-
-
 
 <h2 class="deep">Deeper Learning</h2>
 
