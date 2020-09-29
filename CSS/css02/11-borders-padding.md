@@ -134,7 +134,7 @@ border: 1px solid #000;
 
 The padding sits between the border and the content area. Unlike margins you cannot have negative amounts of padding, so the value must be 0 or a positive value. Any background applied to your element will display behind the padding, and it is typically used to push the content away from the border.
 
-YOu will note that Derren prefers to use (when possible) `padding` rather than `margin` to create space between elements. 
+You will note that Derren prefers to use (when possible) `padding` rather than `margin` to create space between elements. 
 
 We can control the padding on each side of an element individually using the padding property, or each side individually using the equivalent longhand properties:
 
@@ -408,19 +408,85 @@ Our paragraph is a line of 65 characters. Our box can be resized to better fit t
 - Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
 
 <figure>
-<img src="media/ex-11-6.png" alt="exercise-11.html rendered in the browser">
+<img src="media/ex-11-7.png" alt="exercise-11.html rendered in the browser">
 <figcaption>
-Our paragraph is a line of 65 characters. Our box can be resized to better fit this reading length.
+Your paragraph should now fit in the container.
 </figcaption>
 </figure>
 
+### Task 3
+
+- Now you have a good line length.
+
+- Return to `exercise-11.html` in the editor.
+
+- Replace the numbers with some text.
+
+```
+    <div class="container">
+
+        <p class="box">Studied only as part of the Digital User Experience (UX) Professional Degree Apprenticeship, the BSc (Hons) Digital User Experience is the creation of Manchester Metropolitan University. As a leading member of the Digital UX Trailblazer Group, the University collaborated with employers to create this new Apprenticeship programme. It has been designed to rapidly equip apprentices with the necessary skills required for a career in the digital UX profession.</p>
+
+    </div>
+```
+- Save `exercise-11.html` and refresh the browser to see the changes.
+
+<figure>
+<img src="media/ex-11-8.png" alt="exercise-11.html rendered in the browser">
+<figcaption>
+Your paragraph should now fit in the container and provide a comfortable reading length.
+</figcaption>
+</figure>
+<!-- end div -->
+
+## Centring our content
+
+Our block of text sits well in the browser and provides a good reading experience. The only remaining issue is that our block of content sits to the left of our browser window.
+
+<!-- div class="exercise" -->
+## Exercise 11 continued
+
+> Centring our page.
+
+### Task 1
+
+- Return to `style.css` in the editor.
+
+- Adjust the `.container`, giving the left and right margins the value of `auto`.
+
+```
+    margin: 4rem auto;
+```
+
+- This let's both left and righ margins, share equally, the remaining space.
+
+- This centre's our block of content - the container.
+
+- Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
+
+<figure>
+<img src="media/ex-11-9.png" alt="exercise-11.html rendered in the browser">
+<figcaption>
+The container now sits, centred in our page. For many years this has been a handy tool for centring web pages. There are however more modern ways of centring items with Flexbox. More in the second assignment.
+</figcaption>
+</figure>
+
+<!-- end div -->
+
 <p class="submit-work">Exercise 11 completed</p>
+
 
 <h2 class="deep">Deeper Learning</h2>
 
 To get a better understanding of this topic use the following resources.
 
-MD's [Shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) reference page looks at various ways of applying shorthand to margins, borders, padding, and fonts.
+- LinkedIn Learning Video: [Padding, margin and border](https://www.linkedin.com/learning/css-essential-training-3/padding-margin-and-border?u=36102708) (5m 34s)
+
+- LinkedIn Learning Video: [Margins and layouts](https://www.linkedin.com/learning/css-essential-training-3/margin-and-layouts?u=36102708) (3m 3s)
+
+- MD's [Shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) reference page looks at various ways of applying shorthand to margins, borders, padding, and fonts.
+
+- Smashing magazine article: Laura Franz - [Size Matters: Balancing Line Length And Font Size In Responsive Web Design](https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/)
 
 
 ### &copy; Credit given

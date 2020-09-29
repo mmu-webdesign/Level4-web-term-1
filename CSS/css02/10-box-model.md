@@ -671,7 +671,6 @@ To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [The box properties syntax and usage](https://www.linkedin.com/learning/css-essential-training-3/the-box-properties-syntax-and-usage?u=36102708) (3m 17s)
 
-- LinkedIn Learning Video: [Padding, margin and border](https://www.linkedin.com/learning/css-essential-training-3/padding-margin-and-border?u=36102708) (5m 34s)
 
 - Article - CSS Tricks: [The CSS Box Model](https://css-tricks.com/the-css-box-model/) 
 
