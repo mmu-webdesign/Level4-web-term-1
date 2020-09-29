@@ -325,16 +325,16 @@ Or to make the top right corner have a horizontal radius of 1em, and a vertical 
 
 - Two things to check:
 
-    + You have removed these 3 styles from `.star` as it's would be point less to repeat them. Cut & paste, not Copy & Paste.
+    + You have removed these 3 styles from `.star` as it's would be pointless to repeat them. Cut & paste, not Copy & Paste.
 
-    + You have removed the original border style from `.box`.
+    + You have removed the original border style from `.box` before adding these?
 
 - Save `exercise-12.html` and refresh it in your browser.
 
 <figure>
 <img src="media/ex-12-7.png" alt="The completed exercise.">
 <figcaption>
-A thing of beauty - Both boxes with a border radius added. Use with care!
+A thing of beauty - Both boxes with a border radius added. <strong>Use with care!</strong>
 </figcaption>
 </figure>
 
