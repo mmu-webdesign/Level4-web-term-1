@@ -65,6 +65,14 @@ For this example, we'll use two web fonts, one for the headings, and one for the
 
 - An online font service: This is a site that stores and serves the fonts for you, making the whole process easier. We will be using an online font service in the second exercise.
 
+<h3 class="warning">Videos first?</h3>
+
+> **Note**: Some students may find it easier to watch these LinkedIn Learning videos before starting the exercises. They both show the technologies being used in each exercise, but they don't demonstrate the actual exercise - that would be too easy!
+
+- Exercise 14a: [Web fonts with @font-face](https://www.linkedin.com/learning/css-essential-training-3/web-fonts-with-font-face?u=36102708) (2m 58s)
+
+- Exercise 14b: [Web fonts with Google Fonts](https://www.linkedin.com/learning/css-essential-training-3/web-fonts-with-google-fonts?u=36102708) (1m 56s)
+
 <!-- div class="exercise" -->
 ## Exercise 14a
 
@@ -72,7 +80,7 @@ For this example, we'll use two web fonts, one for the headings, and one for the
 
 ### Task 1 - Selecting your fonts
 
-- Open the `css13` folder in Visual Studio Code.
+- Open the `css14` folder in Visual Studio Code.
 
 - Open `exercise-14a.html` and `web-font-a.css` in your editor.
 
@@ -164,16 +172,233 @@ src: url('fonts/raleway-black-webfont.woff2') format('woff2'),
   p {
     font-size: 1.6rem;
     line-height: 1.5;
-    word-spacing: 0.6rem;
     font-family: 'ralewayregular', sans-serif;
   }
 ```
+- Save `web-font-a.css` and refresh `exercise-14a.html` in your browser to see the changes.
+
+<figure>
+<img src="media/ex-14-2.png" alt="exercise-14a.html rendered with the new font">
+<figcaption>
+You should end up with a demo page with some nice fonts implemented on them. 
+</figcaption>
+</figure>
+
+### Task 5
+
+- Go it alone.
+
+- Return to `exercise-14a.html` in your editor. 
+
+- Add this paragraph to the bottom of the page (but before the closing `body` tag).
+
+```
+    <p>Taxidermy tofu YOLO, <em>sustainable etsy flexitarian art party</em> stumptown portland. Ethical williamsburg retro paleo. Put a bird on it leggings yuccie actually, <strong>skateboard jean shorts</strong> paleo lomo salvia plaid you probably haven't heard of them.</p>
+```
+
+- Save `exercise-14a.html` and refresh in the browser to check the paragraph is in place.
+
+<figure>
+<img src="media/ex-14-3.png" alt="exercise-14a.html rendered with the new paragraph">
+<figcaption>
+You should see the new paragraph including both the italics and bold applied. 
+</figcaption>
+</figure>
+
+- The bold and italics are what we call faux weights and styles. They are being applied by the browser, not the actual font.
+
+- Your mission is to add the actual fonts - `raleway italic` and `raleway bold` to your site and apply these through the CSS.
+
+- Do this by repeating the above process but after using the generator just copy the four `.woff` and `.woff2` fonts to your existing `font` folder in `css14` and add the @font-face CSS to `web-font-a.css`.
+
+- Don't forget to adjust the path in the `@font-face`. 
+
+- Finally, you'll need these selectors adding to `web-font-a.css`.
+
+```
+.em {
+    font-family: 'ralewayitalic', sans-serif;
+  }
+
+ .strong {
+    font-family: 'ralewaybold', sans-serif;
+  }
+```
+- Save `web-font-a.css` and refresh `exercise-14a.html` in your browser to see the changes.
+
+<figure>
+<img src="media/ex-14-4.png" alt="exercise-14a.html rendered with the new paragraph">
+<figcaption>
+The changes are subtle but no longer faux. A designers delight. You are seeing the browser render either the actual bold or italic version of our font Raleway rather than applying bold or italic itself to Raleway Regular.
+</figcaption>
+</figure>
+
+<!-- end div -->
+
+<p class="submit-work">Exercise 14a completed</p>
+
+## Using an online font service
+
+Online font services generally store and serve fonts for you, so you don't have to worry about writing the `@font-face` code, and generally just need to insert a simple line or two of code into your site to make everything work. Examples include [Adobe Fonts](https://fonts.adobe.com/) and [Cloud.typography](https://www.typography.com/webfonts). Most of these services are subscription-based, with the notable exception of [Google Fonts](https://fonts.google.com/), a useful free service, especially for rapid testing work and writing demos.
+
+Most of these services are easy to use, so we won't cover them in great detail. Let's have a quick look at Google fonts, so you can get the idea. 
+
+<!-- div class="exercise" -->
+## Exercise 14b
+
+> Web Fonts - Google fonts.
+
+### Task 1 - Selecting your fonts
+
+- Return to the `css14` folder in Visual Studio Code.
+
+- Open `exercise-14b.html` and `web-font-b.css` in your editor.
+
+- Take a look at the HTML and CSS in the editor, and the webpage in your browser.
+
+### Task 2 - Selecting your fonts
+
+- Go to [Google Fonts](https://fonts.google.com/).
+
+- You will see a variety of fonts illustrated. You can use the Categories option to filter by say san-serif or serif fonts. You can apply your own text.
+
+- Explore the fonts available.
+
+<figure>
+<img src="media/ex-14-5.png" alt="The Google Fonts interface">
+<figcaption>
+Each font is clickable - this takes you to a demonstration page where you can test with you own text, adjust size and learn more about the font.
+</figcaption>
+</figure>
+
+### Task 3
+
+- Find and select the font `Roboto` by Christian Robertson.
+
+- From the `Roboto` page select the following font styles/weights:
+
+    + Regular 400
+
+    + Regular 400 italic
+
+    + Bold 700
+
+    + Black 900
+
+- You can see we have an option at the bottom of the page to download this font family. That would work as per Font Squirrel. In this case we are going to use Google Font's online service - they are hosting the fonts for us.
 
 
-You should end up with a demo page with some nice fonts implemented on them. Because different fonts are created at different sizes, you may have to adjust the size, spacing, etc., to sort out the look and feel.
+### Task 4
+
+- Select the Embed tab.
+
+<figure>
+<img src="media/ex-14-6.png" alt="The embed interface">
+<figcaption>
+We are presented with the code needed to use this font on our page.
+</figcaption>
+</figure>
+
+- Return to `exercise-14b.html` in your editor. 
+
+- Copy the block of `<link>` code and paste it into the head of `exercise-14b.html`, above the existing `<link href="web-font-b.css" rel="stylesheet">`.
+
+- The link to the *Google font* needs to come first, so you can refer to it in your styles in `web-font-b.css`.
+
+- Save `exercise-14b.html`.
+
+### Task 5
+
+- Return to `web-font-b.css` in the editor.
+
+- Copy `font-family` rule for the `Roboto` font from *Google Fonts* and paste it into the `body` style.
+
+```
+  body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #560526;
+  }
+```
+
+- Save `web-font-a.css` and refresh `exercise-14a.html` in your browser to see the changes.
+
+<figure>
+<img src="media/ex-14-7.png" alt="14a rendered in the browser">
+<figcaption>
+Roboto should be applied to all text on the page as it cascades down fro the body element to the headings and paragraphs.
+</figcaption>
+</figure>
+
+### Task 6
+
+- To complete our page we can apply the specified styles and weights to our elements:
+
+- Apply Roboto Black  to the headings by applying a font weight of 900.
+
+```
+  h1,h2 {
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+  }
+```
+- Font weight of normal ensures that Roboto Regular (font weight of 400 = normal).
+
+```
+  p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: normal;
+  }
+```
+
+- For `<em>`  define the font weight of normal (400) and style of italic.
+
+```
+  em {
+    font-weight: normal;
+    font-style: italic;
+  }
+```
+- And finally for `<srong>` a font weight of 700 (bold) and style of normal.
+
+```
+ strong {
+  font-weight: 700;
+  font-style: normal;
+  }
+```
+
+- Save `web-font-a.css` and refresh `exercise-14a.html` in your browser to see the changes.
+
+<figure>
+<img src="media/ex-14-8.png" alt="14a rendered in the browser">
+<figcaption>
+The finished page - Google font Roboto.
+</figcaption>
+</figure>
 
 
 
+<!-- end div -->
+
+<p class="submit-work">Exercise 14b completed</p>
+
+
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
+- LinkedIn Learning Video: [Web fonts with @font-face](https://www.linkedin.com/learning/css-essential-training-3/web-fonts-with-font-face?u=36102708) (2m 58s)
+
+- LinkedIn Learning Video: [Web fonts with Google Fonts](https://www.linkedin.com/learning/css-essential-training-3/web-fonts-with-google-fonts?u=36102708) (1m 56s)
+
+- CSS Trick article: [Using Font-face](hhttps://css-tricks.com/snippets/css/using-font-face/)
 
 
 
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
