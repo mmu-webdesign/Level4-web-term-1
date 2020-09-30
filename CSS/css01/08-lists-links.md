@@ -407,8 +407,14 @@ To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Pseudo class selectors](https://www.linkedin.com/learning/css-essential-training-3/pseudo-class-selectors-and-links?u=36102708)
 
+- Video - Style Lists with New CSS — Bullets, Numbers, Markers
 
-- Video- New CSS for Styling Underlines on the Web.
+When you create lists in HTML, browsers add bullet-points (for unordered lists) and numbers (for ordered lists). Now CSS gives us the tools to style those list "markers", and even create our own!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2awepiNoaZI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+- Video - New CSS for Styling Underlines on the Web.
 
 Finally in 2019, we have new CSS that allows us a lot of powerful ways to style underlines. Jen Simmons walks you through the options. 
 
