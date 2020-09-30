@@ -124,7 +124,9 @@ You should now have a terrible side scroll on the top box.
 
 - You avoid it by using more modern, flexible tools such as Grid and Flexbox in your layouts.
 
-- You avoid creating containers smaller than the content you need to go in them. Sometimes easier said than done - you might build the container but someone else may provide the content.
+- Make bigger containers!
+
+- Avoid creating containers smaller than the content you need to go in them. Sometimes easier said than done - you might build the container but someone else may provide the content.
 
 <!-- end div -->
 
@@ -135,9 +137,8 @@ You should now have a terrible side scroll on the top box.
 
 To get a better understanding of this topic use the following resources.
 
-- CSS Trick article: [Background images](https://css-tricks.com/almanac/properties/b/background-image/)
 
-
+- CSS Trick article: [The CSS Overflow Property](https://css-tricks.com/the-css-overflow-property/)
 
 
 

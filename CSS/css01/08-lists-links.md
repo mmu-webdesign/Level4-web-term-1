@@ -408,7 +408,19 @@ To get a better understanding of this topic use the following resources.
 - LinkedIn Learning Video: [Pseudo class selectors](https://www.linkedin.com/learning/css-essential-training-3/pseudo-class-selectors-and-links?u=36102708)
 
 
+- Video- New CSS for Styling Underlines on the Web.
 
+Finally in 2019, we have new CSS that allows us a lot of powerful ways to style underlines. Jen Simmons walks you through the options. 
+
+These three new properties on MDN:
+
+- [text-underline-offset](https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset)
+
+- [text-decoration-thickness](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness)
+
+- [text-decoration-skip-ink](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-skip-ink)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sZS-7RX_c7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### &copy; Credit given
 
