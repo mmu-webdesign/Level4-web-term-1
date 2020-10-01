@@ -201,6 +201,8 @@ Is your heading blue?
 
 To get a better understanding of this topic use the following resources.
 
+- Rachel Andrew's Smashing Magazine article [How To Learn CSS](https://www.smashingmagazine.com/2019/01/how-to-learn-css/) covers briefly many of the concepts we will be covering.
+
 - LinkedIn Learning Video: [CSS Specifications and the W3C](https://www.linkedin.com/learning/css-essential-training-3/css-specifications-and-the-w3c?u=36102708)
 
 - LinkedIn Learning Video: [CSS Syntax and terminology](https://www.linkedin.com/learning/css-essential-training-3/css-syntax-and-terminology?u=36102708)
@@ -258,10 +260,8 @@ It is unusual for all browsers to implement a feature at the same time, and so t
 
 The website [Can I Use](https://caniuse.com/) is a great resource for checking what features are working in what browser.
 
-
+Every entry in MDN's [CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) also provides a table showing browser compatibility. For example go to [the entry for CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid), scroll to the bottom of the page to see the browser compatibility table. 
 
 ### &copy; Credit given
 
 Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
-
-Every entry in MDN's [CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) also provides a table showing browser compatibility. For example go to [the entry for CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid), scroll to the bottom of the page to see the browser compatibility table. 
