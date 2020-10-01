@@ -246,8 +246,493 @@ Our four flexboxes, all with the flex value of 1, take up equal space across the
 
 <!-- end div -->
 
+<p class="submit-work">Exercise 15a completed</p>
+
 > Note: This has been a very short introduction to what is possible in Flexbox. We will be doing more in the second assignment. Those keen to find out more now, see the [MDN Flexbox article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
 
 
 
+## Grid Layout
 
+While flexbox is designed for one-dimensional layout, Grid Layout is designed for two dimensions — lining things up in rows and columns. This makes it ideal for page layout, providing a flexibility never seen in web development before.
+
+See Jen Simmons's [Experimental Layout Lab](https://labs.jensimmons.com/) to see examples of creative layout with CSS Grid.
+
+Once again, you can switch on Grid Layout with a specific value of display — `display: grid`. 
+
+
+<!-- div class="exercise" -->
+## ToDo 
+
+> Basic document flow.
+
+### Task 1 
+
+- Return to the `css15` folder in Visual Studio Code.
+
+- Open `example-b.html` in your editor and look over the code.
+
+    + The grid styles are applied via the `.wrapper` class.
+
+    + 6 boxes are created on the page with `div`'s.
+
+    + These are wrapped in a `div` with the `.wrapper` class.
+
+- The CSS:
+
+```
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-gap: 10px;
+    }
+```
+
+- In addition to using `display: grid`, we are also defining some row and column tracks on the parent using the `grid-template-rows` and `grid-template-columns` properties respectively. 
+
+- We've defined three columns each of `1fr` and two rows of `100px`. We don’t need to put any rules on the child elements; they are automatically placed into the cells our grid has created.
+
+- Open `example-b.html` in your browser.
+
+<figure>
+<img src="media/ex-15-7.png" alt="The basic flow example">
+<figcaption>
+We've defined three columns and two rows. The <code>1fr 1fr 1fr</code> ensures that each there are three columns, each taking up 1 fraction of the space. The  <code>100px 100px</code> defines two rows with a height of <code>100px</code> each.
+</figcaption>
+</figure>
+
+- Return to `example-b.html` in your editor and change one of the grid values to see the effect.
+
+- Change the first fraction to `2fr`.
+
+```
+    grid-template-columns: 2fr 1fr 1fr;
+```
+
+- Save `example-b.html` and refresh it in your browser. 
+
+
+<figure>
+<img src="media/ex-15-8.png" alt="Revised fractions example">
+<figcaption>
+The first column now gets 2 fractions of the width of the page. The other two columns remain at 1 fraction.  
+</figcaption>
+</figure>
+
+- Return to `example-b.html` in your editor and change one of the row values to se the effect.
+
+- Change the second row to `200px`.
+
+```
+    grid-template-rows: 100px 200px;
+```
+
+- Save `example-b.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-9.png" alt="Revised row height example">
+<figcaption>
+The second row now has an increased height of <code>200px</code>.
+</figcaption>
+</figure>
+
+<!-- end div -->
+
+
+Once you have a grid, you can explicitly place your items on it, rather than relying on the auto-placement behavior seen above. In the second example below we have defined the same grid, but this time with three child items. We've set the start and end line of each item using the [grid-column](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) and [grid-row](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row) properties. This causes the items to span multiple tracks.
+
+<!-- div class="exercise" -->
+## Exercise 15a 
+
+> Flexbox.
+
+### Task 1
+
+- Return to the `css15` folder in Visual Studio Code.
+
+- Open `exercise-15b.html` in your editor and look over the code.
+
+- Open `exercise-15a.html` in your browser to test it works - you see three boxes, sat on top of each other.
+
+### Task 2
+
+- Return `exercise-15b.html` in your editor.
+
+- Apply our basic grid to the styles. 
+
+```
+/* Insert Grid stylings */
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100% 100%;
+        grid-gap: 10px;
+    }
+```
+- Save `exercise-15b.html` and refresh it in your browser. 
+
+- This provides us with our grid as before but note:
+
+    1. We have two rows but only one is displayed because our grid only has three boxes.
+
+    2. The rows are 100% - they will fit the hight of the content.
+
+### Task 3
+
+- Return `exercise-15b.html` in your editor.
+
+- Add the grid styles for box 1. 
+
+```
+.box1 {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+```
+- Save `exercise-15b.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-10.png" alt="The first box is defined.">
+<figcaption>
+<code>grid-column: 2 / 4;</code> means that box one takes up column space from the start of column 2 until the start of column 4 (or the end of 3 as in this case). It spans columns 2 and 3. <code>grid-row: 1;</code> means that box one sits only in row 1.
+</figcaption>
+</figure>
+
+- This is clearer to see if we use the Grid Inspector in Firefox's Dev Tools.
+
+<figure>
+<img src="media/ex-15-11.png" alt="The first box is defined.">
+<figcaption>
+Using the Grid Inspector we can also see the line numbers. You can now clearly see that box 1 is starting at column line 2 and finishing at column line 4 (<code>grid-column: 2 / 4;</code>).
+</figcaption>
+</figure>
+
+> See MDN's guide to the [Firefox CSS Grid Inspector](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts).
+
+
+### Task 4
+
+- Return `exercise-15b.html` in your editor.
+
+- Add the grid styles for box 2. 
+
+```
+.box2 {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+```
+- Save `exercise-15b.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-12.png" alt="The second box is defined.">
+<figcaption>
+<code>grid-column: 1;</code> puts box 2 in column 1. <code>grid-row: 1 / 3;</code> means that box 2 starts at row line 1 and finishes at row line 3. It spans both rows.
+</figcaption>
+</figure>
+
+### Task 5
+
+- Return `exercise-15b.html` in your editor.
+
+- Add the grid styles for box 3. 
+
+```
+.box3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+```
+- Save `exercise-15b.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-13.png" alt="The third box is defined.">
+<figcaption>
+<code>grid-column: 3;</code> puts box 3 in column 3 (starts at column line 3). <code>grid-row: 2;</code> means that box 3 sits in the second row (starts at row line 2).
+</figcaption>
+</figure>
+
+### Task 6
+
+
+- Return `exercise-15b.html` in your editor.
+
+- Edit the box 3 style so that it sits in column 2, row 2.
+
+- Save `exercise-15b.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-14.png" alt="The third box is moved.">
+<figcaption>
+Your finished grid should now look like this.
+</figcaption>
+</figure>
+
+<!-- end div -->
+
+<p class="submit-work">Exercise 15b completed</p>
+
+> Note: These two examples are just a small part of the power of Grid layout; to find out more see the [MDN Grid Layout article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids). We don't have time in this unit for any more grid. More advanced students might look how they can use it in the second assignment.
+
+The rest of this guide covers other layout methods, which are less important for the main layout structures of a web page but can still help you achieve specific tasks. By understanding the nature of each layout task, you will soon find that when you look at a particular component of your design the type of layout best suited to it will often be clear.
+
+
+## Floats
+
+Floating an element changes the behavior of that element and the block level elements that follow it in normal flow. The element is moved to the left or right and removed from normal flow, and the surrounding content floats around the floated item.
+
+The [float property](https://developer.mozilla.org/en-US/docs/Web/CSS/float) has four possible values:
+
+- `left` — Floats the element to the left.
+- `right` — Floats the element to the right.
+- `none` — Specifies no floating at all. This is the default value.
+- `inherit` — Specifies that the value of the `float` property should be inherited from the element's parent element.
+
+In the example below we float a `<div>` left. This gives us the effect of text wrapped around that box, and is most of what you need to know about floats as used in modern web design.
+
+<!-- div class="exercise" -->
+## ToDo 
+
+> CSS Floats.
+
+### Task 1 
+
+- Return to the `css15` folder in Visual Studio Code.
+
+- Open `exercise-15c.html` in your editor and look over the code.
+
+- Open `exercise-15c.html` in your browser.
+
+<figure>
+<img src="media/ex-15-15.png" alt="exercise-15c.html rendered in the browser">
+<figcaption>
+The page currently runs in the <code>normal flow</code>. Heading followed by <code>div</code> containing an image, and a paragraph of text - all block level elements.
+</figcaption>
+</figure>
+
+### Task 2
+
+- Return to `exercise-15c.html` in your editor.
+
+- Add the `float: left;` style rule to the internal styles. 
+
+```
+.box {
+    float: left;
+}
+```
+- Save `exercise-15c.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-16.png" alt="Simple float example">
+<figcaption>
+The box now floats to the left, allowing the text to wrap around it rather than just sit below. By default the <code>&lt;figure&gt;</code> has a margin which keeps the text away from the edge of the image. Some times you will need to add or adjust borders to ensure the text doesn't run up against the box.
+</figcaption>
+</figure>
+
+- Return to `exercise-15c.html` in your editor.
+
+- Add a border to our box. 
+
+```
+.box {
+    float: left;
+    border: 1px solid #333;
+}
+```
+- Save `exercise-15c.html` and refresh it in your browser. 
+
+- Our border now touches the text, quickly add a `margin` of `20px` to the box.
+
+- Save `exercise-15c.html` and refresh it in your browser. 
+
+- Finally, for the sake of it, change the style to `float: right`.
+
+- Save `exercise-15c.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-17.png" alt="Image floated to the right">
+<figcaption>
+The box now floats to the right with a border. The box has a margin to ensure there is space between the border and the text.
+</figcaption>
+</figure>
+
+<!-- end div -->
+
+<p class="submit-work">Exercise 15c completed</p>
+
+> Note: Floats are fully explained in MDN's lesson on the [float and clear](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) properties. Prior to techniques such as Flexbox and Grid Layout floats were used as a method of creating column layouts. You may still come across these methods on the web; MDN covers these in their lesson on [legacy layout methods](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods). None of these are essential to this unit but may be of interest to advanced students.
+
+
+## Positioning techniques
+
+Positioning allows you to move an element from where it would be placed when in normal flow to another location. Positioning isn’t a method for creating your main page layouts, it is more about managing and fine-tuning the position of specific items on the page.
+
+There are however useful techniques for certain layout patterns that rely on the [position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position). Understanding positioning also helps in understanding normal flow, and what it is to move an item out of normal flow.
+
+There are five types of positioning you should know about:
+
+- **Static positioning** is the default that every element gets — it just means "put the element into its normal position in the document layout flow — nothing special to see here".
+
+- **Relative positioning** allows you to modify an element's position on the page, moving it relative to its position in normal flow — including making it overlap other elements on the page.
+
+- **Absolute positioning** moves an element completely out of the page's normal layout flow, like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's `<html>` element (or its nearest positioned ancestor element). This is useful for creating complex layout effects such as tabbed boxes where different content panels sit on top of one another and are shown and hidden as desired, or information panels that sit off screen by default, but can be made to slide on screen using a control button.
+
+- **Fixed positioning** is very similar to absolute positioning, except that it fixes an element relative to the browser viewport, not another element. This is useful for creating effects such as a persistent navigation menu that always stays in the same place on the screen as the rest of the content scrolls.
+
+- **Sticky positioning** is a newer positioning method which makes an element act like `position: static` until it hits a defined offset from the viewport, at which point it acts like `position: fixed`.
+
+
+### Simple positioning example
+
+To provide familiarity with these page layout techniques, we'll show you a couple of quick examples. Our examples will all feature the same HTML.
+
+<!-- div class="exercise" -->
+## ToDo 
+
+> CSS Floats.
+
+### Task 1 
+
+- Return to the `css15` folder in Visual Studio Code.
+
+- Open `exercise-15d.html` in your editor and look over the code.
+
+- Open `exercise-15d.html` in your browser.
+
+<figure>
+<img src="media/ex-15-18.png" alt="exercise-15d.html rendered in the browser">
+<figcaption>
+The page currently runs in the <code>normal flow</code>. Heading followed by three paragraphs - all block level elements. The middle paragraph has a class of <code>positioned</code> but no styles are applied at the moment.
+</figcaption>
+</figure>
+
+### Task 2 - Relative positioning
+
+- KEY POINT - **Relative positioning allows you to offset an item from the position in normal flow it would have by default.** This means you could achieve a task such as moving an icon down a bit so it lines up with a text label. 
+
+- Return to `exercise-15d.html` in your editor.
+
+- To do this, add the following rule to add relative positioning:
+
+```
+    .positioned {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    }
+```
+- Here we give our middle paragraph a position value of relative — this doesn't do anything on its own, so we also add top and left properties. 
+
+- These serve to move the affected element down and to the right — this might seem like the opposite of what you were expecting, but you need to think of it as the element being pushed on its left and top sides, which result in it moving right and down.
+
+- Also add a background colour and border to this style to make it stand out:
+
+```
+    .positioned {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background: rgba(255,84,104,.3);
+    border: 2px solid rgb(255,84,104);
+    }
+```
+
+- Now save `exercise-15d.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-19.png" alt="exercise-15d.html illustrating position relative">
+<figcaption>
+The second paragraph now sits <code>30px</code> down and <code>30px</code> from the left of where it would be in the <code>normal flow</code>.
+</figcaption>
+</figure>
+
+### Task 3 - Absolute positioning
+
+- Absolute positioning is used to completely remove an element from normal flow, and place it using offsets from the edges of a containing block.
+
+- Return to `exercise-15d.html` in your editor.
+
+- To implement absolute positioning simply change from `position: relative;` to `position: absolute;` in the class `.positioned`.
+
+```
+    .positioned {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        background: rgba(255,84,104,.3);
+        border: 2px solid rgb(255,84,104);
+    }
+```
+
+- Now save `exercise-15d.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-20.png" alt="exercise-15d.html illustrating position absolute">
+<figcaption>
+The second paragraph now sits <code>30px</code> down and <code>30px</code> from the top left of the browser window. It ignores the <code>normal flow</code>.
+</figcaption>
+</figure>
+
+- **This is very different!** The positioned element has now been completely separated from the rest of the page layout and sits over the top of it. 
+
+- The other two paragraphs now sit together as if their positioned sibling doesn't exist. The top and left properties have a different effect on absolutely positioned elements than they do on relatively positioned elements. In this case the offsets have been calculated from the top and left of the page. 
+
+### Task 4 - Fixed positioning
+
+- Fixed positioning removes our element from document flow in the same way as absolute positioning. However, instead of the offsets being applied from the container, they are applied from the viewport. As the item remains fixed in relation to the viewport we can create effects such as a menu which remains fixed as the page scrolls beneath it.
+
+For this example our HTML is three paragraphs of text, in order that we can cause the page to scroll, and a box to which we will give position: fixed.
+
+- Return to `exercise-15d.html` in your editor.
+
+- To implement absolute positioning simply change from `position: absolute;` to `position: fixed;` in the class `.positioned`.
+
+```
+    .positioned {
+        position: fixed;
+        top: 30px;
+        left: 30px;
+        background: rgba(255,84,104,.3);
+        border: 2px solid rgb(255,84,104);
+    }
+```
+
+- As we need to page to scroll to see the effect add this fourth paragraph under the original three.
+
+```
+    <p>Cray food truck brunch, XOXO +1 keffiyeh pickled chambray waistcoat ennui. Organic small batch paleo 8-bit. Intelligentsia umami wayfarers pickled, asymmetrical kombucha letterpress kitsch leggings cold-pressed squid chartreuse put a bird on it. Listicle pickled man bun cornhole heirloom art party. Cray food truck brunch, XOXO +1 keffiyeh pickled chambray waistcoat ennui. Organic small batch paleo 8-bit. Intelligentsia umami wayfarers pickled, asymmetrical kombucha letterpress kitsch leggings cold-pressed squid chartreuse put a bird on it. Listicle pickled man bun cornhole heirloom art party. Cray food truck brunch, XOXO +1 keffiyeh pickled chambray waistcoat ennui. Organic small batch paleo 8-bit. Intelligentsia umami wayfarers pickled, asymmetrical kombucha letterpress kitsch leggings cold-pressed squid chartreuse put a bird on it. Listicle pickled man bun cornhole heirloom art party. Cray food truck brunch, XOXO +1 keffiyeh pickled chambray waistcoat ennui. Organic small batch paleo 8-bit. Intelligentsia umami wayfarers pickled, asymmetrical kombucha letterpress kitsch leggings cold-pressed squid chartreuse put a bird on it. Listicle pickled man bun cornhole heirloom art party.  
+    </p>
+```
+- Now save `exercise-15d.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-21.gif" alt="exercise-15d.html illustrating position absolute">
+<figcaption>
+The second paragraph sits <code>30px</code> down and <code>30px</code> from the top left of the browser window as it did with <code>position: absolute</code>, however it is now removed from the document <code>flow</code>.
+</figcaption>
+</figure>
+
+### Task 5 - Sticky positioning
+
+Sticky positioning is the final positioning method that we have at our disposal. It mixes the default static positioning with fixed positioning. When an item has position: sticky it will scroll in normal flow until it hits offsets from the viewport that we have defined. At that point it becomes "stuck" as if it had position: fixed applied.
+
+
+
+
+
+
+<h2 class="deep">Deeper Learning</h2>
+
+To get a better understanding of this topic use the following resources.
+
+- LinkedIn Learning Video: [Firefox Grid Inspector](https://www.linkedin.com/learning/css-layouts-from-float-to-flexbox-and-grid/firefox-grid-inspector?u=36102708) (55m 17s)
+
+
+
+
+### &copy; Credit given
+
+Materials used under the Creative Commons licence from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
