@@ -35,7 +35,7 @@ Normal flow is how the browser lays out HTML pages by default when you do nothin
 
 By default, the browser will display this code as follows:
 
-<div style="padding: 20px; background-color: white; color: black;">
+<div style="padding: 20px; background-color: white; color: black; margin: 10px;">
 <p>I love my cat.</p>
     
 <ul>
