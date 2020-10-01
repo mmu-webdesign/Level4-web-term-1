@@ -243,7 +243,7 @@ Our four flexboxes, all with the flex value of 1, take up equal space across the
 
 <!-- end div -->
 
-> Note: This has been a very short introduction to what is possible in Flexbox. We will be doing more in the second assignment. Those keen to find out more, see the [MDN Flexbox article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
+> Note: This has been a very short introduction to what is possible in Flexbox. We will be doing more in the second assignment. Those keen to find out more now, see the [MDN Flexbox article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
 
 
 
