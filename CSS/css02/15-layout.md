@@ -35,6 +35,7 @@ Normal flow is how the browser lays out HTML pages by default when you do nothin
 
 By default, the browser will display this code as follows:
 
+<div style="padding: 20px; background-color: white; color: black;">
 <p>I love my cat.</p>
     
 <ul>
@@ -44,6 +45,8 @@ By default, the browser will display this code as follows:
 </ul>
     
 <p>The end!</p>
+
+</div>
 
 Note here how the HTML is displayed in the exact order in which it appears in the source code, with elements stacked up on top of one another — the first paragraph, followed by the unordered list, followed by the second paragraph.
 
