@@ -343,7 +343,7 @@ The second row now has an increased height of <code>200px</code>.
 Once you have a grid, you can explicitly place your items on it, rather than relying on the auto-placement behavior seen above. In the second example below we have defined the same grid, but this time with three child items. We've set the start and end line of each item using the [grid-column](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) and [grid-row](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row) properties. This causes the items to span multiple tracks.
 
 <!-- div class="exercise" -->
-## Exercise 15a 
+## Exercise 15b 
 
 > Flexbox.
 
@@ -493,7 +493,7 @@ The [float property](https://developer.mozilla.org/en-US/docs/Web/CSS/float) has
 In the example below we float a `<div>` left. This gives us the effect of text wrapped around that box, and is most of what you need to know about floats as used in modern web design.
 
 <!-- div class="exercise" -->
-## ToDo 
+## Exercise 15c 
 
 > CSS Floats.
 
@@ -590,7 +590,7 @@ There are five types of positioning you should know about:
 To provide familiarity with these page layout techniques, we'll show you a couple of quick examples. Our examples will all feature the same HTML.
 
 <!-- div class="exercise" -->
-## ToDo 
+## Exercise 15d 
 
 > CSS Floats.
 
@@ -717,11 +717,173 @@ The second paragraph sits <code>30px</code> down and <code>30px</code> from the 
 
 ### Task 5 - Sticky positioning
 
-Sticky positioning is the final positioning method that we have at our disposal. It mixes the default static positioning with fixed positioning. When an item has position: sticky it will scroll in normal flow until it hits offsets from the viewport that we have defined. At that point it becomes "stuck" as if it had position: fixed applied.
+- Sticky positioning is the final positioning method that we have at our disposal. It mixes the default static positioning with fixed positioning. When an item has position: sticky it will scroll in normal flow until it hits offsets from the viewport that we have defined. At that point it becomes "stuck" as if it had `position: fixed` applied.
 
 
+- Return to `exercise-15d.html` in your editor.
+
+- To implement sticky positioning simply change from `position: fixed;` to `position: sticky;` in the class `.positioned`.
+
+```
+    .positioned {
+        position: sticky;
+        top: 30px;
+        left: 30px;
+        background: rgba(255,84,104,.3);
+        border: 2px solid rgb(255,84,104);
+    }
+```
+
+- Now save `exercise-15d.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/sticky.gif" alt="exercise-15d.html illustrating position absolute">
+<figcaption>
+The second paragraph now sits in the normal flow. When we scroll, it stays there until it reaches <code>30px</code> down and <code>30px</code> from the top left of the browser window. It then becomes <code>sticky</code>. Often used for menu bars.
+</figcaption>
+</figure>
 
 
+<!-- end div -->
+
+<p class="submit-work">Exercise 15d completed</p>
+
+> Note: to find more out about positioning, see [MDN's Positioning article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning).
+
+
+## Table layout
+
+The table-layout property defines what algorithm the browser should use to lay out table rows, cells, and columns. This is beyond the scope of this unit.
+
+If interested a starting point is [CSS Tricks table-layout](https://css-tricks.com/almanac/properties/t/table-layout/). It's a strange one!
+
+## Multi-column layout
+
+The multi-column layout module gives us a way to lay out content in columns, similar to how text flows in a newspaper. While reading up and down columns is less useful in a web context as you don’t want to force users to scroll up and down, arranging content into columns can be a useful technique.
+
+To turn a block into a multicol container we use either the [column-count](https://developer.mozilla.org/en-US/docs/Web/CSS/column-count) property, which tells the browser how many columns we would like to have, or the [column-width](https://developer.mozilla.org/en-US/docs/Web/CSS/column-width) property, which tells the browser to fill the container with as many columns of at least that width.
+
+<!-- div class="exercise" -->
+## Exercise 15e 
+
+> Multiple-column layout.
+
+### Task 1 
+
+- Return to the `css15` folder in Visual Studio Code.
+
+- Open `exercise-15e.html` in your editor and look over the code.
+
+- Our starting point contains some very simple HTML; a wrapper with a class of `container` inside which is a heading and some paragraphs.
+
+- Open `exercise-15e.html` in your browser.
+
+<figure>
+<img src="media/ex-15-22.png" alt="exercise-15e.html rendered in the browser">
+<figcaption>
+The page currently runs in the <code>normal flow</code>. Heading followed by two paragraphs - all block level elements.
+</figcaption>
+</figure>
+
+### Task 2
+
+- Return to `exercise-15e.html` in your editor.
+
+- Add the following ruleset to the internal styles.
+
+```
+    /* Column Styles */
+
+    .container {
+    column-count: 3;
+    }
+```
+
+- The `<div>` with a class of `container` has become our multicol container. We switch on multicol by using one of two properties `column-count` or `column-width`. The `column-count` property will create as many columns as the value you give it, so by adding a value of `3` we get three columns.
+
+- Save `exercise-15e.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-23.png" alt="exercise-15e.html displays as three columns">
+<figcaption>
+The columns that you create have flexible widths — the browser works out how much space to assign each column.
+</figcaption>
+</figure>
+
+### Task 3
+
+- Return to `exercise-15e.html` in your editor.
+
+- Change your CSS to use `column-width` rather than `column-count` in the `.container` class.
+
+```
+    .container {
+    column-width: 200px;
+    }
+```
+
+- Save `exercise-15e.html` and refresh it in your browser. 
+
+<figure>
+<img src="media/ex-15-24.gif" alt="exercise-15e.html displays as three columns">
+<figcaption>
+The browser will now give you as many columns as it can of the size that you specify; any remaining space is then shared between the existing columns. This means that you will not get exactly the width that you specify, unless your container is exactly divisible by that width.
+</figcaption>
+</figure>
+
+### Task 4 - Styling the columns
+
+- The columns created by multicol cannot be styled individually. There is no way to make one column bigger than other columns, or to change the background or text color of a single column. You have two opportunities to change the way that columns display:
+
+    + Changing the size of the gap between columns using the [column-gap](https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap).
+
+    + Adding a rule between columns with [column-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule).
+
+- Return to `exercise-15e.html` in your editor.
+
+- Change your CSS to use `column-gap` to the `.container` class.
+
+```
+    .container {
+    column-width: 200px;
+    column-gap: 20px;
+    }
+```
+- Save `exercise-15e.html` and refresh it in your browser. 
+
+- You will see the `gap` between each column is adjusted.
+
+- You can play around with different values — the property accepts any length unit. 
+
+- Return to `exercise-15e.html` in your editor.
+
+- Now add a rule between the columns, with `column-rule`. In a similar way to the `border` property that you encountered in previous lessons, column-rule is a shorthand for [column-rule-color](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-color), [column-rule-style](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-style), and [column-rule-width](https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-width), and accepts the same values as `border`.
+
+- Change the `.container` style to the following, return to `column-count` plus additional stylings:
+
+```
+    .container {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 4px dotted rgb(79, 185, 227);
+    }
+```
+- Save `exercise-15e.html` and refresh it in your browser. 
+
+- Try adding rules of different styles and colors.
+
+<figure>
+<img src="media/ex-15-25.png" alt="exercise-15e.html displays as three columns with a ">
+<figcaption>
+Something to take note of is that the rule does not take up any width of its own. It lies across the gap you created with column-gap. To make more space either side of the rule you will need to increase the column-gap size.
+</figcaption>
+</figure>
+
+<!-- end div -->
+
+<p class="submit-work">Exercise 15e completed</p>
+
+> Note: for deeper learning the [MDN Multiple-column layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Multiple-column_Layout) article goes into more detail. 
 
 
 <h2 class="deep">Deeper Learning</h2>
@@ -730,6 +892,11 @@ To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [Firefox Grid Inspector](https://www.linkedin.com/learning/css-layouts-from-float-to-flexbox-and-grid/firefox-grid-inspector?u=36102708) (55m 17s)
 
+- LinkedIn Learning Video: [Introduction to Grid and Flexbox](https://www.linkedin.com/learning/css-essential-training-3/introduction-to-grid-and-flexbox?u=36102708) (1m 36s)
+
+- LinkedIn Learning Video: [Introduction to Flexbox](https://www.linkedin.com/learning/css-essential-training-3/introduction-to-flexbox?u=36102708) (2m 33s)
+
+- LinkedIn Learning Video: [Introduction to Grid](https://www.linkedin.com/learning/css-essential-training-3/introduction-to-css-grid?u=36102708) (2m 21s)
 
 
 
