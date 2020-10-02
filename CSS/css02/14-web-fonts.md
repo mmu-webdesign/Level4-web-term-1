@@ -98,9 +98,9 @@ For this example, we'll use two web fonts, one for the headings, and one for the
 
 - Unzip the font package (Web fonts are usually distributed in ZIP files containing the font file(s) and licensing information).
 
-    + You will find multiple font files in the package — some fonts are distributed as a family with different variants available, for example thin, medium, bold, italic, thin italic, etc. 
-    
-    + For this example, we just want you to concern yourself with two font files. One for headings, one for paragraphs. In a real project you would also need the fonts for bold, italics etc.
+- You will find multiple font files in the package — some fonts are distributed as a family with different variants available, for example thin, medium, bold, italic, thin italic, etc. 
+
+- For this example, we just want you to concern yourself with two font files. One for headings, one for paragraphs. In a real project you would also need the fonts for bold, italics etc.
 
 <figure>
 <img src="media/ex-14-1.png" alt="The contents of the tanohe-sans folder">
@@ -120,7 +120,7 @@ Inside the folder you will see the licence plus the font variations.
 
 1. Go to the [Fontsquirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator).
 
-1. Upload the both font files, one after the other `raleway-Black.ttf` and `Raleway-Regular.ttf` from this folder using the **Upload Fonts** button.
+1. Upload both font files, one after the other `raleway-Black.ttf` and `Raleway-Regular.ttf` from this folder using the **Upload Fonts** button.
 
 1. Use the default *Optimal* option.
 
@@ -260,7 +260,7 @@ Most of these services are easy to use, so we won't cover them in great detail. 
 
 - Go to [Google Fonts](https://fonts.google.com/).
 
-- You will see a variety of fonts illustrated. You can use the Categories option to filter by say san-serif or serif fonts. You can apply your own text.
+- You will see a variety of fonts illustrated. You can use the Categories option to filter by say sans-serif or serif fonts. You can apply your own text.
 
 - Explore the fonts available.
 
@@ -328,7 +328,7 @@ We are presented with the code needed to use this font on our page.
 <figure>
 <img src="media/ex-14-7.png" alt="14a rendered in the browser">
 <figcaption>
-Roboto should be applied to all text on the page as it cascades down fro the body element to the headings and paragraphs.
+Roboto should be applied to all text on the page as it cascades down from the body element to the headings and paragraphs.
 </figcaption>
 </figure>
 

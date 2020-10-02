@@ -100,11 +100,11 @@ You can view this file, the HTML and CSS in the file <code>example-b.html</code>
 
     + Change `display: inline` to `display: block`.
 
-    + Save `example-b.html` and refreshing it in the browser to see change.
+    + Save `example-b.html` and refresh it in the browser to see change.
 
     + Change `display: inline-flex` to `display: flex`.
 
-    + Save `example-b.html` and refreshing it in the browser to see change.
+    + Save `example-b.html` and refresh it in the browser to see change.
 
 - These `example` files are not part of the assessment. 
 
@@ -161,7 +161,7 @@ The space taken up by our box using the standard box model will actually be 410p
 <figure>
 <img src="media/standard-box-model.png" alt="The standard box model illustrated ">
 <figcaption>
-This diagram shows our box with a defined width of 350px. When we add the left and right padding and borders, the actual box width in much larger (410px). Same happens with the height. <em>The developer is often left wondering why the box is bigger than expected</em>.
+This diagram shows our box with a defined width of 350px. When we add the left and right padding and borders, the actual box width is much larger (410px). Same happens with the height. <em>The developer is often left wondering why the box is bigger than expected</em>.
 </figcaption>
 </figure>
 
@@ -260,7 +260,7 @@ We tend to prefer this alternative method, called `box-sizing` by most, as it ma
 
     + Work out the revised `height` and `width` by adding the padding and borders.
 
-- Save `exercise-10a.html` and refreshing it in the browser to see change.
+- Save `exercise-10a.html` and refresh it in the browser to see change.
 
 - It should look like this if correct:
 
@@ -342,7 +342,7 @@ We can control all margins of an element at once using the `margin` property, or
 
 ### Applying margins
 
-We will look closer at how margins are applied to one, some or all of the margins. The good news is, that this works pretty much the same for padding and borders as well.
+We will look more closely at how margins are applied to one, some or all of the margins. The good news is, that this works pretty much the same for padding and borders as well.
 
 <!-- div class="exercise" -->
 ## Exercise 10a
@@ -434,7 +434,7 @@ Your inner box should end have larger top and bottom margins as illustrated.
 </figcaption>
 </figure>
 
-### task 4
+### Task 4
 
 #### Shorthand
 
@@ -473,7 +473,7 @@ margin: 40px 10px 90px;
 <figure>
 <img src="media/ex-10-10.png" alt="exercise-10b.html rendered in the browser">
 <figcaption>
-Your inner box should end have larger top and bottom margins as illustrated.
+Your inner box should have larger top and bottom margins as illustrated.
 </figcaption>
 </figure>
 
@@ -584,7 +584,7 @@ The margins have collapsed together so the actual margin between the boxes is 50
 
 - Open `example-d.html` in your editor.
 
-- Open `example-d.html` in the browser to check it looks as show above. Two paragraphs sat in a container (`<div>`).
+- Open `example-d.html` in the browser to check it looks as shown above. Two paragraphs sat in a container (`<div>`).
 
 - Return to `example-d.html` in your editor.
 
@@ -683,7 +683,7 @@ For students wanting more, we recommend the following topics and resources.
 
 CSS traditionally has sized things according to the physical dimensions of the screen. Therefore we describe boxes as having a `width` and `height`, position items from the top and left, float things left, assign borders, margin, and padding to the top, right, bottom, left, etc. The W3C [Logical Properties and Values specification](https://drafts.csswg.org/css-logical/) defines mappings for these physical values to their logical, or flow relative, counterparts — e.g. start and end as opposed to left and right/top and bottom.
 
-This is beyond the scope of this unit but more experienced developer may want to tak e a look at MDN's [Basic concepts of Logical Properties and Values](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Basic_concepts).
+This is beyond the scope of this unit but more experienced developer may want to take a look at MDN's [Basic concepts of Logical Properties and Values](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Basic_concepts).
 
 
 

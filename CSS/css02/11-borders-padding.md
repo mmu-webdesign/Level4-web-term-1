@@ -16,7 +16,7 @@ To set the properties of each side individually, you can use:
 - [border-left](https://developer.mozilla.org/en-US/docs/Web/CSS/border-left)
 
 
-To set the width, style, or color of all sides, use the following:
+To set the width, style, or colour of all sides, use the elements described below:
 
 The `border-width` shorthand CSS property sets the width of an element's border. Border width can be applied with keywords and length values:
 
@@ -458,9 +458,9 @@ Our block of text sits well in the browser and provides a good reading experienc
     margin: 4rem auto;
 ```
 
-- This let's both left and righ margins, share equally, the remaining space.
+- This let's both left and right margins, share equally, the remaining space.
 
-- This centre's our block of content - the container.
+- This centres our block of content - the container.
 
 - Save `style.css` and refresh `exercise-11.html` in the browser to see the changes.
 

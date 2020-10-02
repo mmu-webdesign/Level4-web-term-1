@@ -27,7 +27,7 @@ The available values are:
 - `repeat-y` — repeat vertically.
 - `repeat` — the default; repeat in both directions.
 
-As usual, if you do not add one of the values the borwser uses the default - hence our star image repeats in both directions.
+As usual, if you do not add one of the values the browser uses the default - hence our star image repeats in both directions.
 
 
 <!-- div class="exercise" -->
@@ -144,7 +144,7 @@ The image now fits the box much better but notice on the right that the image is
 
 - The image doesn't repeat but it doesn't quite fit the box.
 
-- It does maintain the aspect ration of the image, which is often very important - avoiding distortion).
+- It does maintain the aspect ration of the image, which is often very important - (avoiding distortion).
 
 ### Task 3
 
@@ -182,11 +182,13 @@ The most common background-position values take two individual values — a hori
 
 - Edit `.star` to include the `no-repeat` and a background position of 20px (horizontal) and 10px (vertical).
 
-.star { 
-  background-image: url(img/star.png); 
-  background-repeat: no-repeat; 
-  background-position: 20px 10%; 
-} 
+```
+    .star { 
+    background-image: url(img/star.png); 
+    background-repeat: no-repeat; 
+    background-position: 20px 10%; 
+    } 
+```
 
 - Save `exercise-12.html` and refresh it in your browser.
 
@@ -243,7 +245,7 @@ background-position: center;
 
 - Return to `exercise-12.html` in your editor.
 
-- Add the following line to th `.balloon` class:
+- Add the following line to the `.balloon` class:
 
 ```
     background-position: center; 
@@ -309,7 +311,7 @@ Or to make the top right corner have a horizontal radius of 1em, and a vertical 
 
 - Why not apply this wonderful border to both boxes?
 
-- Simple, cut and paste the styles from `.star` and add them to the `.box` class.
+- Simple, cut & paste the styles from `.star` and add them to the `.box` class.
 
 ```
     .box {
@@ -325,9 +327,9 @@ Or to make the top right corner have a horizontal radius of 1em, and a vertical 
 
 - Two things to check:
 
-    + You have removed these 3 styles from `.star` as it's would be pointless to repeat them. Cut & paste, not Copy & Paste.
+    + You have removed these 3 styles from `.star` as it's would be pointless to repeat them. Cut & Paste, not Copy & Paste.
 
-    + You have removed the original border style from `.box` before adding these?
+    + Remove the original border style from `.box` before adding these new border styles.
 
 - Save `exercise-12.html` and refresh it in your browser.
 
