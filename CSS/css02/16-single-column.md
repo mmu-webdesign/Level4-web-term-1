@@ -35,9 +35,11 @@ This should give you:
 </html>
 ```
 
-- Change the title to:
+- Change the page title to:
 
+```
 <title>CSS Single Column Layout</title> 
+```
 
 - Save `exercise-16.html`.
 
@@ -65,7 +67,7 @@ This should give you:
 
 - This provides a simple, semantic structure to our page.
 
-- Each element contains a class to enable styling - Why use a class, not the element? More on this later.
+- Each element contains a class to enable styling. Why use a class, not the element? More on this later.
 
 - Save `exercise-16.html`.
 
@@ -74,9 +76,9 @@ nothing to see, as the page contains no content. We will fix that next.
 
 ### Task 3
 
-_ Creating content.
+- Creating content.
 
-- Add a Level 1 heading to the `header. Use your name and job title.
+- Add a Level 1 heading to the `header`. Use your name and job title.
 
 ```
 <header class="page-header">
@@ -294,23 +296,23 @@ html{
 
 - Apply base style to the `body`. These should include:
 
-- font-family
-- colour
-- font-size
-- line height
-- background colour
-- max-width
-- margins
+    + font-family
+    + colour
+    + font-size
+    + line height
+    + background colour
+    + max-width
+    + margins
 
 #### Note
 
-- Implement a [Google Font](https://fonts.google.com/) for the font family. Remember to add the code they provide to both the HTMl and CSS files.
+- Implement a [Google Font](https://fonts.google.com/) for the font family. Remember to add the code they provide to both the HTML and CSS files.
 
-- Select an off white colour for the background (`background-color`).
+- Select an off-white colour for the background (`background-color`).
 
 - Select a dark grey colour for the foreground colour (`color`).
 
-- Check that the colour contrast is sufficient between the two colours you select using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/). Enter the has code for your chosen colours. They must <span style="background-color: #080; border-radius: 1em; color: #FFF; padding: 2px 8px">Pass</span> for normal and large text, and Graphical Objects and User Interface Components.
+- Check that the colour contrast is sufficient between the two colours you select using the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/). Enter the code for your chosen colours. They must <span style="background-color: #080; border-radius: 1em; color: #FFF; padding: 2px 8px">Pass</span> for normal and large text, and Graphical Objects and User Interface Components.
 
 - Good colour contrast is an important part of creating accessible content.
 
@@ -332,7 +334,7 @@ html{
 
 - Style your headings, both `h1` and `h2`. This might include `font-family`, colour, size, and margins.
 
-- **Tip** - you headings (and text) can often go much larger than you think.
+- **Tip** - Your headings (and text) can often go much larger than you think.
 
 - Remember to group common styles. For example:
 
@@ -361,7 +363,7 @@ h1{
 
 - Apply a class to the `<figcaption>` element and style the caption text.
 
-- Adjust the margins and padding of both the `<figure>` and `<figcaption>` elements to best suite your design.
+- Adjust the margins and padding of both the `<figure>` and `<figcaption>` elements to best suit your design.
 
 - Maybe apply `float: left` to the `<figure>` element? 
 

@@ -13,7 +13,7 @@ CSS page layout techniques allow us to take elements contained in a web page and
 
 Each technique has its uses, advantages, and disadvantages, and no technique is designed to be used in isolation. By understanding what each method is designed for you will be in a good place to understand which is the best layout tool for each task.
 
-In the second assignment we will be making full use of Flexbox and coving this in more detail.
+In the second assignment we will be making full use of Flexbox and covering this in more detail.
 
 > Advanced students may want to undertake the full [MDN CSS layout tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout) written by Rachel Andrew, to gain a deeper understanding. **It is not necessary to successfully complete the two assignments**.
 
@@ -62,7 +62,7 @@ The methods that can change how elements are laid out in CSS are as follows:
 
 - **Floats** — Applying a float value such as left can cause block level elements to wrap alongside one side of an element, like the way images sometimes have text floating around them in magazine layouts.
 
-- **The position property** — Allows you to precisely control the placement of boxes inside other boxes. static positioning is the default in normal flow, but you can cause elements to be laid out differently using other values, for example always fixed to the top of the browser viewport.
+- **The position property** — Allows you to precisely control the placement of boxes inside other boxes. Static positioning is the default in normal flow, but you can cause elements to be laid out differently using other values, for example always fixed to the top of the browser viewport.
 
 - **Table layout** — features designed for styling the parts of an HTML table can be used on non-table elements using `display: table` and associated properties.
 
@@ -152,7 +152,7 @@ The HTML markup gives us a containing element (<code>&lt;div&gt;</code>), with a
 <figure>
 <img src="media/ex-15-3.png" alt="Minus flexbox example">
 <figcaption>
-The <code>&lt;div&gt;</code>'s now sit in their normal flow, one on top of the other.
+The <code>&lt;div&gt;</code>s now sit in their normal flow, one on top of the other.
 </figcaption>
 </figure>
 
@@ -213,6 +213,9 @@ We still have three flexboxes, but they are now much smaller. This will make the
     flex: 1;
     }
 ```
+
+> Note - yes you can also just add this to the existing `.wrapper > div` styles. Eitherway, don't loose the existing styles for the `.wrapper > div`.
+
 - Save `exercise-15a.html` and refresh it in your browser. 
 
 <figure>
@@ -274,7 +277,7 @@ Once again, you can switch on Grid Layout with a specific value of display — `
 
     + The grid styles are applied via the `.wrapper` class.
 
-    + 6 boxes are created on the page with `div`'s.
+    + 6 boxes are created on the page with `div`s.
 
     + These are wrapped in a `div` with the `.wrapper` class.
 
@@ -292,6 +295,8 @@ Once again, you can switch on Grid Layout with a specific value of display — `
 - In addition to using `display: grid`, we are also defining some row and column tracks on the parent using the `grid-template-rows` and `grid-template-columns` properties respectively. 
 
 - We've defined three columns each of `1fr` and two rows of `100px`. We don’t need to put any rules on the child elements; they are automatically placed into the cells our grid has created.
+
+> **Fr** is a fractional unit and `1fr` is for `1` part of the available space.
 
 - Open `example-b.html` in your browser.
 
@@ -340,7 +345,7 @@ The second row now has an increased height of <code>200px</code>.
 <!-- end div -->
 
 
-Once you have a grid, you can explicitly place your items on it, rather than relying on the auto-placement behavior seen above. In the second example below we have defined the same grid, but this time with three child items. We've set the start and end line of each item using the [grid-column](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) and [grid-row](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row) properties. This causes the items to span multiple tracks.
+Once you have a grid, you can explicitly place your items on it, rather than relying on the auto-placement behaviour seen above. In the second example below we have defined the same grid, but this time with three child items. We've set the start and end line of each item using the [grid-column](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) and [grid-row](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row) properties. This causes the items to span multiple tracks.
 
 <!-- div class="exercise" -->
 ## Exercise 15b 
@@ -353,7 +358,7 @@ Once you have a grid, you can explicitly place your items on it, rather than rel
 
 - Open `exercise-15b.html` in your editor and look over the code.
 
-- Open `exercise-15a.html` in your browser to test it works - you see three boxes, sat on top of each other.
+- Open `exercise-15b.html` in your browser to test it works - you see three boxes, sat on top of each other.
 
 ### Task 2
 
@@ -528,7 +533,7 @@ The page currently runs in the <code>normal flow</code>. Heading followed by <co
 <figure>
 <img src="media/ex-15-16.png" alt="Simple float example">
 <figcaption>
-The box now floats to the left, allowing the text to wrap around it rather than just sit below. By default the <code>&lt;figure&gt;</code> has a margin which keeps the text away from the edge of the image. Some times you will need to add or adjust borders to ensure the text doesn't run up against the box.
+The box now floats to the left, allowing the text to wrap around it rather than just sit below. By default the <code>&lt;figure&gt;</code> has a margin which keeps the text away from the edge of the image. Sometimes you will need to add or adjust borders to ensure the text doesn't run up against the box.
 </figcaption>
 </figure>
 
@@ -684,8 +689,6 @@ The second paragraph now sits <code>30px</code> down and <code>30px</code> from 
 
 - Fixed positioning removes our element from document flow in the same way as absolute positioning. However, instead of the offsets being applied from the container, they are applied from the viewport. As the item remains fixed in relation to the viewport we can create effects such as a menu which remains fixed as the page scrolls beneath it.
 
-For this example our HTML is three paragraphs of text, in order that we can cause the page to scroll, and a box to which we will give position: fixed.
-
 - Return to `exercise-15d.html` in your editor.
 
 - To implement absolute positioning simply change from `position: absolute;` to `position: fixed;` in the class `.positioned`.
@@ -717,7 +720,7 @@ The second paragraph sits <code>30px</code> down and <code>30px</code> from the 
 
 ### Task 5 - Sticky positioning
 
-- Sticky positioning is the final positioning method that we have at our disposal. It mixes the default static positioning with fixed positioning. When an item has position: sticky it will scroll in normal flow until it hits offsets from the viewport that we have defined. At that point it becomes "stuck" as if it had `position: fixed` applied.
+- Sticky positioning is the final positioning method that we have at our disposal. It mixes the default static positioning with fixed positioning. When an item has `position: sticky` it will scroll in normal flow until it hits offsets from the viewport that we have defined. At that point it becomes "stuck" as if it had `position: fixed` applied.
 
 
 - Return to `exercise-15d.html` in your editor.
@@ -759,7 +762,7 @@ If interested a starting point is [CSS Tricks table-layout](https://css-tricks.c
 
 ## Multi-column layout
 
-The multi-column layout module gives us a way to lay out content in columns, similar to how text flows in a newspaper. While reading up and down columns is less useful in a web context as you don’t want to force users to scroll up and down, arranging content into columns can be a useful technique.
+The Multi-column layout module gives us a way to lay out content in columns, similar to how text flows in a newspaper. While reading up and down columns is less useful in a web context as you don’t want to force users to scroll up and down, arranging content into columns can be a useful technique.
 
 To turn a block into a multicol container we use either the [column-count](https://developer.mozilla.org/en-US/docs/Web/CSS/column-count) property, which tells the browser how many columns we would like to have, or the [column-width](https://developer.mozilla.org/en-US/docs/Web/CSS/column-width) property, which tells the browser to fill the container with as many columns of at least that width.
 
