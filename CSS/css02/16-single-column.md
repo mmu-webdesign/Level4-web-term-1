@@ -403,3 +403,7 @@ h1{
 
 <p class="submit-work">Exercise 16 completed</p>
 
+## Checklist
+
+**To follow** -  we are working on a checklist for this exercise to enable you to check that you have fulfilled exercise the brief.
+
