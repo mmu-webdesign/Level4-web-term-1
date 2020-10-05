@@ -405,5 +405,6 @@ h1{
 
 ## Checklist
 
-**To follow** -  we are working on a checklist for this exercise to enable you to check that you have fulfilled exercise the brief.
+Checklist - [Download the checklist](media/checklist-CSS2-exercsie-16.pdf) for this exercise to enable you to check that you have fulfilled exercise the brief.
 
+End
