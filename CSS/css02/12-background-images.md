@@ -50,6 +50,13 @@ For ease, the styles for exercise 12 are in the head.
 
 - View `exercise-12.html` in your browser.
 
+<figure>
+<img src="media/ex-12-a.png" alt="Two divs with background images">
+<figcaption>
+The balloon image fills the background of the first div, but is larger than the area available. The star image is much smaller than the available area, and by default is repeated to fit the space.
+</figcaption>
+</figure>
+
 ### Task 2
 
 - Return to `exercise-12.html` in your editor.
