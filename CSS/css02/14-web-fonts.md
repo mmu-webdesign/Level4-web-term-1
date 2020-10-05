@@ -216,13 +216,13 @@ You should see the new paragraph including both the italics and bold applied.
 - Finally, you'll need these selectors adding to `web-font-a.css`.
 
 ```
-.em {
-    font-family: 'ralewayitalic', sans-serif;
-  }
+  em {
+      font-family: 'ralewayitalic', sans-serif;
+    }
 
- strong {
-    font-family: 'ralewaybold', sans-serif;
-  }
+  strong {
+      font-family: 'ralewaybold', sans-serif;
+    }
 ```
 - Save `web-font-a.css` and refresh `exercise-14a.html` in your browser to see the changes.
 
