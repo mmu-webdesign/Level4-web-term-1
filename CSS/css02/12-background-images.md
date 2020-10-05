@@ -82,7 +82,7 @@ The balloon image fills the background of the first div, but is larger than the 
 
 - Save `exercise-12.html` and refresh it in your browser.
 
-- You should see the star repeated in a horizontal line across the box.
+- **You should see the star repeated in a horizontal line across the box**.
 
 ### Task 4
 
@@ -92,7 +92,7 @@ The balloon image fills the background of the first div, but is larger than the 
 
 - Save `exercise-12.html` and refresh it in your browser.
 
-- You should see the star repeated in a vertical line down the box.
+- **You should see the star repeated in a vertical line down the box**.
 
 <!-- end div -->
 
@@ -202,7 +202,7 @@ The most common background-position values take two individual values — a hori
 <figure>
 <img src="media/ex-12-4.png" alt="A single star is rendered.">
 <figcaption>
-The single star is located 2px from the left border and 10px from the top border.
+The single star is located 20px from the top border and 10% from the left border. 
 </figcaption>
 </figure>
 
