@@ -187,7 +187,7 @@ The most common background-position values take two individual values — a hori
 
 - Return to `exercise-12.html` in your editor.
 
-- Edit `.star` to include the `no-repeat` and a background position of 20px (horizontal) and 10px (vertical).
+- Edit `.star` to include the `no-repeat` and a background position of 20px (vertical) and 10% (horizontal).
 
 ```
     .star { 
@@ -202,9 +202,11 @@ The most common background-position values take two individual values — a hori
 <figure>
 <img src="media/ex-12-4.png" alt="A single star is rendered.">
 <figcaption>
-The single star is located 20px from the top border and 10% from the left border. 
+The single star is located 20px on the vertical axis and 10% on the horizontal axis. 
 </figcaption>
 </figure>
+
+> If this confuses you - take a look at the MDN reference for [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position). You can play with the two value demonstration to see the effect.
 
 ### Task 2
 
