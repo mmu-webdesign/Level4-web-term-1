@@ -345,7 +345,7 @@ We can control all margins of an element at once using the `margin` property, or
 We will look more closely at how margins are applied to one, some or all of the margins. The good news is, that this works pretty much the same for padding and borders as well.
 
 <!-- div class="exercise" -->
-## Exercise 10a
+## Exercise 10b
 
 ### Task 1
 
