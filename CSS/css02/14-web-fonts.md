@@ -220,7 +220,7 @@ You should see the new paragraph including both the italics and bold applied.
     font-family: 'ralewayitalic', sans-serif;
   }
 
- .strong {
+ strong {
     font-family: 'ralewaybold', sans-serif;
   }
 ```
