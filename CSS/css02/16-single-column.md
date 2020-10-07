@@ -367,6 +367,8 @@ h1{
 
 - Maybe apply `float: left` to the `<figure>` element? 
 
+> Note: the `float` may cause layout issues. If does, fix it or remove it. We don't mind.
+
 ### Task 9
 
 - Add Navigation
