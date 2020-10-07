@@ -313,6 +313,8 @@ We are presented with the code needed to use this font on our page.
 
 - Copy `font-family` rule for the `Roboto` font from *Google Fonts* and paste it into the `body` style.
 
+- Also change the font colour to `color: #560526;`, a deep red.
+
 ```
   body {
     width: 80%;
