@@ -323,10 +323,10 @@ We are presented with the code needed to use this font on our page.
   }
 ```
 
-- Save `web-font-a.css` and refresh `exercise-14a.html` in your browser to see the changes.
+- Save `web-font-b.css` and refresh `exercise-14b.html` in your browser to see the changes.
 
 <figure>
-<img src="media/ex-14-7.png" alt="14a rendered in the browser">
+<img src="media/ex-14-7.png" alt="14b rendered in the browser">
 <figcaption>
 Roboto should be applied to all text on the page as it cascades down from the body element to the headings and paragraphs.
 </figcaption>
@@ -371,10 +371,10 @@ Roboto should be applied to all text on the page as it cascades down from the bo
   }
 ```
 
-- Save `web-font-a.css` and refresh `exercise-14a.html` in your browser to see the changes.
+- Save `web-font-b.css` and refresh `exercise-14b.html` in your browser to see the changes.
 
 <figure>
-<img src="media/ex-14-8.png" alt="14a rendered in the browser">
+<img src="media/ex-14-8.png" alt="14b rendered in the browser">
 <figcaption>
 The finished page - Google font Roboto.
 </figcaption>
