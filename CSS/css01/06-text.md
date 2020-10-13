@@ -653,6 +653,8 @@ To get a better understanding of this topic use the following resources.
 
 - LinkedIn Learning Video: [text-decoration, text-align and line-height](https://www.linkedin.com/learning/css-essential-training-3/text-decoration-text-align-and-line-height?u=36102708) (5m 57s)
 
+- LinedIn Learning Video - [Colour Contrast](https://www.linkedin.com/learning/accessibility-for-web-design/color-contrast?u=36102708) (2m 45s)
+
 
 <h2 class="deep">Advanced Learning</h2>
 
