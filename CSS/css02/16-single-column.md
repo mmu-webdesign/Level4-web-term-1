@@ -385,6 +385,14 @@ h1{
 ```
 - Give the `<ul>` a class of `menu`.
 
+-  Adjust `<ul>` to best fit your design.
+
+```
+.menu ul {
+
+}
+```
+
 - Style the list items to: 
 
 ```
@@ -396,6 +404,7 @@ h1{
 ```
 
 - Adjust to best fit your design.
+
 
 ### Task 10
 
