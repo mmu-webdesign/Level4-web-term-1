@@ -1,5 +1,7 @@
 # Introduction to CSS
 
+> Exercise Files - [CSS Book One](media/css-book-1.zip).
+
 ## What is CSS for?
 
 > CSS - Cascading StyleSheets

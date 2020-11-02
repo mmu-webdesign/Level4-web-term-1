@@ -1,5 +1,7 @@
 # The box model
 
+> Exercise Files - [CSS Book One](media/css-book-1.zip).
+
 As you know, everything in CSS has a box around it, and understanding these boxes is key to being able to create layouts with CSS, or to align items with other items. In this chapter, we will take a proper look at the CSS Box Model so that you can build more complex layout tasks with an understanding of how it works and the terminology that relates to it.
 
 ## Block and inline boxes

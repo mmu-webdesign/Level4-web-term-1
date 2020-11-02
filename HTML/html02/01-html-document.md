@@ -1,5 +1,7 @@
 # Anatomy of an HTML document
 
+> Exercise Files - [HTML Book Two](media/html-book-2.zip).
+
 > Up until now we have focussed on individual elements and attributes, but individual HTML elements aren't very useful on their own. Next, let's examine how individual elements combine to form an entire HTML page.
 
 This is code/structure of every html document:
