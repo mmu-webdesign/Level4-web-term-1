@@ -1,5 +1,7 @@
 # HTML Introduction
 
+> Exercise Files - [HTML Book One](media/html-book-1.zip).
+
 <!-- div class="video" -->
 
 ## Before you start 
