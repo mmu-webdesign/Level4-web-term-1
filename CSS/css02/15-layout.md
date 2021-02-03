@@ -13,9 +13,9 @@ CSS page layout techniques allow us to take elements contained in a web page and
 
 Each technique has its uses, advantages, and disadvantages, and no technique is designed to be used in isolation. By understanding what each method is designed for you will be in a good place to understand which is the best layout tool for each task.
 
-In the second assignment we will be making full use of Flexbox and covering this in more detail.
+Modern web development makes full use of Flexbox and it is worth learning this in more detail.
 
-> Advanced students may want to undertake the full [MDN CSS layout tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout) written by Rachel Andrew, to gain a deeper understanding. **It is not necessary to successfully complete the two assignments**.
+> Advanced students may want to undertake the full [MDN CSS layout tutorial](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout) written by Rachel Andrew, to gain a deeper understanding. **It is not necessary to successfully complete this work**.
 
 ## Normal flow
 
@@ -251,7 +251,7 @@ Our four flexboxes, all with the flex value of 1, take up equal space across the
 
 <p class="submit-work">Exercise 15a completed</p>
 
-> Note: This has been a very short introduction to what is possible in Flexbox. We will be doing more in the second assignment. Those keen to find out more now, see the [MDN Flexbox article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
+> Note: This has been a very short introduction to what is possible in Flexbox. If you continue your web studies we will be doing more in future assignments. Those keen to find out more now, see the [MDN Flexbox article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
 
 
 
@@ -479,7 +479,7 @@ Your finished grid should now look like this.
 
 <p class="submit-work">Exercise 15b completed</p>
 
-> Note: These two examples are just a small part of the power of Grid layout; to find out more see the [MDN Grid Layout article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids). We don't have time in this unit for any more grid. More advanced students might look how they can use it in the second assignment.
+> Note: These two examples are just a small part of the power of Grid layout; to find out more see the [MDN Grid Layout article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids). We don't have time in this unit for any more grid work unfortunately!
 
 The rest of this guide covers other layout methods, which are less important for the main layout structures of a web page but can still help you achieve specific tasks. By understanding the nature of each layout task, you will soon find that when you look at a particular component of your design the type of layout best suited to it will often be clear.
 
