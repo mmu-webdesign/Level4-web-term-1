@@ -2,7 +2,7 @@
 
 The single column provides the basic structure for many web pages. In the second assessment we will develop this further to provide a responsive solution. At this stage we will use it to apply the basic styles learnt during these two books.
 
-> Note: We are creating the following page for a desktop browser. We move on to responsive design for all device sizes in the second assignment.
+> Note: We are creating the following page for a desktop browser. The standard is now to create a responsive design for all device sizes.
 
 <!-- div class="exercise" -->
 ## Exercise 16 
