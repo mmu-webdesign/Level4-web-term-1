@@ -467,7 +467,7 @@ Our block of text sits well in the browser and provides a good reading experienc
 <figure>
 <img src="media/ex-11-9.png" alt="exercise-11.html rendered in the browser">
 <figcaption>
-The container now sits, centred in our page. For many years this has been a handy tool for centring web pages. There are however more modern ways of centring items with Flexbox. More in the second assignment.
+The container now sits, centred in our page. For many years this has been a handy tool for centring web pages. There are however more modern ways of centring items with Flexbox.
 </figcaption>
 </figure>
 
