@@ -329,7 +329,7 @@ The list items get smaller as they become 80% of their parent.
 
 <p class="submit-work">Exercise 4 completed</p>
 
-- These exercises show how these values are applied and some of the issues related to them. You will discover more as we define font sizes, and even more in the second assignment as we start to size containers.
+- These exercises show how these values are applied and some of the issues related to them. You will discover more as we define font sizes and start to size containers.
 
 
 
