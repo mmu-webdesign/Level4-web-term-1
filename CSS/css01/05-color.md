@@ -220,7 +220,7 @@ Just as RGB has RGBA, HSL has an HSLA equivalent, which gives you the same abili
 
 You can use any of these color values in your projects. It is likely that for most projects you will decide on a color palette and then use those colors — and your chosen method of specifying color — throughout the whole project. You can mix and match color models, however for consistency it is usually best if your entire project uses the same one!
 
-> We find students get along with the hex values better in the early days of coding. You may find the need to move to RBGA when you want to start to control opacity. There will be more of this in the second assignment.
+> We find students get along with the hex values better in the early days of coding. You may find the need to move to RBGA when you want to start to control opacity. As you create more websites and grow in confidence these extra options will become more useful to you.
 
 <h2 class="deep">Deeper Learning</h2>
 
