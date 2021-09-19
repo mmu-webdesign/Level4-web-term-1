@@ -8,9 +8,9 @@
 
 > You are welcome to watch the following short videos. These will help you better understand the rest of this chapter.
 
-- LinkedIn Learning Video: [Jen Simmons -  [What is HTML](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36102708) 1m 34s
+- LinkedIn Learning Video: Jen Simmons, [What is HTML?](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36102708) 1m 34s
 
-- LinkedIn Learning Video: [Jen Simmons - [The role of HTML](https://www.linkedin.com/learning/html-essential-training-4/the-role-of-html?u=36102708) 4m 29s
+- LinkedIn Learning Video: Jen Simmons, [The role of HTML](https://www.linkedin.com/learning/html-essential-training-4/the-role-of-html?u=36102708) 4m 29s
 
 <!-- end div -->
 
@@ -63,9 +63,9 @@ The text itself is set in paragraphs of various sizes, interspersed with a numbe
 
 This illustration, created via the HTML Validation Service plots both the page structural outline and heading level outline. We cover headings in the next section.
 
-### Quiz - Did you read the chapter?
+<!-- ### Quiz - Did you read the chapter?
 
-<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=UPs_KAujjEiQ9M2uT3rm0Z9V7jLeDDFMmZMGd1T81SNUNUtGNUdUVENBN0laNVpaNU0xN0VWVTFDMy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=UPs_KAujjEiQ9M2uT3rm0Z9V7jLeDDFMmZMGd1T81SNUNUtGNUdUVENBN0laNVpaNU0xN0VWVTFDMy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> -->
 
 <!-- end div -->
 
@@ -166,7 +166,7 @@ Excerpts from Gerry McGovern's book World Wide Waste.
 
 - Open a web browser - preferably Chrome or Firefox
 
-> Safari on Mac will be fine, Edge on PC, sort of fine, Internet Explorer - avoid.
+> Safari on Mac will be fine, Edge on PC is also OK... Internet Explorer is best avoided for any web development.
 
 - Drag `exercise-01.html` from the `html01` folder on to the browser window.
 
