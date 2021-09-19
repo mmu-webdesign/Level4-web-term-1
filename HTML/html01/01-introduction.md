@@ -6,7 +6,7 @@
 
 ## Before you start 
 
-> Please watch the following short videos. These will help you better understand the rest of this chapter.
+> You are welcome to watch the following short videos. These will help you better understand the rest of this chapter.
 
 - LinkedIn Learning Video: [Jen Simmons -  [What is HTML](https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=36102708) 1m 34s
 
