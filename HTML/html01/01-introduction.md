@@ -2,6 +2,10 @@
 
 > Exercise Files - [HTML Book One](media/html-book-1.zip).
 
+## How to use the Exercise Files
+
+Download the zip file and unzip the content onto the computer you are using to complete them. Work through the exercises as described below. **These exercises form part of your assessment**, so keep the complete files safe: you might want to [upload them to your Manchester Met oneDrive](https://www.mmu.ac.uk/isds/support/account/files/) as a back-up once they are completed.
+
 <!-- div class="video" -->
 
 ## Before you start 
