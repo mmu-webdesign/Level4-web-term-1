@@ -108,7 +108,7 @@ VSC has a New File button (also a new folder button next to it) for speed. Just 
 
 ### Task 3
 
-- To link `style.css` to `exercise-02.html` add the following line under the `<title> </title>`, but inside the <head> of the HTML document:
+- To link `style.css` to `exercise-02.html` add the following line under the `<title> </title>`, but inside the `<head>` of the HTML document:
 
 ```
 <link rel="stylesheet" href="style.css">
@@ -263,7 +263,7 @@ So far we have styled elements based on their HTML element names. This works as 
 
 - Return to `exercise-02.html` in your editor.
 
-- In your HTML document, add a `class` attribute with the vale (name) of `special` to the second list item. 
+- In your HTML document, add a `class` attribute with the value (name) of `special` to the second list item. 
 
 ```
 class="special"
@@ -308,7 +308,7 @@ class="special"
 
 You can apply the class of special to any element on your page that you want to have the same look as this list item. For example:
 
-- Return to `style.css` in your editor.
+- Return to `exercise-02.html` in your editor.
 
 - Add a `class` of `special` to the `<span>` in the first paragraph
 
