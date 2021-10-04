@@ -96,7 +96,7 @@ body {
 ```
 - Applying styles to the `body`, applies the styles to everything in the browser window that can inherit them.
 
-- `color:#545454;` gives us grey text (headings and paragraphs).
+- `color:#5a5a5a;` gives us grey text (headings and paragraphs).
 
 - `background-color: #f9f9f9;` gives us an off-white background to the whole page.
 
