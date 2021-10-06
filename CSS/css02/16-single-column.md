@@ -388,7 +388,7 @@ h1{
 -  Adjust `<ul>` to best fit your design.
 
 ```
-.menu ul {
+ul.menu {
 
 }
 ```
