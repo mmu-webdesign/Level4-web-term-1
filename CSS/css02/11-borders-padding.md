@@ -219,7 +219,7 @@ p {
 
 ### Task 4
 
-- Apply margins, padding and borders.
+In this task we’ll apply margins, padding and borders to our design.
 
 - Return to `style.css` in the editor.
 
