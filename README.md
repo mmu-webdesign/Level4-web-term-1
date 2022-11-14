@@ -1,4 +1,4 @@
-# Fundementals of HTML & CSS
+# Fundamentals of HTML & CSS
 Introductory resources for Level 4 (first year) students learning HTML and CSS
 
 Learning the basics of HTML and CSS isn't hard. Like learning any new language practice is essential.
